@@ -19,15 +19,30 @@
 	<div class="container">
 		<div class="question">
 		<button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
-			<p id="questiontext" class="questiontext pull-right"> Sisesta sõna õiges käändes ning vajuta rohelisele noolele.</p>
+			<p id="questiontext" class="questiontext pull-right"> 
+                
+                Sisesta sõna õiges käändes ning vajuta rohelisele noolele.
+            </p>
+  
+            
 		</div>
 		<div class="pull-left">
 		<p class="counter">1/3</p>
 		</div>
 		<div class="well task">
-			<p>Juku pani tordi  
-			<input type="text" />
-			(laud/alaleütlev) ja istus lauda.</p>
+            <?php
+            $mystring = file_get_contents('proov.txt', true);
+             
+            $mylist = preg_split('/(?<=[!?.])./',$mystring);
+            $mylist = preg_replace('/%/', '', $mylist);
+            
+            $mylist[0] = str_replace('lauale','%',$mylist[0]);
+            $sentence = preg_split('/%/',$mylist[0]);
+            echo $sentence[0];
+            echo '<input type="text" >';
+            //võtan 
+            echo $sentence[1];
+            ?> 
 		</div>
 		
 		<button type="button" class="btn btn-success btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-menu-right"></span></button>
