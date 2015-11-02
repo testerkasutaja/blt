@@ -31,9 +31,11 @@
 		</div>
 		<div class="well task">
             <?php
-            $xml=simplexml_load_file("ilu_veskimees_jutt1.xml");
+            $xml=simplexml_load_file("ilu_veskimees_jutt1.xml") or die("Error: Cannot create object");
           
-            echo $xml->s . "<br>";
+            echo $xml->teiCorpus->TEI->teiHeader->fileDesc->titleStmt->title . "<br>";
+						echo $xml->teiCorpus->TEI->text->body->div1->p[1]->s ;
+						
             
             
             //$mystring = file_get_contents('proov.txt', true);
