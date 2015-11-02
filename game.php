@@ -31,20 +31,24 @@
 		</div>
 		<div class="well task">
             <?php
-            $mystring = file_get_contents('proov.txt', true);
-             
-            $mylist = preg_split('/(?<=[!?.])./',$mystring);
-            $mylist = preg_replace('/%/', '', $mylist);
+            $xml=simplexml_load_file("ilu_veskimees_jutt1.xml");
+          
+            echo $xml->s . "<br>";
             
-            $mylist[0] = str_replace('lauale','%',$mylist[0]);
-            $sentence = preg_split('/%/',$mylist[0]);
-            echo $sentence[0];
-            echo '<input type="text" >';
-            //võtan 
-            echo $sentence[1];
+            
+            //$mystring = file_get_contents('proov.txt', true);
+             
+            //$mylist = preg_split('/(?<=[!?.])./',$mystring);
+            //$mylist = preg_replace('/%/', '', $mylist);
+            
+            //$mylist[0] = str_replace('lauale','%',$mylist[0]);
+            //$sentence = preg_split('/%/',$mylist[0]);
+            //echo $sentence[0];
+            //echo '<input type="text" >';
+            //echo $sentence[1];
             ?> 
 		</div>
 		
-		<button type="button" class="btn btn-success btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-menu-right"></span></button>
+		<button id="next" type="button" class="btn btn-success btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-menu-right"></span></button>
 	</div>
 </body>
