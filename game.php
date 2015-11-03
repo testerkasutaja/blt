@@ -31,23 +31,56 @@
 		</div>
 		<div class="well task">
             <?php
-            $xml=simplexml_load_file("ilu_veskimees_jutt1.xml") or die("Error: Cannot create object");
+            
+            $files = glob('Eesti_ilukirjandus_1990/*');
+            $filePath = $files[rand(0, count($files) - 1)];
+            //echo $filePath;
+            
+            //$xml=simplexml_load_file("Eesti_ilukirjandus_1990/proov.xml");
+            
+            
+            $xmldata = simplexml_load_file('Eesti_ilukirjandus_1990/ilu_ahasveerus.tasak.xml');
+            $random = array_rand($xmldata->xpath('s'), 1);
+            echo count($random);      
+            foreach ($random as $key) {
+            $div = $xmldata->p[$key];
+            echo $div->s[0] ;
+                    }
+        
+        
           
-            echo $xml->teiCorpus->TEI->teiHeader->fileDesc->titleStmt->title . "<br>";
-						echo $xml->teiCorpus->TEI->text->body->div1->p[1]->s ;
-						
+            //$random = array_rand($xml->xpath("s"), 1);
+            //echo count($random);
+            //$s = $xml->s[random[0]];
+            //echo $s;
+            
+            /*foreach ($random as $key) 
+            $item = $xmldata->item[$key];
+            echo '<li class="col4 item ' . $item->category . '">';
+            
+            $sentence = $xml->teiCorpus->TEI->text->body->div1->p[0]->s[0];
+            echo $sentence;*/
             
             
-            //$mystring = file_get_contents('proov.txt', true);
-             
-            //$mylist = preg_split('/(?<=[!?.])./',$mystring);
-            //$mylist = preg_replace('/%/', '', $mylist);
             
-            //$mylist[0] = str_replace('lauale','%',$mylist[0]);
-            //$sentence = preg_split('/%/',$mylist[0]);
-            //echo $sentence[0];
-            //echo '<input type="text" >';
-            //echo $sentence[1];
+            
+            
+            
+
+            
+            
+            /*         
+					
+                        
+            $mystring = file_get_contents('proov.txt', true);
+            
+            $mylist = preg_split('/(?<=[!?.])./',$mystring);
+            $mylist = preg_replace('/%/', '', $mylist);
+            $mylist[0] = str_replace('lauale','%',$mylist[0]);
+            $sentence = preg_split('/%/',$mylist[0]);
+            echo $sentence[0];
+            echo '<input type="text" >';
+            echo $sentence[1];*/
             ?> 
 		</div>
 		
