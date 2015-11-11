@@ -1,25 +1,5 @@
-<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"> 
-<xi:include href="../../bin/koondkorpus_main_header.xml" /> 
 <teiCorpus> 
-<xi:include href="../bin/header_ilu.xml" /> 
 	<TEI> 
-		<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="koondkorpus_local_header" n="$Id:$"> 
-			<fileDesc> 
-				<titleStmt> 
-					<title> AHASVEERUSE UNI </title> 
-  				</titleStmt> 
-				<publicationStmt> 
-  					<p> Vt publitseerimisandmeid failist 
-						<ref target="#publicationStmt-main">koondkorpus_main_header.xml</ref> 
-					</p> 
-  				</publicationStmt> 
-				<sourceDesc> 
-					<p> Vt allkorpuse päis 
-						<ref target="#header_ilu">header_ilu.xml</ref> 
-					</p> 
-  				</sourceDesc> 
-  			</fileDesc> 
-		</teiHeader>
   <text>
     <body>
       <div1 type="tervikteos"><head> AHASVEERUSE UNI </head>
@@ -2934,4 +2914,4 @@
   </text>
 </TEI>
 </teiCorpus>
-</teiCorpus>
+

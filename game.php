@@ -31,38 +31,24 @@
 		</div>
 		<div class="well task">
             <?php
-            
-            $files = glob('Eesti_ilukirjandus_1990/*');
+            //RANDOM FAILI SAAMINE
+            $files = glob('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*');
             $filePath = $files[rand(0, count($files) - 1)];
             //echo $filePath;
+
             
-            //$xml=simplexml_load_file("Eesti_ilukirjandus_1990/proov.xml");
+            //RANDOM LAUSE SAAMINE
+            $string = file_get_contents('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/ilu_ahasveerus.tasak.xml');
             
+            $xml = new SimpleXMLElement($string);
             
-            $xmldata = simplexml_load_file('Eesti_ilukirjandus_1990/ilu_ahasveerus.tasak.xml');
-            $random = array_rand($xmldata->xpath('s'), 1);
-            echo count($random);      
-            foreach ($random as $key) {
-            $div = $xmldata->p[$key];
-            echo $div->s[0] ;
-                    }
-        
-        
-          
-            //$random = array_rand($xml->xpath("s"), 1);
-            //echo count($random);
-            //$s = $xml->s[random[0]];
-            //echo $s;
-            
-            /*foreach ($random as $key) 
-            $item = $xmldata->item[$key];
-            echo '<li class="col4 item ' . $item->category . '">';
-            
-            $sentence = $xml->teiCorpus->TEI->text->body->div1->p[0]->s[0];
-            echo $sentence;*/
-            
-            
-            
+            $resultS = $xml->xpath('//s');
+            $scounter= count($resultS)-1;
+            echo 'mitu s-1 on ' . $scounter;
+            $nrS = rand(0,$scounter);
+            echo '         mitmenda  S võtame' . $nrS;
+            echo $resultS[$nrS];
+    
             
             
             
