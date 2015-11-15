@@ -49,9 +49,6 @@
             echo '         mitmenda  S võtame' . $nrS;
             echo $resultS[$nrS];
     
-            
-            
-            
 
             
             
