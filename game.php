@@ -30,40 +30,34 @@
 		<p class="counter">1/3</p>
 		</div>
 		<div class="well task">
-            <?php
-            //RANDOM FAILI SAAMINE
-            $files = glob('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*');
-            $filePath = $files[rand(0, count($files) - 1)];
-            //echo $filePath;
+            <?php	
+							//RANDOM FAILI SAAMINE
+							function getFile(){
+								$files = glob('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*');
+            		$filePath = $files[rand(0, count($files) - 1)];
+            		echo $filePath;
+								$xml_string = file_get_contents($filePath);
+								return $xml_string;
+							}
+							function getSentence($xml_string){
+								//namespaceidest ja include vabanemine, et kasutada xpath
+								$xml_string = preg_replace('/xmlns[^=]*="[^"]*"/i', '', $xml_string);
+								$xml_string = preg_replace('/[a-zA-Z]+:([a-zA-Z]+[=>])/', '$1', $xml_string);
+            		$xml_string = preg_replace('/<xi:include +href[^=]*="[^"]*"+ \/>/i','',$xml_string);
+								$xml = new SimpleXMLElement($xml_string);
+								//RANDOM LAUSE SAAMINE
+								$resultS = $xml->xpath('//s');
+								$scounter= count($resultS)-1;
+								echo 'mitu s-1 on ' . $scounter . '<br>';
+								$nrS = rand(0,$scounter);
+								echo '         mitmenda  S võtame' . $nrS . '<br>';
+								echo $resultS[$nrS];
+							}
+			
+						$xml_string = getFile();
+						getSentence($xml_string);
 
             
-            //RANDOM LAUSE SAAMINE
-            $string = file_get_contents('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/ilu_ahasveerus.tasak.xml');
-            
-            $xml = new SimpleXMLElement($string);
-            
-            $resultS = $xml->xpath('//s');
-            $scounter= count($resultS)-1;
-            echo 'mitu s-1 on ' . $scounter;
-            $nrS = rand(0,$scounter);
-            echo '         mitmenda  S võtame' . $nrS;
-            echo $resultS[$nrS];
-    
-
-            
-            
-            /*         
-					
-                        
-            $mystring = file_get_contents('proov.txt', true);
-            
-            $mylist = preg_split('/(?<=[!?.])./',$mystring);
-            $mylist = preg_replace('/%/', '', $mylist);
-            $mylist[0] = str_replace('lauale','%',$mylist[0]);
-            $sentence = preg_split('/%/',$mylist[0]);
-            echo $sentence[0];
-            echo '<input type="text" >';
-            echo $sentence[1];*/
             ?> 
 		</div>
 		

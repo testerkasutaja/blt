@@ -30,31 +30,48 @@
 		<p class="counter">1/3</p>
 		</div>
 		<div class="well task">
-            <?php
-            $xml=simplexml_load_file("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/ilu_veskimees_jutt1.xml") or die("Error: Cannot create object");
-						$el = $xml->xpath('//p');
-						echo "<br>--------------";
-						//$random = array_rand($xml->xpath('text')->xpath('p'), 3);
-			$counter = 0;
-						foreach ($el as $key) {
-							echo $counter;
-							$counter += 1;
+            <?php	
+							//RANDOM FAILI SAAMINE
+							function getFile(){
+								$files = glob('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*');
+            		$filePath = $files[rand(0, count($files) - 1)];
+            		echo $filePath;
+								$xml_string = file_get_contents($filePath);
+								return $xml_string;
+							}
+							function getSentence($xml_string){
+								//namespaceidest ja include vabanemine, et kasutada xpath
+								$xml_string = preg_replace('/xmlns[^=]*="[^"]*"/i', '', $xml_string);
+								$xml_string = preg_replace('/[a-zA-Z]+:([a-zA-Z]+[=>])/', '$1', $xml_string);
+            		$xml_string = preg_replace('/<xi:include +href[^=]*="[^"]*"+ \/>/i','',$xml_string);
+								$xml = new SimpleXMLElement($xml_string);
+								//RANDOM LAUSE SAAMINE
+								$resultS = $xml->xpath('//s');
+								$scounter= count($resultS)-1;
+								echo 'mitu s-1 on ' . $scounter . '<br>';
+								$nrS = rand(0,$scounter);
+								echo '         mitmenda  S võtame' . $nrS . '<br>';
+								echo $resultS[$nrS];
+							}
+			
+						$xml_string = getFile();
+						getSentence($xml_string);
+			
+						$morf_word = 'poest';
+    				$morf_analys = 'pood+st //_S_ sg el, pl p, //';
+			
+			
+						preg_match('/(sg||pl) (n|g|p|ill|in|el|ad|abl|all|tr|ter|es|ab|kom|adt)/i',	$morf_analys, $kaanded);
+						preg_match('/_[A-Z]_/i', $morf_analys, $sonaliik);
+						print_r($kaanded);
+						print_r($sonaliik);
+						if(count($kaanded)>1){
+							//sõna ei sobi
+						}else{
 							
-								$item = $xmldata->p[$key];
-								echo $item->s . "<br>";
 						}
+
             
-            
-            //$mystring = file_get_contents('proov.txt', true);
-             
-            //$mylist = preg_split('/(?<=[!?.])./',$mystring);
-            //$mylist = preg_replace('/%/', '', $mylist);
-            
-            //$mylist[0] = str_replace('lauale','%',$mylist[0]);
-            //$sentence = preg_split('/%/',$mylist[0]);
-            //echo $sentence[0];
-            //echo '<input type="text" >';
-            //echo $sentence[1];
             ?> 
 		</div>
 		
