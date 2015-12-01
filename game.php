@@ -35,7 +35,7 @@
 							function getFile(){
 								$files = glob('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*');
             		$filePath = $files[rand(0, count($files) - 1)];
-            		echo $filePath;
+            		echo $filePath. '<br>' ;
 								$xml_string = file_get_contents($filePath);
 								return $xml_string;
 							}
@@ -48,9 +48,9 @@
 								//RANDOM LAUSE SAAMINE
 								$resultS = $xml->xpath('//s');
 								$scounter= count($resultS)-1;
-								echo 'mitu s-1 on ' . $scounter . '<br>';
+								echo 'Lauseid on kokku: ' . ($scounter+1) . '<br>';
 								$nrS = rand(0,$scounter);
-								echo '         mitmenda  S võtame' . $nrS . '<br>';
+								echo '        Võtame lause nr ' . $nrS . '<br>';
 								echo $resultS[$nrS];
 							}
 			
