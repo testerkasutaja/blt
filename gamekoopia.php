@@ -68,13 +68,18 @@
 						if(count($kaanded)>1){
 							//sõna ei sobi
 						}else{
+                            
 							
 						}
-
             
             ?> 
 		</div>
 		
 		<button id="next" type="button" class="btn btn-success btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-menu-right"></span></button>
 	</div>
+    
 </body>
+
+
+
+
