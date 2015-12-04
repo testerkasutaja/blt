@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf8'?>
+<content>
+  <info>
+    <s>Juku võttis %%% leiva .</s>
+    <answer>laualt</answer>
+    <nr>ainsus</nr>
+    <case>alaltütlev</case>
+    <n>laud</n>
+  </info>
+  <info>
+    <s>Juku võttis laualt %%% .</s>
+    <answer>leiva</answer>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>leib</n>
+  </info>
+  <info>
+    <s>%%% elada on võimatu . </s>
+    <answer>Muusikata</answer>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>muusika</n>
+  </info>
+</content>
