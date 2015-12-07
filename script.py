@@ -1,11 +1,14 @@
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import ElementTree
-from xml.etree.ElementTree import Element
+from xml.etree.ElementTree import SubElement
 
 import re
 from pyvabamorf import analyze
 from pyvabamorf import synthesize
 from pprint import pprint
+
+print (synthesize('pärisrelvi', form='pl p', partofspeech='S', phonetic=False))
+pprint(analyze('pärisrelvi'))
 
 def xml_formatting(elem, level=0):
   i = "\n" + level*"  "
@@ -26,7 +29,7 @@ def xml_formatting(elem, level=0):
 tree = ET.parse('proov.xml')
 root = tree.getroot()
 
-content = Element('content')
+content = ET.Element('content')
 tree2 = ElementTree(content)
 
 
@@ -48,23 +51,21 @@ for elem in root.findall('.//s'):
                 if len(morf_l2) == 1:                          #kui mitu dict'i sees siis esialgu ei sobi
                     for b in morf_l2:                       #teine morfi list
                         case_info =(b['form']).split(' ')
-                        nominative = b['root_tokens'][0]
+                        if len(b['root_tokens']) == 1:
+                          nominative = b['root_tokens'][0]
+                        else:
+                          nominative = b['root_tokens'][0]+b['root_tokens'][1]
                         if len(case_info)== 2 and case_info[0] in case_dict and case_info[1] in case_dict: #kui on käändsõna
                             sg_pl = case_info[0]                # ainus v mitmus
                             casename = case_info[1]                 # kääne         
                             sen_x = re.sub(word,'%%%',sen)
 
-                            info = Element('info')              #XML loomine
-                            content.append(info)
-                            s = ET.SubElement(info,'s')
-                            answer = Element('answer')
-                            info.append(answer)
-                            nr = Element('nr')
-                            info.append(nr)
-                            case = Element('case')
-                            info.append(case)
-                            n = Element('n')
-                            info.append(n)
+                            info = SubElement(content,'info')              #XML loomine
+                            s = SubElement(info,'s')
+                            answer = SubElement(info, 'answer')
+                            nr = SubElement(info,'nr')
+                            case = SubElement(info,'case')
+                            n = SubElement(info,'n')
 
 
                             nr.text = case_dict[sg_pl]  

@@ -15,10 +15,24 @@
     <n>leib</n>
   </info>
   <info>
-    <s>%%% elada on võimatu . </s>
-    <answer>Muusikata</answer>
+    <s>Jõulud möödusid %%% .</s>
+    <answer>mureta</answer>
     <nr>ainsus</nr>
     <case>ilmaütlev</case>
-    <n>muusika</n>
+    <n>mure</n>
+  </info>
+  <info>
+    <s>%%% tuleb jõulumuusikat .</s>
+    <answer>Raadiost</answer>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>raadio</n>
+  </info>
+  <info>
+    <s>Raadiost tuleb %%% .</s>
+    <answer>jõulumuusikat</answer>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>jõulumuusika</n>
   </info>
 </content>

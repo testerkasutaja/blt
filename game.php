@@ -32,11 +32,15 @@
 		<div class="well task">
             <?php	
 							//RANDOM FAILI SAAMINE
-							function getFile(){
+							function getRandomFile(){
 								$files = glob('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*');
             		$filePath = $files[rand(0, count($files) - 1)];
             		echo $filePath. '<br>' ;
 								$xml_string = file_get_contents($filePath);
+								return $xml_string;
+							}
+							function getFile(){
+								$xml_string = file_get_contents('laused.xml');
 								return $xml_string;
 							}
 							function getSentence($xml_string){
@@ -47,11 +51,19 @@
 								$xml = new SimpleXMLElement($xml_string);
 								//RANDOM LAUSE SAAMINE
 								$resultS = $xml->xpath('//s');
+								$resultCase = $xml->xpath('//case');
+								$resultNr = $xml->xpath('//nr');
+								$resultN = $xml->xpath('//n');
+								$resultAnswer = $xml->xpath('//answer');
 								$scounter= count($resultS)-1;
 								echo 'Lauseid on kokku: ' . ($scounter+1) . '<br>';
 								$nrS = rand(0,$scounter);
 								echo '        Võtame lause nr ' . $nrS . '<br>';
-								echo $resultS[$nrS];
+								$sList = preg_split('/%%%/', $resultS[$nrS]);
+								echo $sList[0];
+								echo '<input type="text" >';
+								echo '(' . $resultCase[$nrS] .' / '. $resultNr[$nrS] . ' /  ' .$resultN[$nrS] .')';
+								echo $sList[1];
 							}
 			
 						$xml_string = getFile();
