@@ -48,11 +48,6 @@ button.btn-primary:before {
 button.btn-primary:after {
   border-color: #2e6da4 transparent #2e6da4 #2e6da4;
     }
-    
-
-
-
-
 
 
 .btn-circle {
@@ -93,12 +88,13 @@ font-size: 20px;
 }
 
 .question{
-padding-top: 50px;
+    padding-top: 50px;
 	padding-bottom: 50px;
 }
 .questiontext{
 	display: none;
-	padding-top: 70px;
+	   padding-top: 60px;
+    padding-right: 100;
 }
 
 .startbtn{
@@ -117,18 +113,30 @@ font-size: 35px;
 }
 
 .guide{
-	padding-top: 200px;
+	padding-top: 10%;
 	padding-bottom: 100px;
 }
 
-.text-divider{margin: 30px 0; line-height: 0; text-align: center;}
-.text-divider span{background-color: #A9E2F3; padding: 1em;}
-.text-divider:before{ content: " "; display: block; border-top: 1px solid #337AB7; border-bottom: 1px solid transparent;}
+.text-divider{
+    margin: 30px 0; 
+    line-height: 0; 
+    text-align: center;
+}
+.text-divider span{
+    background-color: #BCF0FF; 
+    padding: 1em;
+}
+.text-divider:before{ 
+    content: " "; 
+    display: block; 
+    border-top: 1px solid #337AB7; 
+    border-bottom: 1px solid transparent;}
 
 .well{
-    background-color: #A9E2F3;
-    border: none;
-    border-radius: none; 
+    background-color: #BCF0FF;
+    border-radius: 200px;
+    padding: 100px;
+    margin-top: 50;
 }
     
 
@@ -143,4 +151,38 @@ input[type=text] {
     border-color: rgba(0,0,0,.15);
     background-color: white;
     font-size: 35px;
+}
+
+.hint {
+        padding-bottom: 100px;
+}
+
+.hint1{
+    margin-left: 20%;
+    margin-right: 20%;
+    size: a3;
+    background-color: #fcf8e3;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    
+}
+
+.hint2{
+    margin-left: 20%;
+    margin-right: 20%;
+    size: a3;
+    background-color: #fcf8e3;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    
+}
+
+
+
+.sentence{
+    
 }

@@ -1,12 +1,11 @@
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import ElementTree
 from xml.etree.ElementTree import SubElement
-
 import re
 from pyvabamorf import analyze
 from pyvabamorf import synthesize
 from pprint import pprint
-
+import glob
 
 def xml_formatting(elem, level=0):
   i = "\n" + level*"  "
@@ -24,18 +23,23 @@ def xml_formatting(elem, level=0):
       elem.tail = i
 
 
-tree = ET.parse('proov.xml')
-root = tree.getroot()
+
+#käänete sõnastik
+case_dict = {'sg':'ainsuse','pl':'mitmuse','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seestütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
+
+files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
 
 content = ET.Element('content')
 tree2 = ElementTree(content)
 
 
-
-#käänete sõnastik
-case_dict = {'sg':'ainsuse','pl':'mitmuse','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'sisseütlev','all':'alaleütlev','el':'seesütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
+#for file in files:
+  #print (file)
+tree = ET.parse('proov.xml')
+root = tree.getroot()
 
 for elem in root.findall('.//{http://www.tei-c.org/ns/1.0}s'):
+    
     sen = elem.text
     sen = re.sub('^ | $', '', sen)
     morf_sen = re.sub(' (,|\.|!|\?)', '', sen)
@@ -47,8 +51,6 @@ for elem in root.findall('.//{http://www.tei-c.org/ns/1.0}s'):
             morf_l = analyze(word)
             for a in morf_l:                                #morfi esimene list
                 morf_l2 = (a['analysis'])
-                print(word)
-                pprint(morf_l2)
                 if len(morf_l2) == 1:                          #kui mitu dict'i sees siis esialgu ei sobi
                     for b in morf_l2:                       #teine morfi list
                         case_info =(b['form']).split(' ')
@@ -63,28 +65,19 @@ for elem in root.findall('.//{http://www.tei-c.org/ns/1.0}s'):
 
                             info = SubElement(content,'info')              #XML loomine
                             s = SubElement(info,'s')
+                            answer = SubElement(info, 'answer')
                             nr = SubElement(info,'nr')
                             case = SubElement(info,'case')
                             n = SubElement(info,'n')
 
-                            synt = synthesize(nominative, form = sg_pl+' '+casename)      #kontorll kas leidub rohkem kui üks vastus
-                            if len(synt)>1:
-                              for nom in synt:
-                                answer = SubElement(info, 'answer')
-                                answer.text= nom 
-                            else:
-                              answer = SubElement(info, 'answer')
-                              answer.text = word
 
-                            n.text = nominative
                             nr.text = case_dict[sg_pl]  
+                            n.text = nominative
                             case.text = case_dict[casename]
+                            answer.text = word
                             s.text = sen_x
-
-                            
 xml_formatting(content)
 tree2.write('laused.xml','utf8')
-
 
 
 

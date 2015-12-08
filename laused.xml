@@ -1,38 +1,28 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
   <info>
-    <s>Juku võttis %%% leiva .</s>
-    <answer>laualt</answer>
-    <nr>ainsus</nr>
-    <case>alaltütlev</case>
-    <n>laud</n>
-  </info>
-  <info>
-    <s>Juku võttis laualt %%% .</s>
-    <answer>leiva</answer>
-    <nr>ainsus</nr>
+    <s>%%% pall veeres mööda maad .</s>
+    <nr>ainsuse</nr>
     <case>omastav</case>
-    <n>leib</n>
+    <n>mina</n>
+    <answer>mina</answer>
+    <answer>minu</answer>
+    <answer>mu</answer>
   </info>
   <info>
-    <s>Jõulud möödusid %%% .</s>
-    <answer>mureta</answer>
-    <nr>ainsus</nr>
-    <case>ilmaütlev</case>
-    <n>mure</n>
+    <s>Tere tulemast %%% majasse .</s>
+    <nr>ainsuse</nr>
+    <case>omastav</case>
+    <n>mina</n>
+    <answer>mina</answer>
+    <answer>minu</answer>
+    <answer>mu</answer>
   </info>
   <info>
-    <s>%%% tuleb jõulumuusikat .</s>
-    <answer>Raadiost</answer>
-    <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>raadio</n>
-  </info>
-  <info>
-    <s>Raadiost tuleb %%% .</s>
-    <answer>jõulumuusikat</answer>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>jõulumuusika</n>
+    <s>Tere tulemast minu %%% .</s>
+    <nr>ainsuse</nr>
+    <case>sisseütlev</case>
+    <n>maja</n>
+    <answer>majasse</answer>
   </info>
 </content>

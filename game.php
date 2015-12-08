@@ -17,6 +17,7 @@
 
 <body>
 	<div class="container">
+        
 		<div class="question">
 		<button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
 			<p id="questiontext" class="questiontext pull-right"> 
@@ -26,10 +27,13 @@
   
             
 		</div>
+ 
 		<div class="pull-left">
 		<p class="counter">1/3</p>
 		</div>
+        
 		<div class="well task">
+
             <?php	
 							//RANDOM FAILI SAAMINE
 							function getRandomFile(){
@@ -39,10 +43,12 @@
 								$xml_string = file_get_contents($filePath);
 								return $xml_string;
 							}
+                            //Faili saamine
 							function getFile(){
 								$xml_string = file_get_contents('laused.xml');
 								return $xml_string;
 							}
+                            
 							function getSentence($xml_string){
 								//namespaceidest ja include vabanemine, et kasutada xpath
 								$xml_string = preg_replace('/xmlns[^=]*="[^"]*"/i', '', $xml_string);
@@ -56,13 +62,15 @@
 								$resultN = $xml->xpath('//n');
 								$resultAnswer = $xml->xpath('//answer');
 								$scounter= count($resultS)-1;
-								echo 'Lauseid on kokku: ' . ($scounter+1) . '<br>';
+								//echo 'Lauseid on kokku: ' . ($scounter+1) . '<br>';
 								$nrS = rand(0,$scounter);
-								echo '        Võtame lause nr ' . $nrS . '<br>';
+								//echo '        Võtame lause nr ' . $nrS . '<br>';
 								$sList = preg_split('/%%%/', $resultS[$nrS]);
+                                echo '<div class = "hint">
+                                        <p class= "hint1">', mb_strtoupper($resultN[$nrS],'UTF-8'), '</p> <p class= "hint2">' , mb_strtoupper($resultNr[$nrS],'UTF-8'),' ' ,mb_strtoupper($resultCase[$nrS],'UTF-8') ,'</p></div>';
 								echo $sList[0];
 								echo '<input type="text" >';
-								echo '(' . $resultCase[$nrS] .' / '. $resultNr[$nrS] . ' /  ' .$resultN[$nrS] .')';
+								//echo '(' . $resultCase[$nrS] .' / '. $resultNr[$nrS] . ' /  ' .$resultN[$nrS] .')';
 								echo $sList[1];
 							}
 			

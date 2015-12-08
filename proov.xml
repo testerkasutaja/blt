@@ -1,5 +1,7 @@
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0"> 
+<xi:include href="../../bin/koondkorpus_main_header.xml" /> 
 <teiCorpus> 
-<teiCorpus>  
+<xi:include href="../bin/header_ilu.xml" /> 
 	<TEI> 
 		<teiHeader xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" xml:id="koondkorpus_local_header" n="$Id:$"> 
 			<fileDesc> 
@@ -21,7 +23,7 @@
   <text>
     <body>
       <div1 type="tervikteos"><head> AJALOO ILU </head>
-				<p> <s> Juku võttis laualt leiva . </s><s> Jõulud möödusid mureta . </s><s> Raadiost tuleb jõulumuusikat . </s></p>
+				<p> <s> Minu pall veeres mööda maad . </s><s> Tere tulemast minu majasse . </s></p>
           </div1></body></text></TEI></teiCorpus></teiCorpus>
 
 
