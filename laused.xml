@@ -1,18 +1,40 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
   <info>
-    <s>Kas meie puhul ei mõtle siis keegi %%% teise peaga ?</s>
+    <s>Ärkasin %%% üles ja läksin sööma .</s>
     <nr>ainsuse</nr>
-    <case>omastav</case>
-    <n>keegi</n>
-    <answer>kee</answer>
-    <answer>kellegi</answer>
+    <case>alalütlev</case>
+    <n>hommik</n>
+    <answer>hommikul</answer>
   </info>
   <info>
-    <s>Kas meie puhul ei mõtle siis keegi kellegi teise %%% ?</s>
+    <s>Juku luges %%% .</s>
+    <nr>ainsuse</nr>
+    <case>osastav</case>
+    <n>raamat</n>
+    <answer>raamatut</answer>
+  </info>
+  <info>
+    <s>Kas %%% meeldib kirjutada pliiatsi või pastakaga ?</s>
+    <nr>ainsuse</nr>
+    <case>alaleütlev</case>
+    <n>sina</n>
+    <answer>sinale</answer>
+    <answer>sinule</answer>
+    <answer>sulle</answer>
+  </info>
+  <info>
+    <s>Kas sulle meeldib kirjutada %%% või pastakaga ?</s>
+    <nr>ainsuse</nr>
+    <case>omastav</case>
+    <n>pliiats</n>
+    <answer>pliiatsi</answer>
+  </info>
+  <info>
+    <s>Kas sulle meeldib kirjutada pliiatsi või %%% ?</s>
     <nr>ainsuse</nr>
     <case>kaasaütlev</case>
-    <n>pea</n>
-    <answer>peaga</answer>
+    <n>pastakas</n>
+    <answer>pastakaga</answer>
   </info>
 </content>

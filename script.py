@@ -32,7 +32,7 @@ case_dict = {'sg':'ainsuse','pl':'mitmuse','ab':'ilmaütlev','abl':'alaltütlev'
 
 def runCaseAnalys(case_dict, pathStr ):
     go = False
-    partOfSpeech = []
+    #partOfSpeech = []
     tree = ET.parse(pathStr)
     root = tree.getroot()
 
@@ -45,14 +45,14 @@ def runCaseAnalys(case_dict, pathStr ):
         sen_list = morf_sen.split(' ')
         more = 0
         if len(sen_list)>2 and len(sen_list)<15:
-            print(' ')                                                  #käime lause läbi
+                                                             #käime lause läbi
             for word in sen_list:
                 morf_l = analyze(word)
                 
                 for a in morf_l:                                #morfi esimene list
                     morf_l2 = (a['analysis'])
                     for b in morf_l2:
-                        partOfSpeech.append(b['partofspeech'])
+                        #partOfSpeech.append(b['partofspeech'])
                         if len(morf_l2) == 1:                     
                             case_info =(b['form']).split(' ')
                             if len(b['root_tokens']) == 1:
@@ -95,7 +95,7 @@ def runCaseAnalys(case_dict, pathStr ):
                                 
 
                                 
-    print(partOfSpeech)                       
+    #print(partOfSpeech)                       
     xml_formatting(content)
     tree2.write('laused.xml','utf8')
 
