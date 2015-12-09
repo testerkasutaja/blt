@@ -1,28 +1,18 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
   <info>
-    <s>%%% pall veeres mööda maad .</s>
+    <s>Kas meie puhul ei mõtle siis keegi %%% teise peaga ?</s>
     <nr>ainsuse</nr>
     <case>omastav</case>
-    <n>mina</n>
-    <answer>mina</answer>
-    <answer>minu</answer>
-    <answer>mu</answer>
+    <n>keegi</n>
+    <answer>kee</answer>
+    <answer>kellegi</answer>
   </info>
   <info>
-    <s>Tere tulemast %%% majasse .</s>
+    <s>Kas meie puhul ei mõtle siis keegi kellegi teise %%% ?</s>
     <nr>ainsuse</nr>
-    <case>omastav</case>
-    <n>mina</n>
-    <answer>mina</answer>
-    <answer>minu</answer>
-    <answer>mu</answer>
-  </info>
-  <info>
-    <s>Tere tulemast minu %%% .</s>
-    <nr>ainsuse</nr>
-    <case>sisseütlev</case>
-    <n>maja</n>
-    <answer>majasse</answer>
+    <case>kaasaütlev</case>
+    <n>pea</n>
+    <answer>peaga</answer>
   </info>
 </content>
