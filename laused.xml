@@ -1,40 +1,51 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
   <info id="0">
-    <s>Ärkasin %%% üles ja läksin sööma .</s>
-    <nr>ainsus</nr>
-    <case>alalütlev</case>
-    <n>hommik</n>
-    <answer>hommikul</answer>
-  </info>
-  <info id="1">
-    <s>Juku luges %%% .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>raamat</n>
-    <answer>raamatut</answer>
-  </info>
-  <info id="2">
-    <s>Kas %%% meeldib kirjutada pliiatsi või pastakaga ?</s>
-    <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>sina</n>
-    <answer>sinale</answer>
-    <answer>sinule</answer>
-    <answer>sulle</answer>
-  </info>
-  <info id="3">
-    <s>Kas sulle meeldib kirjutada %%% või pastakaga ?</s>
+    <s>%%% süda kukkus saapasäärde .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
-    <n>pliiats</n>
-    <answer>pliiatsi</answer>
+    <n>mina</n>
+    <answer>mina</answer>
+    <answer>minu</answer>
+    <answer>mu</answer>
+  </info>
+  <info id="1">
+    <s>Mu süda kukkus %%% .</s>
+    <nr>ainsus</nr>
+    <case>lühike sisseütlev</case>
+    <n>saapasäär</n>
+    <answer>saapasäärde</answer>
+  </info>
+  <info id="2">
+    <s>%%% süda kukkus saapasäärde</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>mina</n>
+    <answer>mina</answer>
+    <answer>minu</answer>
+    <answer>mu</answer>
+  </info>
+  <info id="3">
+    <s>Mu süda kukkus %%%</s>
+    <nr>ainsus</nr>
+    <case>lühike sisseütlev</case>
+    <n>saapasäär</n>
+    <answer>saapasäärde</answer>
   </info>
   <info id="4">
-    <s>Kas sulle meeldib kirjutada pliiatsi või %%% ?</s>
+    <s>%%% süda kukkus saapasäärde</s>
     <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>pastakas</n>
-    <answer>pastakaga</answer>
+    <case>omastav</case>
+    <n>mina</n>
+    <answer>mina</answer>
+    <answer>minu</answer>
+    <answer>mu</answer>
+  </info>
+  <info id="5">
+    <s>Mu süda kukkus %%%</s>
+    <nr>ainsus</nr>
+    <case>lühike sisseütlev</case>
+    <n>saapasäär</n>
+    <answer>saapasäärde</answer>
   </info>
 </content>
