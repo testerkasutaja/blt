@@ -104,6 +104,31 @@ def getBestPOSCombination(case_dict, files):
   print(maximum)
   return combinations
 
+comb = {'S, V, P, A': 3, 'S, V, S, V': 2, 'D, V, D, S': 2, 'J, D, V, S': 1, 'S, G, V, D': 1, 'S, V, P, V': 3, 'P, V, P, S': 2, 'J, S, V, V': 2, 'D, V, S, S': 1, 'V, J, V, S': 3, 'D, V, P, S': 2, 'J, P, V, S': 2, 'V, V, D, S': 1, 'P, V, A, S': 5}
+
+def combintolist(combinations):
+  structure = {}
+  sorted_com = sorted(combinations.values())
+  maximum = sorted_com[-1]
+  minimum = 2
+  for k, v in combinations.items():
+    if v <= maximum and v >= minimum:
+      key_list = k.split(', ')
+      print(key_list)
+      p = {}
+      p2 = {}
+      for i in  range(len(key_list)-1,-1,-1):
+        print(i)
+        if i == len(key_list)-1:
+          p[key_list[i]] = True   
+        else:
+          p2[key_list[i]] = p
+          p=p2
+          p2 = {}
+      print(p)
+
+  
+combintolist(comb)
   
 def runCaseAnalys(case_dict, pathStr, file_name):
     go = False
@@ -174,7 +199,7 @@ def runCaseAnalys(case_dict, pathStr, file_name):
     tree2.write(file_name,'utf8')
 
 #print(getBestPOSCombination(case_dict, 'proov.xml'))
-print(getBestPOSCombination(case_dict,files))
+#print(getBestPOSCombination(case_dict,files))
 #runCaseAnalys(case_dict, 'proov.xml', 'laused.xml' )
 #runCaseAnalys(case_dict, 'Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/ilu_viljakyla.tasak.xml', 'laused.xml' )
 #runCaseAnalys(case_dict, 'Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/ilu_volta.tasak.xml', 'laused.xml' )
