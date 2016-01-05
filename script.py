@@ -114,21 +114,28 @@ def combintolist(combinations):
   for k, v in combinations.items():
     if v <= maximum and v >= minimum:
       key_list = k.split(', ')
-      print(key_list)
+      #print(key_list)
       p = {}
       p2 = {}
-      for i in  range(len(key_list)-1,-1,-1):
-        print(i)
+      
+
+    
+
+      
+      '''for i in  range(len(key_list)-1,-1,-1):
+        #print(i)
         if i == len(key_list)-1:
           p[key_list[i]] = True   
         else:
           p2[key_list[i]] = p
+          print('p2')
+          print(p2)
           p=p2
           p2 = {}
-      print(p)
+      print(p)'''
 
   
-combintolist(comb)
+#combintolist(comb)
   
 def runCaseAnalys(case_dict, pathStr, file_name):
     go = False
