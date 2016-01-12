@@ -1,3 +1,5 @@
+
+
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import ElementTree
 from xml.etree.ElementTree import SubElement
@@ -9,11 +11,12 @@ from pyvabamorf import synthesize
 from pprint import pprint
 
 
+
+
 #käänete sõnastik
 case_dict = {'sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seesütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
 inappropriateWords = ['']
-
 def xml_formatting(elem, level=0):
   i = "\n" + level*"  "
   if len(elem):
@@ -30,7 +33,6 @@ def xml_formatting(elem, level=0):
       elem.tail = i  
   
 def structureCompatibilityLevel1(list):
-  #proovi struktuur - tegelik strukutuuri loovad funktsiooid getBestPOSCombination ja combintolist
   structure = {'P':{'S':{'V':{'S':True}},'D':{'A':{'S':True}}},'S':{'S':{'D':{'S':True}}},'H':{'V':{'S':{'S':True}}}}
   if 'V' in list:
     if len(list)==3 :
@@ -52,7 +54,7 @@ def structureCompatibilityLevel2(list):
   if 'V' in list and 'S' in list:
     return True
 
-#P = ['P','S','V','S']
+#P = ['V','S','D','S']  
 
 #print(structureCompatibilityLevel1(P))
 
@@ -61,7 +63,6 @@ def getPartOfSpeech(list):                                   #kontroll, et kõik
   for word in list:
     morf_l = analyze(word)
     morf_l2 = morf_l[0]['analysis']
-    
     if len(morf_l2) != 1:                           #üheselt määratavuse kontroll
       return []
     else:
@@ -76,7 +77,7 @@ def listtostring(list):
   return str
 #print(listtostring(['a','b','c']))
 
-#KÕIKIDEST FAILIDEST POPULAASREMATE KOMBINATSIOONIDE LEIDMINE esimese leveli jaoks (neljasõnalised laused)
+#KÕIKIDEST FAILIDEST POPULAASREMATE KOMBINATSIOONIDE LEIDMINE esimese leveli jaoks (neljasõnalised laused
 def getBestPOSCombination(case_dict, files):          
   combinations = {}
   for pathStr in files:
@@ -105,7 +106,7 @@ def getBestPOSCombination(case_dict, files):
   print(maximum)
   return combinations
 
-comb = {'S, V, P, A': 3, 'S, V, S, V': 2}
+comb = {'S, V, P, A': 3, 'S, V, S, V': 2, 'D, V, D, S': 2, 'J, D, V, S': 1, 'S, G, V, D': 1, 'S, V, P, V': 3, 'P, V, P, S': 2, 'J, S, V, V': 2, 'D, V, S, S': 1, 'V, J, V, S': 3, 'D, V, P, S': 2, 'J, P, V, S': 2, 'V, V, D, S': 1, 'P, V, A, S': 5}
 
 def combintotree(combinations):
   structure = {}
@@ -113,13 +114,15 @@ def combintotree(combinations):
   maximum = sorted_com[-1]
   minimum = 2
   for k, v in combinations.items():
-    p={}
-    p2={}
     if v <= maximum and v >= minimum:
       key_list = k.split(', ')
+      #print(key_list)
+      p = {}
+      p2 = {}
+
 
       
-  '''for i in  range(len(key_list)-1,-1,-1):
+      '''for i in  range(len(key_list)-1,-1,-1):
         #print(i)
         if i == len(key_list)-1:
           p[key_list[i]] = True   
@@ -129,7 +132,7 @@ def combintotree(combinations):
           print(p2)
           p=p2
           p2 = {}
-      print(p)'''    
+      print(p)'''
 
   
 #combintotree(comb)
@@ -148,15 +151,15 @@ def runCaseAnalys(case_dict, pathStr, file_name):
         sen_list = morf_sen.split(' ')
         sen_len = len(sen_list)
         partofspeech = getPartOfSpeech(sen_list)              # lause struktuur
-        #compatibility1 = structureCompatibilityLevel1(partofspeech)
-        #compatibility2 = structureCompatibilityLevel2(partofspeech)
-        if sen_len > 2 and sen_len <10 and len(partofspeech) > 0: # and (compatibility1 == True or compatibility2 == True):                           #Lause on 3-4 sõna ja on unikaalne(kui partofspeech on 
-          #print(morf_sen)
-          #print(partofspeech)
+        compatibility1 = structureCompatibilityLevel1(partofspeech)
+        compatibility2 = structureCompatibilityLevel2(partofspeech)
+        if sen_len > 3 and sen_len <5 and len(partofspeech) > 0: # and (compatibility1 == True or compatibility2 == True):                           #Lause on 3-4 sõna ja on unikaalne(kui partofspeech on 
+          print(morf_sen)
+          print(partofspeech)
           for word in sen_list:
             morf_l = analyze(word)
             morf_l2 = morf_l[0]['analysis']
-            if len(morf_l2) == 1: #pole vaa kuna kontroll toimub jube eelnevalt ära        #üheselt määratud sobib otsitavaks käändsõnaks
+            if len(morf_l2) == 1:                                 #üheselt määratud sobib otsitavaks käändsõnaks
               b = morf_l2[0]
               case_info =(b['form']).split(' ')
               if len(b['root_tokens']) == 1:
@@ -202,16 +205,13 @@ def runCaseAnalys(case_dict, pathStr, file_name):
     xml_formatting(content)
     tree2.write(file_name,'utf8')
 
-
-runCaseAnalys(case_dict, 'proov.xml', 'laused.xml' )
-
-
-
-
 #print(getBestPOSCombination(case_dict, 'proov.xml'))
 #print(getBestPOSCombination(case_dict,files))
+#runCaseAnalys(case_dict, 'proov.xml', 'laused.xml' )
 #runCaseAnalys(case_dict, 'Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/ilu_viljakyla.tasak.xml', 'laused.xml' )
 #runCaseAnalys(case_dict, 'Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/ilu_volta.tasak.xml', 'laused.xml' )
+
+
 
 
 

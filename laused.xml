@@ -1,6 +1,13 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
   <info id="0">
+    <s>Peeter sõitis kiiresti %%% eemale .</s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>maja</n>
+    <answer>majast</answer>
+  </info>
+  <info id="1">
     <s>%%% süda kukkus saapasäärde .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
@@ -9,43 +16,18 @@
     <answer>minu</answer>
     <answer>mu</answer>
   </info>
-  <info id="1">
+  <info id="2">
     <s>Mu süda kukkus %%% .</s>
     <nr>ainsus</nr>
     <case>lühike sisseütlev</case>
     <n>saapasäär</n>
     <answer>saapasäärde</answer>
   </info>
-  <info id="2">
-    <s>%%% süda kukkus saapasäärde</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>mina</n>
-    <answer>mina</answer>
-    <answer>minu</answer>
-    <answer>mu</answer>
-  </info>
   <info id="3">
-    <s>Mu süda kukkus %%%</s>
+    <s>Koosolek toimub %%% .</s>
     <nr>ainsus</nr>
-    <case>lühike sisseütlev</case>
-    <n>saapasäär</n>
-    <answer>saapasäärde</answer>
-  </info>
-  <info id="4">
-    <s>%%% süda kukkus saapasäärde</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>mina</n>
-    <answer>mina</answer>
-    <answer>minu</answer>
-    <answer>mu</answer>
-  </info>
-  <info id="5">
-    <s>Mu süda kukkus %%%</s>
-    <nr>ainsus</nr>
-    <case>lühike sisseütlev</case>
-    <n>saapasäär</n>
-    <answer>saapasäärde</answer>
+    <case>alalütlev</case>
+    <n>kolmapäev</n>
+    <answer>kolmapäeval</answer>
   </info>
 </content>
