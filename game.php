@@ -45,7 +45,7 @@
 							}
                             //Faili saamine
 							function getFile(){
-								$xml_string = file_get_contents('laused.xml');
+								$xml_string = file_get_contents('lausedlevel1.xml');
 								return $xml_string;
 							}
                             
