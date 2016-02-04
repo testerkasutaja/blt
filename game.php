@@ -72,6 +72,9 @@
 								echo '<input type="text" >';
 								//echo '(' . $resultCase[$nrS] .' / '. $resultNr[$nrS] . ' /  ' .$resultN[$nrS] .')';
 								echo $sList[1];
+								
+								
+								echo '<input type="button" value="test" onClick="echome()" >';
 							}
 			
 						$xml_string = getFile();
@@ -81,6 +84,6 @@
             ?> 
 		</div>
 		
-		<button id="next" type="button" class="btn btn-success btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-menu-right"></span></button>
+		<button id="next" type="button" class="btn btn-success btn-circle btn-xl pull-right" onclick=""><span class="glyphicon glyphicon-menu-right"></span></button>
 	</div>
 </body>
