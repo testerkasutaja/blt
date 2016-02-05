@@ -17,73 +17,48 @@
 
 <body>
 	<div class="container">
-        
 		<div class="question">
-		<button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
-			<p id="questiontext" class="questiontext pull-right"> 
-                
-                Sisesta sõna õiges käändes ning vajuta rohelisele noolele.
-            </p>
-  
+            <button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
+            <p id="questiontext" class="questiontext pull-right"> 
+          Sisesta sõna õiges käändes ning vajuta rohelisele noolele.
+            </p>   
+		</div>
+		<div id="counter" class="pull-left counter">
+            100%
+		</div>
+        <div class="well task">
+             <button id="allCases" type="button" class="btn btn-primary allCases" onclick="loadDoc()" >Kõik käänded</button>
+            <div id= "sentenceConten" class = "sentenceConten">
+                <div class= "case" id="case"></div>
+                <div id="word" class= "wordInNominative"></div>
+                <div>
+                    <div id="sentenceFront" class="pull-left"></div>
+                    <input id="inputAnswer" type="text">
+                    <div id="sentenceBack" class="pull-right"></div>
+                </div>
+            </div>
+            <button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" onclick="controlAnswer()" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-right"></span></button>
             
-		</div>
- 
-		<div class="pull-left">
-		<p class="counter">1/3</p>
-		</div>
-        
-		<div class="well task">
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p id="rightOrWrong"></p>
+                    </div>
+                    <div id = "modalBUtton" class="modal-footer">
+                        <button id="nextButtonModal" type="button" class="btn btn-success nextButtonModal" data-dismiss="modal"  onclick="loadDoc()">Edasi</button>
+                        <button id="tryAgainButtonModal" type="button" class="btn btn-success tryAgainButtonModal" data-dismiss="modal" onclick="tryagain()">Proovi uuesti</button>
+                    </div>
+                  </div>
 
-            <?php	
-							//RANDOM FAILI SAAMINE
-							function getRandomFile(){
-								$files = glob('Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*');
-            		$filePath = $files[rand(0, count($files) - 1)];
-            		echo $filePath. '<br>' ;
-								$xml_string = file_get_contents($filePath);
-								return $xml_string;
-							}
-                            //Faili saamine
-							function getFile(){
-								$xml_string = file_get_contents('lausedlevel1.xml');
-								return $xml_string;
-							}
-                            
-							function getSentence($xml_string){
-								//namespaceidest ja include vabanemine, et kasutada xpath
-								$xml_string = preg_replace('/xmlns[^=]*="[^"]*"/i', '', $xml_string);
-								$xml_string = preg_replace('/[a-zA-Z]+:([a-zA-Z]+[=>])/', '$1', $xml_string);
-            		$xml_string = preg_replace('/<xi:include +href[^=]*="[^"]*"+ \/>/i','',$xml_string);
-								$xml = new SimpleXMLElement($xml_string);
-								//RANDOM LAUSE SAAMINE
-								$resultS = $xml->xpath('//s');
-								$resultCase = $xml->xpath('//case');
-								$resultNr = $xml->xpath('//nr');
-								$resultN = $xml->xpath('//n');
-								$resultAnswer = $xml->xpath('//answer');
-								$scounter= count($resultS)-1;
-								//echo 'Lauseid on kokku: ' . ($scounter+1) . '<br>';
-								$nrS = rand(0,$scounter);
-								//echo '        Võtame lause nr ' . $nrS . '<br>';
-								$sList = preg_split('/%%%/', $resultS[$nrS]);
-                                echo '<div class = "hint">
-                                        <p class= "hint1">', mb_strtoupper($resultN[$nrS],'UTF-8'), '</p> <p class= "hint2">' , mb_strtoupper($resultNr[$nrS],'UTF-8'),' ' ,mb_strtoupper($resultCase[$nrS],'UTF-8') ,'</p></div>';
-								echo $sList[0];
-								echo '<input type="text" >';
-								//echo '(' . $resultCase[$nrS] .' / '. $resultNr[$nrS] . ' /  ' .$resultN[$nrS] .')';
-								echo $sList[1];
-								
-								
-								echo '<input type="button" value="test" onClick="echome()" >';
-							}
-			
-						$xml_string = getFile();
-						getSentence($xml_string);
-
+                </div>
+            </div>
             
-            ?> 
-		</div>
-		
-		<button id="next" type="button" class="btn btn-success btn-circle btn-xl pull-right" onclick=""><span class="glyphicon glyphicon-menu-right"></span></button>
-	</div>
+        </div>
+    </div>
 </body>
+
+
+
+

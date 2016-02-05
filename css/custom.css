@@ -153,11 +153,13 @@ input[type=text] {
     font-size: 35px;
 }
 
-.hint {
-        padding-bottom: 100px;
+.sentenceConten {
+    padding-bottom: 100px;
+    visibility: hidden;
+
 }
 
-.hint1{
+.case{
     margin-left: 20%;
     margin-right: 20%;
     size: a3;
@@ -169,7 +171,21 @@ input[type=text] {
     
 }
 
-.hint2{
+.allCases{
+    visibility: visible;
+}
+.nextButton{
+    visibility: hidden;
+}
+.tryAgainButtonModal{
+    visibility: hidden;
+}
+.nextButtonModal{
+    visibility: hidden;
+}
+
+.wordInNominative{
+    margin-bottom: 2%;
     margin-left: 20%;
     margin-right: 20%;
     size: a3;
@@ -178,11 +194,5 @@ input[type=text] {
     border-style: solid;
     border-color: white;
     border-radius: 25px;
-    
-}
-
-
-
-.sentence{
     
 }

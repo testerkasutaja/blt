@@ -1,0 +1,28 @@
+Juhendaja: Sven Aller
+
+Minu teema on "Eesti keele struktuure kasutav mäng käänete õppimiseks" ehk ma loon käänete mängu,
+mis asub veebis, 
+kus kasutaja saab ette lause, kus on ühe käändes oleva sõna asemel tühi lahter. Lause kohal on
+sõna mis tuleb panna õigesse käändesse ning kääne millesse sõna tuleb panna. Üks osa bakalaureuse 
+tööst on lausete välja sorteerimine ilukirjanduskorpusest, mida teen pythoniga kasutades morfoloogilist
+analüsaatorit. Pythonis teen seda just sellepärast, et tal on liides olemas millega kasutada 
+morfoloogilist analüsaatorit.
+
+Hetkel on tehtud: Lausete töötlus pythonga suures osasa valmis - on veel mõinigaid nüanse  ja täiendusi
+vaja teha aga sobivad laused on välja sorteeritud.
+Veebi osas saab mängu juba mängida, ette antakse lause sisestada on võimalik vastus ning saab ka infot
+kas vastus oli õige või kui polnud siis mis on õige vastus.
+
+
+Vaja teha: Andmete salvestamine, kuidas kasutajad vastanud on, et leida nõrgemaid kohti käänete õppimises
+
+Probleemid mis on ette tulnud: 
+Eesti keelega seoses. Lausete valik on oliliselt kitsenenud, kuna eesti keeles on näiteks sõnad
+mitmetähenduslikud. puudesse- puue või puud.
+
+
+
+
+
+Morfoloogiline analüsaator on programm, mis sõna vormist lähtudes määrab selle sõna struktuuri 
+(nt. tüvi, järelliide, lõpp), sõnaliigi ja käände või pöörde.  
