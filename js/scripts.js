@@ -53,7 +53,7 @@ function getSentence(xml) {
         var a = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("answer")[i].childNodes[0].nodeValue.toLowerCase()
 		answers.push(a);
 	}	
-	var nrCaseName = nr + ", " + caseName;
+	var nrCaseName = nr + "e " + caseName;
 	
 	document.getElementById("sentenceFront").innerHTML = sentenceFront;
     document.getElementById("sentenceBack").innerHTML = sentenceBack;

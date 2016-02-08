@@ -36,8 +36,9 @@
                     <input id="inputAnswer" type="text">
                     <div id="sentenceBack" class="pull-right"></div>
                 </div>
-            </div>
-            <button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" onclick="controlAnswer()" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-right"></span></button>
+            </div>            
+        </div>
+                    <button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" onclick="controlAnswer()" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-right"></span></button>
             
             <!-- Modal -->
             <div class="modal fade" id="myModal" role="dialog">
@@ -54,8 +55,6 @@
 
                 </div>
             </div>
-            
-        </div>
     </div>
 </body>
 

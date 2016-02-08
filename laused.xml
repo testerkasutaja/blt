@@ -75,6 +75,70 @@
     <answer>sõjaväelaseist</answer>
   </info>
   <info id="10">
+    <s>Aga läheme nüüd %%% .</s>
+    <nr>ainsus</nr>
+    <case>lühike sisseütlev</case>
+    <n>tuba</n>
+    <answer>tuppa</answer>
+  </info>
+  <info id="11">
+    <s>%%% hääles helises tigedus .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Roland</n>
+    <answer>Rolandi</answer>
+  </info>
+  <info id="12">
+    <s>Rolandi %%% helises tigedus .</s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>hääl</n>
+    <answer>hääles</answer>
+  </info>
+  <info id="13">
+    <s>%%% südant läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Gustav</n>
+    <answer>Gustavi</answer>
+  </info>
+  <info id="14">
+    <s>Gustavi %%% läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>süda</n>
+    <answer>südant</answer>
+  </info>
+  <info id="15">
+    <s>%%% käed tõmbusid rusikasse .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Gustav</n>
+    <answer>Gustavi</answer>
+  </info>
+  <info id="16">
+    <s>Gustavi käed tõmbusid %%% .</s>
+    <nr>ainsus</nr>
+    <case>sisseütlev</case>
+    <n>rusikas</n>
+    <answer>rusikasse</answer>
+  </info>
+  <info id="17">
+    <s>%%% südant läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Juljus</n>
+    <answer>Juljuse</answer>
+    <answer>Juljusi</answer>
+  </info>
+  <info id="18">
+    <s>Juljuse %%% läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>süda</n>
+    <answer>südant</answer>
+  </info>
+  <info id="19">
     <s>%%% olid tähtsad-ranged näod .</s>
     <nr>mitmus</nr>
     <case>alalütlev</case>
@@ -83,21 +147,49 @@
     <answer>kõikidel</answer>
     <answer>kõikudel</answer>
   </info>
-  <info id="11">
+  <info id="20">
+    <s>%%% võitlusel polnud reegleid .</s>
+    <nr>mitmus</nr>
+    <case>omastav</case>
+    <n>metsavend</n>
+    <answer>Metsavendade</answer>
+  </info>
+  <info id="21">
+    <s>Metsavendade %%% polnud reegleid .</s>
+    <nr>ainsus</nr>
+    <case>alalütlev</case>
+    <n>võitlus</n>
+    <answer>võitlusel</answer>
+  </info>
+  <info id="22">
+    <s>Metsavendade võitlusel polnud %%% .</s>
+    <nr>mitmus</nr>
+    <case>osastav</case>
+    <n>reegel</n>
+    <answer>reegleid</answer>
+  </info>
+  <info id="23">
+    <s>Ülestunnistus , ülestunnistus , kordasin %%% .</s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastus</n>
+    <answer>vastuseks</answer>
+  </info>
+  <info id="24">
     <s>%%% tähendas see sünnitunnistus .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>see</n>
     <answer>Seda</answer>
   </info>
-  <info id="12">
+  <info id="25">
     <s>%%% polnud midagi teatada .</s>
     <nr>mitmus</nr>
     <case>alalütlev</case>
     <n>rott</n>
     <answer>Rottidel</answer>
   </info>
-  <info id="13">
+  <info id="26">
     <s>Rottidel polnud %%% teatada .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
@@ -105,126 +197,34 @@
     <answer>midagi</answer>
     <answer>miskit</answer>
   </info>
-  <info id="14">
+  <info id="27">
     <s>%%% tahtsin , seda mäletan .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>õiglus</n>
     <answer>Õiglust</answer>
   </info>
-  <info id="15">
+  <info id="28">
     <s>Õiglust tahtsin , %%% mäletan .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>see</n>
     <answer>seda</answer>
   </info>
-  <info id="16">
+  <info id="29">
     <s>%%% polnud kedagi näha .</s>
     <nr>ainsus</nr>
     <case>seesütlev</case>
     <n>algus</n>
     <answer>Alguses</answer>
   </info>
-  <info id="17">
+  <info id="30">
     <s>Alguses polnud %%% näha .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>keegi</n>
     <answer>kedagi</answer>
     <answer>keed</answer>
-  </info>
-  <info id="18">
-    <s>%%% võitlusel polnud reegleid .</s>
-    <nr>mitmus</nr>
-    <case>omastav</case>
-    <n>metsavend</n>
-    <answer>Metsavendade</answer>
-  </info>
-  <info id="19">
-    <s>Metsavendade %%% polnud reegleid .</s>
-    <nr>ainsus</nr>
-    <case>alalütlev</case>
-    <n>võitlus</n>
-    <answer>võitlusel</answer>
-  </info>
-  <info id="20">
-    <s>Metsavendade võitlusel polnud %%% .</s>
-    <nr>mitmus</nr>
-    <case>osastav</case>
-    <n>reegel</n>
-    <answer>reegleid</answer>
-  </info>
-  <info id="21">
-    <s>Ülestunnistus , ülestunnistus , kordasin %%% .</s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>vastus</n>
-    <answer>vastuseks</answer>
-  </info>
-  <info id="22">
-    <s>Aga läheme nüüd %%% .</s>
-    <nr>ainsus</nr>
-    <case>lühike sisseütlev</case>
-    <n>tuba</n>
-    <answer>tuppa</answer>
-  </info>
-  <info id="23">
-    <s>%%% hääles helises tigedus .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Roland</n>
-    <answer>Rolandi</answer>
-  </info>
-  <info id="24">
-    <s>Rolandi %%% helises tigedus .</s>
-    <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>hääl</n>
-    <answer>hääles</answer>
-  </info>
-  <info id="25">
-    <s>%%% südant läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Gustav</n>
-    <answer>Gustavi</answer>
-  </info>
-  <info id="26">
-    <s>Gustavi %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <answer>südant</answer>
-  </info>
-  <info id="27">
-    <s>%%% käed tõmbusid rusikasse .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Gustav</n>
-    <answer>Gustavi</answer>
-  </info>
-  <info id="28">
-    <s>Gustavi käed tõmbusid %%% .</s>
-    <nr>ainsus</nr>
-    <case>sisseütlev</case>
-    <n>rusikas</n>
-    <answer>rusikasse</answer>
-  </info>
-  <info id="29">
-    <s>%%% südant läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Juljus</n>
-    <answer>Juljuse</answer>
-    <answer>Juljusi</answer>
-  </info>
-  <info id="30">
-    <s>Juljuse %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <answer>südant</answer>
   </info>
   <info id="31">
     <s>Sõidetakse %%% üles lagedate kroonuroheliste seinte ja kõleda ning kurva laevalgusega tubadesse .</s>

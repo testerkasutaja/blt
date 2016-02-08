@@ -141,9 +141,9 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
               sg_pl = case_info[0]                            # ainus v mitmus   
               casename = case_info[1]                         # kääne
               go = True
-            if go == True:
+            if go == True:                
               sen_x = re.sub(word,'%%%',sen)
-              info = SubElement(content,'info')               #XML loomine
+              info = SubElement(content,'info')              #XML loomine
               info.set('id', str(countid))
               countid = countid + 1
               s = SubElement(info,'s')
@@ -151,6 +151,10 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
               case = SubElement(info,'case')
               n = SubElement(info,'n')
               synt = synthesize(nominative, form = sg_pl+' '+casename, phonetic=False)      #kontorll kas leidub rohkem kui üks vastus
+              #if sg_pl == "pl":                                    Nimeta vormi mitmuse saamine
+                #plurar_nominative = synthesize(nominative, form = 'pl n', phonetic=False)
+                #nominative=plurar_nominative[0]
+                #nominative = nominative.replace("_", "")
               if len(synt)>1:
                 for nom in synt:
                   nom = re.sub('_','',nom)
@@ -168,8 +172,9 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
     xmlFormatting(content)
     tree2.write(file_name,'utf8')
 
+synt = synthesize('puu', form = 'pl n', phonetic=False)
 
-
+print(synt)
 
 
 
