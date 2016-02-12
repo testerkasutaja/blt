@@ -15,14 +15,14 @@ function loadDoc() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
-    getSentence(xhttp);
+    getSentenceFormAllCases(xhttp);
     }
   };
   xhttp.open("GET", "./laused.xml", true);
   xhttp.send();
 }
 
-function getSentence(xml) {
+function getSentenceFormAllCases(xml) {
     document.getElementById("allCases").style.visibility = "hidden"; 
     document.getElementById("sentenceConten").style.visibility = "visible"; 
     document.getElementById("next").style.visibility = "visible";
@@ -80,7 +80,7 @@ function controlAnswer(xml) {
             text = "Õige vastus!";
             document.getElementById("rightOrWrong").innerHTML = text;
             document.getElementById("nextButtonModal").style.visibility = "visible"; 
-            
+
         }
         else {
             text = "See vastus on kahjuks vale! Õige vastus on: " + answers[0];

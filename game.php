@@ -26,8 +26,8 @@
 		<div id="counter" class="pull-left counter">
             100%
 		</div>
-        <div class="well task">
-             <button id="allCases" type="button" class="btn btn-primary allCases" onclick="loadDoc()" >Kõik käänded</button>
+        <div id="content" class="well task">
+            <button id="allCases" type="button" class="btn btn-primary allCases" onclick="loadDoc()" >Kõik käänded</button>
             <div id= "sentenceConten" class = "sentenceConten">
                 <div class= "case" id="case"></div>
                 <div id="word" class= "wordInNominative"></div>
