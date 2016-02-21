@@ -33,10 +33,11 @@ function getSentenceFormAllCases(xml) {
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
  	var randomNr = Math.floor((Math.random() * countInfo) + 0);
 	var sentence = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("s")[0].childNodes[0].nodeValue;
-	var splittedSentence= sentence.split("%%%");
+    
+	var splittedSentence = sentence.split("%%%");
     if (splittedSentence.length==2){
-        sentenceFront=splittedSentence[0]
-        sentenceBack=splittedSentence[1]
+        sentenceFront = splittedSentence[0]
+        sentenceBack = splittedSentence[1]
     }else{
         sentenceFront=""
         sentenceBack=splittedSentence[0]

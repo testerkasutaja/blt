@@ -12,7 +12,7 @@ from pprint import pprint
 #käänete sõnastik
 case_dict = {'sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seesütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
-inappropriateWords = ['surm']
+inappropriateWords = ['surm','suguhaigus','alkohol']
 
 def xmlFormatting(elem, level=0):
   i = "\n" + level*"  "
@@ -34,13 +34,14 @@ def getPartOfSpeech(list):                                   #kontroll, et kõik
   partofspeech = []
   for word in list:
     morf_l = analyze(word)
-    morf_l2 = morf_l[0]['analysis']
-    if len(morf_l2) != 1:                           #üheselt määratavuse kontroll
-      return []
-    else:
-      b = morf_l2[0]
-      pos = b['partofspeech']
-      partofspeech.append(pos)
+    if len(morf_l)>0:
+      morf_l2 = morf_l[0]['analysis']
+      if len(morf_l2) != 1:                           #üheselt määratavuse kontroll
+        return []
+      else:
+        b = morf_l2[0]
+        pos = b['partofspeech']
+        partofspeech.append(pos)
   return partofspeech
 
 
@@ -99,8 +100,8 @@ def getFinalSentenceListShortSentences(combinations,structure_with_sentences_sho
     sorted_com = sorted(combinations.values())
     maximum = sorted_com[-1]
     minimum = (maximum//1.5)
-    print(minimum)
-    print(combinations)
+    #print(minimum)
+    #print(combinations)
     for k, v in combinations.items():
       if v >= minimum:
         listofsentences = structure_with_sentences_short.get(k)
@@ -130,7 +131,7 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
           elif len(b['root_tokens']) == 2:
             nominative = b['root_tokens'][0]+b['root_tokens'][1]
           else:
-            print(b['root_tokens'])
+            #print(b['root_tokens'])
             nominative = b['root_tokens'][0]+b['root_tokens'][1]+b['root_tokens'][2]
           if nominative not in inappropriateWords:
             if case_info[0]=='adt':                           #Lühikesisseütlev
@@ -172,9 +173,6 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
     xmlFormatting(content)
     tree2.write(file_name,'utf8')
 
-synt = synthesize('puu', form = 'pl n', phonetic=False)
-
-print(synt)
 
 
 
