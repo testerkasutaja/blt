@@ -109,11 +109,20 @@ def getFinalSentenceListShortSentences(combinations,structure_with_sentences_sho
           level1.append(level1_sentence)
   return(level1)
   
-def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
+def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     go = False
-    countid=0
-    content = ET.Element('content')
-    tree2 = ElementTree(content)
+    id_g_es = 0
+    id_p = 0
+    id_ill = 0
+    id_tr_ter_ab_kom = 0
+    content_g_es = ET.Element('content')
+    tree_g_es = ElementTree(content_g_es)
+    content_p = ET.Element('content')
+    tree_p = ElementTree(content_p)
+    content_ill = ET.Element('content')
+    tree_ill= ElementTree(content_ill)
+    content_tr_ter_ab_kom = ET.Element('content')
+    tree_tr_ter_ab_kom = ElementTree(content_tr_ter_ab_kom)
     if len(list_of_sentences)>0:
       for sen in list_of_sentences:
         sen = re.sub('^ | $', '', sen)
@@ -144,7 +153,28 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
               go = True
             if go == True:                
               sen_x = re.sub(word,'%%%',sen)
-              info = SubElement(content,'info')              #XML loomine
+              if casename == "g" or casename=="es":
+                (content_g_es,id__g_es)= addToContent(word, content_g_es, casename, id_g_es, nominative, sen_x,sg_pl)
+              if casename == "p":
+                (content_p,id_p)= addToContent(word, content_p, casename, id_p, nominative, sen_x,sg_pl)
+              if casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
+                (content_ill,id_ill)= addToContent(word, content_ill, casename, id_ill, nominative, sen_x,sg_pl)
+              if casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
+                (content_tr_ter_ab_kom,id_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id_tr_ter_ab_kom, nominative, sen_x,sg_pl)
+              go = False
+                
+    xmlFormatting(content_g_es)
+    xmlFormatting(content_p)
+    xmlFormatting(content_ill)
+    xmlFormatting(content_tr_ter_ab_kom)
+    
+    tree_g_es.write("laused/omastav_olev.xml",'utf8')
+    tree_p.write("laused/osastav.xml","utf8")
+    tree_ill.write("laused/kohakäänded.xml","utf8")
+    tree_tr_ter_ab_kom.write("laused/saav_rajav_ilma_kaasa.xml","utf8")
+
+def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
+              info = SubElement(content,'info')             #XML loomine
               info.set('id', str(countid))
               countid = countid + 1
               s = SubElement(info,'s')
@@ -152,10 +182,6 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
               case = SubElement(info,'case')
               n = SubElement(info,'n')
               synt = synthesize(nominative, form = sg_pl+' '+casename, phonetic=False)      #kontorll kas leidub rohkem kui üks vastus
-              #if sg_pl == "pl":                                    Nimeta vormi mitmuse saamine
-                #plurar_nominative = synthesize(nominative, form = 'pl n', phonetic=False)
-                #nominative=plurar_nominative[0]
-                #nominative = nominative.replace("_", "")
               if len(synt)>1:
                 for nom in synt:
                   nom = re.sub('_','',nom)
@@ -168,19 +194,14 @@ def runCaseAnalys(case_dict, list_of_sentences, file_name,inappropriateWords):
               nr.text = case_dict[sg_pl]  
               case.text = case_dict[casename]
               s.text = sen_x
-              go = False
-                      
-    xmlFormatting(content)
-    tree2.write(file_name,'utf8')
-
-
+              return(content,countid)
 
 
 (combin3,combin4,sentences_with_structure,level2) = getBestPOSCombination(files)
 level1_3 = getFinalSentenceListShortSentences(combin3,sentences_with_structure)
 level1_4 = getFinalSentenceListShortSentences(combin4,sentences_with_structure)
 level1 = level1_3 + level1_4 + level2
-runCaseAnalys(case_dict, level1, 'laused.xml' ,inappropriateWords)
+runCaseAnalys(case_dict, level1,inappropriateWords)
 
 
 

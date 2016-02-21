@@ -170,9 +170,6 @@ input[type=text] {
     
 }
 
-.allCases{
-    visibility: visible;
-}
 .nextButton{
     visibility: hidden;
 }
@@ -193,5 +190,8 @@ input[type=text] {
     border-style: solid;
     border-color: white;
     border-radius: 25px;
-    
+}
+.chooseCaseButton{
+	margin: 1%;
+}
 }

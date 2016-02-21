@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf8'?>
+<content>
+  <info id="0">
+    <s>Nüüd läheb %%% ! "</s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>karvavõtmine</n>
+    <answer>karvavõtmiseks</answer>
+  </info>
+  <info id="1">
+    <s>Öösärk ulatub %%% .</s>
+    <nr>mitmus</nr>
+    <case>rajav</case>
+    <n>varvas</n>
+    <answer>varbaini</answer>
+    <answer>varvasteni</answer>
+  </info>
+  <info id="2">
+    <s>Pimedus vaikis %%% .</s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastus</n>
+    <answer>vastuseks</answer>
+  </info>
+  <info id="3">
+    <s>Ma kaotasin une %%% .</s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>nädal</n>
+    <answer>nädalaiks</answer>
+    <answer>nädalateks</answer>
+  </info>
+  <info id="4">
+    <s>Sõidetakse liftis üles lagedate kroonuroheliste seinte ja kõleda ning kurva %%% tubadesse .</s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>laevalgus</n>
+    <answer>laevalgusega</answer>
+  </info>
+  <info id="5">
+    <s>Juba see , et %%% niisugusel kellaajal üldse külasse sõideti , oli kahtlane .</s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>auto</n>
+    <answer>autoga</answer>
+  </info>
+</content>

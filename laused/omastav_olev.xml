@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf8'?>
+<content>
+  <info id="0">
+    <s>Rituaalid täidavad %%% .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>usupuudus</n>
+    <answer>usupuuduse</answer>
+  </info>
+  <info id="0">
+    <s>Paljud olid %%% piiril .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>meeleheide</n>
+    <answer>meeleheite</answer>
+  </info>
+  <info id="0">
+    <s>Ma kaotasin %%% nädalateks .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>uni</n>
+    <answer>une</answer>
+  </info>
+  <info id="0">
+    <s>%%% hääles helises tigedus .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Roland</n>
+    <answer>Rolandi</answer>
+  </info>
+  <info id="0">
+    <s>%%% südant läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Gustav</n>
+    <answer>Gustavi</answer>
+  </info>
+  <info id="0">
+    <s>%%% käed tõmbusid rusikasse .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Gustav</n>
+    <answer>Gustavi</answer>
+  </info>
+  <info id="0">
+    <s>%%% südant läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Juljus</n>
+    <answer>Juljuse</answer>
+    <answer>Juljusi</answer>
+  </info>
+  <info id="0">
+    <s>Sõidetakse liftis üles %%% kroonuroheliste seinte ja kõleda ning kurva laevalgusega tubadesse .</s>
+    <nr>mitmus</nr>
+    <case>omastav</case>
+    <n>lage</n>
+    <answer>lagedate</answer>
+  </info>
+  <info id="0">
+    <s>Sõidetakse liftis üles lagedate %%% seinte ja kõleda ning kurva laevalgusega tubadesse .</s>
+    <nr>mitmus</nr>
+    <case>omastav</case>
+    <n>kroonuroheline</n>
+    <answer>kroonuroheliste</answer>
+  </info>
+  <info id="0">
+    <s>Sõidetakse liftis üles lagedate kroonuroheliste %%% ja kõleda ning kurva laevalgusega tubadesse .</s>
+    <nr>mitmus</nr>
+    <case>omastav</case>
+    <n>sein</n>
+    <answer>seinte</answer>
+    <answer>seinade</answer>
+  </info>
+  <info id="0">
+    <s>Sõidetakse liftis üles lagedate kroonuroheliste seinte ja %%% ning kurva laevalgusega tubadesse .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>kõle</n>
+    <answer>kõleda</answer>
+  </info>
+  <info id="0">
+    <s>Sõidetakse liftis üles lagedate kroonuroheliste seinte ja kõleda ning %%% laevalgusega tubadesse .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>kurb</n>
+    <answer>kurva</answer>
+  </info>
+</content>

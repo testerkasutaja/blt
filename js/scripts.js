@@ -1,38 +1,113 @@
-$(document).ready(function(){
+$(function(){
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
     });
-});
-
-$( document ).ready(function() {
-      $("#inputAnswer").keyup(function(event){
+    
+    $("#inputAnswer").keyup(function(event){
       if(event.keyCode == 13){
           $("#next").click();
       }
-  });
-})
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (xhttp.readyState == 4 && xhttp.status == 200) {
-    getSentenceFormAllCases(xhttp);
-    }
-  };
-  xhttp.open("GET", "./laused.xml", true);
-  xhttp.send();
+    });
+    
+    var placeCase = document.createElement('input');
+    placeCase.type = "button"
+    placeCase.value = "Kohakäänded";
+    placeCase.className = "btn btn-primary chooseCaseButton";
+    placeCase.addEventListener('click', function(){
+			document.getElementById("content").removeChild(pCase);
+			document.getElementById("content").removeChild(placeCase);
+			document.getElementById("content").removeChild(gesCase);
+			document.getElementById("content").removeChild(otherCase);
+			loadDoc("place");
+    });
+	
+    document.getElementById("content").appendChild(placeCase);
+	
+		var pCase = document.createElement('input');
+    pCase.type = "button"
+    pCase.value = "Osastav kääne";
+    pCase.className = "btn btn-primary chooseCaseButton";
+    pCase.addEventListener('click', function(){
+			document.getElementById("content").removeChild(pCase);
+			document.getElementById("content").removeChild(placeCase);
+			document.getElementById("content").removeChild(gesCase);
+			document.getElementById("content").removeChild(otherCase);
+			loadDoc("p");
+    });
+
+    document.getElementById("content").appendChild(pCase);
+	
+		var gesCase = document.createElement('input');
+    gesCase.type = "button"
+    gesCase.value = "Omastav ja olev kääne";
+    gesCase.className = "btn btn-primary chooseCaseButton";
+    gesCase.addEventListener('click', function(){
+			document.getElementById("content").removeChild(pCase);
+			document.getElementById("content").removeChild(placeCase);
+			document.getElementById("content").removeChild(gesCase);
+			document.getElementById("content").removeChild(otherCase);
+			loadDoc("ges");
+    });
+
+    document.getElementById("content").appendChild(gesCase);
+	
+		var otherCase = document.createElement('input');
+    otherCase.type = "button";
+    otherCase.value = "Saav, rajav, ilmaütlev ja kaasaütlev käänded";
+    otherCase.className = "btn btn-primary chooseCaseButton";
+    otherCase.addEventListener('click', function(){
+			document.getElementById("content").removeChild(pCase);
+			document.getElementById("content").removeChild(placeCase);
+			document.getElementById("content").removeChild(gesCase);
+			document.getElementById("content").removeChild(otherCase);
+			loadDoc("other");
+    });
+
+    document.getElementById("content").appendChild(otherCase);
+});
+
+
+function loadDoc(type) {
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (xhttp.readyState == 4 && xhttp.status == 200) {
+			getSentence(xhttp);
+		}
+	};
+ 	if(type == "place"){
+		xhttp.open("GET", "./laused/kohakäänded.xml", true);
+	}
+  if(type == "p"){
+    xhttp.open("GET", "./laused/osastav.xml", true);
+  } 
+	if(type == "ges"){
+    xhttp.open("GET", "./laused/omastav_olev.xml", true);
+  }
+	if(type == "other"){
+    xhttp.open("GET", "./laused/saav_rajav_ilma_kaasa.xml", true);
+  } 
+	xhttp.send();
 }
 
-function getSentenceFormAllCases(xml) {
-    document.getElementById("allCases").style.visibility = "hidden"; 
-    document.getElementById("sentenceConten").style.visibility = "visible"; 
-    document.getElementById("next").style.visibility = "visible";
-    document.getElementById("tryAgainButtonModal").style.visibility = "hidden";
-    document.getElementById("nextButtonModal").style.visibility = "hidden"; 
-    document.getElementById("inputAnswer").value = "";
-    var xmlDoc = xml.responseXML;
+function getSentence(xml,fail) {
+  document.getElementById("sentenceConten").style.visibility = "visible"; 
+  document.getElementById("next").style.visibility = "visible";
+  document.getElementById("tryAgainButtonModal").style.visibility = "hidden";
+  document.getElementById("nextButtonModal").style.visibility = "hidden"; 
+  document.getElementById("inputAnswer").value = "";
+	
+	var xmlDoc = xml.responseXML;
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
- 	var randomNr = Math.floor((Math.random() * countInfo) + 0);
-	var sentence = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("s")[0].childNodes[0].nodeValue;
+	
+	var list = [];
+	for(i = 0; i<10; i++) {
+		var randomNr = Math.floor((Math.random() * countInfo) + 0);
+		var inf = xmlDoc.getElementsByTagName("info")[randomNr];
+		list.push(inf);
+	}
+ 	
+	
+	var sentence = list[0].getElementsByTagName("s")[0].childNodes[0].nodeValue;
     
 	var splittedSentence = sentence.split("%%%");
     if (splittedSentence.length==2){
@@ -57,7 +132,7 @@ function getSentenceFormAllCases(xml) {
 	var nrCaseName = nr + "e " + caseName;
 	
 	document.getElementById("sentenceFront").innerHTML = sentenceFront;
-    document.getElementById("sentenceBack").innerHTML = sentenceBack;
+  document.getElementById("sentenceBack").innerHTML = sentenceBack;
 	document.getElementById("case").innerHTML = nrCaseName;
 	document.getElementById("word").innerHTML = nominative;
 }
@@ -81,7 +156,6 @@ function controlAnswer(xml) {
             text = "Õige vastus!";
             document.getElementById("rightOrWrong").innerHTML = text;
             document.getElementById("nextButtonModal").style.visibility = "visible"; 
-
         }
         else {
             text = "See vastus on kahjuks vale! Õige vastus on: " + answers[0];
