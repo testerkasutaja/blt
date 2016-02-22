@@ -89,7 +89,7 @@ function loadDoc(type) {
 	xhttp.send();
 }
 
-function getSentence(xml,fail) {
+function getSentence(xml) {
   document.getElementById("sentenceConten").style.visibility = "visible"; 
   document.getElementById("next").style.visibility = "visible";
   document.getElementById("tryAgainButtonModal").style.visibility = "hidden";
@@ -155,6 +155,11 @@ function controlAnswer(xml) {
         if(isAnswer) {
             text = "Õige vastus!";
             document.getElementById("rightOrWrong").innerHTML = text;
+						var nextButtonModal = document.createElement('button');
+    				nextButtonModal.type = "button"
+    				nextButtonModal.value = "Edasi";
+    				nextButtonModal.className = "tn btn-success nextButtonModal";
+						document.getElementById("modalButton").appendChild(nextButtonModal);
             document.getElementById("nextButtonModal").style.visibility = "visible"; 
         }
         else {

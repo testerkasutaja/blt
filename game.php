@@ -47,8 +47,8 @@
                     <div class="modal-body">
                       <p id="rightOrWrong"></p>
                     </div>
-                    <div id = "modalBUtton" class="modal-footer">
-                        <button id="nextButtonModal" type="button" class="btn btn-success nextButtonModal" data-dismiss="modal"  onclick="loadDoc()">Edasi</button>
+                    <div id = "modalButton" class="modal-footer">
+                        <button id="nextButtonModal" type="button" class="btn btn-success nextButtonModal" onclick="loadDoc()">Edasi</button>
                         <button id="tryAgainButtonModal" type="button" class="btn btn-success tryAgainButtonModal" data-dismiss="modal" onclick="tryagain()">Proovi uuesti</button>
                     </div>
                   </div>
