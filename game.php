@@ -57,7 +57,7 @@
                     <div class="modal-body">
                       <p id="gameOverText" class = "gameOverText"></p>
                     </div>
-                    <div id = "modalButton" class="modal-footer">
+                    <div id = "modalButtonOver" class="modal-footer">
                     </div>
                   </div>
                 </div>

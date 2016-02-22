@@ -252,4 +252,17 @@ function gameOver(){
     $("#gameOverModal").modal({backdrop: "static"});
     var text = "Mäng läbi! <br> Õigeid vastuseid oli " + right + " <br> Valesid vastuseid oli " + wrong + "<br> Skoor on " + score + "%";
     document.getElementById("gameOverText").innerHTML = text;
+    
+    var startAgainModalButton = document.createElement('input');
+    startAgainModalButton.type = "button";
+    startAgainModalButton.value = "Alusta mängu uuesti";
+    startAgainModalButton.id = "tryAgainButtonModal";
+    startAgainModalButton.className = "tn btn-success nextButtonModal";
+    document.getElementById("modalButtonOver").appendChild(startAgainModalButton);
+    startAgainModalButton.addEventListener('click', function(){
+        document.getElementById("modalButtonOver").removeChild(startAgainModalButton);
+        location.reload();
+        $("#gameOverModal").modal("hide");    
+        
+    });
 }
