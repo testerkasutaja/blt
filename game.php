@@ -24,12 +24,11 @@
             </p>   
 		</div>
 		<div id="counter" class="pull-left counter">
-            100%
 		</div>
         <div id="content" class="well task">
             <!--<button id="allCases" type="button" class="btn btn-primary allCases" onclick="loadDoc()" >Kõik käänded</button>-->
             <div id= "sentenceConten" class = "sentenceConten">
-                <div class= "case" id="case"></div>
+                  <div class= "case" id="case"></div>
                 <div id="word" class= "wordInNominative"></div>
                 <div>
                     <div id="sentenceFront" class="pull-left"></div>
@@ -38,21 +37,29 @@
                 </div>
             </div>            
         </div>
-                    <button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" onclick="controlAnswer()" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-menu-right"></span></button>
+                    <button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" onclick="controlAnswer()" ><span class="glyphicon glyphicon-menu-right"></span></button>
             
             <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal fade" id="answerModal" role="dialog">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-body">
                       <p id="rightOrWrong"></p>
                     </div>
                     <div id = "modalButton" class="modal-footer">
-                        <button id="nextButtonModal" type="button" class="btn btn-success nextButtonModal" onclick="loadDoc()">Edasi</button>
-                        <button id="tryAgainButtonModal" type="button" class="btn btn-success tryAgainButtonModal" data-dismiss="modal" onclick="tryagain()">Proovi uuesti</button>
                     </div>
                   </div>
-
+                </div>
+            </div>
+            <div class="modal fade" id="gameOverModal" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p id="gameOverText" class = "gameOverText"></p>
+                    </div>
+                    <div id = "modalButton" class="modal-footer">
+                    </div>
+                  </div>
                 </div>
             </div>
     </div>

@@ -174,10 +174,9 @@ input[type=text] {
     visibility: hidden;
 }
 .tryAgainButtonModal{
-    visibility: hidden;
 }
 .nextButtonModal{
-    visibility: hidden;
+    
 }
 
 .wordInNominative{
@@ -194,4 +193,7 @@ input[type=text] {
 .chooseCaseButton{
 	margin: 1%;
 }
+
+.gameOverText{
+    text-align: center;
 }

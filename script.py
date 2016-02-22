@@ -115,6 +115,7 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     id_p = 0
     id_ill = 0
     id_tr_ter_ab_kom = 0
+    id_all = 0
     content_g_es = ET.Element('content')
     tree_g_es = ElementTree(content_g_es)
     content_p = ET.Element('content')
@@ -123,6 +124,8 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     tree_ill= ElementTree(content_ill)
     content_tr_ter_ab_kom = ET.Element('content')
     tree_tr_ter_ab_kom = ElementTree(content_tr_ter_ab_kom)
+    content_all=ET.Element('content')
+    tree_all = ElementTree(content_all)
     if len(list_of_sentences)>0:
       for sen in list_of_sentences:
         sen = re.sub('^ | $', '', sen)
@@ -153,8 +156,9 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               go = True
             if go == True:                
               sen_x = re.sub(word,'%%%',sen)
+              (content_all, id_all) = addToContent(word, content_all, casename, id_all, nominative, sen_x,sg_pl)
               if casename == "g" or casename=="es":
-                (content_g_es,id__g_es)= addToContent(word, content_g_es, casename, id_g_es, nominative, sen_x,sg_pl)
+                (content_g_es,id_g_es)= addToContent(word, content_g_es, casename, id_g_es, nominative, sen_x,sg_pl)
               if casename == "p":
                 (content_p,id_p)= addToContent(word, content_p, casename, id_p, nominative, sen_x,sg_pl)
               if casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
@@ -167,11 +171,13 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     xmlFormatting(content_p)
     xmlFormatting(content_ill)
     xmlFormatting(content_tr_ter_ab_kom)
+    xmlFormatting(content_all)
     
     tree_g_es.write("laused/omastav_olev.xml",'utf8')
     tree_p.write("laused/osastav.xml","utf8")
     tree_ill.write("laused/kohakäänded.xml","utf8")
     tree_tr_ter_ab_kom.write("laused/saav_rajav_ilma_kaasa.xml","utf8")
+    tree_all.write("laused/koik_laused.xml","utf8")
 
 def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               info = SubElement(content,'info')             #XML loomine

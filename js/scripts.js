@@ -1,24 +1,28 @@
+var right = 0;
+var wrong = 0;
+var sum = 0;
 $(function(){
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
     });
     
-    $("#inputAnswer").keyup(function(event){
-      if(event.keyCode == 13){
-          $("#next").click();
-      }
-    });
+    //$("#inputAnswer").keyup(function(event){
+      //  if(event.keyCode == 13){
+        //    $("#next").click();
+        //}
+    //});
     
     var placeCase = document.createElement('input');
     placeCase.type = "button"
     placeCase.value = "Kohakäänded";
     placeCase.className = "btn btn-primary chooseCaseButton";
     placeCase.addEventListener('click', function(){
-			document.getElementById("content").removeChild(pCase);
-			document.getElementById("content").removeChild(placeCase);
-			document.getElementById("content").removeChild(gesCase);
-			document.getElementById("content").removeChild(otherCase);
-			loadDoc("place");
+        document.getElementById("content").removeChild(pCase);
+        document.getElementById("content").removeChild(placeCase);
+        document.getElementById("content").removeChild(gesCase);
+        document.getElementById("content").removeChild(otherCase);
+        document.getElementById("content").removeChild(allCases);
+        loadDoc("place");
     });
 	
     document.getElementById("content").appendChild(placeCase);
@@ -28,11 +32,12 @@ $(function(){
     pCase.value = "Osastav kääne";
     pCase.className = "btn btn-primary chooseCaseButton";
     pCase.addEventListener('click', function(){
-			document.getElementById("content").removeChild(pCase);
-			document.getElementById("content").removeChild(placeCase);
-			document.getElementById("content").removeChild(gesCase);
-			document.getElementById("content").removeChild(otherCase);
-			loadDoc("p");
+        document.getElementById("content").removeChild(pCase);
+        document.getElementById("content").removeChild(placeCase);
+        document.getElementById("content").removeChild(gesCase);
+        document.getElementById("content").removeChild(otherCase);
+        document.getElementById("content").removeChild(allCases);
+        loadDoc("p");
     });
 
     document.getElementById("content").appendChild(pCase);
@@ -42,72 +47,101 @@ $(function(){
     gesCase.value = "Omastav ja olev kääne";
     gesCase.className = "btn btn-primary chooseCaseButton";
     gesCase.addEventListener('click', function(){
-			document.getElementById("content").removeChild(pCase);
-			document.getElementById("content").removeChild(placeCase);
-			document.getElementById("content").removeChild(gesCase);
-			document.getElementById("content").removeChild(otherCase);
-			loadDoc("ges");
+        document.getElementById("content").removeChild(pCase);
+        document.getElementById("content").removeChild(placeCase);
+		document.getElementById("content").removeChild(gesCase);
+		document.getElementById("content").removeChild(otherCase);
+        document.getElementById("content").removeChild(allCases);
+		loadDoc("ges");
     });
 
     document.getElementById("content").appendChild(gesCase);
-	
-		var otherCase = document.createElement('input');
+    var otherCase = document.createElement('input');
     otherCase.type = "button";
     otherCase.value = "Saav, rajav, ilmaütlev ja kaasaütlev käänded";
     otherCase.className = "btn btn-primary chooseCaseButton";
     otherCase.addEventListener('click', function(){
-			document.getElementById("content").removeChild(pCase);
-			document.getElementById("content").removeChild(placeCase);
-			document.getElementById("content").removeChild(gesCase);
-			document.getElementById("content").removeChild(otherCase);
-			loadDoc("other");
+        document.getElementById("content").removeChild(pCase);
+		document.getElementById("content").removeChild(placeCase);
+		document.getElementById("content").removeChild(gesCase);
+		document.getElementById("content").removeChild(otherCase);
+        document.getElementById("content").removeChild(allCases);
+		loadDoc("other");
     });
 
     document.getElementById("content").appendChild(otherCase);
+    
+    
+    
+    var allCases = document.createElement('input');
+    allCases.type = "button";
+    allCases.value = "Kõik käänded";
+    allCases.className = "btn btn-primary chooseCaseButton";
+    allCases.addEventListener('click', function(){
+        document.getElementById("content").removeChild(pCase);
+		document.getElementById("content").removeChild(placeCase);
+		document.getElementById("content").removeChild(gesCase);
+		document.getElementById("content").removeChild(otherCase);
+        document.getElementById("content").removeChild(allCases);
+		loadDoc("other");
+    });
+
+    document.getElementById("content").appendChild(allCases);  
+    
+
 });
 
 
 function loadDoc(type) {
+    gameType = type;
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (xhttp.readyState == 4 && xhttp.status == 200) {
-			getSentence(xhttp);
+			gameOn(xhttp);
 		}
 	};
- 	if(type == "place"){
+    if(type == "place"){
 		xhttp.open("GET", "./laused/kohakäänded.xml", true);
 	}
-  if(type == "p"){
-    xhttp.open("GET", "./laused/osastav.xml", true);
+    if(type == "p"){
+        xhttp.open("GET", "./laused/osastav.xml", true);
   } 
 	if(type == "ges"){
-    xhttp.open("GET", "./laused/omastav_olev.xml", true);
+        xhttp.open("GET", "./laused/omastav_olev.xml", true);
   }
 	if(type == "other"){
-    xhttp.open("GET", "./laused/saav_rajav_ilma_kaasa.xml", true);
+        xhttp.open("GET", "./laused/saav_rajav_ilma_kaasa.xml", true);
   } 
-	xhttp.send();
+    if(type == "all"){
+        xhttp.open("GET", "./laused/koik_laused.xml", true);
+  } 
+    xhttp.send();
 }
 
+function gameOn(xml){
+    getSentence(xml);
+}
+
+
 function getSentence(xml) {
-  document.getElementById("sentenceConten").style.visibility = "visible"; 
-  document.getElementById("next").style.visibility = "visible";
-  document.getElementById("tryAgainButtonModal").style.visibility = "hidden";
-  document.getElementById("nextButtonModal").style.visibility = "hidden"; 
-  document.getElementById("inputAnswer").value = "";
-	
+    score = calculateScore();
+    console.log(score);    
+    document.getElementById("counter").innerHTML = score+"%";
+    document.getElementById("sentenceConten").style.visibility = "visible"; 
+    document.getElementById("next").style.visibility = "visible";
+    document.getElementById("inputAnswer").value = "";
+    
 	var xmlDoc = xml.responseXML;
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
-	
-	var list = [];
-	for(i = 0; i<10; i++) {
-		var randomNr = Math.floor((Math.random() * countInfo) + 0);
-		var inf = xmlDoc.getElementsByTagName("info")[randomNr];
-		list.push(inf);
-	}
+    var randomNr = Math.floor((Math.random() * countInfo) + 0);
+	//var list = [];
+	//for(i = 0; i<10; i++) {
+	//	var randomNr = Math.floor((Math.random() * countInfo) + 0);
+	//	var inf = xmlDoc.getElementsByTagName("info")[randomNr];
+	//	list.push(inf);
+	//}
  	
-	
-	var sentence = list[0].getElementsByTagName("s")[0].childNodes[0].nodeValue;
+	var sentence = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("s")[0].childNodes[0].nodeValue;
     
 	var splittedSentence = sentence.split("%%%");
     if (splittedSentence.length==2){
@@ -118,7 +152,6 @@ function getSentence(xml) {
         sentenceBack=splittedSentence[0]
     }
 	
-	//window.alert(splittedSentence[0])
 	var nr = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("nr")[0].childNodes[0].nodeValue;
 	var caseName = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("case")[0].childNodes[0].nodeValue;
 	var nominative = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("n")[0].childNodes[0].nodeValue;
@@ -132,19 +165,21 @@ function getSentence(xml) {
 	var nrCaseName = nr + "e " + caseName;
 	
 	document.getElementById("sentenceFront").innerHTML = sentenceFront;
-  document.getElementById("sentenceBack").innerHTML = sentenceBack;
+    document.getElementById("sentenceBack").innerHTML = sentenceBack;
 	document.getElementById("case").innerHTML = nrCaseName;
 	document.getElementById("word").innerHTML = nominative;
 }
 
-function controlAnswer(xml) {
-	var inputText = document.getElementById("inputAnswer").value.toLowerCase();
+
+
+function controlAnswer(xml) { 
+    $("#answerModal").modal({backdrop: "static"});
+    var inputText = document.getElementById("inputAnswer").value.toLowerCase();
 	var isAnswer = false;
 	console.log(answers);
-    if (inputText=== ""){
-        text = "Palun sisesta vastus!";
-        document.getElementById("rightOrWrong").innerHTML = text;
-        document.getElementById("tryAgainButtonModal").style.visibility = "visible"; 
+    console.log(sum);
+    if (inputText === ""){
+        tryagainButton();
     }else{
         for (a in answers){
             if (inputText == answers[a]){
@@ -153,24 +188,68 @@ function controlAnswer(xml) {
             }
         }
         if(isAnswer) {
-            text = "Õige vastus!";
+            sum = sum + 1;
+            right = right + 1;
+            var text = "Õige vastus!";
             document.getElementById("rightOrWrong").innerHTML = text;
-						var nextButtonModal = document.createElement('button');
-    				nextButtonModal.type = "button"
-    				nextButtonModal.value = "Edasi";
-    				nextButtonModal.className = "tn btn-success nextButtonModal";
-						document.getElementById("modalButton").appendChild(nextButtonModal);
-            document.getElementById("nextButtonModal").style.visibility = "visible"; 
         }
         else {
-            text = "See vastus on kahjuks vale! Õige vastus on: " + answers[0];
+            sum = sum + 1;
+            wrong = wrong + 1;
+            var text = "See vastus on kahjuks vale! Õige vastus on: " + answers[0];
             document.getElementById("rightOrWrong").innerHTML = text;
-            document.getElementById("nextButtonModal").style.visibility = "visible"; 
         }
+        createNextButtonModal();
     }
+    score = calculateScore();
+    console.log(score);    
+    document.getElementById("counter").innerHTML = score+"%";
 	
 }
-	
-function tryagain(){
-    document.getElementById("tryAgainButtonModal").style.visibility = "hidden";    
+function createNextButtonModal(){
+    var nextButtonModal = document.createElement('input');
+    nextButtonModal.type = "button";
+    nextButtonModal.value = "Edasi";
+    nextButtonModal.id = "nextButtonModal"
+    nextButtonModal.className = "tn btn-success nextButtonModal";
+    
+    document.getElementById("modalButton").appendChild(nextButtonModal);
+    nextButtonModal.addEventListener('click', function(){
+        if (sum >= 3){
+            gameOver();
+            
+        }else{
+            loadDoc(gameType);            
+        }
+        document.getElementById("modalButton").removeChild(nextButtonModal);
+        $("#answerModal").modal("hide");
+        
+    });
+    
+}	
+function tryagainButton(){
+    var text = "Palun sisesta vastus!";
+    document.getElementById("rightOrWrong").innerHTML = text;
+    var tryAgainModalButton = document.createElement('input');
+    tryAgainModalButton.type = "button";
+    tryAgainModalButton.value = "Proovi uuesti";
+    tryAgainModalButton.id = "tryAgainButtonModal";
+    tryAgainModalButton.className = "tn btn-success nextButtonModal";
+    document.getElementById("modalButton").appendChild(tryAgainModalButton);
+    tryAgainModalButton.addEventListener('click', function(){
+        document.getElementById("modalButton").removeChild(tryAgainModalButton);
+        $("#answerModal").modal("hide");
+    });
+}
+
+function calculateScore(){
+    score = right * 100 / sum;
+    Math.round(score)
+    return score;
+    
+}
+function gameOver(){
+    $("#gameOverModal").modal({backdrop: "static"});
+    var text = "Mäng läbi! <br> Õigeid vastuseid oli " + right + " <br> Valesid vastuseid oli " + wrong + "<br> Skoor on " + score + "%";
+    document.getElementById("gameOverText").innerHTML = text;
 }
