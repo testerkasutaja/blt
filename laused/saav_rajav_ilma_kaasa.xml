@@ -1,41 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="0">
-    <s>" Ma muutun %%% ! "</s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>sült</n>
-    <answer>süldiks</answer>
-  </info>
-  <info id="1">
-    <s>" Ma olen %%% ! "</s>
-    <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>vend</n>
-    <answer>vennaga</answer>
-  </info>
   <info id="2">
-    <s>See viib %%% .</s>
-    <nr>ainsus</nr>
-    <case>rajav</case>
-    <n>klassivõitlus</n>
-    <answer>klassivõitluseni</answer>
-  </info>
-  <info id="3">
-    <s>Nad mängisid %%% .</s>
-    <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>sõna</n>
-    <answer>Sõnaga</answer>
-  </info>
-  <info id="4">
-    <s>Nad mängisid %%% .</s>
-    <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>aeg</n>
-    <answer>Ajaga</answer>
-  </info>
-  <info id="5">
     <s>Öösärk ulatub %%% .</s>
     <nr>mitmus</nr>
     <case>rajav</case>
@@ -43,21 +8,21 @@
     <answer>varbaini</answer>
     <answer>varvasteni</answer>
   </info>
-  <info id="6">
+  <info id="12">
     <s>Pimedus vaikis %%% .</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>vastus</n>
     <answer>vastuseks</answer>
   </info>
-  <info id="7">
+  <info id="23">
     <s>Naine tapeti %%% .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>mõõk</n>
     <answer>mõõgaga</answer>
   </info>
-  <info id="8">
+  <info id="37">
     <s>Turvamees viibutas %%% .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -65,14 +30,49 @@
     <answer>näpiga</answer>
     <answer>näpuga</answer>
   </info>
-  <info id="9">
+  <info id="49">
     <s>Venestamisele vastati %%% .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>eestlus</n>
     <answer>eestlusega</answer>
   </info>
-  <info id="10">
+  <info id="66">
+    <s>" Ma muutun %%% ! "</s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sült</n>
+    <answer>süldiks</answer>
+  </info>
+  <info id="70">
+    <s>" Ma olen %%% ! "</s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>vend</n>
+    <answer>vennaga</answer>
+  </info>
+  <info id="71">
+    <s>See viib %%% .</s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>klassivõitlus</n>
+    <answer>klassivõitluseni</answer>
+  </info>
+  <info id="84">
+    <s>Nad mängisid %%% .</s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>sõna</n>
+    <answer>Sõnaga</answer>
+  </info>
+  <info id="85">
+    <s>Nad mängisid %%% .</s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>aeg</n>
+    <answer>Ajaga</answer>
+  </info>
+  <info id="101">
     <s>" Ma pean %%% rääkima . "</s>
     <nr>mitmus</nr>
     <case>kaasaütlev</case>
@@ -80,70 +80,85 @@
     <answer>sinadega</answer>
     <answer>teiega</answer>
   </info>
-  <info id="11">
+  <info id="103">
     <s>%%% polnud midagi rääkida .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>tema</n>
     <answer>Temaga</answer>
   </info>
-  <info id="12">
+  <info id="112">
     <s>Ma sain %%% hakkama !</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>see</n>
     <answer>sellega</answer>
   </info>
-  <info id="13">
+  <info id="118">
     <s>%%% olid piinarikkad korinad .</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>vastus</n>
     <answer>Vastuseks</answer>
   </info>
-  <info id="14">
+  <info id="119">
     <s>Inimene muutub %%% nähtuseks .</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>vegetatiivne</n>
     <answer>vegetatiivseks</answer>
   </info>
-  <info id="15">
+  <info id="120">
     <s>Inimene muutub vegetatiivseks %%% .</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>nähtus</n>
     <answer>nähtuseks</answer>
   </info>
-  <info id="16">
+  <info id="132">
     <s>Sekretär segas järjekordse %%% .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>telefonikõne</n>
     <answer>telefonikõnega</answer>
   </info>
-  <info id="17">
+  <info id="135">
     <s>Planeet läheneb kohutava %%% .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>kiirus</n>
     <answer>kiirusega</answer>
   </info>
-  <info id="18">
+  <info id="136">
     <s>%%% olid tragikoomilised seigad .</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>tulemus</n>
     <answer>Tulemuseks</answer>
   </info>
-  <info id="19">
+  <info id="138">
     <s>Päev algas pika %%% .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>jalutuskäik</n>
     <answer>jalutuskäiguga</answer>
   </info>
-  <info id="20">
+  <info id="145">
+    <s>Ma kaotasin une %%% .</s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>nädal</n>
+    <answer>nädalaiks</answer>
+    <answer>nädalateks</answer>
+  </info>
+  <info id="157">
+    <s>See oli lend %%% .</s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>langevari</n>
+    <answer>langevarjuta</answer>
+  </info>
+  <info id="174">
     <s>" Kas sa räägid %%% . "</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -152,29 +167,14 @@
     <answer>minuga</answer>
     <answer>muga</answer>
   </info>
-  <info id="21">
-    <s>Ma kaotasin une %%% .</s>
-    <nr>mitmus</nr>
-    <case>saav</case>
-    <n>nädal</n>
-    <answer>nädalaiks</answer>
-    <answer>nädalateks</answer>
-  </info>
-  <info id="22">
-    <s>See oli lend %%% .</s>
-    <nr>ainsus</nr>
-    <case>ilmaütlev</case>
-    <n>langevari</n>
-    <answer>langevarjuta</answer>
-  </info>
-  <info id="23">
+  <info id="189">
     <s>Sind suunati mu %%% .</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>tegelane</n>
     <answer>tegelaseks</answer>
   </info>
-  <info id="24">
+  <info id="192">
     <s>Nad võtavad %%% ühendust .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -183,28 +183,28 @@
     <answer>minuga</answer>
     <answer>muga</answer>
   </info>
-  <info id="25">
+  <info id="214">
     <s>Sõidetakse liftis üles lagedate kroonuroheliste seinte ja kõleda ning kurva %%% tubadesse .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>laevalgus</n>
     <answer>laevalgusega</answer>
   </info>
-  <info id="26">
+  <info id="223">
     <s>Juba see , et %%% niisugusel kellaajal üldse külasse sõideti , oli kahtlane .</s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>auto</n>
     <answer>autoga</answer>
   </info>
-  <info id="27">
+  <info id="259">
     <s>" Ma pean nüüd minema , " alandas Raul ühtäkki häält %%% , " näeme homme . "</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>vaiksem</n>
     <answer>vaiksemaks</answer>
   </info>
-  <info id="28">
+  <info id="265">
     <s>Siiski lükkas naha- ja suguhaiguste doktor diagnoosile kinnituse %%% vooliku kõrri .</s>
     <nr>ainsus</nr>
     <case>saav</case>

@@ -111,11 +111,7 @@ def getFinalSentenceListShortSentences(combinations,structure_with_sentences_sho
   
 def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     go = False
-    id_g_es = 0
-    id_p = 0
-    id_ill = 0
-    id_tr_ter_ab_kom = 0
-    id_all = 0
+    id = 0
     content_g_es = ET.Element('content')
     tree_g_es = ElementTree(content_g_es)
     content_p = ET.Element('content')
@@ -156,15 +152,16 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               go = True
             if go == True:                
               sen_x = re.sub(word,'%%%',sen)
-              (content_all, id_all) = addToContent(word, content_all, casename, id_all, nominative, sen_x,sg_pl)
+              (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
               if casename == "g" or casename=="es":
-                (content_g_es,id_g_es)= addToContent(word, content_g_es, casename, id_g_es, nominative, sen_x,sg_pl)
+                (content_g_es)= addToContent(word, content_g_es, casename, id, nominative, sen_x,sg_pl)
               if casename == "p":
-                (content_p,id_p)= addToContent(word, content_p, casename, id_p, nominative, sen_x,sg_pl)
+                (content_p)= addToContent(word, content_p, casename, id, nominative, sen_x,sg_pl)
               if casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
-                (content_ill,id_ill)= addToContent(word, content_ill, casename, id_ill, nominative, sen_x,sg_pl)
+                (content_ill)= addToContent(word, content_ill, casename, id, nominative, sen_x,sg_pl)
               if casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
-                (content_tr_ter_ab_kom,id_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id_tr_ter_ab_kom, nominative, sen_x,sg_pl)
+                (content_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl)
+              id = id + 1
               go = False
                 
     xmlFormatting(content_g_es)
@@ -182,7 +179,6 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
 def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               info = SubElement(content,'info')             #XML loomine
               info.set('id', str(countid))
-              countid = countid + 1
               s = SubElement(info,'s')
               nr = SubElement(info,'nr')
               case = SubElement(info,'case')
@@ -200,7 +196,7 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               nr.text = case_dict[sg_pl]  
               case.text = case_dict[casename]
               s.text = sen_x
-              return(content,countid)
+              return content
 
 
 (combin3,combin4,sentences_with_structure,level2) = getBestPOSCombination(files)

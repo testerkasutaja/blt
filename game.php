@@ -44,9 +44,9 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-body">
-                      <p id="rightOrWrong"></p>
+                      <p id="rightOrWrong" class = "modalText"></p>
                     </div>
-                    <div id = "modalButton" class="modal-footer">
+                    <div id = "modalButton" class="modal-footer modalButtons">
                     </div>
                   </div>
                 </div>
@@ -55,9 +55,9 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-body">
-                      <p id="gameOverText" class = "gameOverText"></p>
+                      <p id="gameOverText" class = "ModalText"></p>
                     </div>
-                    <div id = "modalButtonOver" class="modal-footer">
+                    <div id = "modalButtonOver" class="modal-footer modalButtons">
                     </div>
                   </div>
                 </div>

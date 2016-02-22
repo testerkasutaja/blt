@@ -26,8 +26,7 @@ $(function(){
     });
 	
     document.getElementById("content").appendChild(placeCase);
-	
-		var pCase = document.createElement('input');
+	var pCase = document.createElement('input');
     pCase.type = "button"
     pCase.value = "Osastav kääne";
     pCase.className = "btn btn-primary chooseCaseButton";
@@ -196,7 +195,7 @@ function controlAnswer(xml) {
         else {
             sum = sum + 1;
             wrong = wrong + 1;
-            var text = "See vastus on kahjuks vale! Õige vastus on: " + answers[0];
+            var text = "See vastus on kahjuks vale! <br> Õige vastus on: " + "<b>" + answers[0] + "</b>";
             document.getElementById("rightOrWrong").innerHTML = text;
         }
         createNextButtonModal();
@@ -211,7 +210,7 @@ function createNextButtonModal(){
     nextButtonModal.type = "button";
     nextButtonModal.value = "Edasi";
     nextButtonModal.id = "nextButtonModal"
-    nextButtonModal.className = "tn btn-success nextButtonModal";
+    nextButtonModal.className = "btn btn-success";
     
     document.getElementById("modalButton").appendChild(nextButtonModal);
     nextButtonModal.addEventListener('click', function(){
@@ -234,7 +233,7 @@ function tryagainButton(){
     tryAgainModalButton.type = "button";
     tryAgainModalButton.value = "Proovi uuesti";
     tryAgainModalButton.id = "tryAgainButtonModal";
-    tryAgainModalButton.className = "tn btn-success nextButtonModal";
+    tryAgainModalButton.className = "btn btn-success";
     document.getElementById("modalButton").appendChild(tryAgainModalButton);
     tryAgainModalButton.addEventListener('click', function(){
         document.getElementById("modalButton").removeChild(tryAgainModalButton);
@@ -244,7 +243,7 @@ function tryagainButton(){
 
 function calculateScore(){
     score = right * 100 / sum;
-    Math.round(score)
+	score = Math.round(score);
     return score;
     
 }
@@ -257,12 +256,15 @@ function gameOver(){
     startAgainModalButton.type = "button";
     startAgainModalButton.value = "Alusta mängu uuesti";
     startAgainModalButton.id = "tryAgainButtonModal";
-    startAgainModalButton.className = "tn btn-success nextButtonModal";
+    startAgainModalButton.className = "btn btn-success";
     document.getElementById("modalButtonOver").appendChild(startAgainModalButton);
+
     startAgainModalButton.addEventListener('click', function(){
-        document.getElementById("modalButtonOver").removeChild(startAgainModalButton);
         location.reload();
-        $("#gameOverModal").modal("hide");    
-        
+		startAgainModalButton.value = "Laeb...";
+		      
     });
+}
+function saveData(answer, id, answerValue){
+		
 }

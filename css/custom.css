@@ -76,20 +76,14 @@ button.btn-primary:after {
   border-radius: 35px;
 }
 
-
-
-
 body{
 margin:40px;
-/*background-image: url("../images/background.jpg");*/
 background-color: #A9E2F3;  
 font-size: 20px;
+font-family: sans-serif;
 
 }
 
-.question{
-   
-}
 .questiontext{
 	display: none;
 	   padding-top: 60px;
@@ -173,11 +167,6 @@ input[type=text] {
 .nextButton{
     visibility: hidden;
 }
-.tryAgainButtonModal{
-}
-.nextButtonModal{
-    
-}
 
 .wordInNominative{
     margin-bottom: 2%;
@@ -194,6 +183,11 @@ input[type=text] {
 	margin: 1%;
 }
 
-.gameOverText{
+.modalText{
     text-align: center;
+	font-family: sans-serif;
+}
+.modalButtons{
+	font-family: sans-serif;
+	text-align: center;
 }
