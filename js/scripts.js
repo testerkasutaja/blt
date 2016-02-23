@@ -131,7 +131,6 @@ function getSentence(xml) {
     document.getElementById("inputAnswer").value = "";
     
 	var xmlDoc = xml.responseXML;
-    console.log(xmlDoc);
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
     var randomNr = Math.floor((Math.random() * countInfo) + 0);
 	//var list = [];
@@ -151,7 +150,27 @@ function getSentence(xml) {
         sentenceFront=""
         sentenceBack=splittedSentence[0]
     }
-	
+    
+	//var caseTag = document.createElement("div");
+    //caseTag.className = "case";
+    //caseTag.id = "case";
+    
+    //var wordTag = document.createElement("div");
+    //wordTag.className = "wordInNominative";
+    //wordTag.id = "word";
+    
+  //  var firstSenTag = document.createElement("div");
+ //   firstSenTag.className = "pull-left";
+ //   firstSenTag.id = "sentenceFront";
+    
+   // var lastSenTag = document.createElement("div");
+//    lastSenTag.className = "pull-right";
+  //  lastSenTag.id = "sentenceback";
+    
+    //var answerInputTag = document.createElement("input");
+    //answerInputTag.id = "inputAnswer";
+//    answerInputTag.type = "text"
+    
 	var nr = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("nr")[0].childNodes[0].nodeValue;
 	var caseName = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("case")[0].childNodes[0].nodeValue;
 	var nominative = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("n")[0].childNodes[0].nodeValue;
@@ -163,16 +182,26 @@ function getSentence(xml) {
 		answers.push(a);
 	}	
 	var nrCaseName = nr + "e " + caseName;
-	
-	document.getElementById("sentenceFront").innerHTML = sentenceFront;
-    document.getElementById("sentenceBack").innerHTML = sentenceBack;
-	document.getElementById("case").innerHTML = nrCaseName;
+
+    //document.getElementById("sentenceConten").appendChild(caseTag);
+    document.getElementById("case").innerHTML = nrCaseName;
+    
+    //document.getElementById("sentenceConten").appendChild(wordTag);
 	document.getElementById("word").innerHTML = nominative;
+    
+   // document.getElementById("sentenceConten").appendChild(firstSenTag);
+	document.getElementById("sentenceFront").innerHTML = sentenceFront;
+    
+  // document.getElementById("sentenceConten").appendChild(answerInputTag);
+    
+    //document.getElementById("sentenceConten").appendChild(lastSenTag);
+    document.getElementById("sentenceBack").innerHTML = sentenceBack;
 }
 
 
 
-function controlAnswer(xml) { 
+function controlAnswer(xml) {
+    
     $("#answerModal").modal({backdrop: "static"});
     var inputText = document.getElementById("inputAnswer").value.toLowerCase();
 	var isAnswer = false;
@@ -215,6 +244,7 @@ function createNextButtonModal(){
     
     document.getElementById("modalButton").appendChild(nextButtonModal);
     nextButtonModal.addEventListener('click', function(){
+        //document.getElementById("sentenceConten").removeChild(caseTag);
         if (sum >= 3){
             gameOver();
             
@@ -265,7 +295,4 @@ function gameOver(){
 		startAgainModalButton.value = "Laeb...";
 		      
     });
-}
-function saveData(answer, id, answerValue){
-		
 }
