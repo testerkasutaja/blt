@@ -1,7 +1,7 @@
-var right = 0;
-var wrong = 0;
-var sum = 0;
 $(function(){
+    sum = 0;
+    right = 0;
+    wrong = 0;
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
     });
@@ -57,7 +57,7 @@ $(function(){
     document.getElementById("content").appendChild(gesCase);
     var otherCase = document.createElement('input');
     otherCase.type = "button";
-    otherCase.value = "Saav, rajav, ilmaütlev ja kaasaütlev käänded";
+    otherCase.value = "Saav, rajav, ilmaütlev ja kaasaütlev kääne";
     otherCase.className = "btn btn-primary chooseCaseButton";
     otherCase.addEventListener('click', function(){
         document.getElementById("content").removeChild(pCase);
@@ -96,7 +96,7 @@ function loadDoc(type) {
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (xhttp.readyState == 4 && xhttp.status == 200) {
-			gameOn(xhttp);
+			getSentence(xhttp);
 		}
 	};
     if(type == "place"){
@@ -117,20 +117,21 @@ function loadDoc(type) {
     xhttp.send();
 }
 
-function gameOn(xml){
-    getSentence(xml);
-}
-
 
 function getSentence(xml) {
     score = calculateScore();
-    console.log(score);    
-    document.getElementById("counter").innerHTML = score+"%";
+    console.log(score);
+    if (isNaN(score)){
+        document.getElementById("counter").innerHTML = "0"+"%";
+    }else{
+        document.getElementById("counter").innerHTML = score+"%";
+    }
     document.getElementById("sentenceConten").style.visibility = "visible"; 
     document.getElementById("next").style.visibility = "visible";
     document.getElementById("inputAnswer").value = "";
     
 	var xmlDoc = xml.responseXML;
+    console.log(xmlDoc);
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
     var randomNr = Math.floor((Math.random() * countInfo) + 0);
 	//var list = [];
