@@ -12,9 +12,9 @@ from pprint import pprint
 #käänete sõnastik
 case_dict = {'sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seesütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
-inappropriateWords = ['surm','suguhaigus','alkohol']
+inappropriateWords = ['surm','suguhaigus','alkohol','seks','perse']
 
-def xmlFormatting(elem, level=0):
+def formatXMLFile(elem, level=0):
   i = "\n" + level*"  "
   if len(elem):
     if not elem.text or not elem.text.strip():
@@ -22,13 +22,12 @@ def xmlFormatting(elem, level=0):
     if not elem.tail or not elem.tail.strip():
       elem.tail = i
     for elem in elem:
-      xmlFormatting(elem, level+1)
+      formatXMLFile(elem, level+1)
     if not elem.tail or not elem.tail.strip():
       elem.tail = i
   else:
     if level and (not elem.tail or not elem.tail.strip()):
-      elem.tail = i  
-  
+      elem.tail = i
 
 def getPartOfSpeech(list):                                   #kontroll, et kõik sõnad oleks üheselt määratud
   partofspeech = []
@@ -44,14 +43,13 @@ def getPartOfSpeech(list):                                   #kontroll, et kõik
         partofspeech.append(pos)
   return partofspeech
 
-
 def listtostring(list):
   str = ', '.join(list)
   return str
 
 
 #KÕIKIDEST FAILIDEST POPULAASREMATE KOMBINATSIOONIDE LEIDMINE esimese leveli jaoks (neljasõnalised laused)
-def getBestPOSCombination(files):          
+def getBestCombinationsAndSentences(files):          
   combinations3words = {}
   combinations4words = {}
   structure_with_sentences_short = {}
@@ -89,58 +87,54 @@ def getBestPOSCombination(files):
 
         elif partofspeech != [] and sen_len > 4 and sen_len > 10 and 'V' in partofspeech and 'S' in partofspeech:
            sentences_long.append(sen)
-  #print(structure_with_sentences_4word)
-  #print(sentences_morethan4word)
   return (combinations3words,combinations4words,structure_with_sentences_short,sentences_long)
 
 
 def getFinalSentenceListShortSentences(combinations,structure_with_sentences_short):
-  level1= []
+  shortSentences= []
   if len(combinations)>0:
     sorted_com = sorted(combinations.values())
     maximum = sorted_com[-1]
     minimum = (maximum//1.5)
-    #print(minimum)
-    #print(combinations)
     for k, v in combinations.items():
       if v >= minimum:
         listofsentences = structure_with_sentences_short.get(k)
-        for level1_sentence in listofsentences:
-          level1.append(level1_sentence)
-  return(level1)
+        for shortSentences_sentence in listofsentences:
+          shortSentences.append(shortSentences_sentence)
+  return(shortSentences)
   
 def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     go = False
     id = 0
     content_g_es = ET.Element('content')
     tree_g_es = ElementTree(content_g_es)
+    
     content_p = ET.Element('content')
     tree_p = ElementTree(content_p)
+    
     content_ill = ET.Element('content')
     tree_ill= ElementTree(content_ill)
+    
     content_tr_ter_ab_kom = ET.Element('content')
     tree_tr_ter_ab_kom = ElementTree(content_tr_ter_ab_kom)
+    
     content_all=ET.Element('content')
     tree_all = ElementTree(content_all)
+    
     if len(list_of_sentences)>0:
-      for sen in list_of_sentences:
-        sen = re.sub('^ | $', '', sen)
-        morf_sen = re.sub('(( (,|\.|!|\?|%|#|"))|" )', '', sen)
-        sen_list = morf_sen.split(' ')
-        sen_len = len(sen_list)
-        partofspeech = getPartOfSpeech(sen_list)              # lause struktuur
-        for word in sen_list:
-          morf_l = analyze(word)
-          morf_l2 = morf_l[0]['analysis']
-          b = morf_l2[0]
-          case_info =(b['form']).split(' ')
-          if len(b['root_tokens']) == 1:
-            nominative = b['root_tokens'][0]
-          elif len(b['root_tokens']) == 2:
-            nominative = b['root_tokens'][0]+b['root_tokens'][1]
-          else:
-            #print(b['root_tokens'])
-            nominative = b['root_tokens'][0]+b['root_tokens'][1]+b['root_tokens'][2]
+      for sentence in list_of_sentences:
+        sentence = re.sub('^ | $', '', sentence)
+        morf_sentence = re.sub('(( (,|\.|!|\?|%|#|"))|" |")', '', sentence)
+        sentence_list = morf_sentence.split(' ')
+        sentence_len = len(sentence_list)
+        partofspeech = getPartOfSpeech(sentence_list)              # lause struktuur
+        for word in sentence_list:
+          morf_analyze = analyze(word)
+          morf_l2 = morf_analyze[0]['analysis']
+          morf_info = morf_l2[0]                              #on ainult 1 (kontrollitakse getBestCombinationsAndSentences(files) funktsioonis)
+          case_info =(morf_info['form']).split(' ')
+          nominative = morf_info['root']
+          nominative = re.sub(']|<|_','',nominative)
           if nominative not in inappropriateWords:
             if case_info[0]=='adt':                           #Lühikesisseütlev
               casename = case_info[0]
@@ -151,24 +145,24 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               casename = case_info[1]                         # kääne
               go = True
             if go == True:                
-              sen_x = re.sub(word,'%%%',sen)
+              sen_x = re.sub(word,'%%%',sentence)
               (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
               if casename == "g" or casename=="es":
                 (content_g_es)= addToContent(word, content_g_es, casename, id, nominative, sen_x,sg_pl)
-              if casename == "p":
+              elif casename == "p":
                 (content_p)= addToContent(word, content_p, casename, id, nominative, sen_x,sg_pl)
-              if casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
+              elif casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
                 (content_ill)= addToContent(word, content_ill, casename, id, nominative, sen_x,sg_pl)
-              if casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
+              elif casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
                 (content_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl)
               id = id + 1
               go = False
                 
-    xmlFormatting(content_g_es)
-    xmlFormatting(content_p)
-    xmlFormatting(content_ill)
-    xmlFormatting(content_tr_ter_ab_kom)
-    xmlFormatting(content_all)
+    formatXMLFile(content_g_es)
+    formatXMLFile(content_p)
+    formatXMLFile(content_ill)
+    formatXMLFile(content_tr_ter_ab_kom)
+    formatXMLFile(content_all)
     
     tree_g_es.write("laused/omastav_olev.xml",'utf8')
     tree_p.write("laused/osastav.xml","utf8")
@@ -199,7 +193,7 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               return content
 
 
-(combin3,combin4,sentences_with_structure,level2) = getBestPOSCombination(files)
+(combin3,combin4,sentences_with_structure,level2) = getBestCombinationsAndSentences(files)
 level1_3 = getFinalSentenceListShortSentences(combin3,sentences_with_structure)
 level1_4 = getFinalSentenceListShortSentences(combin4,sentences_with_structure)
 level1 = level1_3 + level1_4 + level2
