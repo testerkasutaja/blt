@@ -134,7 +134,7 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
           morf_info = morf_l2[0]                              #on ainult 1 (kontrollitakse getBestCombinationsAndSentences(files) funktsioonis)
           case_info =(morf_info['form']).split(' ')
           nominative = morf_info['root']
-          nominative = re.sub(']|<|_','',nominative)
+          nominative = re.sub(']|<|_|\?','',nominative)
           if nominative not in inappropriateWords:
             if case_info[0]=='adt':                           #Lühikesisseütlev
               casename = case_info[0]
@@ -180,11 +180,17 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               synt = synthesize(nominative, form = sg_pl+' '+casename, phonetic=False)      #kontorll kas leidub rohkem kui üks vastus
               if len(synt)>1:
                 for nom in synt:
-                  nom = re.sub('_','',nom)
-                  answer = SubElement(info, 'answer')
-                  answer.text= nom 
+                  word = word.lower()
+                  nom = re.sub('\?', '', nom)
+                  if nom == word:
+                    answer = SubElement(info, 'word')
+                    answer.text = word
+                  else:
+                    nom = re.sub('_','',nom)
+                    answer = SubElement(info, 'answer')
+                    answer.text= nom 
               else:
-                answer = SubElement(info, 'answer')
+                answer = SubElement(info, 'word')
                 answer.text = word
               n.text = nominative
               nr.text = case_dict[sg_pl]  

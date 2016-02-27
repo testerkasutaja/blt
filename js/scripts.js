@@ -2,6 +2,7 @@ $(function(){
     sum = 0;
     right = 0;
     wrong = 0;
+	
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
     });
@@ -17,58 +18,42 @@ $(function(){
     placeCase.value = "Kohakäänded";
     placeCase.className = "btn btn-primary chooseCaseButton";
     placeCase.addEventListener('click', function(){
-        document.getElementById("content").removeChild(pCase);
-        document.getElementById("content").removeChild(placeCase);
-        document.getElementById("content").removeChild(gesCase);
-        document.getElementById("content").removeChild(otherCase);
-        document.getElementById("content").removeChild(allCases);
+		$("#buttonContent").empty();
         loadDoc("place");
     });
+    document.getElementById("buttonContent").appendChild(placeCase);
 	
-    document.getElementById("content").appendChild(placeCase);
 	var pCase = document.createElement('input');
     pCase.type = "button"
     pCase.value = "Osastav kääne";
     pCase.className = "btn btn-primary chooseCaseButton";
     pCase.addEventListener('click', function(){
-        document.getElementById("content").removeChild(pCase);
-        document.getElementById("content").removeChild(placeCase);
-        document.getElementById("content").removeChild(gesCase);
-        document.getElementById("content").removeChild(otherCase);
-        document.getElementById("content").removeChild(allCases);
+       	$("#buttonContent").empty();
         loadDoc("p");
     });
 
-    document.getElementById("content").appendChild(pCase);
+    document.getElementById("buttonContent").appendChild(pCase);
 	
 		var gesCase = document.createElement('input');
     gesCase.type = "button"
     gesCase.value = "Omastav ja olev kääne";
     gesCase.className = "btn btn-primary chooseCaseButton";
     gesCase.addEventListener('click', function(){
-        document.getElementById("content").removeChild(pCase);
-        document.getElementById("content").removeChild(placeCase);
-		document.getElementById("content").removeChild(gesCase);
-		document.getElementById("content").removeChild(otherCase);
-        document.getElementById("content").removeChild(allCases);
+        $("#buttonContent").empty();
 		loadDoc("ges");
     });
 
-    document.getElementById("content").appendChild(gesCase);
+    document.getElementById("buttonContent").appendChild(gesCase);
     var otherCase = document.createElement('input');
     otherCase.type = "button";
     otherCase.value = "Saav, rajav, ilmaütlev ja kaasaütlev kääne";
     otherCase.className = "btn btn-primary chooseCaseButton";
     otherCase.addEventListener('click', function(){
-        document.getElementById("content").removeChild(pCase);
-		document.getElementById("content").removeChild(placeCase);
-		document.getElementById("content").removeChild(gesCase);
-		document.getElementById("content").removeChild(otherCase);
-        document.getElementById("content").removeChild(allCases);
+        $("#buttonContent").empty();
 		loadDoc("other");
     });
 
-    document.getElementById("content").appendChild(otherCase);
+    document.getElementById("buttonContent").appendChild(otherCase);
     
     
     
@@ -77,15 +62,11 @@ $(function(){
     allCases.value = "Kõik käänded";
     allCases.className = "btn btn-primary chooseCaseButton";
     allCases.addEventListener('click', function(){
-        document.getElementById("content").removeChild(pCase);
-		document.getElementById("content").removeChild(placeCase);
-		document.getElementById("content").removeChild(gesCase);
-		document.getElementById("content").removeChild(otherCase);
-        document.getElementById("content").removeChild(allCases);
+		$("#buttonContent").empty();
 		loadDoc("other");
     });
 
-    document.getElementById("content").appendChild(allCases);  
+    document.getElementById("buttonContent").appendChild(allCases);  
     
 
 });
@@ -126,6 +107,7 @@ function getSentence(xml) {
     }else{
         document.getElementById("counter").innerHTML = score+"%";
     }
+	
     document.getElementById("sentenceConten").style.visibility = "visible"; 
     document.getElementById("next").style.visibility = "visible";
     document.getElementById("inputAnswer").value = "";
@@ -133,13 +115,6 @@ function getSentence(xml) {
 	var xmlDoc = xml.responseXML;
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
     var randomNr = Math.floor((Math.random() * countInfo) + 0);
-	//var list = [];
-	//for(i = 0; i<10; i++) {
-	//	var randomNr = Math.floor((Math.random() * countInfo) + 0);
-	//	var inf = xmlDoc.getElementsByTagName("info")[randomNr];
-	//	list.push(inf);
-	//}
- 	
 	var sentence = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("s")[0].childNodes[0].nodeValue;
     
 	var splittedSentence = sentence.split("%%%");
@@ -177,10 +152,15 @@ function getSentence(xml) {
 	//kontroll kas on mitu vastust
 	var countAnswers = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("answer").length;
 	answers = [];
-	for(i = 0; i < countAnswers; i++){
-        var a = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("answer")[i].childNodes[0].nodeValue.toLowerCase()
-		answers.push(a);
+	var word = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("word")[0].childNodes[0].nodeValue.toLowerCase();
+	answers.push(word);
+	if (countAnswers > 0 ){
+		for(i = 0; i < countAnswers; i++){
+        	var a = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("answer")[i].childNodes[0].nodeValue.toLowerCase()
+			answers.push(a);
 	}	
+	}
+	
 	var nrCaseName = nr + "e " + caseName;
 
     //document.getElementById("sentenceConten").appendChild(caseTag);
