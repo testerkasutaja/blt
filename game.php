@@ -26,20 +26,10 @@
 		<div id="counter" class="pull-left counter">
 		</div>
         <div id="content" class="well task">
-            <!--<button id="allCases" type="button" class="btn btn-primary allCases" onclick="loadDoc()" >Kõik käänded</button>-->
-			<div id="buttonContent">
-			</div>
-            <div id= "sentenceConten" class = "sentenceConten">
-                  <div class= "case" id="case"></div>
-                <div id="word" class= "wordInNominative"></div>
-                <div>
-                    <div id="sentenceFront" class="pull-left"></div>
-                    <input id="inputAnswer" type="text">
-                    <div id="sentenceBack" class="pull-right"></div>
-                </div>
-            </div>            
+			<div id="buttonContent"></div>
+            <div id= "sentenceContent" class = "sentenceContent"></div>         
         </div>
-                    <button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" onclick="controlAnswer()" ><span class="glyphicon glyphicon-menu-right"></span></button>
+		<div id = "nextButton"></div>
             
             <!-- Modal -->
             <div class="modal fade" id="answerModal" role="dialog">

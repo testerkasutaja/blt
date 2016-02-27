@@ -147,9 +147,8 @@ input[type=text] {
     font-size: 35px;
 }
 
-.sentenceConten {
+.sentenceContent {
     padding-bottom: 100px;
-    visibility: hidden;
 
 }
 
@@ -166,7 +165,6 @@ input[type=text] {
 }
 
 .nextButton{
-    visibility: hidden;
 }
 
 .wordInNominative{
@@ -191,4 +189,17 @@ input[type=text] {
 .modalButtons{
 	font-family: sans-serif;
 	text-align: center;
+}
+
+.fullSentence{
+    size: a3;
+    background-color: #fcf8e3;
+    padding: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    
+}
+.radioButtonNr{
+	    background-color: #5DACF1
 }
