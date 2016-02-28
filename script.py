@@ -178,15 +178,17 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               case = SubElement(info,'case')
               n = SubElement(info,'n')
               synt = synthesize(nominative, form = sg_pl+' '+casename, phonetic=False)      #kontorll kas leidub rohkem kui üks vastus
+              print(synt)
+              print(word)
               if len(synt)>1:
                 for nom in synt:
-                  word = word.lower()
-                  nom = re.sub('\?', '', nom)
-                  if nom == word:
+                  wordLower = word.lower()
+                  nom = re.sub('\?|_', '', nom)
+                  print(nom)
+                  if nom == wordLower:
                     answer = SubElement(info, 'word')
                     answer.text = word
                   else:
-                    nom = re.sub('_','',nom)
                     answer = SubElement(info, 'answer')
                     answer.text= nom 
               else:

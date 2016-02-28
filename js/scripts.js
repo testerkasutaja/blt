@@ -1,13 +1,8 @@
-$(function(){
-    sum = 0;
-    right = 0;
-	
+$(function(){	
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
     });
-    
 	gameTypeSelection();
-
 });
 
 function gameTypeSelection(){
@@ -25,45 +20,48 @@ function gameTypeSelection(){
 }
 
 function caseTypeSelection(gameType){
-	$("#buttonContent").append('<button id = "placeCase" class="btn btn-primary chooseCaseButton">Kohakäänded</button>');
-	$("#placeCase").click(function(){
-		$("#buttonContent").empty();
-        loadDoc("place",gameType);
-		});
-	
-	$("#buttonContent").append('<button id = "pCase" class="btn btn-primary chooseCaseButton">Osastav kääne</button>');
-	$("#pCase").click(function(){
-		$("#buttonContent").empty();
-        loadDoc("p",gameType);
+	var sum = 0;
+    var right = 0;
+	if (gameType === "findWord"){
+		$("#buttonContent").append('<button id = "placeCase" class="btn btn-primary chooseCaseButton">Kohakäänded</button>');
+		$("#placeCase").click(function(){
+			$("#buttonContent").empty();
+			loadDoc("place",gameType,sum,right);
 		});
 
-	$("#buttonContent").append('<button id = "gesCase" class="btn btn-primary chooseCaseButton">Omastav ja olev kääne</button>');
-	$("#gesCase").click(function(){
-		$("#buttonContent").empty();
-        loadDoc("ges",gameType);
+		$("#buttonContent").append('<button id = "pCase" class="btn btn-primary chooseCaseButton">Osastav kääne</button>');
+		$("#pCase").click(function(){
+			$("#buttonContent").empty();
+			loadDoc("p",gameType,sum,right);
 		});
-	
-	$("#buttonContent").append('<button id = "otherCase" class="btn btn-primary chooseCaseButton">Saav, rajav, ilmaütlev ja kaasaütlev kääne</button>');
-	$("#otherCase").click(function(){
-		$("#buttonContent").empty();
-        loadDoc("other",gameType);
+
+		$("#buttonContent").append('<button id = "gesCase" class="btn btn-primary chooseCaseButton">Omastav ja olev kääne</button>');
+		$("#gesCase").click(function(){
+			$("#buttonContent").empty();
+			loadDoc("ges",gameType,sum,right);
 		});
-    
-    $("#buttonContent").append('<button id = "allCase" class="btn btn-primary chooseCaseButton">Kõik käänded</button>');
+
+		$("#buttonContent").append('<button id = "otherCase" class="btn btn-primary chooseCaseButton">Saav, rajav, ilmaütlev ja kaasaütlev kääne</button>');
+		$("#otherCase").click(function(){
+			$("#buttonContent").empty();
+			loadDoc("other",gameType,sum,right);
+		});
+	}
+	$("#buttonContent").append('<button id = "allCase" class="btn btn-primary chooseCaseButton">Kõik käänded</button>');
 	$("#allCase").click(function(){
 		$("#buttonContent").empty();
-        loadDoc("all",gameType);
-		});
+		loadDoc("all",gameType,sum,right);
+	});
 }
 
 
-function loadDoc(caseType, gameType) {
+function loadDoc(caseType, gameType,sum,right) {
     caseType = caseType;
 	gameType = gameType;
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (xhttp.readyState == 4 && xhttp.status == 200) {
-			getSentenceWithInfo(xhttp, caseType, gameType);
+			getSentenceWithInfo(xhttp, caseType, gameType,sum,right);
 		}
 	};
     if(caseType == "place"){
@@ -85,8 +83,8 @@ function loadDoc(caseType, gameType) {
 }
 
 
-function getSentenceWithInfo(xml,caseType,gameType) {
-    score = calculateScore();
+function getSentenceWithInfo(xml,caseType,gameType,sum,right) {
+    score = calculateScore(sum,right);
     console.log(score);
     if (isNaN(score)){
         document.getElementById("counter").innerHTML = "0"+"%";
@@ -98,7 +96,7 @@ function getSentenceWithInfo(xml,caseType,gameType) {
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
     var randomNr = Math.floor((Math.random() * countInfo) + 0);
 	var sentence = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("s")[0].childNodes[0].nodeValue;
-    
+    console.log('random' + randomNr);
 	var splittedSentence = sentence.split("%%%");
     if (splittedSentence.length==2){
         sentenceFront = splittedSentence[0]
@@ -125,16 +123,16 @@ function getSentenceWithInfo(xml,caseType,gameType) {
 	
 	var nrCaseName = nr + "e " + caseName;
 	if(gameType=='findWord'){
-		addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType);
+		addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right);
 	}
 	else{
-		addGameContentForFindCase(nominative,sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType);
+		addGameContentForFindCase(nominative,sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right);
 	}
 	
 	
 	
 }
-function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType){
+function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right){
 	$("#sentenceContent").append('<div class= "case" id="case"></div>');
 	$("#sentenceContent").append('<div id="word" class= "wordInNominative"></div>');
 	$("#sentenceContent").append('<div id="sentenceFront" class="pull-left"></div>');
@@ -148,7 +146,7 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
 	$("#nextButton").append('<button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" ></button>');
 	$("#next").append('<span class="glyphicon glyphicon-menu-right"></span>');
 	$("#next").click(function(){
-		controlAnswerFindWord(answers,caseType,gameType);
+		controlAnswerFindWord(answers,caseType,gameType,sum,right);
 	});
 	$("#inputAnswer").keyup(function(event){
 		if(event.keyCode == 13){
@@ -158,29 +156,46 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
 	
 }
 
-function addGameContentForFindCase(nominative,sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType){
+function addGameContentForFindCase(nominative,sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right){
 	var sentence = sentenceFront + " <b>" + word + " </b>" + sentenceBack ;
 	$("#sentenceContent").append('<p id = "fullSentence" class = "fullSentence"></p>');
 	$("#fullSentence").html(sentence);
 	$("#sentenceContent").append('<p id = "textForCase"></p>');
 	$("#textForCase").html("Mis käändes on sõna: <b>" + word+'</b>?');
-	$("#sentenceContent").append('<input id="inputAnswerCase" type="text">');
+	//$("#sentenceContent").append('<input id="inputAnswerCase" type="text">');
+	$("#sentenceContent").append('<form id="radioButtonFormCase"></form>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "omastav">Omastav</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline"><label><input type="radio" id = "radioButtonCase" name="caseRadio" class="radioButtonCase" value = "osastav">Osastav</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "sisseütlev">Sisseütlev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline"><label><input type="radio" id = "radioButtonCase" name="caseRadio" class="radioButtonCase" value = "seesütlev">Seesütlev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "seestütlev">Seestütlev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline"><label><input type="radio" id = "radioButtonCase" name="caseRadio" class="radioButtonCase" value = "alaleütlev">Alaleütlev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "alalütlev">Alalütlev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline"><label><input type="radio" id = "radioButtonCase" name="caseRadio" class="radioButtonCase" value = "alaltütlev">Alaltütlev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "saav">Saav</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline"><label><input type="radio" id = "radioButtonCase" name="caseRadio" class="radioButtonCase" value = "rajav">Rajav</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "olev">Olev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline"><label><input type="radio" id = "radioButtonCase" name="caseRadio" class="radioButtonCase" value = "ilmaütlev">Ilmaütlev</label></div>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "kaasaütlev">Kaasaütlev</label></div>');
 	$("#sentenceContent").append('<p id = "textForNr"></p>');
 	$("#textForNr").html("Kas sõna <b>" + word + "</b> on ainsuses või mitmuses?");
 	//$("#sentenceContent").append('<input id="inputAnswerNr" type="text">');
-	$("#sentenceContent").append('<div class="btn-group" id="groupButtonNr"></div>');
-	$("#groupButtonNr").append('<button type="button" id="buttonSg" class="btn btn-primary radioButtonNr">Ainsus</button><button type="button" id="buttonPl" class="btn btn-primary radioButtonNr">Mitmus</button>');
+	$("#sentenceContent").append('<form id="radioButtonFormNr"></form>');
+	$("#radioButtonFormNr").append('<div class="radio-inline" id = "radioButtonNr"><label><input type="radio" id = "radioButtonSg" name="nrRadio" class="radioButtonNr" value = "ainsus">Ainsus</label></div><div class="radio-inline"><label><input type="radio" id = "radioButtonPl" name="nrRadio" class="radioButtonNr" value = "mitmus">Mitmus</label></div>');
+	
+								 
+								 
 
 	
 	$("#nextButton").append('<button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" ></button>');
 	$("#next").append('<span class="glyphicon glyphicon-menu-right"></span>');
 	$("#next").click(function(){
-		controlAnswerFindCase(nr,caseName,caseType,gameType);
+		controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right);
 	});
 	
 }
 
-function controlAnswerFindWord(answers,caseType,gameType) {
+function controlAnswerFindWord(answers,caseType,gameType,sum,right) {
     
     $("#answerModal").modal({backdrop: "static"});
     var inputText = document.getElementById("inputAnswer").value.toLowerCase();
@@ -208,18 +223,22 @@ function controlAnswerFindWord(answers,caseType,gameType) {
             var text = "See vastus on kahjuks vale! <br> Õige vastus on: " + "<b>" + answers[0] + "</b>";
             document.getElementById("rightOrWrong").innerHTML = text;
         }
-        createNextButtonModal(caseType,gameType);
+        createNextButtonModal(caseType,gameType,sum,right);
     }
-    score = calculateScore();
+    score = calculateScore(sum,right);
     console.log(score);    
     document.getElementById("counter").innerHTML = score+"%";
 	
 }
-function controlAnswerFindCase(nr,caseName,caseType,gameType){
+function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right){
 	$("#answerModal").modal({backdrop: "static"});
-	var caseAnswer = document.getElementById("inputAnswerCase").value.toLowerCase();
-	var nrAnswer = document.getElementById("inputAnswerNr").value.toLowerCase();
-	if (caseAnswer ==="" || nrAnswer ===""){
+	var nrAnswer = $('input[name=nrRadio]:checked', '#radioButtonFormNr').val(); 
+	console.log(nrAnswer);	
+	var caseAnswer = $('input[name=caseRadio]:checked', '#radioButtonFormCase').val();
+	console.log(caseAnswer);
+	
+	
+	if (typeof caseAnswer === "undefined" ||typeof nrAnswer ==="undefined"){
 		tryagainButton();
 	}else {
 		$("#nextButton").empty();
@@ -246,22 +265,22 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType){
 			var text = "Mõlemad vastused on kahjuks valed.<br>" + "Õige vastus on " + nr + "e " + caseName;
 			document.getElementById("rightOrWrong").innerHTML = text;
 		}
-		createNextButtonModal(caseType,gameType);
+		createNextButtonModal(caseType,gameType,sum,right);
 	}
-	score = calculateScore();
+	score = calculateScore(sum,right);
 	document.getElementById("counter").innerHTML = score+"%";
 }
-function createNextButtonModal(caseType,gameType){
+function createNextButtonModal(caseType,gameType,sum,right){
 	$("#modalButton").append('<button type="button" id ="nextButtonModal" class="btn btn-success">Edasi</button>')
     $('#nextButtonModal').click(function(){
 		$("#answerModal").modal("hide");
 		$("#modalButton").empty();
 		$("#sentenceContent").empty();
 		if (sum >= 6){
-            gameOver();
+            gameOver(sum,right);
             
         }else{
-            loadDoc(caseType,gameType);            
+            loadDoc(caseType,gameType,sum,right);            
         }
         });	
     
@@ -274,17 +293,14 @@ function tryagainButton(){
 		$("#answerModal").modal("hide");
 		$("#modalButton").empty();
 		});
-		
-	
 }
 
-function calculateScore(){
+function calculateScore(sum,right){
     score = right * 100 / sum;
 	score = Math.round(score);
     return score;
-    
 }
-function gameOver(){
+function gameOver(sum,right){
     $("#gameOverModal").modal({backdrop: "static"});
     var text = "Mäng läbi! <br> Õigeid vastuseid oli " + right +  "<br> Skoor on " + score + "%";
     document.getElementById("gameOverText").innerHTML = text;
@@ -294,5 +310,4 @@ function gameOver(){
 		location.reload();
 		$("#overButton").html('Laeb...');
 	});
-
 }

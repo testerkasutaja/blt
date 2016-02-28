@@ -7,28 +7,28 @@
     <n>usupuudus</n>
     <word>usupuuduse</word>
   </info>
-  <info id="10">
+  <info id="18">
     <s>%%% hääles helises tigedus .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
     <n>Roland</n>
     <word>Rolandi</word>
   </info>
-  <info id="12">
+  <info id="20">
     <s>%%% südant läbis valutorge .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
     <n>Gustav</n>
     <word>Gustavi</word>
   </info>
-  <info id="14">
+  <info id="22">
     <s>%%% käed tõmbusid rusikasse .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
     <n>Gustav</n>
     <word>Gustavi</word>
   </info>
-  <info id="16">
+  <info id="24">
     <s>%%% südant läbis valutorge .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
@@ -36,7 +36,7 @@
     <answer>Juljuse</answer>
     <answer>Juljusi</answer>
   </info>
-  <info id="26">
+  <info id="27">
     <s>%%% võitlusel polnud reegleid .</s>
     <nr>mitmus</nr>
     <case>omastav</case>

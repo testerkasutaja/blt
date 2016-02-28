@@ -147,10 +147,7 @@ input[type=text] {
     font-size: 35px;
 }
 
-.sentenceContent {
-    padding-bottom: 100px;
 
-}
 
 .case{
     margin-left: 20%;
@@ -201,5 +198,8 @@ input[type=text] {
     
 }
 .radioButtonNr{
-	    background-color: #5DACF1
+	    transform: scale(2);
+}
+.radioButtonCase{
+	    transform: scale(1.5);
 }

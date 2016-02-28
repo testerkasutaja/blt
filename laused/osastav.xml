@@ -7,21 +7,14 @@
     <n>paju</n>
     <word>pajusid</word>
   </info>
+  <info id="10">
+    <s>%%% tähendas see sünnitunnistus .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>see</n>
+    <word>Seda</word>
+  </info>
   <info id="13">
-    <s>Gustavi %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <word>südant</word>
-  </info>
-  <info id="17">
-    <s>Juljuse %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <word>südant</word>
-  </info>
-  <info id="19">
     <s>Rottidel polnud %%% teatada .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
@@ -29,21 +22,21 @@
     <word>midagi</word>
     <answer>miskit</answer>
   </info>
-  <info id="20">
+  <info id="14">
     <s>%%% tahtsin , seda mäletan .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>õiglus</n>
     <word>Õiglust</word>
   </info>
-  <info id="21">
+  <info id="15">
     <s>Õiglust tahtsin , %%% mäletan .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>see</n>
     <word>seda</word>
   </info>
-  <info id="23">
+  <info id="17">
     <s>Alguses polnud %%% näha .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
@@ -51,19 +44,26 @@
     <word>kedagi</word>
     <answer>keed</answer>
   </info>
-  <info id="28">
+  <info id="21">
+    <s>Gustavi %%% läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>süda</n>
+    <word>südant</word>
+  </info>
+  <info id="25">
+    <s>Juljuse %%% läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>süda</n>
+    <word>südant</word>
+  </info>
+  <info id="29">
     <s>Metsavendade võitlusel polnud %%% .</s>
     <nr>mitmus</nr>
     <case>osastav</case>
     <n>reegel</n>
     <word>reegleid</word>
-  </info>
-  <info id="30">
-    <s>%%% tähendas see sünnitunnistus .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>see</n>
-    <word>Seda</word>
   </info>
   <info id="39">
     <s>Muidugi teati ka %%% juhuseid , kus rahulikke elanikke tõesti metsavennad kimbutasid .</s>

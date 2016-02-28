@@ -34,7 +34,7 @@
     <nr>mitmus</nr>
     <case>alalütlev</case>
     <n>luide</n>
-    <word>luidetel</word>
+    <word>Luidetel</word>
     <answer>luiteil</answer>
   </info>
   <info id="5">
@@ -71,74 +71,31 @@
     <case>seesütlev</case>
     <n>sõjaväelane</n>
     <answer>sõjaväelasist</answer>
-    <answer>sõjaväelastest</answer>
+    <word>sõjaväelastest</word>
     <answer>sõjaväelaseist</answer>
   </info>
   <info id="10">
-    <s>%%% hääles helises tigedus .</s>
+    <s>%%% tähendas see sünnitunnistus .</s>
     <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Roland</n>
-    <word>Rolandi</word>
+    <case>osastav</case>
+    <n>see</n>
+    <word>Seda</word>
   </info>
   <info id="11">
-    <s>Rolandi %%% helises tigedus .</s>
+    <s>Aga läheme nüüd %%% .</s>
     <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>hääl</n>
-    <word>hääles</word>
+    <case>lühike sisseütlev</case>
+    <n>tuba</n>
+    <word>tuppa</word>
   </info>
   <info id="12">
-    <s>%%% südant läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Gustav</n>
-    <word>Gustavi</word>
-  </info>
-  <info id="13">
-    <s>Gustavi %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <word>südant</word>
-  </info>
-  <info id="14">
-    <s>%%% käed tõmbusid rusikasse .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Gustav</n>
-    <word>Gustavi</word>
-  </info>
-  <info id="15">
-    <s>Gustavi käed tõmbusid %%% .</s>
-    <nr>ainsus</nr>
-    <case>sisseütlev</case>
-    <n>rusikas</n>
-    <word>rusikasse</word>
-  </info>
-  <info id="16">
-    <s>%%% südant läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Juljus</n>
-    <answer>Juljuse</answer>
-    <answer>Juljusi</answer>
-  </info>
-  <info id="17">
-    <s>Juljuse %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <word>südant</word>
-  </info>
-  <info id="18">
     <s>%%% polnud midagi teatada .</s>
     <nr>mitmus</nr>
     <case>alalütlev</case>
     <n>rott</n>
     <word>Rottidel</word>
   </info>
-  <info id="19">
+  <info id="13">
     <s>Rottidel polnud %%% teatada .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
@@ -146,28 +103,28 @@
     <word>midagi</word>
     <answer>miskit</answer>
   </info>
-  <info id="20">
+  <info id="14">
     <s>%%% tahtsin , seda mäletan .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>õiglus</n>
     <word>Õiglust</word>
   </info>
-  <info id="21">
+  <info id="15">
     <s>Õiglust tahtsin , %%% mäletan .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
     <n>see</n>
     <word>seda</word>
   </info>
-  <info id="22">
+  <info id="16">
     <s>%%% polnud kedagi näha .</s>
     <nr>ainsus</nr>
     <case>seesütlev</case>
     <n>algus</n>
     <word>Alguses</word>
   </info>
-  <info id="23">
+  <info id="17">
     <s>Alguses polnud %%% näha .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
@@ -175,56 +132,99 @@
     <word>kedagi</word>
     <answer>keed</answer>
   </info>
-  <info id="24">
-    <s>Aga läheme nüüd %%% .</s>
+  <info id="18">
+    <s>%%% hääles helises tigedus .</s>
     <nr>ainsus</nr>
-    <case>lühike sisseütlev</case>
-    <n>tuba</n>
-    <word>tuppa</word>
+    <case>omastav</case>
+    <n>Roland</n>
+    <word>Rolandi</word>
+  </info>
+  <info id="19">
+    <s>Rolandi %%% helises tigedus .</s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>hääl</n>
+    <word>hääles</word>
+  </info>
+  <info id="20">
+    <s>%%% südant läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Gustav</n>
+    <word>Gustavi</word>
+  </info>
+  <info id="21">
+    <s>Gustavi %%% läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>süda</n>
+    <word>südant</word>
+  </info>
+  <info id="22">
+    <s>%%% käed tõmbusid rusikasse .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Gustav</n>
+    <word>Gustavi</word>
+  </info>
+  <info id="23">
+    <s>Gustavi käed tõmbusid %%% .</s>
+    <nr>ainsus</nr>
+    <case>sisseütlev</case>
+    <n>rusikas</n>
+    <word>rusikasse</word>
+  </info>
+  <info id="24">
+    <s>%%% südant läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>Juljus</n>
+    <answer>Juljuse</answer>
+    <answer>Juljusi</answer>
   </info>
   <info id="25">
+    <s>Juljuse %%% läbis valutorge .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>süda</n>
+    <word>südant</word>
+  </info>
+  <info id="26">
     <s>%%% olid tähtsad-ranged näod .</s>
     <nr>mitmus</nr>
     <case>alalütlev</case>
     <n>kõik</n>
-    <word>kõigil</word>
+    <word>Kõigil</word>
     <answer>kõikidel</answer>
     <answer>kõikudel</answer>
   </info>
-  <info id="26">
+  <info id="27">
     <s>%%% võitlusel polnud reegleid .</s>
     <nr>mitmus</nr>
     <case>omastav</case>
     <n>metsavend</n>
     <word>Metsavendade</word>
   </info>
-  <info id="27">
+  <info id="28">
     <s>Metsavendade %%% polnud reegleid .</s>
     <nr>ainsus</nr>
     <case>alalütlev</case>
     <n>võitlus</n>
     <word>võitlusel</word>
   </info>
-  <info id="28">
+  <info id="29">
     <s>Metsavendade võitlusel polnud %%% .</s>
     <nr>mitmus</nr>
     <case>osastav</case>
     <n>reegel</n>
     <word>reegleid</word>
   </info>
-  <info id="29">
+  <info id="30">
     <s>Ülestunnistus , ülestunnistus , kordasin %%% .</s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>vastus</n>
     <word>vastuseks</word>
-  </info>
-  <info id="30">
-    <s>%%% tähendas see sünnitunnistus .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>see</n>
-    <word>Seda</word>
   </info>
   <info id="31">
     <s>Sõidetakse %%% üles lagedate kroonuroheliste seinte ja kõleda ning kurva laevalgusega tubadesse .</s>

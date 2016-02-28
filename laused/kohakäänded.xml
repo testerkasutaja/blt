@@ -19,7 +19,7 @@
     <nr>mitmus</nr>
     <case>alalütlev</case>
     <n>luide</n>
-    <word>luidetel</word>
+    <word>Luidetel</word>
     <answer>luiteil</answer>
   </info>
   <info id="6">
@@ -49,54 +49,54 @@
     <case>seesütlev</case>
     <n>sõjaväelane</n>
     <answer>sõjaväelasist</answer>
-    <answer>sõjaväelastest</answer>
+    <word>sõjaväelastest</word>
     <answer>sõjaväelaseist</answer>
   </info>
   <info id="11">
-    <s>Rolandi %%% helises tigedus .</s>
-    <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>hääl</n>
-    <word>hääles</word>
-  </info>
-  <info id="15">
-    <s>Gustavi käed tõmbusid %%% .</s>
-    <nr>ainsus</nr>
-    <case>sisseütlev</case>
-    <n>rusikas</n>
-    <word>rusikasse</word>
-  </info>
-  <info id="18">
-    <s>%%% polnud midagi teatada .</s>
-    <nr>mitmus</nr>
-    <case>alalütlev</case>
-    <n>rott</n>
-    <word>Rottidel</word>
-  </info>
-  <info id="22">
-    <s>%%% polnud kedagi näha .</s>
-    <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>algus</n>
-    <word>Alguses</word>
-  </info>
-  <info id="24">
     <s>Aga läheme nüüd %%% .</s>
     <nr>ainsus</nr>
     <case>lühike sisseütlev</case>
     <n>tuba</n>
     <word>tuppa</word>
   </info>
-  <info id="25">
+  <info id="12">
+    <s>%%% polnud midagi teatada .</s>
+    <nr>mitmus</nr>
+    <case>alalütlev</case>
+    <n>rott</n>
+    <word>Rottidel</word>
+  </info>
+  <info id="16">
+    <s>%%% polnud kedagi näha .</s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>algus</n>
+    <word>Alguses</word>
+  </info>
+  <info id="19">
+    <s>Rolandi %%% helises tigedus .</s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>hääl</n>
+    <word>hääles</word>
+  </info>
+  <info id="23">
+    <s>Gustavi käed tõmbusid %%% .</s>
+    <nr>ainsus</nr>
+    <case>sisseütlev</case>
+    <n>rusikas</n>
+    <word>rusikasse</word>
+  </info>
+  <info id="26">
     <s>%%% olid tähtsad-ranged näod .</s>
     <nr>mitmus</nr>
     <case>alalütlev</case>
     <n>kõik</n>
-    <word>kõigil</word>
+    <word>Kõigil</word>
     <answer>kõikidel</answer>
     <answer>kõikudel</answer>
   </info>
-  <info id="27">
+  <info id="28">
     <s>Metsavendade %%% polnud reegleid .</s>
     <nr>ainsus</nr>
     <case>alalütlev</case>
