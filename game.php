@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
 	<meta charset="utf-8">
 	<title>Käänded</title>
@@ -47,7 +49,7 @@
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-body">
-                      <p id="gameOverText" class = "ModalText"></p>
+                      <p id="gameOverText" class = "modalText"></p>
                     </div>
                     <div id = "modalButtonOver" class="modal-footer modalButtons">
                     </div>
@@ -57,6 +59,6 @@
     </div>
 </body>
 
-
+</html>
 
 

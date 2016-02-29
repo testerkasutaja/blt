@@ -81,6 +81,7 @@ margin:40px;
 background-color: #A9E2F3;  
 font-size: 20px;
 font-family: sans-serif;
+min-width: 700px;
 
 }
 
@@ -97,8 +98,9 @@ font-family: sans-serif;
 .task{
 	padding-bottom: 100px;
 	padding-top: 150px;
-	font-size: 35px;
+	font-size: 20px;
 	text-align: center;	
+	margin-top: 5%;
 }
 
 .counter{
@@ -137,14 +139,14 @@ font-size: 35px;
 
 input[type=text] {
     padding: 0;
-    height: 50px;
+    height: 30px;
     position: relative;
     left: 0;
     outline: none;
     border: 1px solid #cdcdcd;
     border-color: rgba(0,0,0,.15);
     background-color: white;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 
@@ -162,6 +164,7 @@ input[type=text] {
 }
 
 .nextButton{
+	margin: 0px;
 }
 
 .wordInNominative{
@@ -202,4 +205,16 @@ input[type=text] {
 }
 .radioButtonCase{
 	    transform: scale(1.5);
+}
+.sentenceFront{
+	display: inline;
+}
+.sentenceBack{
+	display: inline;
+
+}
+.inputAnswer{
+	float: overflow;
+	margin-left: 10px;
+	margin-right: 10px;
 }
