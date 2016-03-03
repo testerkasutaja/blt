@@ -12,7 +12,7 @@ from pprint import pprint
 #käänete sõnastik
 case_dict = {'sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seesütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
-inappropriateWords = ['surm','suguhaigus','alkohol','seks','perse']
+inappropriateWords = ['surm','suguhaigus','alkohol','seks','perse','tapma','alkoholik','viin']
 
 def formatXMLFile(elem, level=0):
   i = "\n" + level*"  "
@@ -29,7 +29,7 @@ def formatXMLFile(elem, level=0):
     if level and (not elem.tail or not elem.tail.strip()):
       elem.tail = i
 
-def getPartOfSpeech(list):                                   #kontroll, et kõik sõnad oleks üheselt määratud
+def getPartOfSpeech(list):                            #kontroll, et kõik sõnad oleks üheselt määratud
   partofspeech = []
   for word in list:
     morf_l = analyze(word)
@@ -48,7 +48,7 @@ def listtostring(list):
   return str
 
 
-#KÕIKIDEST FAILIDEST POPULAASREMATE KOMBINATSIOONIDE LEIDMINE esimese leveli jaoks (neljasõnalised laused)
+#KÕIKIDEST FAILIDEST POPULAASREMATE KOMBINATSIOONIDE LEIDMINE
 def getBestCombinationsAndSentences(files):          
   combinations3words = {}
   combinations4words = {}
@@ -96,6 +96,8 @@ def getFinalSentenceListShortSentences(combinations,structure_with_sentences_sho
     sorted_com = sorted(combinations.values())
     maximum = sorted_com[-1]
     minimum = (maximum//1.5)
+    print(minimum)
+    print(maximum)
     for k, v in combinations.items():
       if v >= minimum:
         listofsentences = structure_with_sentences_short.get(k)
@@ -104,37 +106,38 @@ def getFinalSentenceListShortSentences(combinations,structure_with_sentences_sho
   return(shortSentences)
   
 def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
-    go = False
-    id = 0
-    content_g_es = ET.Element('content')
-    tree_g_es = ElementTree(content_g_es)
+  go = False
+  id = 0
+  content_g_es = ET.Element('content')
+  tree_g_es = ElementTree(content_g_es)
     
-    content_p = ET.Element('content')
-    tree_p = ElementTree(content_p)
+  content_p = ET.Element('content')
+  tree_p = ElementTree(content_p)
     
-    content_ill = ET.Element('content')
-    tree_ill= ElementTree(content_ill)
+  content_ill = ET.Element('content')
+  tree_ill= ElementTree(content_ill)
     
-    content_tr_ter_ab_kom = ET.Element('content')
-    tree_tr_ter_ab_kom = ElementTree(content_tr_ter_ab_kom)
+  content_tr_ter_ab_kom = ET.Element('content')
+  tree_tr_ter_ab_kom = ElementTree(content_tr_ter_ab_kom)
     
-    content_all=ET.Element('content')
-    tree_all = ElementTree(content_all)
+  content_all=ET.Element('content')
+  tree_all = ElementTree(content_all)
     
-    if len(list_of_sentences)>0:
-      for sentence in list_of_sentences:
-        sentence = re.sub('^ | $', '', sentence)
-        morf_sentence = re.sub('(( (,|\.|!|\?|%|#|"))|" |")', '', sentence)
-        sentence_list = morf_sentence.split(' ')
-        sentence_len = len(sentence_list)
-        partofspeech = getPartOfSpeech(sentence_list)              # lause struktuur
-        for word in sentence_list:
+  if len(list_of_sentences)>0:
+    for sentence in list_of_sentences:
+      appropriateSentence = True
+      sentence = re.sub('^ | $', '', sentence)
+      morf_sentence = re.sub('(( (,|\.|!|\?|%|#|"))|" |")', '', sentence)
+      sentence_list = morf_sentence.split(' ')
+      sentence_len = len(sentence_list)
+      partofspeech = getPartOfSpeech(sentence_list)              # lause struktuur
+      for word in sentence_list:
+        if appropriateSentence == True: 
           morf_analyze = analyze(word)
           morf_l2 = morf_analyze[0]['analysis']
           morf_info = morf_l2[0]                              #on ainult 1 (kontrollitakse getBestCombinationsAndSentences(files) funktsioonis)
           case_info =(morf_info['form']).split(' ')
-          nominative = morf_info['root']
-          nominative = re.sub(']|<|_|\?','',nominative)
+          nominative = morf_info['lemma']
           if nominative not in inappropriateWords:
             if case_info[0]=='adt':                           #Lühikesisseütlev
               casename = case_info[0]
@@ -154,9 +157,11 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               elif casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
                 (content_ill)= addToContent(word, content_ill, casename, id, nominative, sen_x,sg_pl)
               elif casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
-                (content_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl)
+                  (content_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl)
               id = id + 1
               go = False
+          else:
+            appropriateSentence = False
                 
     formatXMLFile(content_g_es)
     formatXMLFile(content_p)
@@ -184,7 +189,7 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
                 for nom in synt:
                   wordLower = word.lower()
                   nom = re.sub('\?|_', '', nom)
-                  print(nom)
+                  #print(" NOM"+nom)
                   if nom == wordLower:
                     answer = SubElement(info, 'word')
                     answer.text = word

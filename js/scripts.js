@@ -1,4 +1,5 @@
 $(function(){	
+	idList = [];
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
     });
@@ -118,11 +119,19 @@ function loadDoc(caseType, gameType,sum,right, sentencesAmount) {
     xhttp.send();
 }
 
+function idListCheck(randomNr,countInfo){
+	var index = $.inArray(randomNr,idList);
+	console.log(index);
+	if (!(index==-1)){
+		var newRandomNr = Math.floor((Math.random() * countInfo) + 0);
+		idListCheck(randomNr,countInfo);
+	}
+	return randomNr;
+}
 
 function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 	
     score = calculateScore(sum,right);
-    console.log(score);
     if (isNaN(score)){
         document.getElementById("counter").innerHTML = "0"+"%";
     }else{
@@ -132,6 +141,11 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 	var xmlDoc = xml.responseXML;
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
     var randomNr = Math.floor((Math.random() * countInfo) + 0);
+	console.log('enne '+randomNr)
+	randomNr = idListCheck(randomNr,countInfo);
+	console.log('pärast '+randomNr)
+	idList.push(randomNr);
+
 	var sentence = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("s")[0].childNodes[0].nodeValue;
 	sentence = modifySentence(sentence);
 	var splittedSentence = sentence.split("%%%");
@@ -142,7 +156,6 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
         sentenceFront=""
         sentenceBack=splittedSentence[0]
     }
-    
 	var nr = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("nr")[0].childNodes[0].nodeValue;
 	var caseName = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("case")[0].childNodes[0].nodeValue;
 	var nominative = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("n")[0].childNodes[0].nodeValue;
@@ -265,17 +278,14 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
         createNextButtonModal(caseType,gameType,sum,right, sentencesAmount);
     }
     score = calculateScore(sum,right);
-    console.log(score);    
+    //console.log(score);    
     document.getElementById("counter").innerHTML = score+"%";
 	
 }
 function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount){
-	console.log("suurus" + sentencesAmount);
 	$("#answerModal").modal({backdrop: "static"});
 	var nrAnswer = $('input[name=nrRadio]:checked', '#radioButtonFormNr').val(); 
-	console.log(nrAnswer);	
 	var caseAnswer = $('input[name=caseRadio]:checked', '#radioButtonFormCase').val();
-	console.log(caseAnswer);
 	
 	if (caseName === "lühike sisseütlev"){
 		caseName = "sisseütlev";
