@@ -1,4 +1,5 @@
-$(function(){	
+$(function(){
+	answersStr = "lol,lol,lol,lol,lol";
 	idList = [];
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
@@ -11,7 +12,7 @@ function gameTypeSelection(){
 	
 	chooseSentencesAmountRadiobuttons();
 
-	$("#buttonContent").append('<button id = "FindWordButton" class="btn btn-primary chooseCaseButton">Pane sõnasobivasse käändesse</button>');
+	$("#buttonContent").append('<button id = "FindWordButton" class="btn btn-primary chooseCaseButton">Pane sõna õigesse käändesse</button>');
 	$("#FindWordButton").click(function(){
 		var sentencesAmount = $('input[name=amountRadio]:checked', '#radioButtonFormAmount').val();
 		if (typeof sentencesAmount === "undefined"){
@@ -23,7 +24,7 @@ function gameTypeSelection(){
 		
 		});
 	
-	$("#buttonContent").append('<button id = "findCase" class="btn btn-primary chooseCaseButton">Leia kääne</button>');
+	$("#buttonContent").append('<button id = "findCase" class="btn btn-primary chooseCaseButton">Leia õige kääne</button>');
 	$("#findCase").click(function(){
 		var sentencesAmount = $('input[name=amountRadio]:checked', '#radioButtonFormAmount').val();
 		if (typeof sentencesAmount === "undefined"){
@@ -330,7 +331,7 @@ function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount){
 		$("#modalButton").empty();
 		$("#sentenceContent").empty();
 		if (sum >= sentencesAmount){
-            gameOver(sum,right);
+            gameOver(sum,right,gameType);
             
         }else{
             loadDoc(caseType,gameType,sum,right,sentencesAmount);            
@@ -353,7 +354,7 @@ function calculateScore(sum,right){
 	score = Math.round(score);
     return score;
 }
-function gameOver(sum,right){
+function gameOver(sum,right,gameType){
     $("#gameOverModal").modal({backdrop: "static"});
 	wrong = sum - right;
     var text = "Mäng läbi! <br> Õigeid vastuseid oli " + right + "<br> Valesid vastuseid oli "+ wrong+ "<br> Skoor on " + score + "%";
@@ -361,6 +362,8 @@ function gameOver(sum,right){
     
 	$("#modalButtonOver").append('<button id = "overButton" class="btn btn-success">Alusta mängu uuesti</button>')
 	$('#overButton').click(function(){
+		$.post('savedata.php', {answersStr: answersStr});
+		$.get("savedata.php");
 		location.reload();
 		$("#overButton").html('Laeb...');
 	});
