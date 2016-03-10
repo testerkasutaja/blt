@@ -127,6 +127,7 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     for sentence in list_of_sentences:
       appropriateSentence = True
       sentence = re.sub('^ | $', '', sentence)
+      sentence = re.sub('(^\(|\)$)|(^"|"$)','',sentence)
       morf_sentence = re.sub('(( (,|\.|!|\?|%|#|"))|" |")', '', sentence)
       sentence_list = morf_sentence.split(' ')
       sentence_len = len(sentence_list)
