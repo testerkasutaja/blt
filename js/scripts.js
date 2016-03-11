@@ -362,7 +362,7 @@ function gameOver(sum,right,gameType){
     
 	$("#modalButtonOver").append('<button id = "overButton" class="btn btn-success">Alusta mängu uuesti</button>')
 	$('#overButton').click(function(){
-		$.post('savedata.php', {answersStr: answersStr});
+		document.getElementById("string").innerHTML = answersStr;
 		$.get("savedata.php");
 		location.reload();
 		$("#overButton").html('Laeb...');
