@@ -1,0 +1,64 @@
+kui kui jagada 1.5 
+
+lauseid kokku : 3022
+minimum
+250.0
+maximum
+376
+minimum
+58.0
+maximum
+88
+minimum
+21.0
+maximum
+32
+kolm sõna
+990
+neli
+435
+viis
+32
+
+-------------------------------------
+KOKKU lauseid 3507					'Ma vajan su tegusid .', 'Ma vajasin su tegusid
+minimum
+188
+maximum
+376
+minimum
+44
+maximum
+88
+minimum
+16
+maximum
+32
+kolm sõna
+990
+neli
+626
+viis
+84
+
+
+Kui eemdlastatud on samasugused laused 
+Kokku lauseid:3319
+minimum
+188
+maximum
+376
+minimum
+44
+maximum
+88
+minimum
+16
+maximum
+32
+kolm sõna
+888
+neli
+587
+viis
+84

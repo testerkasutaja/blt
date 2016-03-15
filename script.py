@@ -55,63 +55,92 @@ def fixPunctuation(sentence):
     sentence = re.sub('“', '', sentence)
   if sentence.count('"') == 1:
     sentence = re.sub('"', '', sentence)
+  sentence = re.sub('  ', ' ', sentence)
+  sentence = re.sub('^ | $', '', sentence)
   return sentence
 
 #KÕIKIDEST FAILIDEST POPULAASREMATE KOMBINATSIOONIDE LEIDMINE
 def getBestCombinationsAndSentences(files):          
   combinations3words = {}
   combinations4words = {}
-  structure_with_sentences_short = {}
+  combinations5words = {}
+  structure_with_sentences_3 = {}
+  structure_with_sentences_4 = {}
+  structure_with_sentences_5 = {}
   for pathStr in files:
     print(pathStr)
     tree = ET.parse(pathStr)
     root = tree.getroot()
     for elem in root.findall('.//{http://www.tei-c.org/ns/1.0}s'):
-        sen = elem.text
-        sen = fixPunctuation(sen)
-        morf_sen = re.sub(',|\.|!|\?|%|#|"|-|”|“', '', sen)
+      sen = elem.text
+      sen = fixPunctuation(sen)
+      if sen.endswith('.') or sen.endswith('!') or sen.endswith('?'):
+        morf_sen = re.sub(',|\.|!|\?|%|"|-|—|”|“', '', sen) # kui lauses on sees: (,),/,\,:,;,* vms märk siis lause ei sobi
         morf_sen = re.sub('  ', ' ', morf_sen)
         morf_sen = re.sub('^ | $', '', morf_sen)
-        #print(morf_sen)
         sen_list = morf_sen.split(' ')
         sen_len = len(sen_list)
         partofspeech = getPartOfSpeech(sen_list)
-        if len(partofspeech)>0 and sen_len > 2 and sen_len < 5 and 'Z' not in partofspeech and 'V' in partofspeech:
+        if len(partofspeech)>0 and sen_len > 2 and sen_len < 7 and 'Z' not in partofspeech and 'V' in partofspeech:
           partofspeech_str = listtostring(partofspeech)
           if sen_len == 3:
             if partofspeech_str in combinations3words:
               old = combinations3words[partofspeech_str]
               new = old +1
               combinations3words[partofspeech_str] = new
+              if sen not in structure_with_sentences_3[partofspeech_str]:
+                structure_with_sentences_3[partofspeech_str].append(sen)
             else:
               combinations3words[partofspeech_str] = 1
+              structure_with_sentences_3[partofspeech_str] = []
+              structure_with_sentences_3[partofspeech_str].append(sen)
           if sen_len == 4:
             if partofspeech_str in combinations4words:
               old = combinations4words[partofspeech_str]
               new = old +1
               combinations4words[partofspeech_str] = new
+              if sen not in structure_with_sentences_4[partofspeech_str]:
+                structure_with_sentences_4[partofspeech_str].append(sen)
             else:
                combinations4words[partofspeech_str] = 1
-          structure_with_sentences_short[partofspeech_str] = []
-          structure_with_sentences_short[partofspeech_str].append(sen)
-  return (combinations3words,combinations4words,structure_with_sentences_short)
+               structure_with_sentences_4[partofspeech_str] = []
+               structure_with_sentences_4[partofspeech_str].append(sen)
+          if sen_len == 5:
+            if partofspeech_str in combinations5words:
+              old = combinations5words[partofspeech_str]
+              new = old +1
+              combinations5words[partofspeech_str] = new
+              if sen not in structure_with_sentences_5[partofspeech_str]:
+                structure_with_sentences_5[partofspeech_str].append(sen)
+            else:
+               combinations5words[partofspeech_str] = 1
+               structure_with_sentences_5[partofspeech_str] = []
+               structure_with_sentences_5[partofspeech_str].append(sen)
+      #else:
+       #print(sen)
+  return (combinations3words,combinations4words,combinations5words,structure_with_sentences_3,structure_with_sentences_4,structure_with_sentences_5)
 
-
-def getFinalSentenceListShortSentences(combinations,structure_with_sentences_short):
+def getCommonSentences(combinations,structure_with_sentences):
   shortSentences= []
+  notCommonSen = []
   if len(combinations)>0:
     sorted_com = sorted(combinations.values())
     maximum = sorted_com[-1]
-    minimum = (maximum//1.5)
-    #print('minimum')
-    #print(minimum)
-    #print('maximum')
-    #print(maximum)
+    minimum = (maximum//4)
+    print('minimum')
+    print(minimum)
+    print('maximum')
+    print(maximum)
     for k, v in combinations.items():
       if v >= minimum:
-        listofsentences = structure_with_sentences_short.get(k)
+        listofsentences = structure_with_sentences.get(k)
         for shortSentences_sentence in listofsentences:
           shortSentences.append(shortSentences_sentence)
+      else:
+        listofsentences = structure_with_sentences.get(k)
+        for shortSentences_sentence in listofsentences:
+           notCommonSen.append(shortSentences_sentence)
+  print(notCommonSen)
   return(shortSentences)
   
 def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
@@ -161,7 +190,7 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               casename = case_info[1]                         # kääne
               go = True
             if go == True:                
-              sen_x = re.sub(word,'%%%',sentence)
+              sen_x = re.sub(' '+word+' ',' %%% ',sentence)
               if casename =="n" and sg_pl == "pl":
                 (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
               if casename != "n":
@@ -224,8 +253,16 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               return content
 
 
-(combin3,combin4,sentences_with_structure) = getBestCombinationsAndSentences(files)
-level1_3 = getFinalSentenceListShortSentences(combin3,sentences_with_structure)
-level1_4 = getFinalSentenceListShortSentences(combin4,sentences_with_structure)
-level1 = level1_3 + level1_4
-runCaseAnalys(case_dict, level1,inappropriateWords)
+(combin3,combin4,combin5,sentences_with_structure_3, sentences_with_structure_4, sentences_with_structure_5) = getBestCombinationsAndSentences(files)
+three_word_sentences = getCommonSentences(combin3,sentences_with_structure_3)
+four_word_sentences = getCommonSentences(combin4,sentences_with_structure_4)
+five_word_sentences = getCommonSentences(combin5,sentences_with_structure_5)
+print('kolm sõna')
+print(len(three_word_sentences))
+print('neli')
+print(len(four_word_sentences))
+print('viis')
+print(len(five_word_sentences))
+
+all_sentences = three_word_sentences + four_word_sentences + five_word_sentences
+runCaseAnalys(case_dict, all_sentences, inappropriateWords)
