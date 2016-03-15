@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf8'?>
+<content>
+  <info id="5">
+    <s>%%% täidavad valitsuse tellimust .</s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <word>Nad</word>
+    <answer>nemad</answer>
+  </info>
+  <info id="14">
+    <s>%%% olid viimased saabujad .</s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <word>Nad</word>
+    <answer>nemad</answer>
+  </info>
+  <info id="15">
+    <s>Nad olid %%% saabujad .</s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>viimane</n>
+    <word>viimased</word>
+  </info>
+  <info id="16">
+    <s>Nad olid viimased %%% .</s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>saabuja</n>
+    <word>saabujad</word>
+  </info>
+  <info id="17">
+    <s>%%% olid alles õied .</s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+  </info>
+  <info id="18">
+    <s>Need olid alles %%% .</s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>õis</n>
+    <word>õied</word>
+  </info>
+</content>

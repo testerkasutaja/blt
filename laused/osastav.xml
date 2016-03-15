@@ -1,98 +1,31 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="5">
-    <s>Luidetel kasvab %%% .</s>
-    <nr>mitmus</nr>
-    <case>osastav</case>
-    <n>paju</n>
-    <word>pajusid</word>
-  </info>
-  <info id="12">
-    <s>Rottidel polnud %%% teatada .</s>
+  <info id="3">
+    <s>Ma võtan %%% .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
-    <n>miski</n>
-    <word>midagi</word>
-    <answer>miskit</answer>
+    <n>ühendus</n>
+    <word>ühendust</word>
+  </info>
+  <info id="7">
+    <s>Nad täidavad valitsuse %%% .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>tellimus</n>
+    <word>tellimust</word>
+  </info>
+  <info id="10">
+    <s>Tundeküllasus takistab külluse %%% .</s>
+    <nr>ainsus</nr>
+    <case>osastav</case>
+    <n>saavutamine</n>
+    <word>saavutamist</word>
   </info>
   <info id="13">
-    <s>%%% tahtsin , seda mäletan .</s>
+    <s>Ma aktsepteerin su %%% .</s>
     <nr>ainsus</nr>
     <case>osastav</case>
-    <n>õiglus</n>
-    <word>Õiglust</word>
-  </info>
-  <info id="14">
-    <s>Õiglust tahtsin , %%% mäletan .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>see</n>
-    <word>seda</word>
-  </info>
-  <info id="16">
-    <s>Alguses polnud %%% näha .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>keegi</n>
-    <word>kedagi</word>
-    <answer>keed</answer>
-  </info>
-  <info id="20">
-    <s>Gustavi %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <word>südant</word>
-  </info>
-  <info id="24">
-    <s>Juljuse %%% läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>süda</n>
-    <word>südant</word>
-  </info>
-  <info id="26">
-    <s>%%% tähendas see sünnitunnistus .</s>
-    <nr>ainsus</nr>
-    <case>osastav</case>
-    <n>see</n>
-    <word>Seda</word>
-  </info>
-  <info id="29">
-    <s>Metsavendade võitlusel polnud %%% .</s>
-    <nr>mitmus</nr>
-    <case>osastav</case>
-    <n>reegel</n>
-    <word>reegleid</word>
-  </info>
-  <info id="39">
-    <s>Muidugi teati ka %%% juhuseid , kus rahulikke elanikke tõesti metsavennad kimbutasid .</s>
-    <nr>mitmus</nr>
-    <case>osastav</case>
-    <n>niisugune</n>
-    <word>niisuguseid</word>
-  </info>
-  <info id="40">
-    <s>Muidugi teati ka niisuguseid %%% , kus rahulikke elanikke tõesti metsavennad kimbutasid .</s>
-    <nr>mitmus</nr>
-    <case>osastav</case>
-    <n>juhus</n>
-    <word>juhuseid</word>
-  </info>
-  <info id="41">
-    <s>Muidugi teati ka niisuguseid juhuseid , kus %%% elanikke tõesti metsavennad kimbutasid .</s>
-    <nr>mitmus</nr>
-    <case>osastav</case>
-    <n>rahulik</n>
-    <word>rahulikke</word>
-    <answer>rahulikkusid</answer>
-  </info>
-  <info id="42">
-    <s>Muidugi teati ka niisuguseid juhuseid , kus rahulikke %%% tõesti metsavennad kimbutasid .</s>
-    <nr>mitmus</nr>
-    <case>osastav</case>
-    <n>elanik</n>
-    <word>elanikke</word>
-    <answer>elanikkusid</answer>
+    <n>otsus</n>
+    <word>otsust</word>
   </info>
 </content>

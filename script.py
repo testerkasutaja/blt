@@ -10,7 +10,7 @@ from pprint import pprint
 
 
 #käänete sõnastik
-case_dict = {'sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seesütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
+case_dict = {'n':'nimetav','sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seestütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
 inappropriateWords = ['surm','suguhaigus','alkohol','seks','perse','tapma','alkoholik','viin']
 
@@ -47,47 +47,54 @@ def listtostring(list):
   str = ', '.join(list)
   return str
 
+def fixPunctuation(sentence):
+  sentence = re.sub('^ | $', '', sentence)
+  sentence = re.sub('”$', '', sentence)
+  sentence = re.sub('"$', '', sentence)
+  if sentence.count('“') == 1 and sentence.count('”')==0:       #“ Mida ise eelistad ? <- et sellistel lausetel  “ märk eemaldada
+    sentence = re.sub('“', '', sentence)
+  if sentence.count('"') == 1:
+    sentence = re.sub('"', '', sentence)
+  return sentence
 
 #KÕIKIDEST FAILIDEST POPULAASREMATE KOMBINATSIOONIDE LEIDMINE
 def getBestCombinationsAndSentences(files):          
   combinations3words = {}
   combinations4words = {}
   structure_with_sentences_short = {}
-  sentences_long = []
   for pathStr in files:
     print(pathStr)
     tree = ET.parse(pathStr)
     root = tree.getroot()
     for elem in root.findall('.//{http://www.tei-c.org/ns/1.0}s'):
         sen = elem.text
-        sen = re.sub('^ | $', '', sen)
-        morf_sen = re.sub('(( (,|\.|!|\?|%|#|"))|" )', '', sen)
+        sen = fixPunctuation(sen)
+        morf_sen = re.sub(',|\.|!|\?|%|#|"|-|”|“', '', sen)
+        morf_sen = re.sub('  ', ' ', morf_sen)
+        morf_sen = re.sub('^ | $', '', morf_sen)
+        #print(morf_sen)
         sen_list = morf_sen.split(' ')
         sen_len = len(sen_list)
         partofspeech = getPartOfSpeech(sen_list)
         if len(partofspeech)>0 and sen_len > 2 and sen_len < 5 and 'Z' not in partofspeech and 'V' in partofspeech:
-          partofspeech_str = listtostring(partofspeech)      
-          if partofspeech_str in combinations3words or partofspeech_str in combinations4words :
-            if sen_len == 3:
+          partofspeech_str = listtostring(partofspeech)
+          if sen_len == 3:
+            if partofspeech_str in combinations3words:
               old = combinations3words[partofspeech_str]
               new = old +1
               combinations3words[partofspeech_str] = new
             else:
+              combinations3words[partofspeech_str] = 1
+          if sen_len == 4:
+            if partofspeech_str in combinations4words:
               old = combinations4words[partofspeech_str]
               new = old +1
               combinations4words[partofspeech_str] = new
-            structure_with_sentences_short[partofspeech_str].append(sen)
-          else:
-            if sen_len==3:
-              combinations3words[partofspeech_str] = 1
             else:
-              combinations4words[partofspeech_str] = 1
-            structure_with_sentences_short[partofspeech_str] = []
-            structure_with_sentences_short[partofspeech_str].append(sen)
-
-        elif partofspeech != [] and sen_len > 4 and sen_len > 10 and 'V' in partofspeech and 'S' in partofspeech:
-           sentences_long.append(sen)
-  return (combinations3words,combinations4words,structure_with_sentences_short,sentences_long)
+               combinations4words[partofspeech_str] = 1
+          structure_with_sentences_short[partofspeech_str] = []
+          structure_with_sentences_short[partofspeech_str].append(sen)
+  return (combinations3words,combinations4words,structure_with_sentences_short)
 
 
 def getFinalSentenceListShortSentences(combinations,structure_with_sentences_short):
@@ -96,8 +103,10 @@ def getFinalSentenceListShortSentences(combinations,structure_with_sentences_sho
     sorted_com = sorted(combinations.values())
     maximum = sorted_com[-1]
     minimum = (maximum//1.5)
-    print(minimum)
-    print(maximum)
+    #print('minimum')
+    #print(minimum)
+    #print('maximum')
+    #print(maximum)
     for k, v in combinations.items():
       if v >= minimum:
         listofsentences = structure_with_sentences_short.get(k)
@@ -108,6 +117,9 @@ def getFinalSentenceListShortSentences(combinations,structure_with_sentences_sho
 def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
   go = False
   id = 0
+  content_n = ET.Element('content')
+  tree_n = ElementTree(content_n)
+  
   content_g_es = ET.Element('content')
   tree_g_es = ElementTree(content_g_es)
     
@@ -127,7 +139,7 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     for sentence in list_of_sentences:
       appropriateSentence = True
       sentence = re.sub('^ | $', '', sentence)
-      sentence = re.sub('(^\(|\)$)|(^"|"$)','',sentence)
+      #sentence = re.sub('(^\(|\)$)|(^"|"$)','',sentence)
       morf_sentence = re.sub('(( (,|\.|!|\?|%|#|"))|" |")', '', sentence)
       sentence_list = morf_sentence.split(' ')
       sentence_len = len(sentence_list)
@@ -150,7 +162,12 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               go = True
             if go == True:                
               sen_x = re.sub(word,'%%%',sentence)
-              (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
+              if casename =="n" and sg_pl == "pl":
+                (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
+              if casename != "n":
+                (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
+              if casename == "n" and sg_pl == "pl":
+                content_n = addToContent(word, content_n, casename, id, nominative, sen_x, sg_pl)
               if casename == "g" or casename=="es":
                 (content_g_es)= addToContent(word, content_g_es, casename, id, nominative, sen_x,sg_pl)
               elif casename == "p":
@@ -169,7 +186,9 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     formatXMLFile(content_ill)
     formatXMLFile(content_tr_ter_ab_kom)
     formatXMLFile(content_all)
-    
+    formatXMLFile(content_n)
+
+    tree_n.write("laused/nimetav.xml",'utf8')
     tree_g_es.write("laused/omastav_olev.xml",'utf8')
     tree_p.write("laused/osastav.xml","utf8")
     tree_ill.write("laused/kohakäänded.xml","utf8")
@@ -184,8 +203,6 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               case = SubElement(info,'case')
               n = SubElement(info,'n')
               synt = synthesize(nominative, form = sg_pl+' '+casename, phonetic=False)      #kontorll kas leidub rohkem kui üks vastus
-              print(synt)
-              print(word)
               if len(synt)>1:
                 for nom in synt:
                   wordLower = word.lower()
@@ -207,16 +224,8 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               return content
 
 
-(combin3,combin4,sentences_with_structure,level2) = getBestCombinationsAndSentences(files)
+(combin3,combin4,sentences_with_structure) = getBestCombinationsAndSentences(files)
 level1_3 = getFinalSentenceListShortSentences(combin3,sentences_with_structure)
 level1_4 = getFinalSentenceListShortSentences(combin4,sentences_with_structure)
-level1 = level1_3 + level1_4 + level2
+level1 = level1_3 + level1_4
 runCaseAnalys(case_dict, level1,inappropriateWords)
-
-
-
-
-
-
-
-          

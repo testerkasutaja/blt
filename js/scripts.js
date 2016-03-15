@@ -1,5 +1,5 @@
 $(function(){
-	answersStr = "lol,lol,lol,lol,lol";
+	answersStr = "p,l,lo,lol,lrt";
 	idList = [];
     $("#question").click(function(){
         $("#questiontext").toggle(1000);
@@ -37,14 +37,16 @@ function gameTypeSelection(){
 }
 function chooseSentencesAmountRadiobuttons(){
 	$("#buttonContent").append('<form id="radioButtonFormAmount"></form>');
+	$("#radioButtonFormAmount").append('<div class="radio-inline" ><label><input type="radio"  name="amountRadio" class="radioButtonCase" value = "1">1 lause</label></div>');
 	$("#radioButtonFormAmount").append('<div class="radio-inline" ><label><input type="radio"  name="amountRadio" class="radioButtonCase" value = "5">5 lauset</label></div>');
 	$("#radioButtonFormAmount").append('<div class="radio-inline" ><label><input type="radio"  name="amountRadio" class="radioButtonCase" value = "10">10 lauset</label></div>');
+	
 	
 }
 
 function amountNotification(){
 	$("#answerModal").modal({backdrop: "static"});
-	var text = "Mängu pikkus valimata! Palun vali mängu pikkus!";
+	var text = "Mängu pikkus valimata!<br> Palun vali mängu pikkus!";
 	document.getElementById("rightOrWrong").innerHTML = text;
 	$("#modalButton").append('<button id = "noAmount" class="btn btn-info">OK</button>')
 	$('#noAmount').click(function(){
@@ -120,16 +122,6 @@ function loadDoc(caseType, gameType,sum,right, sentencesAmount) {
     xhttp.send();
 }
 
-function idListCheck(randomNr,countInfo){
-	var index = $.inArray(randomNr,idList);
-	console.log(index);
-	if (!(index==-1)){
-		var newRandomNr = Math.floor((Math.random() * countInfo) + 0);
-		idListCheck(randomNr,countInfo);
-	}
-	return randomNr;
-}
-
 function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 	
     score = calculateScore(sum,right);
@@ -141,12 +133,18 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
     
 	var xmlDoc = xml.responseXML;
 	var countInfo = xmlDoc.getElementsByTagName("info").length;
-    var randomNr = Math.floor((Math.random() * countInfo) + 0);
-	console.log('enne '+randomNr)
-	randomNr = idListCheck(randomNr,countInfo);
-	console.log('pärast '+randomNr)
+	
+	var randomNr;
+	var continueLoop = true;
+	while(continueLoop){
+		randomNr = Math.floor((Math.random() * countInfo) + 0);
+		var index = $.inArray(randomNr,idList);
+		if(index == -1){
+			continueLoop = false;
+		}
+	}
 	idList.push(randomNr);
-
+	console.log('rndnr '+randomNr);
 	var sentence = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("s")[0].childNodes[0].nodeValue;
 	sentence = modifySentence(sentence);
 	var splittedSentence = sentence.split("%%%");
@@ -223,6 +221,7 @@ function addGameContentForFindCase(nominative,sentenceFront,sentenceBack,nr,case
 	$("#sentenceContent").append('<p id = "textForCase"></p>');
 	$("#textForCase").html("Mis käändes on sõna: <b>" + word+'</b>?');
 	$("#sentenceContent").append('<form id="radioButtonFormCase"></form>');
+	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "nimetav">Nimetav</label></div>');
 	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "omastav">Omastav</label></div>');
 	$("#radioButtonFormCase").append('<div class="radio-inline"><label><input type="radio" id = "radioButtonCase" name="caseRadio" class="radioButtonCase" value = "osastav">Osastav</label></div>');
 	$("#radioButtonFormCase").append('<div class="radio-inline" ><label><input type="radio"  name="caseRadio" class="radioButtonCase" value = "sisseütlev">Sisseütlev</label></div>');
@@ -360,10 +359,16 @@ function gameOver(sum,right,gameType){
     var text = "Mäng läbi! <br> Õigeid vastuseid oli " + right + "<br> Valesid vastuseid oli "+ wrong+ "<br> Skoor on " + score + "%";
     document.getElementById("gameOverText").innerHTML = text;
     
-	$("#modalButtonOver").append('<button id = "overButton" class="btn btn-success">Alusta mängu uuesti</button>')
+	$("#modalButtonOver").append('<button id = "overButton" class="btn btn-success">Alusta mängu uuesti</button>');
 	$('#overButton').click(function(){
-		document.getElementById("string").innerHTML = answersStr;
-		$.get("savedata.php");
+		$.post( 
+                  "savedata.php",
+                  { name: answersStr },
+                  function(data) {
+                     $('#stage').html(data);
+                  }
+               );
+		//$.get("savedata.php");
 		location.reload();
 		$("#overButton").html('Laeb...');
 	});

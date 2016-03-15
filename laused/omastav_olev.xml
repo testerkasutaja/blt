@@ -1,82 +1,33 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
   <info id="1">
-    <s>Rituaalid täidavad %%% .</s>
+    <s>Tüdruk täitis %%% .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
-    <n>usupuudus</n>
-    <word>usupuuduse</word>
+    <n>käsk</n>
+    <word>käsu</word>
   </info>
-  <info id="17">
-    <s>%%% hääles helises tigedus .</s>
+  <info id="6">
+    <s>Nad täidavad %%% tellimust .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
-    <n>Roland</n>
-    <word>Rolandi</word>
+    <n>valitsus</n>
+    <word>valitsuse</word>
   </info>
-  <info id="19">
-    <s>%%% südant läbis valutorge .</s>
+  <info id="9">
+    <s>Tundeküllasus takistab %%% saavutamist .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
-    <n>Gustav</n>
-    <word>Gustavi</word>
+    <n>küllus</n>
+    <word>külluse</word>
   </info>
-  <info id="21">
-    <s>%%% käed tõmbusid rusikasse .</s>
+  <info id="12">
+    <s>Ma aktsepteerin %%% ot%%%st .</s>
     <nr>ainsus</nr>
     <case>omastav</case>
-    <n>Gustav</n>
-    <word>Gustavi</word>
-  </info>
-  <info id="23">
-    <s>%%% südant läbis valutorge .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>Juljus</n>
-    <answer>Juljuse</answer>
-    <answer>Juljusi</answer>
-  </info>
-  <info id="27">
-    <s>%%% võitlusel polnud reegleid .</s>
-    <nr>mitmus</nr>
-    <case>omastav</case>
-    <n>metsavend</n>
-    <word>Metsavendade</word>
-  </info>
-  <info id="32">
-    <s>Sõidetakse liftis üles %%% kroonuroheliste seinte ja kõleda ning kurva laevalgusega tubadesse .</s>
-    <nr>mitmus</nr>
-    <case>omastav</case>
-    <n>lage</n>
-    <word>lagedate</word>
-  </info>
-  <info id="33">
-    <s>Sõidetakse liftis üles lagedate %%% seinte ja kõleda ning kurva laevalgusega tubadesse .</s>
-    <nr>mitmus</nr>
-    <case>omastav</case>
-    <n>kroonuroheline</n>
-    <word>kroonuroheliste</word>
-  </info>
-  <info id="34">
-    <s>Sõidetakse liftis üles lagedate kroonuroheliste %%% ja kõleda ning kurva laevalgusega tubadesse .</s>
-    <nr>mitmus</nr>
-    <case>omastav</case>
-    <n>sein</n>
-    <word>seinte</word>
-    <answer>seinade</answer>
-  </info>
-  <info id="35">
-    <s>Sõidetakse liftis üles lagedate kroonuroheliste seinte ja %%% ning kurva laevalgusega tubadesse .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>kõle</n>
-    <word>kõleda</word>
-  </info>
-  <info id="36">
-    <s>Sõidetakse liftis üles lagedate kroonuroheliste seinte ja kõleda ning %%% laevalgusega tubadesse .</s>
-    <nr>ainsus</nr>
-    <case>omastav</case>
-    <n>kurb</n>
-    <word>kurva</word>
+    <n>sina</n>
+    <answer>sina</answer>
+    <answer>sinu</answer>
+    <word>su</word>
   </info>
 </content>

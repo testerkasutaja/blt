@@ -24,7 +24,7 @@
 			<div class="well">
 			<h2 class="text-divider"><span>Õpime käändeid</span></h2>
 				<p>
-					Mängu alustades näete lauset, kus on üks sõna puudu. Sõna on antud nimetavas käändes. Pane sõna õigesse käändesse ning vajuta paremale noolt. Vihjeks on antud ka kääne!
+					
 				</p>
 			</div>
 		</div>

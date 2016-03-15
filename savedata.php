@@ -1,21 +1,23 @@
-<p id = "string"></p>
-
 <?php
-$list = array
-(
-"MÄNG,ID,LAUSE,ÕIGE,VALE"
-);
 
-$answersStr = $_POST['variable'];
-
-array_push($list,$answersStr);
+if( $_REQUEST["name"] ) {
+	$list = array
+	(
+	"MÄNG,ID,LAUSE,ÕIGE,VALE"
+	);
 
 
-$file = fopen("answersData.csv","w");
+	$name = $_REQUEST['name'];
+	echo $name;
+	array_push($list,$name);
 
-foreach ($list as $line)
-  {
-  fputcsv($file,explode(',',$line));
-  }
+	$file = fopen("answersData.csv","w");
 
-fclose($file); ?>
+	foreach ($list as $line)
+	  {
+	  fputcsv($file,explode(',',$line));
+	  }
+
+	fclose($file); 
+}
+?>
