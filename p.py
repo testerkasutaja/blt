@@ -2,7 +2,7 @@ from pyvabamorf import analyze
 from pyvabamorf import synthesize
 from pprint import pprint
 
-m = analyze('1940.')
+m = analyze('...')
 pprint(m)
 
 p=analyze('puudesse')

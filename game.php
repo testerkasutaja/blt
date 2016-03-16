@@ -21,17 +21,17 @@
 	<div class="container">
 		<div class="question">
             <button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
-            <p id="questiontext" class="questiontext pull-right"> 
-          Sisesta sõna õiges käändes ning vajuta rohelisele noolele.
-            </p>   
+            <p id="questiontext" class="questiontext pull-right"></p>   
 		</div>
-		<div id="counter" class="pull-left counter">
+		<div id="counterDiv">
 		</div>
         <div id="content" class="well task">
 			<div id="buttonContent"></div>
             <div id= "sentenceContent" class = "sentenceContent"></div>         
         </div>
 		<div id = "nextButton"></div>
+        <div id ="badSentence"></div>
+        
             
             <!-- Modal -->
             <div class="modal fade" id="answerModal" role="dialog">

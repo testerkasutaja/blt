@@ -30,7 +30,7 @@
 		</div>
 		
 		<div class="startdown">
-			<button onclick="location.href='game.php';" type="button" class="btn btn-primary ribbon startbtn" action="/game.php">Alusta</button>
+			<button onclick="location.href='game.php';" type="button" class="btn btn-primary ribbon startbtn buttonStart" action="/game.php">Alusta</button>
 		</div>
 	</div>
 	

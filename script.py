@@ -12,7 +12,7 @@ from pprint import pprint
 #käänete sõnastik
 case_dict = {'n':'nimetav','sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seestütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
-inappropriateWords = ['surm','suguhaigus','alkohol','seks','perse','tapma','alkoholik','viin']
+inappropriateWords = ['surm','suguhaigus','alkohol','seks','perse','tapma','alkoholik','viin','suitsetama','suits','sitt','tuhk','vitt']
 
 def formatXMLFile(elem, level=0):
   i = "\n" + level*"  "
@@ -47,7 +47,7 @@ def listtostring(list):
   str = ', '.join(list)
   return str
 
-def fixPunctuation(sentence):
+def fixPunctuation(sentence):                             #kui lause on " lause lause lasue ? " siis eemaldatakse jutumärgid ( ” , ", “)
   sentence = re.sub('^ | $', '', sentence)
   sentence = re.sub('”$', '', sentence)
   sentence = re.sub('"$', '', sentence)
@@ -75,7 +75,9 @@ def getBestCombinationsAndSentences(files):
       sen = elem.text
       sen = fixPunctuation(sen)
       if sen.endswith('.') or sen.endswith('!') or sen.endswith('?'):
-        morf_sen = re.sub(',|\.|!|\?|%|"|-|—|”|“', '', sen) # kui lauses on sees: (,),/,\,:,;,* vms märk siis lause ei sobi
+        morf_sen = re.sub(' (\.|\?|!)$|(\.|\?|!|,) (”|")','',sen)
+        morf_sen = re.sub(' (,|%|"|-|—|“|”)', '', morf_sen) # kui lauses on sees: (,),/,\,:,;,* vms märk siis lause ei sobi
+        morf_sen = re.sub('^(“|”|")','',morf_sen)              # kas seda on üldse vaja ???
         morf_sen = re.sub('  ', ' ', morf_sen)
         morf_sen = re.sub('^ | $', '', morf_sen)
         sen_list = morf_sen.split(' ')
@@ -84,7 +86,7 @@ def getBestCombinationsAndSentences(files):
         if len(partofspeech)>0 and sen_len > 2 and sen_len < 7 and 'Z' not in partofspeech and 'V' in partofspeech:
           partofspeech_str = listtostring(partofspeech)
           if sen_len == 3:
-            if partofspeech_str in combinations3words:
+            if partofspeech_str in combinations3words: 
               old = combinations3words[partofspeech_str]
               new = old +1
               combinations3words[partofspeech_str] = new
@@ -126,11 +128,11 @@ def getCommonSentences(combinations,structure_with_sentences):
   if len(combinations)>0:
     sorted_com = sorted(combinations.values())
     maximum = sorted_com[-1]
-    minimum = (maximum//4)
-    print('minimum')
-    print(minimum)
-    print('maximum')
-    print(maximum)
+    minimum = (maximum//8)
+    #print('minimum')
+    #print(minimum)
+    #print('maximum')
+    #print(maximum)
     for k, v in combinations.items():
       if v >= minimum:
         listofsentences = structure_with_sentences.get(k)
@@ -140,7 +142,7 @@ def getCommonSentences(combinations,structure_with_sentences):
         listofsentences = structure_with_sentences.get(k)
         for shortSentences_sentence in listofsentences:
            notCommonSen.append(shortSentences_sentence)
-  print(notCommonSen)
+  #print(notCommonSen)
   return(shortSentences)
   
 def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
@@ -168,11 +170,10 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
     for sentence in list_of_sentences:
       appropriateSentence = True
       sentence = re.sub('^ | $', '', sentence)
-      #sentence = re.sub('(^\(|\)$)|(^"|"$)','',sentence)
       morf_sentence = re.sub('(( (,|\.|!|\?|%|#|"))|" |")', '', sentence)
       sentence_list = morf_sentence.split(' ')
       sentence_len = len(sentence_list)
-      partofspeech = getPartOfSpeech(sentence_list)              # lause struktuur
+      sentence = " " + sentence + " "
       for word in sentence_list:
         if appropriateSentence == True: 
           morf_analyze = analyze(word)
@@ -190,23 +191,28 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               casename = case_info[1]                         # kääne
               go = True
             if go == True:                
-              sen_x = re.sub(' '+word+' ',' %%% ',sentence)
-              if casename =="n" and sg_pl == "pl":
+              sen_x = re.sub(' ' + word + ' ',' %%% ',sentence)
+              if casename != "n" or casename =="n" and sg_pl == "pl":
                 (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
-              if casename != "n":
-                (content_all) = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl)
+                id = id + 1 
+                added = True
               if casename == "n" and sg_pl == "pl":
                 content_n = addToContent(word, content_n, casename, id, nominative, sen_x, sg_pl)
+                added = True
               if casename == "g" or casename=="es":
                 (content_g_es)= addToContent(word, content_g_es, casename, id, nominative, sen_x,sg_pl)
-              elif casename == "p":
+                added = True
+              if casename == "p":
                 (content_p)= addToContent(word, content_p, casename, id, nominative, sen_x,sg_pl)
-              elif casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
+                added = True
+              if casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
                 (content_ill)= addToContent(word, content_ill, casename, id, nominative, sen_x,sg_pl)
-              elif casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
-                  (content_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl)
-              id = id + 1
+                added = True
+              if casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
+                (content_tr_ter_ab_kom) = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl)
+                added = True                
               go = False
+            
           else:
             appropriateSentence = False
                 
