@@ -1,5 +1,5 @@
 $(function(){
-	answersStr = "p,l,lo,lol,lrt";
+	answersStr = "";
 	idList = [];
     $("#question").click(function(){
         $("#questiontext").toggle(800);
@@ -133,7 +133,7 @@ function addGeneralGameContent(){
     	$("#counterDiv").append('<div id="counter" class="pull-left counter" ></div>');
     	$("#nextButton").append('<button id="next" type="button" class="nextButton btn btn-success btn-circle btn-xl pull-right" ></button>');
 	$("#next").append('<span class="glyphicon glyphicon-menu-right"></span>');
-    $("#badSentence").append('<button id="inappropriateSentence" type="button" class="btn btn-warning btn-md pull-left inappropriateSentence" >Teata ebasobivast lausest!</button>');
+    creatBadSentenceButton();
 }
 
 function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
@@ -170,6 +170,10 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
         sentenceFront=""
         sentenceBack=splittedSentence[0]
     }
+	
+	sentenceId = xmlDoc.getElementsByTagName("info")[randomNr].getAttribute('id');
+	answersStr = sentenceId + ',';
+	console.log(sentenceId);
 	var nr = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("nr")[0].childNodes[0].nodeValue;
 	var caseName = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("case")[0].childNodes[0].nodeValue;
 	var nominative = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("n")[0].childNodes[0].nodeValue;
@@ -267,6 +271,8 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
     
     $("#answerModal").modal({backdrop: "static"});
     var inputText = document.getElementById("inputAnswer").value.toLowerCase();
+	answersStr = answersStr + inputText + ", ";
+	
 	var isAnswer = false;
 	//console.log(answers);
     //console.log(sum);
@@ -293,8 +299,10 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
             var text = "See vastus on kahjuks vale! <br> Õige vastus on: " + "<b>" + answers[0] + "</b>";
             document.getElementById("rightOrWrong").innerHTML = text;
         }
+		
         createNextButtonModal(caseType,gameType,sum,right, sentencesAmount);
     }
+	answersStr = answersStr + isAnswer;
     score = calculateScore(sum,right);
     //console.log(score);    
     document.getElementById("counter").innerHTML = score+"%";
@@ -338,16 +346,42 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 			document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		createNextButtonModal(caseType,gameType,sum,right, sentencesAmount);
+		
 	}
 	score = calculateScore(sum,right);
 	document.getElementById("counter").innerHTML = score+"%";
 }
+
+function creatBadSentenceButton(){
+	$("#modalButton").append('<button id="inappropriateSentence" type="button" class="btn btn-warning btn-md pull-left inappropriateSentence" >Teata ebasobivast lausest!</button>');
+	$("#inappropriateSentence").click(function(){
+		 $(this).prop('disabled', true);
+		 $('#inappropriateSentence').html('Teatatud!');
+		console.log('senID'+ sentenceId);
+		 $.post( 
+                  "addBadSentence.php",
+             	  { sentenceId: sentenceId },
+			      function(data) {
+					  $('#stage').html(data);
+				  }
+               );
+	  });
+}
+
 function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount){
 	$("#modalButton").append('<button type="button" id ="nextButtonModal" class="btn btn-success">Edasi</button>')
     $('#nextButtonModal').click(function(){
 		$("#answerModal").modal("hide");
 		$("#modalButton").empty();
 		$("#sentenceContent").empty();
+		
+		$.post( 
+                  "savedata.php",
+                  { name: answersStr },
+                  function(data) {
+                     $('#stage').html(data);
+                  }
+               );
 		if (sum >= sentencesAmount){
             gameOver(sum,right,gameType);
             
@@ -355,7 +389,8 @@ function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount){
             loadDoc(caseType,gameType,sum,right,sentencesAmount);
             $("#counterDiv").empty();
         }
-        });	
+        });
+	
     
 }	
 function tryagainButton(){
@@ -381,13 +416,6 @@ function gameOver(sum,right,gameType){
     
 	$("#modalButtonOver").append('<button id = "overButton" class="btn btn-success">Alusta mängu uuesti</button>');
 	$('#overButton').click(function(){
-		$.post( 
-                  "savedata.php",
-                  { name: answersStr },
-                  function(data) {
-                     $('#stage').html(data);
-                  }
-               );
 		//$.get("savedata.php");
 		location.reload();
 		$("#overButton").html('Laeb...');
