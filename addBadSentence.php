@@ -6,11 +6,16 @@ if( $_REQUEST["sentenceId"] ) {
 	$sentenceId = $_REQUEST['sentenceId'];
 	echo $sentenceId;
 	//array_push($list,$name);
-
-	$file = fopen("vastused/badSentences.csv","a");
-	chmod($file,0777);
+    if (file_exists ("vastused/badSentences.csv")){
+        $file = fopen("vastused/badSentences.csv","a");
+	    chmod($file,0777);
+        fputcsv($file,explode(',',$sentenceId));
+    }else{
+        $file = fopen("vastused/badSentences.csv","w");
+	    chmod($file,0777);
+        fputcsv($file,explode(',',$sentenceId));
+    }
 	
-	fputcsv($file,explode(',',$sentenceId));
 
 	fclose($file); 
 }
