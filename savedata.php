@@ -1,16 +1,16 @@
 <?php
 
-if( $_REQUEST["name"] ) {
+if( $_REQUEST["data"] ) {
 	$list = array
 	();
     $fileName = date("Y-m-d");
-    $fileName = "vastused/". "answersData" . $fileName . ".csv";
+    $fileName = "data/". "answersData_" . $fileName . ".csv";
     if (file_exists($fileName) == false){
         array_push($list,"ID,VASTUS,ÕIGE/VALE");
     }
-	$name = $_REQUEST['name'];
-	echo $name;
-	array_push($list,$name);
+	$data = $_REQUEST['data'];
+	echo $data;
+	array_push($list,$data);
     
     
     $file = fopen($fileName,"a");
