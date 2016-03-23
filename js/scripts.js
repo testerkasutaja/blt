@@ -323,24 +323,28 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 		$("#nextButton").empty();
         $("#badSentence").empty();
 		if (caseAnswer === caseName && nrAnswer === nr ){
+            answersStr = answersStr + caseName + ',' + true + ',' + nrAnswer + ',' + true ; 
 			sum=sum+1;
 			right = right +1;
 			var text = "Õige vastus";
             document.getElementById("rightOrWrong").innerHTML = text;		
 		}
 		if (!(caseAnswer === caseName) && nrAnswer === nr){
+            answersStr = answersStr + caseName + ',' + false + ',' + nrAnswer + ',' + true ; 
 			sum=sum+1;
 			right = right +0.5;
 			var text = nr + " on õige, kuid kääne kahjuks vale. <br> Õige kääne on : " + caseName;
             document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		if (caseAnswer === caseName && !(nrAnswer === nr)){
+            answersStr = answersStr + caseName + ',' + true + ',' + nrAnswer + ',' + false ; 
 			sum=sum+1;
 			right = right +0.5;
 			var text =  "Kääne on õige, kuid sõna on " + nr + "es";
             document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		if(!(caseAnswer === caseName) && !(nrAnswer === nr)){
+            answersStr = answersStr + caseName + ',' + false + ',' + nrAnswer + ',' + false ; 
 			sum = sum +1 ;
 			var text = "Mõlemad vastused on kahjuks valed.<br>" + "Õige vastus on " + nr + "e " + caseName;
 			document.getElementById("rightOrWrong").innerHTML = text;
@@ -359,7 +363,7 @@ function creatBadSentenceButton(){
 		 $('#inappropriateSentence').html('Teatatud!');
 		console.log('senID'+ sentenceId);
 		 $.post( 
-                  "addBadSentence.php",
+                  "savedata.php",
              	  { sentenceId: sentenceId },
 			      function(data) {
 					  $('#stage').html(data);
@@ -374,14 +378,25 @@ function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount){
 		$("#answerModal").modal("hide");
 		$("#modalButton").empty();
 		$("#sentenceContent").empty();
+		if(gameType == "findWord"){
+            $.post( 
+                    "savedata.php",
+                    { answerData1: answersStr },
+                    function(data) {
+                        $('#stage').html(data);
+                    }
+                  );
+        }else{
+            $.post( 
+                    "savedata.php",
+                    { answerData2: answersStr },
+                    function(data) {
+                        $('#stage').html(data);
+                    }
+                  );
+            
+        }
 		
-		$.post( 
-                  "savedata.php",
-                  { name: answersStr },
-                  function(data) {
-                     $('#stage').html(data);
-                  }
-               );
 		if (sum >= sentencesAmount){
             gameOver(sum,right,gameType);
             

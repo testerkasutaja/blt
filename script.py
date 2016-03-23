@@ -8,7 +8,7 @@ from pprint import pprint
 from estnltk.names import TEXT, ANALYSIS, ROOT, POSTAG, FORM, LEMMA
 from estnltk import Disambiguator
 from estnltk import synthesize
-
+from estnltk import Text
 case_dict = {'n':'nimetav','sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seestütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
 inappropriateWords = ['loll', ',jama', 'kurat', 'kapo', 'kanep', 'tegelt', 'sitt', 'pätt', 'in', 'mats', 'homo', 'pagan', 'joodik', 'idioot', 'nats', 'point', 'kesik', 'aa', 'neeger', 'veits', 'jurama', 'narkomaan', 'jobu', 'siuke', 'õps', 'perse', 'tibi', 'riist', 'aint', 'tiss', 'pask', 'raisk', 'värdjas', 'prostituut', 'pedofiil', 'mupo', 'gei', 'suli', 'porno', 'kaabakas', 'pepupeldik', 'kaka', 'piss', 'tibla', 'möla', 'lollakas', 'luuser', 'lits', 'tatt', 'pissima', 'vets', 'lesbi', 'ment', 'pede', 'inf', 'eepervert', 'narkar', 'okse', 'bemm', 'penskar', 'kusema', 'kakama', 'rullnokk', 'tola', 'rulima', 'junn', 'tglt', 'ubekas', 'peer', 'out', 'pedofiilia', 'muti', 'tõbras', 'sittuma', 'kaak', 'totakas', 'pee', 'kuramus', 'debiilik', 'tutt', 'diiler', 'ila', 'kommar', 'pilu', 'raibe', 'kusifašist', 'paganama', 'keppima', 'tra', 'moll', 'tips', 'kuradima', 'pohhui', 'pederast', 'pandav', 'kommu', 'jõmm', 'vänt', 'beib', 'friik', 'nolk', 'tegelinski', 'totu', 'möga', 'oss', 'mölakas', 'lurjus', 'mõrd', 'fašistlik', 'kaif', 'noku', 'argpüks', 'tatikas', 'mate', 'ajukääbik', 'liputamavibraator', 'lollpea', 'sitane', 'memmekas', 'lõust', 'somm', 'idikas', 'bordell', 'kärvama', 'kärakas', 'kemps', 'hoor', 'iiling', 'pederastia', 'narkots', 'vant', 'hui', 'hui', 'venku', 'sitasti', 'nodi', 'soperdis', 'tõusik', 'puuks', 'äbarik', 'vitt', 'libu', 'hulkur', 'enivei', 'looderpeeretama', 'peda', 'tolgus', 'lontrus', 'pohh', 'hängima', 'sunnik', 'jätis', 'türa', 'jura', 'laiskvorst', 'drive-in', 'kiim', 'matslik', 'sittama', 'debiil', 'rops', 'mimm', 'kurivaim', 'sitapea', 'jota', 'nahhui', 'tšikk', 'veitsa', 'bitch', 'dire', 'linnavurle', 'russ', 'prost', 'empstumba', 'burks', 'shoppama', 'pabul', 'keska', 'tohman', 'peldik', 'bemar', 'kretiin', 'liputaja', 'tainapea', 'varganägu', 'litakas', 'värdjalik', 'haip', 'litsakas', 'molu', 'kaltsakas', 'vanka', 'lojus', 'kähkukas', 'sovett', 'närakas', 'töllmokk', 'prükkar', 'häbe', 'hooramakagebiit', 'tipsi', 'kantpea', 'skinhead', 'hullar', 'keelekas', 'lasteporno', 'ruts', 'nikkuma', 'chillima', 'šoppama', 'komnoor', 'lausloll', 'logard', 'tuhvlialune', 'piff', 'mata', 'matslus', 'lipakas', 'pasandama', 'ropsima', 'memmepoeg', 'tattnina', 'puuksutama', 'skisonatsistlik', 'molkus', 'pohui', 'tillu', 'pissipott', 'kusik', 'jobukakk', 'niuke', 'litsimaja', 'närukael', 'pohuism', 'haipima', 'pilusilm', 'juhmakas', 'puts', 'julk', 'vurle', 'pursui', 'blatnoi', 'komu', 'kuram', 'tuss', 'baaba', 'näss', 'hoorus', 'kakane', 'sitakott', 'lita', 'sopakaspohhuist', 'grupiseks', 'nuss', 'ponks', 'joomar', 'skinn', 'samakas', 'trulla', 'frits', 'eniveis', 'sitahunnik', 'kurask', 'jokkis', 'huinjaa', 'sitahais', 'sakuska', 'tots', 'amf', 'morda', 'nussima', 'sakumm', 'pissitama', 'sitavares', 'sitaratas', 'kili', 'jeestlane', 'gümna', 'platnoigigolo', 'mamps', 'sekspomm', 'kürb', 'tšillima', 'kaki', 'pilukas', 'ladna', 'duubeldama', 'jobukari', 'tšau', 'krõhva', 'haisukott', 'perseli', 'kehka', 'klassijuss', 'pohhuistlik', 'kabistama', 'plää', 'linnusitt', 'nahui', 'sitajunn', 'toksikomaan', 'pordumaja', 'labrakasnarkomuul', 'joobar', 'masuurikas', 'nässakas', 'kräu', 'ciao', 'lirva', 'persevest', 'koinima', 'sitaauk', 'tsillima', 'samagonntöpa', 'sopajoodik', 'tšuhnaa', 'larhv', 'ajukääbus', 'kiimlema', 'jobi', 'porduelu', 'sitahäda', 'tõprakari', 'kirvenägu', 'odratolgus', 'kakimakiimakott', 'kräkk', 'saksmann', 'bomž', 'kusev', 'plebei', 'pasahunnik', 'sakusment', 'pasakott', 'kabajantsik', 'kiimalus', 'milf', 'pano', 'litapoeg', 'jobutamapohhuilt', 'grupiks', 'topakas', 'hooramaja', 'türapea', 'küberseks', 'pepuvahe', 'kusene', 'kusija', 'hoorapoeg', 'pizdets', 'hohollpasanteeria', 'bitš', 'kekats', 'kakanoku', 'panomees', 'nadikael', 'pärakas', 'tolbajoob', 'kusetama', 'bljät', 'bizdets', 'pleiboi', 'pasahais', 'kagebist', 'praagamagu', 'bljat', 'kiimlus', 'pedetsema', 'nihhuijaa', 'nehhui', 'häbedus', 'häbemepilu', 'jobama', 'kuselema', 'kagebeelanemunapiiks', 'oolrait', 'beibe', 'jobutus', 'sigarijunn', 'sitavedaja', 'dolbajoob', 'jobisema', 'pipravitt', 'türahiinlane', 'perseklile', 'tindinikkuja']
@@ -16,37 +16,25 @@ inappropriateWords = ['loll', ',jama', 'kurat', 'kapo', 'kanep', 'tegelt', 'sitt
 
 
 def fixPunctuation(sentence):                             #kui lause on " lause lause lasue ? " siis eemaldatakse jutumärgid ( ” , ", “)
-  sentence = re.sub('^ | $', '', sentence)
-  sentence = re.sub('”$', '', sentence)
-  sentence = re.sub('"$', '', sentence)
-  if sentence.count('“') == 1 and sentence.count('”')==0:       #“ Mida ise eelistad ? <- et sellistel lausetel  “ märk eemaldada
-    sentence = re.sub('“', '', sentence)
-  if sentence.count('"') == 1:
-    sentence = re.sub('"', '', sentence)
-  sentence = re.sub('  ', ' ', sentence)
-  sentence = re.sub('^ | $', '', sentence)
+  sentence = re.sub('^\s|\s$', '', sentence)
+  sentence = re.sub('”', '"', sentence)
+  sentence = re.sub('“', '"', sentence)
+  if sentence.count('"')== 4 and sentence.endswith('"') and sentence.startswith('"') :      #Sobivad laused "Tere," ütles Peeter "kuidas läheb?".
+    return sentence
+  if sentence.count('"')== 1 or sentence.count('"')== 3 or sentence.count('"') > 4 :
+    sentence = ""
+    return sentence
+  if sentence.count('"')== 2 and sentence.endswith('"') and sentence.startswith('"'):
+    sentence = re.sub('^"|"$', '', sentence)
+  
+  sentence = re.sub('\s\s', ' ', sentence)
+  sentence = re.sub('^\s|\s$', '', sentence)
   return sentence
 
 def listtostring(list):
   str = ', '.join(list)
   return str
 
-def getPosWithMorfaA(corpus):
-  posList = []
-  disamb = Disambiguator()
-  texts = disamb.disambiguate(corpus)
-  for text in texts:
-    for word in text.words:
-        if len(word[ANALYSIS]) > 1:
-          #print(word[TEXT],[(a[POSTAG],a[FORM], a[LEMMA]) for a in word[ANALYSIS]])
-          return []
-        else:
-          #print(word[TEXT],[(a[POSTAG],a[FORM], a[LEMMA]) for a in word[ANALYSIS]])
-          for a in word[ANALYSIS]:
-            partOfSpeech = a[POSTAG]
-            if partOfSpeech != 'Z':
-              posList.append(partOfSpeech)
-  return posList
 
 def addToDictionary(pos_str,combinations,structure_with_sentences,sen):
   if pos_str in combinations:
@@ -62,33 +50,52 @@ def addToDictionary(pos_str,combinations,structure_with_sentences,sen):
   return(combinations,structure_with_sentences)
 
 def chooseSentencesFromCorpus(files):
+  
   combinations3words = {}
   combinations4words = {}
   combinations5words = {}
+  combinations6words = {}
   structure_with_sentences_3 = {}
   structure_with_sentences_4 = {}
   structure_with_sentences_5 = {}
+  structure_with_sentences_6 = {}
   for pathStr in files:
     print(pathStr)
     tree = ET.parse(pathStr)
     root = tree.getroot()
+    corpus = []
     for elem in root.findall('.//{http://www.tei-c.org/ns/1.0}s'):
-      sen = elem.text
-      sen = fixPunctuation(sen)
-      if sen.endswith('.') or sen.endswith('!') or sen.endswith('?'):
-        corpus = [sen]
-        posList = getPosWithMorfaA(corpus)
-        sentenceLen = len(posList)
+      sentence = elem.text
+      sentence = fixPunctuation(sentence)
+      corpus.append(sentence)
+    disamb = Disambiguator()
+    texts = disamb.disambiguate(corpus)
+    for text_str in corpus:
+      disambugation = True
+      sen = text_str
+      text = Text(text_str)
+      text.tag_analysis()
+      for word in text.words:
+        if len(word[ANALYSIS]) > 1:
+          disambugation = False
+      if disambugation == True:
+        ambDict = text.get.postags.as_dict
+        posList = ambDict.get('postags')
+        while posList.count('Z') > 0:
+          posList.remove('Z')
+        sentenceLen=len(posList)
         pos_str = listtostring(posList)
-        if sentenceLen > 2 and sentenceLen < 7 and 'V' in posList:
-          if sentenceLen == 3:
-            (combinations3words,structure_with_sentences_3)=addToDictionary(pos_str,combinations3words,structure_with_sentences_3,sen)
-          if sentenceLen == 4:
-            (combinations4words,structure_with_sentences_4)=addToDictionary(pos_str,combinations4words,structure_with_sentences_4,sen)
-          if sentenceLen == 5:
-            (combinations5words,structure_with_sentences_5)=addToDictionary(pos_str,combinations5words,structure_with_sentences_5,sen)        
+        if sentenceLen > 2 and sentenceLen < 8 and 'V' in posList:
+            if sentenceLen == 3:
+              (combinations3words,structure_with_sentences_3)=addToDictionary(pos_str,combinations3words,structure_with_sentences_3,sen)
+            if sentenceLen == 4:
+              (combinations4words,structure_with_sentences_4)=addToDictionary(pos_str,combinations4words,structure_with_sentences_4,sen)
+            if sentenceLen == 5:
+              (combinations5words,structure_with_sentences_5)=addToDictionary(pos_str,combinations5words,structure_with_sentences_5,sen)
+            if sentenceLen == 6:
+              (combinations6words,structure_with_sentences_6)=addToDictionary(pos_str,combinations6words,structure_with_sentences_6,sen)
 
-  return (combinations3words,combinations4words,combinations5words,structure_with_sentences_3,structure_with_sentences_4,structure_with_sentences_5)
+  return (combinations3words,combinations4words,combinations5words,combinations6words,structure_with_sentences_3,structure_with_sentences_4,structure_with_sentences_5,structure_with_sentences_6)
 
 def getCommonSentences(combinations,structure_with_sentences):
   sentences= []
@@ -171,7 +178,7 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
                     sg_pl = case_info[0]                            # ainus v mitmus   
                     casename = case_info[1]                         # kääne
                     go = True
-                  if go == True:                
+                  if go == True:
                     sen_x = re.sub(' ' + thisWord + ' ',' %%% ',sentence)
                     if casename != "n" or casename =="n" and sg_pl == "pl":
                       (content_all) = addToContent(thisWord, content_all, casename, id, nominative, sen_x,sg_pl)
@@ -226,8 +233,6 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
               if len(synt)>1:
                 for nom in synt:
                   wordLower = word.lower()
-                  nom = re.sub('\?|_', '', nom)
-                  #print(" NOM"+nom)
                   if nom == wordLower:
                     answer = SubElement(info, 'word')
                     answer.text = word
@@ -247,19 +252,21 @@ def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl):
 
 
 
-(combin3,combin4,combin5,sentences_with_structure_3, sentences_with_structure_4, sentences_with_structure_5) = chooseSentencesFromCorpus(files)
+(combin3,combin4,combin5,combin6,sentences_with_structure_3, sentences_with_structure_4, sentences_with_structure_5, sentences_with_structure_6) = chooseSentencesFromCorpus(files)
 
 three_word_sentences = getCommonSentences(combin3,sentences_with_structure_3)
 four_word_sentences = getCommonSentences(combin4,sentences_with_structure_4)
 five_word_sentences = getCommonSentences(combin5,sentences_with_structure_5)
+six_word_sentences = getCommonSentences(combin6,sentences_with_structure_6)
 print('kolm sõna')
 print(len(three_word_sentences))
 print('neli')
 print(len(four_word_sentences))
 print('viis')
 print(len(five_word_sentences))
-
-all_sentences = three_word_sentences + four_word_sentences + five_word_sentences
+print('kuus')
+print(len(six_word_sentences))
+all_sentences = three_word_sentences + four_word_sentences + five_word_sentences + six_word_sentences
 runCaseAnalys(case_dict, all_sentences, inappropriateWords)
 
 
