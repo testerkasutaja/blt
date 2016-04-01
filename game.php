@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/custom.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="//code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+
 	
 	<script src="js/jquery-2.1.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -19,13 +19,16 @@
 
 <body>
 	<div class="container">
+        
 		<div class="question">
             <button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
             <p id="questiontext" class="questiontext pull-right"></p>   
 		</div>
 		<div id="counterDiv">
 		</div>
+        
         <div id="content" class="well task">
+            <div id ="title" class = "title"></div>
 			<div id="buttonContent"></div>
             <div id= "sentenceContent" class = "sentenceContent"></div>         
         </div>

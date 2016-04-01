@@ -1,102 +1,19 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="5">
-    <s> %%% usuvad ... saatanasse . </s>
+  <info id="117">
+    <s> Terve planeedi %%% tahavad otsustamist . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
-    <n>tema</n>
-    <word>Nad</word>
-    <answer>nemad</answer>
+    <n>asi</n>
+    <title> Ülekuulaja </title>
+    <word>asjad</word>
   </info>
-  <info id="10">
-    <s> Liual olid %%% . </s>
+  <info id="135">
+    <s> Sa suudad ära arvata kõigi %%% . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
-    <n>praejäänus</n>
-    <word>praejäänused</word>
-  </info>
-  <info id="16">
-    <s> Mu %%% vajusid longu . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>õlg</n>
-    <word>õlad</word>
-    <answer>õled</answer>
-  </info>
-  <info id="19">
-    <s> %%% takerdusid korraks suus . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>sõna</n>
-    <word>Sõnad</word>
-  </info>
-  <info id="21">
-    <s> %%% ei ole mustlased . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>tema</n>
-    <word>Nad</word>
-    <answer>nemad</answer>
-  </info>
-  <info id="22">
-    <s> Nad ei ole %%% . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>mustlane</n>
-    <word>mustlased</word>
-  </info>
-  <info id="26">
-    <s> Kust ma %%% leian ? </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>tema</n>
-    <word>nad</word>
-    <answer>nemad</answer>
-  </info>
-  <info id="29">
-    <s> Järelikult %%% olimegi ühel poolel ? </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>mina</n>
-    <word>me</word>
-    <answer>meie</answer>
-    <answer>minad</answer>
-  </info>
-  <info id="33">
-    <s> Ta ohkas ja nimetas %%% . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>koordinaat</n>
-    <word>koordinaadid</word>
-  </info>
-  <info id="35">
-    <s> %%% ühinesid jõuguga alles hiljuti . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>mõni</n>
-    <word>Mõned</word>
-  </info>
-  <info id="41">
-    <s> %%% seal maas olid libahundid . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>see</n>
-    <word>Need</word>
-  </info>
-  <info id="42">
-    <s> Need seal maas olid %%% . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>libahunt</n>
-    <word>libahundid</word>
-  </info>
-  <info id="51">
-    <s> %%% peaksime tõepoolest siit kiiresti lahkuma . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>mina</n>
-    <word>Me</word>
-    <answer>meie</answer>
-    <answer>minad</answer>
+    <n>telefoninumber</n>
+    <title> Ülekuulaja </title>
+    <word>telefoninumbrid</word>
   </info>
 </content>

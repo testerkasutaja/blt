@@ -1,24 +1,52 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="2">
-    <s> Jälgisin teda %%% . </s>
+  <info id="57">
+    <s> Peegel kukub põrandale %%% . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>kild</n>
+    <title> Ülekuulaja </title>
+    <answer>kildadeks</answer>
+    <word>kildudeks</word>
+  </info>
+  <info id="60">
+    <s> Võtaks kõigepealt kontakti %%% . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>sihik</n>
-    <word>sihikuga</word>
+    <n>saatan</n>
+    <title> Ülekuulaja </title>
+    <word>Saatanaga</word>
   </info>
-  <info id="34">
-    <s> Siin oli muidugi võimalus %%% . </s>
+  <info id="65">
+    <s> Tegele parem oma %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>surnu</n>
+    <title> Ülekuulaja </title>
+    <word>surnutega</word>
+  </info>
+  <info id="78">
+    <s> Saatan jääb aga %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>kauplemine</n>
-    <word>kauplemiseks</word>
+    <n>kauge</n>
+    <title> Ülekuulaja </title>
+    <word>kaugeks</word>
   </info>
-  <info id="36">
-    <s> Mõned ühinesid %%% alles hiljuti . </s>
+  <info id="156">
+    <s> Küllile täna muutusid ka sina %%% . </s>
     <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>jõuk</n>
-    <word>jõuguga</word>
+    <case>saav</case>
+    <n>kontakteerumisvõimeline</n>
+    <title> Ülekuulaja </title>
+    <word>kontakteerumisvõimeliseks</word>
+  </info>
+  <info id="161">
+    <s> Isa nõustuski mind Saatana %%% andma . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sulane</n>
+    <title> Ülekuulaja </title>
+    <word>sulaseks</word>
   </info>
 </content>

@@ -1,103 +1,155 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="6">
-    <s> Nad usuvad ... %%% . </s>
-    <nr>ainsus</nr>
-    <case>sisseütlev</case>
-    <n>saatan</n>
-    <word>saatanasse</word>
-  </info>
-  <info id="9">
-    <s> %%% olid praejäänused . </s>
-    <nr>ainsus</nr>
-    <case>alalütlev</case>
-    <n>liud</n>
-    <word>Liual</word>
-  </info>
-  <info id="14">
-    <s> %%% oli pime . </s>
-    <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>hoone</n>
-    <word>Hoones</word>
-  </info>
   <info id="20">
-    <s> Sõnad takerdusid korraks %%% . </s>
+    <s> Küsiks %%% usumehelt . </s>
     <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>suu</n>
-    <word>suus</word>
+    <case>alaltütlev</case>
+    <n>mõni</n>
+    <title> Ülekuulaja </title>
+    <word>mõnelt</word>
   </info>
-  <info id="27">
-    <s> Pigem automaatselt vajutasin %%% . </s>
+  <info id="21">
+    <s> Küsiks mõnelt %%% . </s>
     <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>päästik</n>
-    <word>päästikule</word>
-  </info>
-  <info id="28">
-    <s> " Läksime , " tahtis ta %%% mööduda . </s>
-    <nr>ainsus</nr>
-    <case>seestütlev</case>
-    <n>mina</n>
-    <answer>minast</answer>
-    <word>minust</word>
-    <answer>must</answer>
-  </info>
-  <info id="30">
-    <s> Järelikult me olimegi %%% poolel ? </s>
-    <nr>ainsus</nr>
-    <case>alalütlev</case>
-    <n>üks</n>
-    <word>ühel</word>
-    <word>ühel</word>
+    <case>alaltütlev</case>
+    <n>usumees</n>
+    <title> Ülekuulaja </title>
+    <word>usumehelt</word>
   </info>
   <info id="31">
-    <s> Järelikult me olimegi %%% poolel ? </s>
+    <s> Keegi koputab %%% . </s>
     <nr>ainsus</nr>
-    <case>alalütlev</case>
-    <n>üks</n>
-    <word>ühel</word>
-    <word>ühel</word>
+    <case>alaleütlev</case>
+    <n>uks</n>
+    <title> Ülekuulaja </title>
+    <word>uksele</word>
   </info>
-  <info id="32">
-    <s> Järelikult me olimegi ühel %%% ? </s>
+  <info id="35">
+    <s> " Hallo ! " kostab %%% . </s>
     <nr>ainsus</nr>
-    <case>alalütlev</case>
-    <n>pool</n>
-    <word>poolel</word>
-    <word>poolel</word>
-    <answer>poolil</answer>
-  </info>
-  <info id="46">
-    <s> %%% jäänustes oli midagi piinavalt tuttavat ... </s>
-    <nr>mitmus</nr>
-    <case>seesütlev</case>
-    <n>see</n>
-    <answer>neis</answer>
-    <word>Nendes</word>
+    <case>seestütlev</case>
+    <n>toru</n>
+    <title> Ülekuulaja </title>
+    <word>torust</word>
   </info>
   <info id="47">
-    <s> Nendes %%% oli midagi piinavalt tuttavat ... </s>
+    <s> Ta elab muidugi %%% . </s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>põrgu</n>
+    <title> Ülekuulaja </title>
+    <word>põrgus</word>
+  </info>
+  <info id="53">
+    <s> Jälle pannakse toru %%% . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>hark</n>
+    <title> Ülekuulaja </title>
+    <word>hargile</word>
+  </info>
+  <info id="56">
+    <s> Peegel kukub %%% kildudeks . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>põrand</n>
+    <title> Ülekuulaja </title>
+    <word>põrandale</word>
+  </info>
+  <info id="62">
+    <s> Helistan õige %%% uuesti ? </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>tema</n>
+    <title> Ülekuulaja </title>
+    <word>talle</word>
+    <answer>temale</answer>
+  </info>
+  <info id="68">
+    <s> " Ei , Jumal , " vastatakse %%% . </s>
+    <nr>ainsus</nr>
+    <case>seestütlev</case>
+    <n>toru</n>
+    <title> Ülekuulaja </title>
+    <word>torust</word>
+  </info>
+  <info id="72">
+    <s> " Kulla sõber , " kostab %%% . </s>
+    <nr>ainsus</nr>
+    <case>seestütlev</case>
+    <n>toru</n>
+    <title> Ülekuulaja </title>
+    <word>torust</word>
+  </info>
+  <info id="110">
+    <s> " Tule julgelt edasi ! " ütlen %%% . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>tema</n>
+    <title> Ülekuulaja </title>
+    <word>talle</word>
+    <answer>temale</answer>
+  </info>
+  <info id="126">
+    <s> Hakkan lõpuks oma %%% kahtlema . </s>
     <nr>mitmus</nr>
     <case>seesütlev</case>
-    <n>jäänus</n>
-    <word>jäänustes</word>
-    <answer>jäänuseis</answer>
+    <n>teooria</n>
+    <title> Ülekuulaja </title>
+    <answer>teooriais</answer>
+    <word>teooriates</word>
   </info>
-  <info id="54">
-    <s> Keegi liikus taas kusagil kaugemal %%% . </s>
-    <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>pimedus</n>
-    <word>pimeduses</word>
-  </info>
-  <info id="55">
-    <s> %%% pidi olema kõrgema klassi kaitse . </s>
+  <info id="129">
+    <s> Elasin vahel %%% , vahel sõprade pool . </s>
     <nr>ainsus</nr>
     <case>alalütlev</case>
-    <n>tema</n>
-    <word>Tal</word>
-    <answer>temal</answer>
+    <n>tänav</n>
+    <title> Ülekuulaja </title>
+    <word>tänaval</word>
+  </info>
+  <info id="137">
+    <s> Võibolla sain muidugi %%% valesti aru . </s>
+    <nr>ainsus</nr>
+    <case>seestütlev</case>
+    <n>miski</n>
+    <title> Ülekuulaja </title>
+    <word>millestki</word>
+    <answer>miskist</answer>
+  </info>
+  <info id="146">
+    <s> " Ma ei ole %%% parem ? " küsin . </s>
+    <nr>ainsus</nr>
+    <case>seestütlev</case>
+    <n>Hitler</n>
+    <title> Ülekuulaja </title>
+    <word>Hitlerist</word>
+  </info>
+  <info id="150">
+    <s> Miks peaks Saatan %%% tõtt ütlema . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>sina</n>
+    <title> Ülekuulaja </title>
+    <answer>sinale</answer>
+    <answer>sinule</answer>
+    <word>sulle</word>
+  </info>
+  <info id="168">
+    <s> %%% ilmselt lihtsalt meeldis selline revolutsioon . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>mina</n>
+    <title> Ülekuulaja </title>
+    <answer>minale</answer>
+    <answer>minule</answer>
+    <word>Mulle</word>
+  </info>
+  <info id="178">
+    <s> Kas mina lähen siis ka %%% ? </s>
+    <nr>ainsus</nr>
+    <case>sisseütlev</case>
+    <n>põrgu</n>
+    <title> Ülekuulaja </title>
+    <word>põrgusse</word>
   </info>
 </content>

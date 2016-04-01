@@ -1,28 +1,20 @@
 <?php
-$date = date("Y-m-d");
+
 
 if( $_REQUEST["sentenceId"] ) {
-	$list = array
-	();
-    
-    $fileName = "data/". "unsuitableSentences_" . $date . ".csv";
-    if (file_exists($fileName) == false){
-        array_push($list,"ID");
-    }
+  
+    $fileName = "data/". "unsuitableSentences" . ".csv";
 	$sentenceId = $_REQUEST['sentenceId'];
-	echo sentenceId;
-	array_push($list,$sentenceId);
-    
+	echo sentenceId;  
     
     $file = fopen($fileName,"a");
     chmod($file,0777);
-    foreach ($list as $line){
-        fputcsv($file,explode(',',$line));
-    }
 
+ 
+    fputcsv($file,explode(',',$sentenceId));
 	fclose($file); 
 }
-
+$date = date("Y-m-d");
 if( $_REQUEST["answerData1"] ) {
 	$list = array
 	();
