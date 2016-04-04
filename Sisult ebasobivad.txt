@@ -1,0 +1,8 @@
+  <info id="35">
+    <s> Ta pole %%% . </s>
+    <nr>mitmus</nr>
+    <case>alalütlev</case>
+    <n>hing</n>
+    <word>hingedel</word>
+    <title> Metsad kõnelevad </title>
+  </info>

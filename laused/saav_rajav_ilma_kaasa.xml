@@ -1,52 +1,54 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="57">
-    <s> Peegel kukub põrandale %%% . </s>
-    <nr>mitmus</nr>
-    <case>saav</case>
-    <n>kild</n>
-    <title> Ülekuulaja </title>
-    <answer>kildadeks</answer>
-    <word>kildudeks</word>
+  <info id="19">
+    <s> Tema oli täiesti %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>teadvus</n>
+    <word>teadvuseta</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="60">
-    <s> Võtaks kõigepealt kontakti %%% . </s>
+  <info id="23">
+    <s> Määris haige nägu %%% . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>saatan</n>
-    <title> Ülekuulaja </title>
-    <word>Saatanaga</word>
+    <n>sool</n>
+    <answer>soolega</answer>
+    <answer>sooliga</answer>
+    <word>soolaga</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="65">
-    <s> Tegele parem oma %%% . </s>
-    <nr>mitmus</nr>
+  <info id="58">
+    <s> Sealt leidis ta karbi kolme %%% . </s>
+    <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>surnu</n>
-    <title> Ülekuulaja </title>
-    <word>surnutega</word>
+    <n>sõlm</n>
+    <word>sõlmega</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="78">
-    <s> Saatan jääb aga %%% . </s>
+  <info id="59">
+    <s> Ajalehte ta ju selle %%% ei lähe . </s>
     <nr>ainsus</nr>
-    <case>saav</case>
-    <n>kauge</n>
-    <title> Ülekuulaja </title>
-    <word>kaugeks</word>
+    <case>kaasaütlev</case>
+    <n>jutt</n>
+    <answer>jutiga</answer>
+    <word>jutuga</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="156">
-    <s> Küllile täna muutusid ka sina %%% . </s>
+  <info id="59">
+    <s> Ajalehte ta ju selle jutuga %%% lähe . </s>
     <nr>ainsus</nr>
-    <case>saav</case>
-    <n>kontakteerumisvõimeline</n>
-    <title> Ülekuulaja </title>
-    <word>kontakteerumisvõimeliseks</word>
+    <case>kaasaütlev</case>
+    <n>ei</n>
+    <word>ei</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="161">
-    <s> Isa nõustuski mind Saatana %%% andma . </s>
+  <info id="59">
+    <s> Ajalehte ta ju selle jutuga ei %%% . </s>
     <nr>ainsus</nr>
-    <case>saav</case>
-    <n>sulane</n>
-    <title> Ülekuulaja </title>
-    <word>sulaseks</word>
+    <case>kaasaütlev</case>
+    <n>minema</n>
+    <word>lähe</word>
+    <title> Kevade tulek </title>
   </info>
 </content>

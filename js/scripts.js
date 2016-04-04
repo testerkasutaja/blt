@@ -206,6 +206,8 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 	var countAnswers = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("answer").length;
 	var answers = [];
 	var word = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("word")[0].childNodes[0].nodeValue;
+	var nrCaseName = "<b>"+ nr + "e " + caseName+ "</b>";
+	var cliticCount = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("clitic").length;
 	if (gameType ==="findWord"){
 		word = word.toLowerCase();
 		answers.push(word);
@@ -215,12 +217,12 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 				answers.push(a);
 			}	
 		}
-	}
-	var nrCaseName = nr + "e " + caseName;
-	if(gameType=='findWord'){
+		if (cliticCount > 0 ){
+			var clitic = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("clitic")[0].childNodes[0].nodeValue;
+			nrCaseName = "<b>" + nrCaseName + "</b><br> Rõhuliide: " +"<b>-" + clitic +"</b>" ;
+		}
 		addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right, sentencesAmount,title);
-	}
-	else{	addGameContentForFindCase(nominative,sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title);
+	}else{	addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title);
 	}	
 }
 
@@ -236,15 +238,15 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
     //$("#container").append('<div id ="title" class = "title"></div>');
     document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
     $(".title").css("color", "rgb(30, 108, 132)");
-	$("#sentenceContent").append('<div class= "case" id="case"></div>');
 	$("#sentenceContent").append('<div id="word" class= "wordInNominative"></div>');
+	$("#sentenceContent").append('<div class= "case" id="case"></div>');
 	$("#sentenceContent").append('<div id="sentenceDiv" class="sentence row"></div>');
 	$("#sentenceDiv").append('<p id="sentenceFront" class="sentenceFront" ></p>');
 	$("#sentenceDiv").append('<input id="inputAnswer" class = "inputAnswer"type="text">');
 	document.getElementById("inputAnswer").focus();
 	$("#sentenceDiv").append('<p id="sentenceBack" class="sentenceBack"></p>');
-    document.getElementById("case").innerHTML = nrCaseName;
-	document.getElementById("word").innerHTML = nominative;
+    document.getElementById("case").innerHTML = "Kääne: "+nrCaseName;
+	document.getElementById("word").innerHTML = "Sõna: <b>" + nominative+"</b>";
 	document.getElementById("sentenceFront").innerHTML = sentenceFront;
     document.getElementById("sentenceBack").innerHTML = sentenceBack;
     
@@ -255,7 +257,7 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
 	});
 }
 
-function addGameContentForFindCase(nominative,sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title){
+function addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title){
     //$("#container").append('<div id ="title" class = "title"></div>');
 	document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
     $(".title").css("color", "rgb(30, 108, 132)");

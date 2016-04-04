@@ -1,155 +1,265 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="20">
-    <s> Küsiks %%% usumehelt . </s>
+  <info id="9">
+    <s> Laev läheb %%% . </s>
+    <nr>ainsus</nr>
+    <case>alalütlev</case>
+    <n>õhtupoolik</n>
+    <word>õhtupoolikul</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="13">
+    <s> Ma ei kahtle %%% . </s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>see</n>
+    <answer>ses</answer>
+    <word>selles</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="14">
+    <s> %%% pole kohta luuletajale . </s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>talu</n>
+    <word>Talus</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="14">
+    <s> Talus %%% kohta luuletajale . </s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>olema</n>
+    <word>pole</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="14">
+    <s> Talus pole kohta %%% . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>luuletaja</n>
+    <word>luuletajale</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="15">
+    <s> Ja kadus taas %%% . </s>
+    <nr>ainsus</nr>
+    <case>lühike sisseütlev</case>
+    <n>laut</n>
+    <word>lauta</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="24">
+    <s> %%% väljus külm puhang . </s>
+    <nr>ainsus</nr>
+    <case>seestütlev</case>
+    <n>vihin</n>
+    <word>Vihinast</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="24">
+    <s> Vihinast %%% külm puhang . </s>
+    <nr>ainsus</nr>
+    <case>seestütlev</case>
+    <n>väljuma</n>
+    <word>väljus</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="28">
+    <s> Ja nüüd %%% aitas . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>tema</n>
+    <word>talle</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="28">
+    <s> Ja nüüd talle %%% . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>aitama</n>
+    <word>aitas</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="45">
+    <s> Ta tõstis neiu enda taha %%% . </s>
+    <nr>ainsus</nr>
+    <case>alaleütlev</case>
+    <n>hobune</n>
+    <word>hobusele</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="46">
+    <s> Ärge laske %%% neile peale paista ! </s>
+    <nr>ainsus</nr>
+    <case>alalütlev</case>
+    <n>päevavalgus</n>
+    <word>päevavalgusel</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="46">
+    <s> Ärge laske päevavalgusel %%% peale paista ! </s>
+    <nr>mitmus</nr>
+    <case>alaleütlev</case>
+    <n>tema</n>
+    <answer>nendele</answer>
+    <word>neile</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="46">
+    <s> Ärge laske päevavalgusel neile peale %%% ! </s>
+    <nr>mitmus</nr>
+    <case>alaleütlev</case>
+    <n>paistma</n>
+    <word>paista</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="48">
+    <s> Ma pean tema %%% metsa minema . </s>
+    <nr>mitmus</nr>
+    <case>seesütlev</case>
+    <n>jälg</n>
+    <word>jälgedes</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="49">
+    <s> %%% olid kõigil seljas pikad mantlid . </s>
+    <nr>mitmus</nr>
+    <case>alalütlev</case>
+    <n>mees</n>
+    <word>Meestel</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="49">
+    <s> Meestel %%% kõigil seljas pikad mantlid . </s>
+    <nr>mitmus</nr>
+    <case>alalütlev</case>
+    <n>olema</n>
+    <word>olid</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="49">
+    <s> Meestel olid %%% seljas pikad mantlid . </s>
+    <nr>mitmus</nr>
+    <case>alalütlev</case>
+    <n>kõik</n>
+    <answer>kõikidel</answer>
+    <answer>kõikudel</answer>
+    <word>kõigil</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="49">
+    <s> Meestel olid kõigil %%% pikad mantlid . </s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>selg</n>
+    <word>seljas</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="50">
+    <s> Siis sidus ta %%% puu külge . </s>
+    <nr>ainsus</nr>
+    <case>lühike sisseütlev</case>
+    <n>vang</n>
+    <word>vangi</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="59">
+    <s> %%% ta ju selle jutuga ei lähe . </s>
+    <nr>ainsus</nr>
+    <case>lühike sisseütlev</case>
+    <n>ajaleht</n>
+    <word>Ajalehte</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="60">
+    <s> Ei ole minu asi seda %%% paluda . </s>
     <nr>ainsus</nr>
     <case>alaltütlev</case>
-    <n>mõni</n>
-    <title> Ülekuulaja </title>
-    <word>mõnelt</word>
+    <n>sina</n>
+    <answer>sinalt</answer>
+    <answer>sult</answer>
+    <word>sinult</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="21">
-    <s> Küsiks mõnelt %%% . </s>
+  <info id="60">
+    <s> Ei ole minu asi seda sinult %%% . </s>
     <nr>ainsus</nr>
     <case>alaltütlev</case>
-    <n>usumees</n>
-    <title> Ülekuulaja </title>
-    <word>usumehelt</word>
+    <n>paluma</n>
+    <word>paluda</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="31">
-    <s> Keegi koputab %%% . </s>
+  <info id="62">
+    <s> Korraga aga katkestas meie jutuajamise koputus %%% ... </s>
     <nr>ainsus</nr>
     <case>alaleütlev</case>
     <n>uks</n>
-    <title> Ülekuulaja </title>
     <word>uksele</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="35">
-    <s> " Hallo ! " kostab %%% . </s>
-    <nr>ainsus</nr>
-    <case>seestütlev</case>
-    <n>toru</n>
-    <title> Ülekuulaja </title>
-    <word>torust</word>
-  </info>
-  <info id="47">
-    <s> Ta elab muidugi %%% . </s>
-    <nr>ainsus</nr>
-    <case>seesütlev</case>
-    <n>põrgu</n>
-    <title> Ülekuulaja </title>
-    <word>põrgus</word>
-  </info>
-  <info id="53">
-    <s> Jälle pannakse toru %%% . </s>
-    <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>hark</n>
-    <title> Ülekuulaja </title>
-    <word>hargile</word>
-  </info>
-  <info id="56">
-    <s> Peegel kukub %%% kildudeks . </s>
-    <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>põrand</n>
-    <title> Ülekuulaja </title>
-    <word>põrandale</word>
-  </info>
-  <info id="62">
-    <s> Helistan õige %%% uuesti ? </s>
-    <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>tema</n>
-    <title> Ülekuulaja </title>
-    <word>talle</word>
-    <answer>temale</answer>
-  </info>
-  <info id="68">
-    <s> " Ei , Jumal , " vastatakse %%% . </s>
-    <nr>ainsus</nr>
-    <case>seestütlev</case>
-    <n>toru</n>
-    <title> Ülekuulaja </title>
-    <word>torust</word>
-  </info>
-  <info id="72">
-    <s> " Kulla sõber , " kostab %%% . </s>
-    <nr>ainsus</nr>
-    <case>seestütlev</case>
-    <n>toru</n>
-    <title> Ülekuulaja </title>
-    <word>torust</word>
-  </info>
-  <info id="110">
-    <s> " Tule julgelt edasi ! " ütlen %%% . </s>
-    <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>tema</n>
-    <title> Ülekuulaja </title>
-    <word>talle</word>
-    <answer>temale</answer>
-  </info>
-  <info id="126">
-    <s> Hakkan lõpuks oma %%% kahtlema . </s>
-    <nr>mitmus</nr>
-    <case>seesütlev</case>
-    <n>teooria</n>
-    <title> Ülekuulaja </title>
-    <answer>teooriais</answer>
-    <word>teooriates</word>
-  </info>
-  <info id="129">
-    <s> Elasin vahel %%% , vahel sõprade pool . </s>
+  <info id="67">
+    <s> Aga kolmanda peate %%% ajal kätte saama . </s>
     <nr>ainsus</nr>
     <case>alalütlev</case>
-    <n>tänav</n>
-    <title> Ülekuulaja </title>
-    <word>tänaval</word>
+    <n>õige</n>
+    <word>õigel</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="137">
-    <s> Võibolla sain muidugi %%% valesti aru . </s>
+  <info id="67">
+    <s> Aga kolmanda peate õigel %%% kätte saama . </s>
     <nr>ainsus</nr>
-    <case>seestütlev</case>
-    <n>miski</n>
-    <title> Ülekuulaja </title>
-    <word>millestki</word>
-    <answer>miskist</answer>
+    <case>alalütlev</case>
+    <n>aeg</n>
+    <word>ajal</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="146">
-    <s> " Ma ei ole %%% parem ? " küsin . </s>
+  <info id="67">
+    <s> Aga kolmanda peate õigel ajal %%% saama . </s>
     <nr>ainsus</nr>
-    <case>seestütlev</case>
-    <n>Hitler</n>
-    <title> Ülekuulaja </title>
-    <word>Hitlerist</word>
+    <case>lühike sisseütlev</case>
+    <n>käsi</n>
+    <word>kätte</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="150">
-    <s> Miks peaks Saatan %%% tõtt ütlema . </s>
+  <info id="67">
+    <s> Aga kolmanda peate õigel ajal kätte %%% . </s>
     <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>sina</n>
-    <title> Ülekuulaja </title>
-    <answer>sinale</answer>
-    <answer>sinule</answer>
-    <word>sulle</word>
+    <case>lühike sisseütlev</case>
+    <n>saama</n>
+    <word>saama</word>
+    <title> Kevade tulek </title>
   </info>
-  <info id="168">
-    <s> %%% ilmselt lihtsalt meeldis selline revolutsioon . </s>
-    <nr>ainsus</nr>
-    <case>alaleütlev</case>
-    <n>mina</n>
-    <title> Ülekuulaja </title>
-    <answer>minale</answer>
-    <answer>minule</answer>
-    <word>Mulle</word>
-  </info>
-  <info id="178">
-    <s> Kas mina lähen siis ka %%% ? </s>
+  <info id="68">
+    <s> Nõid tõi kuuseoksi , ja keeras ennast %%% . </s>
     <nr>ainsus</nr>
     <case>sisseütlev</case>
-    <n>põrgu</n>
-    <title> Ülekuulaja </title>
-    <word>põrgusse</word>
+    <n>mantel</n>
+    <word>mantlisse</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="69">
+    <s> %%% viskas ta hunnikus rohte ja taimi . </s>
+    <nr>ainsus</nr>
+    <case>sisseütlev</case>
+    <n>katel</n>
+    <word>Katlasse</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="69">
+    <s> Katlasse %%% ta hunnikus rohte ja taimi . </s>
+    <nr>ainsus</nr>
+    <case>sisseütlev</case>
+    <n>viskama</n>
+    <word>viskas</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="69">
+    <s> Katlasse viskas ta %%% rohte ja taimi . </s>
+    <nr>ainsus</nr>
+    <case>seesütlev</case>
+    <n>hunnik</n>
+    <word>hunnikus</word>
+    <title> Kevade tulek </title>
   </info>
 </content>

@@ -1,0 +1,10 @@
+<info id="202">
+    <s> %%% nägu , tähendas ta . </s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>mina</n>
+    <answer>mina</answer>
+    <answer>mu</answer>
+    <word>Minu</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>

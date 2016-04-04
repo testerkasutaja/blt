@@ -1,0 +1,7483 @@
+<?xml version='1.0' encoding='utf8'?>
+<content>
+  <info id="2">
+    <s> Sa ostsid %%% ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>king</n>
+    <word>kingad</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="39">
+    <s> %%% nõuame vabadust ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="93">
+    <s> %%% olete bioloog ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Pika tee algus </title>
+  </info>
+  <info id="114">
+    <s> %%% oleme inimesed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="116">
+    <s> Meie oleme %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>inimesed</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="126">
+    <s> %%% olid kirjavahetuses . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="168">
+    <s> %%% näevad õhtul . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="239">
+    <s> Ma olen %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>inimesed</word>
+    <title> Existerion </title>
+  </info>
+  <info id="246">
+    <s> %%% kaotavad teadvuse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> Existerion </title>
+  </info>
+  <info id="249">
+    <s> %%% päästame maailmu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Existerion </title>
+  </info>
+  <info id="303">
+    <s> %%% vajame vett . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Existerion </title>
+  </info>
+  <info id="315">
+    <s> %%% puuakse oksa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Habemeajaja </title>
+  </info>
+  <info id="360">
+    <s> %%% läksid majja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Pan Grpowski jõulud </title>
+  </info>
+  <info id="390">
+    <s> %%% tundsid teed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> Sierra Titauna nekropol </title>
+  </info>
+  <info id="396">
+    <s> %%% asusime tagasiteele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Sindbadi üheksas reis </title>
+  </info>
+  <info id="416">
+    <s> Ma avasin %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="423">
+    <s> %%% said piletid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="425">
+    <s> Nad said %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pilet</n>
+    <word>piletid</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="435">
+    <s> %%% lõite jumalad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>te</answer>
+    <word>Teie</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="437">
+    <s> Teie lõite %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>jumal</n>
+    <word>jumalad</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="441">
+    <s> %%% ootasid solisti . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Fusion </title>
+  </info>
+  <info id="450">
+    <s> %%% alustasid viisakusest . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Maris stella </title>
+  </info>
+  <info id="459">
+    <s> %%% olete prantslane . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Maris stella </title>
+  </info>
+  <info id="462">
+    <s> %%% võitsime paganaid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Maris stella </title>
+  </info>
+  <info id="468">
+    <s> %%% istusid toolidele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="498">
+    <s> %%% jõudsid tallideni . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="504">
+    <s> %%% ööbime lossis . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="507">
+    <s> %%% soovitate kuritegu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="519">
+    <s> %%% häirime tööd . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Hobused </title>
+  </info>
+  <info id="570">
+    <s> %%% olete sugulased ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Kuues osa Vanad sõbrad </title>
+  </info>
+  <info id="572">
+    <s> Te olete %%% ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sugulane</n>
+    <word>sugulased</word>
+    <title> Kuues osa Vanad sõbrad </title>
+  </info>
+  <info id="594">
+    <s> %%% kohtusime pulmas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> HILISKEVAD </title>
+  </info>
+  <info id="614">
+    <s> Mul olid %%% ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõber</n>
+    <word>sõbradki</word>
+    <clitic>ki</clitic>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="618">
+    <s> %%% meenutasid kaardipakke . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="648">
+    <s> %%% istusite lennukile . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="672">
+    <s> %%% vaatavad reklaame . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="675">
+    <s> %%% loevad raamatuid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="729">
+    <s> %%% istusite toolidele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="738">
+    <s> %%% istusime restoranis . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="741">
+    <s> %%% läksime teatrisse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="744">
+    <s> %%% läksime motelli . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="756">
+    <s> %%% joote veini . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="759">
+    <s> %%% istute diivanile . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="783">
+    <s> %%% potsatate lauda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="804">
+    <s> %%% süütate suitsud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="806">
+    <s> Te süütate %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>suits</n>
+    <word>suitsud</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="816">
+    <s> %%% jõuavad tippu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>Mõned</word>
+    <title> Lend </title>
+  </info>
+  <info id="825">
+    <s> %%% naersid suunurgaga . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>Mõlemad</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="831">
+    <s> %%% valmistusid lahkumiseks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> NÕIUTUD KAMEE </title>
+  </info>
+  <info id="843">
+    <s> %%% ratsutasid uttu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="849">
+    <s> %%% jätkasid lendu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="852">
+    <s> %%% tõusid lendu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="858">
+    <s> %%% otsisid kuningat . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="867">
+    <s> %%% vaikisid pilgu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> VIIS MINUTIT ENNE VIHMA </title>
+  </info>
+  <info id="885">
+    <s> %%% klappisime arve . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="888">
+    <s> %%% astusime tuppa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="906">
+    <s> %%% ootasid lõunasööki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="909">
+    <s> %%% seisid rivis . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="912">
+    <s> %%% seisid rivis . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="923">
+    <s> Ta tõstis %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="960">
+    <s> %%% läksid kööki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="1004">
+    <s> Nendest said %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>haldjas</n>
+    <word>haldjad</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="1011">
+    <s> %%% lõpetavad keskööl . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="1022">
+    <s> Tema muretses %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>raha</n>
+    <word>rahad</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="1095">
+    <s> %%% alustame rünnakut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="1107">
+    <s> %%% läksid tuppa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="1113">
+    <s> %%% rääkisid elust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="1158">
+    <s> %%% vahetasime restorani . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="1185">
+    <s> %%% naaseme elutuppa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="1191">
+    <s> %%% tulevad kinost . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="1200">
+    <s> %%% kaitsevad küünarnukke . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="1215">
+    <s> %%% kuulasime muusikat . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="1262">
+    <s> Mulle meenusid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kiri</n>
+    <word>kirjad</word>
+    <title> Nips </title>
+  </info>
+  <info id="1263">
+    <s> %%% jõudsime vannituppa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Nips </title>
+  </info>
+  <info id="1278">
+    <s> %%% istusid köögis . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Surematus </title>
+  </info>
+  <info id="1283">
+    <s> Sulle meeldivad %%% ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>peegel</n>
+    <word>peeglid</word>
+    <title> Surematus </title>
+  </info>
+  <info id="1293">
+    <s> %%% olevat sõbrad ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> TÄISKUU JA TÄNAVALATERN </title>
+  </info>
+  <info id="1295">
+    <s> Nad olevat %%% ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõber</n>
+    <word>sõbrad</word>
+    <title> TÄISKUU JA TÄNAVALATERN </title>
+  </info>
+  <info id="1314">
+    <s> %%% jagavad esikohta . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
+  </info>
+  <info id="1446">
+    <s> %%% sisenevad majja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="1466">
+    <s> Ma sulgesin %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="1503">
+    <s> %%% kaotasid teadvuse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> Jutud </title>
+  </info>
+  <info id="1512">
+    <s> %%% olid matkal . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1518">
+    <s> %%% vahetasid arvamusi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1533">
+    <s> %%% tulid tuppa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1586">
+    <s> Ta sulges %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1596">
+    <s> %%% eemaldusid sadamast . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1629">
+    <s> %%% sisenesid kööki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="1635">
+    <s> %%% oleme venelased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="1637">
+    <s> Me oleme %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>venelane</n>
+    <word>venelased</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="1665">
+    <s> %%% tapavad inimesi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Doonorelundid </title>
+  </info>
+  <info id="1671">
+    <s> %%% olid küünlad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Teoloogiatudengi katse </title>
+  </info>
+  <info id="1673">
+    <s> Need olid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>küünal</n>
+    <word>küünlad</word>
+    <title> Teoloogiatudengi katse </title>
+  </info>
+  <info id="1695">
+    <s> %%% läksime kööki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="1710">
+    <s> %%% olid saapad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="1712">
+    <s> Need olid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>saabas</n>
+    <word>saapad</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="1713">
+    <s> %%% läksid tuppa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SUL ON TEINE </title>
+  </info>
+  <info id="1743">
+    <s> %%% lahkusid lauast . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Unenägude jumal </title>
+  </info>
+  <info id="1773">
+    <s> %%% leidsime toa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="1782">
+    <s> %%% elame maal . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="1793">
+    <s> Mulle meeldivad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lill</n>
+    <word>lilled</word>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="1847">
+    <s> Ta avas %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="1862">
+    <s> Teda vaevasid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tõbi</n>
+    <word>tõved</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="1884">
+    <s> %%% kannavad karistust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Varblane </title>
+  </info>
+  <info id="1911">
+    <s> %%% seostusid vabadusega . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>Mõlemad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="1917">
+    <s> %%% võtsid takso . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="1920">
+    <s> %%% seisid kõrvu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="1923">
+    <s> %%% istusid lauda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="1926">
+    <s> %%% tundsid kohmetust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>Mõlemad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="1929">
+    <s> %%% astusid tuppa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="1944">
+    <s> %%% saadavad teateid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Chadis </title>
+  </info>
+  <info id="2028">
+    <s> %%% astusid abiellu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="2058">
+    <s> %%% tungisid majja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõjaväelane</n>
+    <word>Sõjaväelased</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="2070">
+    <s> %%% täitusid sõjaväelastest . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tuba</n>
+    <word>Toad</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="2078">
+    <s> Pimeduses liikusid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vari</n>
+    <answer>varjad</answer>
+    <word>varjud</word>
+    <title> Jutud </title>
+  </info>
+  <info id="2100">
+    <s> %%% vaatasid tõtt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="2117">
+    <s> Päikeses helkisid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>veekogu</n>
+    <word>veekogud</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="2175">
+    <s> %%% kadusid teadmatusse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kiri</n>
+    <word>Kirjad</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="2187">
+    <s> %%% muutuvad majadeks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>maja</n>
+    <word>Majad</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="2229">
+    <s> %%% tundusid aastatena . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sekund</n>
+    <word>Sekundid</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="2265">
+    <s> %%% toovad õnne ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kild</n>
+    <answer>killad</answer>
+    <word>Killud</word>
+    <title> FÖÖNIKS </title>
+  </info>
+  <info id="2283">
+    <s> %%% surusid kätt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> Kindel linn </title>
+  </info>
+  <info id="2288">
+    <s> Hallis süttisid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tuli</n>
+    <word>tuled</word>
+    <title> Kliendi soov </title>
+  </info>
+  <info id="2301">
+    <s> %%% olid hirmul . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> Sindbadi kaheksas reis </title>
+  </info>
+  <info id="2316">
+    <s> %%% ähkisid aedikus . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>koer</n>
+    <word>Koerad</word>
+    <title> Uskmatuse hind </title>
+  </info>
+  <info id="2330">
+    <s> Tüdruk sulges %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="2334">
+    <s> %%% lämmatasid vaidluse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>suudlus</n>
+    <word>Suudlused</word>
+    <title> Fusion </title>
+  </info>
+  <info id="2351">
+    <s> Rõdul mängisid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>muusik</n>
+    <word>muusikud</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="2355">
+    <s> %%% sattusid paanikasse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>loom</n>
+    <answer>loomud</answer>
+    <word>Loomad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="2376">
+    <s> %%% olid kullast . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kingitus</n>
+    <word>Kingitused</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="2415">
+    <s> %%% valisid lahingu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="2436">
+    <s> %%% , sättige valgust ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>poiss</n>
+    <word>Poisid</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="2445">
+    <s> %%% pudenesid tubadesse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>laps</n>
+    <word>Lapsed</word>
+    <title> Hobused </title>
+  </info>
+  <info id="2448">
+    <s> %%% tormasid uksele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>laps</n>
+    <word>Lapsed</word>
+    <title> Hobused </title>
+  </info>
+  <info id="2484">
+    <s> %%% lähevad õnge . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tüdruk</n>
+    <word>Tüdrukud</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="2490">
+    <s> %%% summutavad heli . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sein</n>
+    <word>Seinad</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="2499">
+    <s> %%% olid otsas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>jook</n>
+    <word>Joogid</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="2507">
+    <s> Seinu ehivad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>raamaturiiul</n>
+    <word>raamaturiiulid</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="2517">
+    <s> %%% tardusid hämmelduses . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>viiking</n>
+    <word>Viikingid</word>
+    <title> Kolmas osa Bareljeefiga maja </title>
+  </info>
+  <info id="2520">
+    <s> %%% vahetasid pilke . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>külaline</n>
+    <word>Külalised</word>
+    <title> Viies osa Perekond </title>
+  </info>
+  <info id="2538">
+    <s> %%% avasid tule . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>politseinik</n>
+    <word>Politseinikud</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="2547">
+    <s> %%% näevad arengut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lugeja</n>
+    <word>Lugejad</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="2552">
+    <s> Putukaid asendavad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lutikas</n>
+    <word>lutikad</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="2580">
+    <s> %%% tulid külla . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>naaber</n>
+    <word>Naabrid</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="2615">
+    <s> Toitu valmistasid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vang</n>
+    <answer>vangud</answer>
+    <word>vangid</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2616">
+    <s> %%% õhkusid külma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sein</n>
+    <word>Seinad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2622">
+    <s> %%% purskusid silmist . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pisar</n>
+    <word>Pisarad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2660">
+    <s> Kotis olid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>riie</n>
+    <word>riided</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2670">
+    <s> %%% olid käeulatuses . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>padrun</n>
+    <word>Padrunid</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2678">
+    <s> Teed olid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>libe</n>
+    <word>libedad</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2688">
+    <s> %%% rääkisid rahast . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2703">
+    <s> %%% olid kardinateta . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aken</n>
+    <word>Aknad</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2706">
+    <s> %%% lugesid raha . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>poiss</n>
+    <word>Poisid</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2732">
+    <s> Hommikuks saabusid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>abiline</n>
+    <word>abilised</word>
+    <title> Maa ja armastus 8 </title>
+  </info>
+  <info id="2771">
+    <s> Tänaval süüdati %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>latern</n>
+    <word>laternad</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="2772">
+    <s> %%% uurivad pabereid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tõlk</n>
+    <word>Tõlgid</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="2778">
+    <s> %%% vahetavad pilke . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>arst</n>
+    <word>Arstid</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="2781">
+    <s> %%% lendavad õhku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>rakett</n>
+    <word>Raketid</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="2808">
+    <s> %%% kehitasid õlgu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>õde</n>
+    <word>Õed</word>
+    <title> Hunt , madu ja põrgu perenaine </title>
+  </info>
+  <info id="2813">
+    <s> Teerajalt kostsidki %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>samm</n>
+    <word>sammud</word>
+    <title> Kevadöö unenägu </title>
+  </info>
+  <info id="2817">
+    <s> %%% pudenesid põrandale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>rahapakk</n>
+    <word>Rahapakid</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="2820">
+    <s> %%% valivad inimesi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>uks</n>
+    <word>Uksed</word>
+    <title> JOONIK KIVI </title>
+  </info>
+  <info id="2823">
+    <s> %%% äratavad umbusku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tulija</n>
+    <word>Tulijad</word>
+    <title> JOONIK KIVI </title>
+  </info>
+  <info id="2826">
+    <s> %%% tikkusid silma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pisar</n>
+    <word>Pisarad</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="2837">
+    <s> Sõiduteel sõitsid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>auto</n>
+    <word>autod</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="2850">
+    <s> %%% sõid hommikusööki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>Inimesed</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="2858">
+    <s> Raadiost tulid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>uudis</n>
+    <word>uudised</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="2865">
+    <s> " %%% , " ütleb eit . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tablett</n>
+    <word>Tabletid</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="2943">
+    <s> %%% vahetasid pilke . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="2948">
+    <s> Väljakul tatsasid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tuvi</n>
+    <word>tuvid</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="2954">
+    <s> Staabis töötavad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>isik</n>
+    <word>isikud</word>
+    <title> VARES-BARBARUSE VALITSUS </title>
+  </info>
+  <info id="2976">
+    <s> %%% mõtlesid viivu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tüdruk</n>
+    <word>Tüdrukud</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="2985">
+    <s> %%% jälgisid huviga . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>klient</n>
+    <word>Kliendid</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="2993">
+    <s> Ettekandja toobki %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>jook</n>
+    <word>joogid</word>
+    <title> Jutud </title>
+  </info>
+  <info id="3003">
+    <s> %%% sünnivad seostest . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõna</n>
+    <word>Sõnad</word>
+    <title> Saaga </title>
+  </info>
+  <info id="3048">
+    <s> %%% tõmbasid rusikasse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>Käed</word>
+    <title> Me eilsete päevade hetked </title>
+  </info>
+  <info id="3051">
+    <s> %%% lamasid tekil . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>Käed</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3054">
+    <s> %%% väljusid trepile . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3057">
+    <s> %%% olid paanikas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lind</n>
+    <word>Linnud</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3075">
+    <s> %%% jõid õlut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3090">
+    <s> %%% sõidavad suvilatesse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>elanik</n>
+    <word>Elanikud</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3102">
+    <s> %%% saatsid laevu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kajakas</n>
+    <word>Kajakad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3111">
+    <s> %%% kaotasid lahingu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>eestlane</n>
+    <word>Eestlased</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3114">
+    <s> %%% tekkisid tegevusetusest . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mälestus</n>
+    <word>Mälestused</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3122">
+    <s> Absurdi uppusid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aasta</n>
+    <word>aastad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3128">
+    <s> Aedikus olid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hani</n>
+    <word>haned</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3129">
+    <s> %%% pudenesid rohusse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pärl</n>
+    <word>Pärlid</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3168">
+    <s> %%% peitsid muiet . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> PÖÖNINGUJUTUD </title>
+  </info>
+  <info id="3174">
+    <s> %%% saavad tööd . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>Inimesed</word>
+    <title> Raadio </title>
+  </info>
+  <info id="3198">
+    <s> %%% noogutasid päid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kuulaja</n>
+    <word>Kuulajad</word>
+    <title> Inglid ja kangelased </title>
+  </info>
+  <info id="3203">
+    <s> Ekraanil paistsid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>täht</n>
+    <word>tähed</word>
+    <title> Inglid ja kangelased </title>
+  </info>
+  <info id="3204">
+    <s> %%% ootasid laual . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tass</n>
+    <word>Tassid</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="3222">
+    <s> %%% saadeti pensionile . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vaim</n>
+    <word>Vaimud</word>
+    <title> AVALDAMATA LÜHILUGUSID </title>
+  </info>
+  <info id="3230">
+    <s> Pimedusest kostsid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>edusamm</n>
+    <word>edusammud</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="3261">
+    <s> %%% armastavad korda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sakslane</n>
+    <word>Sakslased</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="3288">
+    <s> %%% kuulasid sõna . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vanamees</n>
+    <word>Vanamehed</word>
+    <title> Varblane </title>
+  </info>
+  <info id="3306">
+    <s> %%% kadusid ruumist . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>Mehed</word>
+    <title> Chadis </title>
+  </info>
+  <info id="3332">
+    <s> Mees sirutas %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="3417">
+    <s> %%% tuleme tagasi ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="3429">
+    <s> %%% oleme alles . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3441">
+    <s> %%% jalutasid edasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> EGO </title>
+  </info>
+  <info id="3473">
+    <s> %%% vaikime kaua . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Existerion </title>
+  </info>
+  <info id="3495">
+    <s> %%% magavad koos . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Capaneusi Harta </title>
+  </info>
+  <info id="3507">
+    <s> %%% lähenesime ettevaatlikult . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Sindbadi kaheksas reis </title>
+  </info>
+  <info id="3517">
+    <s> %%% ootasime kaua . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Eeben </title>
+  </info>
+  <info id="3527">
+    <s> %%% olid üksi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="3529">
+    <s> %%% jäid sinna . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="3533">
+    <s> %%% võetaks kinni . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="3541">
+    <s> %%% leppisid kokku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="3543">
+    <s> %%% oigasid veel . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>Mõned</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="3551">
+    <s> %%% läksid ära . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="3565">
+    <s> %%% jalutasime tagasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> ILMUTUS MERIKARBIST </title>
+  </info>
+  <info id="3589">
+    <s> %%% jääme siia ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="3619">
+    <s> %%% ronisite maha . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="3677">
+    <s> %%% naerate vaikselt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="3687">
+    <s> %%% läksite edasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="3695">
+    <s> %%% lahkusime vaikselt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Lend </title>
+  </info>
+  <info id="3697">
+    <s> %%% kolisime kokku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Lend </title>
+  </info>
+  <info id="3705">
+    <s> %%% laskuvad põlvili . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> NÕIUTUD KAMEE </title>
+  </info>
+  <info id="3709">
+    <s> %%% sööstavad korraga . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Surnud . . . … ja ülestõusnud õli </title>
+  </info>
+  <info id="3727">
+    <s> %%% läksid välja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="3729">
+    <s> %%% läksid sisse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="3731">
+    <s> %%% sõitsid ära . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Continental </title>
+  </info>
+  <info id="3737">
+    <s> %%% läheksime sinna . . . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> GRATIS </title>
+  </info>
+  <info id="3739">
+    <s> %%% kuulume kokku ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> GRATIS </title>
+  </info>
+  <info id="3753">
+    <s> %%% trügisid lähemale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3755">
+    <s> %%% hüppasime eemale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3771">
+    <s> %%% suudlesime ägedalt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3783">
+    <s> %%% elate siin . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="3789">
+    <s> %%% saame otsa ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Maa ja armastus 4 </title>
+  </info>
+  <info id="3791">
+    <s> %%% elavad nõnda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> Maa ja armastus 5 </title>
+  </info>
+  <info id="3803">
+    <s> %%% astuvad sisse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="3805">
+    <s> %%% kohtusime tihti . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="3811">
+    <s> %%% jääme siia ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="3835">
+    <s> %%% seisavad omaette . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> JOONIK KIVI </title>
+  </info>
+  <info id="3849">
+    <s> %%% jõime veel . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="3859">
+    <s> %%% laulavad koos . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="3873">
+    <s> %%% jääme kokku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="3883">
+    <s> %%% käivad koos . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Nips </title>
+  </info>
+  <info id="3897">
+    <s> %%% uinusid kohe . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
+  </info>
+  <info id="3931">
+    <s> %%% tulevad lähemale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="3963">
+    <s> %%% haisesime kergelt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="4021">
+    <s> %%% kaovad kohe . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Needki</word>
+    <clitic>ki</clitic>
+    <title> SÕNAJALAÕIS </title>
+  </info>
+  <info id="4045">
+    <s> %%% naersidki pisut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SUL ON TEINE </title>
+  </info>
+  <info id="4047">
+    <s> %%% tülitsevad regulaarselt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Raadio </title>
+  </info>
+  <info id="4067">
+    <s> %%% jäid vait . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Glorie igavene kohalolek </title>
+  </info>
+  <info id="4087">
+    <s> %%% läksid välja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="4107">
+    <s> %%% käivad küll . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>seesama</n>
+    <word>Needsamad</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="4109">
+    <s> %%% võidame niikuinii . . . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="4121">
+    <s> %%% lõid kokku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Varblane </title>
+  </info>
+  <info id="4169">
+    <s> %%% astusid edasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="4171">
+    <s> %%% ronisid edasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="4195">
+    <s> Kust %%% teate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="4201">
+    <s> Kus %%% olete ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="4223">
+    <s> Kuidas %%% tõestavad ... </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="4281">
+    <s> Jah , %%% teeme . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="4299">
+    <s> Jah , %%% kardavad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Habemeajaja </title>
+  </info>
+  <info id="4309">
+    <s> Sellepärast %%% tulitegi ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Aleana </title>
+  </info>
+  <info id="4313">
+    <s> Kas %%% garanteerite ... </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Kliendi soov </title>
+  </info>
+  <info id="4315">
+    <s> Kust %%% teame ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <word>meie</word>
+    <title> Kõik võimalused maailmas </title>
+  </info>
+  <info id="4323">
+    <s> Korraga %%% näevad ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Pan Grpowski jõulud </title>
+  </info>
+  <info id="4325">
+    <s> Nii %%% tegidki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Pan Grpowski jõulud </title>
+  </info>
+  <info id="4341">
+    <s> Kuhu %%% lähevad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Cuncti simus concanentes : Ave Maria </title>
+  </info>
+  <info id="4345">
+    <s> Ühesõnaga , %%% piinlesite . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Spitzbergeni nokturn </title>
+  </info>
+  <info id="4349">
+    <s> Kus %%% olite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Õnnekosk </title>
+  </info>
+  <info id="4351">
+    <s> Kuidas %%% teate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="4361">
+    <s> Miks %%% varjasite ... </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="4383">
+    <s> Nii %%% teame . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="4403">
+    <s> Jah , %%% nägid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="4427">
+    <s> Nii %%% tegidki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="4437">
+    <s> Kuhu %%% läheme ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="4449">
+    <s> Kuhu %%% sõidame ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="4453">
+    <s> Kuhu %%% läheme ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="4465">
+    <s> Siis %%% lahkusime . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Saksamaa õppetunnid </title>
+  </info>
+  <info id="4467">
+    <s> Kuidas %%% elavad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>nemad</word>
+    <title> Teine osa Leinajad </title>
+  </info>
+  <info id="4507">
+    <s> Kauaks %%% üürisime ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="4509">
+    <s> Kuidas %%% sobiks ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="4525">
+    <s> Kuidas %%% saaksidki ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="4527">
+    <s> Siis %%% loeksime . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="4529">
+    <s> Vahepeal %%% suitsetate . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="4539">
+    <s> Siin %%% olemegi ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="4549">
+    <s> Kust %%% saavad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <answer>nemad</answer>
+    <word>nemadki</word>
+    <clitic>ki</clitic>
+    <title> VIIS MINUTIT ENNE VIHMA </title>
+  </info>
+  <info id="4563">
+    <s> Kust %%% teate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="4585">
+    <s> Kust %%% teate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="4607">
+    <s> Kuhu %%% lähete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="4617">
+    <s> Kuidas %%% ütlesidki ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="4641">
+    <s> Nii %%% pääsesidki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Erak ja nõid </title>
+  </info>
+  <info id="4643">
+    <s> Ometi %%% hingasid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Hunt , madu ja põrgu perenaine </title>
+  </info>
+  <info id="4651">
+    <s> Kas %%% suitsetate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="4665">
+    <s> Kuhu %%% kõlbavad ? ... </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> JOONIK KIVI </title>
+  </info>
+  <info id="4667">
+    <s> Siis %%% suudlesid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="4679">
+    <s> Muidugi %%% läheme . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="4695">
+    <s> Kust %%% tulete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="4703">
+    <s> Kas %%% teavad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="4707">
+    <s> Kaua %%% upuvad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="4713">
+    <s> Siis %%% suudlesime . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="4715">
+    <s> Lõpuks %%% lõpetasime . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="4735">
+    <s> Kust %%% teate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="4747">
+    <s> Kuhu %%% jäime ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="4767">
+    <s> Kas %%% annaks ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Nips </title>
+  </info>
+  <info id="4769">
+    <s> Kuidas %%% tunnete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Nips </title>
+  </info>
+  <info id="4775">
+    <s> Kus %%% olid ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Surematus </title>
+  </info>
+  <info id="4791">
+    <s> Kas %%% tulete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
+  </info>
+  <info id="4797">
+    <s> Kuidas %%% oskavad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Tahiti ja Tonga </title>
+  </info>
+  <info id="4817">
+    <s> Kuhu %%% lähme ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="4819">
+    <s> Nii %%% ütlevad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="4833">
+    <s> Nii %%% lahkusid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="4847">
+    <s> Kus %%% istume . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="4875">
+    <s> Kuidas %%% oleksite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="4909">
+    <s> Pärast %%% kahetsesid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="4957">
+    <s> Ka %%% polnud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>nemad</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="4961">
+    <s> Kust %%% teate ! ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> PÖÖNINGUJUTUD </title>
+  </info>
+  <info id="4963">
+    <s> Hiljem %%% rääkisid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> PÖÖNINGUJUTUD </title>
+  </info>
+  <info id="4967">
+    <s> Vaevalt %%% mäletavad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <answer>nemad</answer>
+    <word>nemadki</word>
+    <clitic>ki</clitic>
+    <title> SUL ON TEINE </title>
+  </info>
+  <info id="4971">
+    <s> Küll %%% saame . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> SUL ON TEINE </title>
+  </info>
+  <info id="4983">
+    <s> Muidu %%% lämbuksime . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Raadio </title>
+  </info>
+  <info id="5027">
+    <s> Kauaks %%% jäävad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <answer>nemad</answer>
+    <word>nemadki</word>
+    <clitic>ki</clitic>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="5035">
+    <s> Peagi %%% abiellusid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> AVALDAMATA LÜHILUGUSID </title>
+  </info>
+  <info id="5053">
+    <s> Järelikult %%% sobime . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="5077">
+    <s> Siis %%% läksid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Varblane </title>
+  </info>
+  <info id="5111">
+    <s> Kas %%% teate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> Hirm </title>
+  </info>
+  <info id="5117">
+    <s> Kus %%% tegutsevad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="5119">
+    <s> Kuidas %%% elasime ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="5172">
+    <s> %%% ei ütle . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="5184">
+    <s> %%% vihkasid vaikides . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="5214">
+    <s> %%% soovisite lugeda ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="5226">
+    <s> %%% saame hakkama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="5268">
+    <s> %%% ei kuula . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="5298">
+    <s> %%% peame rääkima . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Existerion </title>
+  </info>
+  <info id="5301">
+    <s> %%% ei mäleta . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Existerion </title>
+  </info>
+  <info id="5322">
+    <s> %%% ei eksisteeri ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Existerion </title>
+  </info>
+  <info id="5328">
+    <s> %%% ei kuulagi ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> FELIX HORNI TÄHETUND </title>
+  </info>
+  <info id="5331">
+    <s> %%% puhkesid nutma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> FELIX HORNI TÄHETUND </title>
+  </info>
+  <info id="5370">
+    <s> %%% ei aja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Capaneusi Harta </title>
+  </info>
+  <info id="5388">
+    <s> %%% peate teadma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Nad tulevad täna öösel </title>
+  </info>
+  <info id="5412">
+    <s> %%% ei pea ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>te</answer>
+    <word>Teie</word>
+    <title> Spitzbergeni nokturn </title>
+  </info>
+  <info id="5433">
+    <s> %%% pahvatasid naerma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="5445">
+    <s> %%% pidid põgenema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Eeben </title>
+  </info>
+  <info id="5457">
+    <s> %%% hakkasid hargnema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="5490">
+    <s> %%% hakkasid sööma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="5505">
+    <s> %%% said hakkama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="5535">
+    <s> %%% hakkasid naerma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>Mõlemad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="5538">
+    <s> %%% lähevad magama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="5565">
+    <s> %%% ei ole . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="5601">
+    <s> %%% ei põgene . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>niisugune</n>
+    <word>Niisugused</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="5613">
+    <s> %%% peame rääkima ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="5637">
+    <s> %%% ei hooli . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="5700">
+    <s> %%% ei mõista ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="5709">
+    <s> %%% pahvatasid naerma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>Mõlemad</word>
+    <title> NÕIUTUD KAMEE </title>
+  </info>
+  <info id="5727">
+    <s> %%% peame arutama ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="5736">
+    <s> %%% ei teagi ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="5739">
+    <s> %%% loobusid olemast . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="5754">
+    <s> %%% teretasid vaikides . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="5757">
+    <s> %%% hakkasid laulma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="5778">
+    <s> %%% kavatsete rünnata ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="5808">
+    <s> %%% tahame tantsida ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Maa ja armastus 6 </title>
+  </info>
+  <info id="5856">
+    <s> %%% hakkasid jooksma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="5862">
+    <s> %%% peate teadma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>te</answer>
+    <word>Teie</word>
+    <title> Päästke mind , palun , jumala eest , päästke </title>
+  </info>
+  <info id="5961">
+    <s> %%% hakkasid itsitama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="5988">
+    <s> %%% hakkame sõitma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Nips </title>
+  </info>
+  <info id="6006">
+    <s> %%% pidid kaduma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>Mõlemad</word>
+    <title> Surematus </title>
+  </info>
+  <info id="6027">
+    <s> %%% ei usu ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="6099">
+    <s> %%% hakkasime astuma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="6114">
+    <s> %%% peame rääkima . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="6126">
+    <s> %%% heitsidki magama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="6177">
+    <s> %%% hakkavad minema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SÕNAJALAÕIS </title>
+  </info>
+  <info id="6207">
+    <s> %%% peaksime kohtuma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Morituri te salutant </title>
+  </info>
+  <info id="6273">
+    <s> %%% pidime kohtuma ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Unenägude jumal </title>
+  </info>
+  <info id="6291">
+    <s> %%% lähevad lüpsma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="6300">
+    <s> %%% peame rääkima ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="6324">
+    <s> %%% peame uskuma ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6360">
+    <s> %%% sõid vaikides . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="6372">
+    <s> %%% ei oota . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vabastamine </title>
+  </info>
+  <info id="6375">
+    <s> %%% taandusid vaikides . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Vabastamine </title>
+  </info>
+  <info id="6449">
+    <s> Ega %%% ehk valetanudki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="6453">
+    <s> Nii %%% siis eraldusidki . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="6467">
+    <s> Kuidas %%% siiski kõnnivad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="6479">
+    <s> Millal %%% uuesti näeme ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="6485">
+    <s> Kuidas %%% siis suhtuvad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> FÖÖNIKS </title>
+  </info>
+  <info id="6493">
+    <s> Eks %%% ise tea . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Kliendi soov </title>
+  </info>
+  <info id="6501">
+    <s> Eks %%% ise tea . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Uskmatuse hind </title>
+  </info>
+  <info id="6527">
+    <s> Kuidas %%% kokku leppisime ? ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="6533">
+    <s> Kuidas %%% ometi võisid ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Kalad Kõnniteel </title>
+  </info>
+  <info id="6563">
+    <s> Eks %%% läbi virise . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="6571">
+    <s> Miks %%% nõnda arvate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="6579">
+    <s> Miks %%% üldse lahutasite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> GRATIS </title>
+  </info>
+  <info id="6587">
+    <s> Kuidas %%% sisse saite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="6593">
+    <s> Kuhu %%% siis lähete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="6603">
+    <s> Kuhu %%% siis jäävad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Maa ja armastus 6 </title>
+  </info>
+  <info id="6605">
+    <s> Miks %%% muidu kõrvaldati . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Maa ja armastus 8 </title>
+  </info>
+  <info id="6621">
+    <s> Kuhu %%% nii jõuame ? ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="6647">
+    <s> Miks %%% ära söövad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="6651">
+    <s> Kuhu %%% pärast matta ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="6667">
+    <s> Kuhu %%% küll jäävad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="6683">
+    <s> Kuidas %%% sinna saite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
+  </info>
+  <info id="6695">
+    <s> Tegelikult %%% lihtsalt sureme . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="6705">
+    <s> Miks %%% nii teevad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Saaga </title>
+  </info>
+  <info id="6713">
+    <s> Kuhu %%% siis sõitsid ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="6721">
+    <s> Kus %%% siis olime ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <word>meie</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="6729">
+    <s> Kas %%% praegu luuletate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="6757">
+    <s> Miks %%% siia tulime ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Glorie igavene kohalolek </title>
+  </info>
+  <info id="6775">
+    <s> Miks %%% nii arvate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="6777">
+    <s> Kuidas %%% siis häälitsevad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>nemad</word>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="6811">
+    <s> Kus %%% üldse oleme ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Chadis </title>
+  </info>
+  <info id="6827">
+    <s> Tal olid %%% haiged . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>jalg</n>
+    <word>jalad</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="6828">
+    <s> Tal olid jalad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>haige</n>
+    <word>haiged</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="6833">
+    <s> %%% olid meeleheite piiril . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>palju</n>
+    <word>Paljud</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="6847">
+    <s> Ta ajas %%% lakke . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="6849">
+    <s> %%% nõuame õigust armastusele ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="6857">
+    <s> %%% vaikisime jupp aega . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="6867">
+    <s> Ta ajas %%% tasku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="6873">
+    <s> %%% suunati ohvitseride kursustele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="6923">
+    <s> Tal olid %%% kurgus . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pisar</n>
+    <word>pisarad</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="6937">
+    <s> %%% oleme tegelikkuse koopia ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Existerion </title>
+  </info>
+  <info id="6965">
+    <s> %%% oleme kuninga vasall . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="6989">
+    <s> %%% suundusime linna südamesse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="6999">
+    <s> Sa pistsid %%% tasku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="7037">
+    <s> %%% kohtuvad naabri aias . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="7041">
+    <s> %%% vahetavad sõidukis kohad . . . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="7044">
+    <s> Nad vahetavad sõidukis %%% . . . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>koht</n>
+    <word>kohad</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="7052">
+    <s> Ta suleb õuduses %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> VIIS MINUTIT ENNE VIHMA </title>
+  </info>
+  <info id="7053">
+    <s> %%% astusid jalalt jalale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="7059">
+    <s> Ta tõmbas %%% selga . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>dress</n>
+    <word>dressid</word>
+    <title> Continental </title>
+  </info>
+  <info id="7071">
+    <s> Tal olid %%% silmis . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pisar</n>
+    <word>pisarad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="7075">
+    <s> Mul pandi %%% raudu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="7104">
+    <s> Ma mõtlen – talu %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tulevikuplaan</n>
+    <word>tulevikuplaanid</word>
+    <title> Maa ja armastus 6 </title>
+  </info>
+  <info id="7105">
+    <s> " %%% , " noogutas poiss vastuseks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sama</n>
+    <word>Samad</word>
+    <title> Maa ja armastus 7 </title>
+  </info>
+  <info id="7119">
+    <s> Tal olid %%% silmas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pisar</n>
+    <word>pisarad</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="7141">
+    <s> %%% läksime naiste juuksurisse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="7148">
+    <s> Ta kirjutab pojale %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>prill</n>
+    <word>prillid</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="7161">
+    <s> %%% puudutavad inimeste hingi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Nips </title>
+  </info>
+  <info id="7181">
+    <s> %%% ei hukku tules . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="7215">
+    <s> Sul jooksevad %%% kõrvadesse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pisar</n>
+    <word>pisarad</word>
+    <title> Saaga </title>
+  </info>
+  <info id="7219">
+    <s> Mul olid %%% jalas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>suss</n>
+    <word>sussid</word>
+    <title> Saaga </title>
+  </info>
+  <info id="7233">
+    <s> %%% jõudsid linna väravateni . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="7251">
+    <s> Ta pani %%% jalga . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>püks</n>
+    <word>püksid</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="7256">
+    <s> Tal olid rauast %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hammas</n>
+    <word>hambad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="7280">
+    <s> Mind ümbritsevad ajakirjade %%% ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>virn</n>
+    <word>virnad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="7337">
+    <s> %%% panid torud hargile . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Glorie igavene kohalolek </title>
+  </info>
+  <info id="7339">
+    <s> Nad panid %%% hargile . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>toru</n>
+    <word>torud</word>
+    <title> Glorie igavene kohalolek </title>
+  </info>
+  <info id="7400">
+    <s> Ta tekitas ekraanidele %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>andmed</n>
+    <word>andmed</word>
+    <title> Chadis </title>
+  </info>
+  <info id="7401">
+    <s> %%% täidavad valitsuse tellimust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Chadis </title>
+  </info>
+  <info id="7417">
+    <s> %%% jaotatakse peredesse toidule . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> VIIS MINUTIT PÄRAST VIHMA </title>
+  </info>
+  <info id="7424">
+    <s> Seda tegid meeste %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>samm</n>
+    <word>sammud</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="7433">
+    <s> Korraks ununesid kõigil %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>suits</n>
+    <word>suitsudki</word>
+    <clitic>ki</clitic>
+    <title> Jutud </title>
+  </info>
+  <info id="7442">
+    <s> Või kasvatasid teid %%% ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vanem</n>
+    <word>vanemad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="7444">
+    <s> Siis pöördusid %%% minekule . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Pika tee algus </title>
+  </info>
+  <info id="7447">
+    <s> Lõpuks jõudsid %%% otsusele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Topisetegija </title>
+  </info>
+  <info id="7456">
+    <s> Pärast käisid %%% kirikus . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="7469">
+    <s> Seal olid ta %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>laps</n>
+    <word>lapsed</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="7501">
+    <s> Vahel olid %%% moes . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Hüvitis </title>
+  </info>
+  <info id="7540">
+    <s> Ometi jätsid %%% jälgi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="7579">
+    <s> Seega viibisid %%% köögis . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>mõlemad</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="7603">
+    <s> Paraku jäid %%% tulemuseta . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Surnud . . . … ja ülestõusnud õli </title>
+  </info>
+  <info id="7612">
+    <s> Ometi olid %%% paratamatus . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="7621">
+    <s> Kõigepealt topiti %%% " kappi " . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="7633">
+    <s> Seal olid %%% kontorid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mingi</n>
+    <word>mingid</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="7634">
+    <s> Seal olid mingid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kontor</n>
+    <word>kontorid</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="7655">
+    <s> Kas teate , mu %%% ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>emand</n>
+    <word>emandad</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="7660">
+    <s> Varsti saate %%% abi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="7687">
+    <s> Siis jõudsid %%% pubini . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="7753">
+    <s> Kas kannavad %%% katku ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <answer>nemad</answer>
+    <word>nemadki</word>
+    <clitic>ki</clitic>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="7762">
+    <s> Kuhu panete %%% inimesed ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> VARES-BARBARUSE VALITSUS </title>
+  </info>
+  <info id="7763">
+    <s> Kuhu panete need %%% ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>inimesed</word>
+    <title> VARES-BARBARUSE VALITSUS </title>
+  </info>
+  <info id="7766">
+    <s> Seejärel võttis ta %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käärid</n>
+    <word>käärid</word>
+    <title> VARES-BARBARUSE VALITSUS </title>
+  </info>
+  <info id="7768">
+    <s> Võibolla ihkavad %%% kättemaksu ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="7790">
+    <s> Siis avas ta %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Kõik , mis loeb </title>
+  </info>
+  <info id="7813">
+    <s> Seal põles %%% küla ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="7852">
+    <s> Pealegi pole %%% rõivad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="7853">
+    <s> Pealegi pole need %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>rõivas</n>
+    <word>rõivad</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="7864">
+    <s> Siis kadusid %%% silmist . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="7882">
+    <s> Eile olid %%% kohal . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="7889">
+    <s> Seda mõtlevad %%% ka . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>nemad</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="7893">
+    <s> %%% vaatavad üksteisele otsa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="7899">
+    <s> %%% katavad üksteist , loomulikult . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="7913">
+    <s> Ta heitis %%% kõrvale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="7931">
+    <s> Ma võidan %%% kergelt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Existerion </title>
+  </info>
+  <info id="7937">
+    <s> Ta lõi %%% maha . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Existerion </title>
+  </info>
+  <info id="7943">
+    <s> Ma hävitasin %%% ise . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Existerion </title>
+  </info>
+  <info id="7971">
+    <s> %%% äratasite ta jälle ? ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Eeben </title>
+  </info>
+  <info id="7983">
+    <s> " %%% ! " hüüdis ta üllatunult . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>te</answer>
+    <word>Teie</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="7989">
+    <s> %%% murdusid , mõned mitte . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>Mõned</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="7991">
+    <s> Mõned murdusid , %%% mitte . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>mõned</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="7995">
+    <s> %%% võtate seda isiklikult . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="8004">
+    <s> %%% tõukasid ta eemale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Hobused </title>
+  </info>
+  <info id="8010">
+    <s> %%% tapavad teid vaimselt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="8052">
+    <s> %%% tunnete teineteist ammu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="8064">
+    <s> . . . %%% tulid talle järele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="8067">
+    <s> %%% käitusid sinuga halvasti ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="8070">
+    <s> %%% pakuvad mulle pisut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="8073">
+    <s> %%% naeratasid , kumbki omaette . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="8079">
+    <s> %%% oleme seda väärt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="8100">
+    <s> %%% aitame sind alati .. . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="8103">
+    <s> %%% vaikisime mõlemad pikalt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="8105">
+    <s> Me vaikisime %%% pikalt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>mõlemad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="8124">
+    <s> %%% tassisime teid siia . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="8160">
+    <s> %%% vaatavad temast mööda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="8171">
+    <s> Ma võtsin %%% vastu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Nips </title>
+  </info>
+  <info id="8217">
+    <s> %%% tõid mu siia ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="8255">
+    <s> Ma lasin %%% sisse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="8265">
+    <s> %%% jätsid mu maha . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="8274">
+    <s> %%% kirjutasime selle kahekesi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="8279">
+    <s> Ma tundsin %%% ära . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Õnn kestab igaviku ... </title>
+  </info>
+  <info id="8325">
+    <s> %%% võõrdusid temast järk-järgult . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="8370">
+    <s> %%% maksame teile paremini . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="8401">
+    <s> %%% haistsid tuttavat keskkonda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="8415">
+    <s> Tal olla %%% käed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tugev</n>
+    <word>tugevad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="8416">
+    <s> Tal olla tugevad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> Jutud </title>
+  </info>
+  <info id="8438">
+    <s> Tal olid %%% silmad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>helesinine</n>
+    <word>helesinised</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="8439">
+    <s> Tal olid helesinised %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="8472">
+    <s> %%% olete sõbralikud inimesed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="8474">
+    <s> Te olete %%% inimesed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõbralik</n>
+    <word>sõbralikud</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="8475">
+    <s> Te olete sõbralikud %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>inimesed</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="8510">
+    <s> Mulle anti %%% käed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vaba</n>
+    <word>vabad</word>
+    <title> Existerion </title>
+  </info>
+  <info id="8511">
+    <s> Mulle anti vabad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> Existerion </title>
+  </info>
+  <info id="8552">
+    <s> %%% sammusid täielikus vaikuses ... </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Kliendi soov </title>
+  </info>
+  <info id="8580">
+    <s> %%% olid tugevad puud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="8582">
+    <s> Need olid %%% puud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tugev</n>
+    <word>tugevad</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="8583">
+    <s> Need olid tugevad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>puu</n>
+    <word>puud</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="8584">
+    <s> %%% olid segased ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8586">
+    <s> Need olid %%% ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>segane</n>
+    <word>segased</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8587">
+    <s> Need olid segased %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aeg</n>
+    <word>ajad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8588">
+    <s> %%% olid ilusad ajad ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8590">
+    <s> Need olid %%% ajad ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>ilus</n>
+    <word>ilusad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8591">
+    <s> Need olid ilusad %%% ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aeg</n>
+    <word>ajad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8592">
+    <s> %%% olid õnnelikud ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8594">
+    <s> Need olid %%% ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>õnnelik</n>
+    <word>õnnelikud</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8595">
+    <s> Need olid õnnelikud %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aeg</n>
+    <word>ajad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="8639">
+    <s> %%% osutusid piisavateks argumentideks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="8643">
+    <s> %%% elame vabal maal . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Kuues osa Vanad sõbrad </title>
+  </info>
+  <info id="8699">
+    <s> %%% vandusime igavest truudust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="8707">
+    <s> %%% lamate pikal pingil . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="8750">
+    <s> %%% küsite psühholoogilist seletust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="8754">
+    <s> %%% sattusid avarasse kabinetti . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="8778">
+    <s> %%% olid head ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="8780">
+    <s> Need olid %%% ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hea</n>
+    <word>head</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="8781">
+    <s> Need olid head %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aeg</n>
+    <word>ajad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="8809">
+    <s> %%% sõitsime uhke autoga . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="8817">
+    <s> %%% ootavad uusi edusamme . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="8833">
+    <s> %%% tahtsime eri asju . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="8848">
+    <s> %%% äratavad vaikset aukartust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Rannahiidsed </title>
+  </info>
+  <info id="8858">
+    <s> Teda huvitasid %%% salgud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tume</n>
+    <word>tumedad</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="8859">
+    <s> Teda huvitasid tumedad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>salk</n>
+    <answer>salgad</answer>
+    <word>salgud</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="8872">
+    <s> %%% tegid hullu viha . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="8880">
+    <s> %%% oleme lihtsad inimesed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="8882">
+    <s> Me oleme %%% inimesed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lihtne</n>
+    <word>lihtsad</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="8883">
+    <s> Me oleme lihtsad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>inimesed</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="8908">
+    <s> %%% oleme head tantsijad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="8910">
+    <s> Me oleme %%% tantsijad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hea</n>
+    <word>head</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="8911">
+    <s> Me oleme head %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tantsija</n>
+    <word>tantsijad</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="8932">
+    <s> %%% olid halvad tunded . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Nips </title>
+  </info>
+  <info id="8934">
+    <s> Need olid %%% tunded . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>halb</n>
+    <word>halvad</word>
+    <title> Nips </title>
+  </info>
+  <info id="8935">
+    <s> Need olid halvad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tunne</n>
+    <word>tunded</word>
+    <title> Nips </title>
+  </info>
+  <info id="8968">
+    <s> %%% olid karmid ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> VARES-BARBARUSE VALITSUS </title>
+  </info>
+  <info id="8970">
+    <s> Need olid %%% ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>karm</n>
+    <answer>karmud</answer>
+    <word>karmid</word>
+    <title> VARES-BARBARUSE VALITSUS </title>
+  </info>
+  <info id="8971">
+    <s> Need olid karmid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aeg</n>
+    <word>ajad</word>
+    <title> VARES-BARBARUSE VALITSUS </title>
+  </info>
+  <info id="8974">
+    <s> Tal olid %%% jalad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>ilus</n>
+    <word>ilusad</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="8975">
+    <s> Tal olid ilusad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>jalg</n>
+    <word>jalad</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="9054">
+    <s> Tal olid %%% silmad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pruun</n>
+    <word>pruunid</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="9055">
+    <s> Tal olid pruunid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="9070">
+    <s> Meist said %%% sõbrad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hea</n>
+    <word>head</word>
+    <title> Sõud </title>
+  </info>
+  <info id="9071">
+    <s> Meist said head %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõber</n>
+    <word>sõbrad</word>
+    <title> Sõud </title>
+  </info>
+  <info id="9116">
+    <s> %%% jääte musta nimekirja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Raadio </title>
+  </info>
+  <info id="9160">
+    <s> %%% moodustasid hõreda rea . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="9190">
+    <s> Nendest tulevadki %%% juuksed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hall</n>
+    <answer>hallad</answer>
+    <word>hallid</word>
+    <title> Varblane </title>
+  </info>
+  <info id="9191">
+    <s> Nendest tulevadki hallid %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>juus</n>
+    <word>juuksed</word>
+    <title> Varblane </title>
+  </info>
+  <info id="9199">
+    <s> %%% elame erinevates maailmades . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="9211">
+    <s> %%% oleme õigel teel ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="9219">
+    <s> %%% olid erilises hinnas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="9273">
+    <s> %%% paistate nii erinevad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="9275">
+    <s> Te paistate nii %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>erinev</n>
+    <word>erinevad</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="9323">
+    <s> %%% olid nii toredad ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="9325">
+    <s> Need olid nii %%% ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tore</n>
+    <word>toredad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="9389">
+    <s> %%% olete väga jutukas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> VIIS MINUTIT ENNE VIHMA </title>
+  </info>
+  <info id="9395">
+    <s> %%% said ametlikult tuttavaks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="9434">
+    <s> %%% ... olite väga õrn . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="9443">
+    <s> %%% tunduvad nii hubased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="9445">
+    <s> Nad tunduvad nii %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hubane</n>
+    <word>hubased</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="9458">
+    <s> %%% olid hämmastavalt sarnased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="9460">
+    <s> Nad olid hämmastavalt %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sarnane</n>
+    <word>sarnased</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="9508">
+    <s> %%% olid ka õiged . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="9510">
+    <s> Need olid ka %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>õige</n>
+    <word>õiged</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="9514">
+    <s> %%% pole küllalt täpsed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Nips </title>
+  </info>
+  <info id="9516">
+    <s> Nad pole küllalt %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>täpne</n>
+    <word>täpsed</word>
+    <title> Nips </title>
+  </info>
+  <info id="9580">
+    <s> %%% olid ka kollased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>Mõned</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="9582">
+    <s> Mõned olid ka %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kollane</n>
+    <word>kollased</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="9583">
+    <s> %%% olid päris võrdväärsed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="9585">
+    <s> Nad olid päris %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>võrdväärne</n>
+    <word>võrdväärsed</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="9604">
+    <s> %%% oleme nii sarnased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Sõud </title>
+  </info>
+  <info id="9606">
+    <s> Me oleme nii %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sarnane</n>
+    <word>sarnased</word>
+    <title> Sõud </title>
+  </info>
+  <info id="9669">
+    <s> %%% olid nii erinevad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Varblane </title>
+  </info>
+  <info id="9671">
+    <s> Nad olid nii %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>erinev</n>
+    <word>erinevad</word>
+    <title> Varblane </title>
+  </info>
+  <info id="9678">
+    <s> %%% oleme nüüd õndsad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> VIIS MINUTIT PÄRAST VIHMA </title>
+  </info>
+  <info id="9680">
+    <s> Me oleme nüüd %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>õnnis</n>
+    <word>õndsad</word>
+    <title> VIIS MINUTIT PÄRAST VIHMA </title>
+  </info>
+  <info id="9690">
+    <s> %%% paistsid üsna korralikena . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="9707">
+    <s> Temal olid %%% mõtted . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>oma</n>
+    <word>omad</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="9708">
+    <s> Temal olid omad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõte</n>
+    <word>mõtted</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="9709">
+    <s> %%% anname teile aega . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="9717">
+    <s> %%% kingime sulle elu ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="9749">
+    <s> %%% vastutate oma peaga ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>te</answer>
+    <word>Teie</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="9789">
+    <s> %%% pole teineteise omand . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="9841">
+    <s> %%% võtavad minuga ühendust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Existerion </title>
+  </info>
+  <info id="9855">
+    <s> Ma olin %%% lood . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Existerion </title>
+  </info>
+  <info id="9856">
+    <s> Ma olin need %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lugu</n>
+    <word>lood</word>
+    <title> Existerion </title>
+  </info>
+  <info id="9857">
+    <s> %%% anname teineteisele vabaduse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> FELIX HORNI TÄHETUND </title>
+  </info>
+  <info id="9941">
+    <s> %%% ootame teid jaamas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="9949">
+    <s> %%% päästsid minu elu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="9971">
+    <s> See kestis %%% hetked . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>mõned</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="9972">
+    <s> See kestis mõned %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>hetk</n>
+    <word>hetked</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="9981">
+    <s> %%% olid tema väljavaated ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>milline</n>
+    <word>Millised</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="9984">
+    <s> Millised olid tema %%% ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>väljavaade</n>
+    <word>väljavaated</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="10007">
+    <s> Ta saab %%% maksud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>oma</n>
+    <word>omad</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="10008">
+    <s> Ta saab omad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>maks</n>
+    <answer>maksad</answer>
+    <word>maksud</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="10009">
+    <s> %%% tulete oma tõllas ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="10013">
+    <s> %%% vajame teineteise seltsi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="10053">
+    <s> %%% ütlevad sinule tere ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="10061">
+    <s> %%% vaatasime teineteisele silma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> ILMUTUS MERIKARBIST </title>
+  </info>
+  <info id="10121">
+    <s> %%% põletasid mu taskut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="10125">
+    <s> %%% lamate teineteise kaisus . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="10213">
+    <s> %%% meeldite mulle , noormees . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="10223">
+    <s> . . . kel puuduvad %%% käed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>mõlemad</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="10224">
+    <s> . . . kel puuduvad mõlemad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="10273">
+    <s> %%% saatsid teda pilkudega . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="10301">
+    <s> %%% segavad meie elu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="10317">
+    <s> %%% olid teineteise vaenlased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="10320">
+    <s> Nad olid teineteise %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vaenlane</n>
+    <word>vaenlased</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="10329">
+    <s> %%% pole tema mured . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="10332">
+    <s> Need pole tema %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mure</n>
+    <answer>muredad</answer>
+    <word>mured</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="10373">
+    <s> %%% jõime nende mälestuseks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> JOONIK KIVI </title>
+  </info>
+  <info id="10385">
+    <s> %%% teate mu meest . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="10485">
+    <s> %%% nutaks end surnuks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Nips </title>
+  </info>
+  <info id="10544">
+    <s> Sa tõid mulle %%% ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>riie</n>
+    <word>riided</word>
+    <title> Jutud </title>
+  </info>
+  <info id="10556">
+    <s> Ma tõin sulle %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lill</n>
+    <word>lilled</word>
+    <title> Saaga </title>
+  </info>
+  <info id="10573">
+    <s> %%% tahtma neid kangelasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="10609">
+    <s> %%% vaatavad teineteisega tõtt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SÕNAJALAÕIS </title>
+  </info>
+  <info id="10625">
+    <s> %%% elame samal tänaval . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="10631">
+    <s> Minust jäid %%% koju . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="10645">
+    <s> %%% juhatati oma tubadesse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="10677">
+    <s> %%% olid samast soost . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="10713">
+    <s> %%% süüvisid teineteise silmadesse . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SUL ON TEINE </title>
+  </info>
+  <info id="10725">
+    <s> %%% langesid teineteise rinnale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SUL ON TEINE </title>
+  </info>
+  <info id="10733">
+    <s> %%% jahtisid teistsuguseid nägusid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Raadio </title>
+  </info>
+  <info id="10784">
+    <s> Ta pani kõigile %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>nimi</n>
+    <word>nimed</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="10785">
+    <s> %%% kinnitasid üksteist patus . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="10793">
+    <s> %%% kiskusime kõigil vaheaegadel . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="10817">
+    <s> %%% vaatasid teineteisele silma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="10821">
+    <s> %%% võtsid end järjekorda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>too</n>
+    <word>Nood</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="10827">
+    <s> Seda näitasid %%% maailmasõjad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>mõlemad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="10828">
+    <s> Seda näitasid mõlemad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>maailmasõda</n>
+    <word>maailmasõjad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="10829">
+    <s> %%% teevad endale nime . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="10833">
+    <s> %%% vaatasid oma riideid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Chadis </title>
+  </info>
+  <info id="10849">
+    <s> %%% maksavad mu elamise . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="10855">
+    <s> Ta saatis %%% graafikud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>mõned</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="10856">
+    <s> Ta saatis mõned %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>graafik</n>
+    <word>graafikud</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="10869">
+    <s> %%% ootavad seda mõnuga . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="10887">
+    <s> Selles avalduvad muidugi %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>iseloom</n>
+    <word>iseloomud</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="10894">
+    <s> %%% tuleksid tingimata appi ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="11002">
+    <s> %%% valmistusid jälle sõjaks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="11011">
+    <s> %%% olid kahekesi toas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="11035">
+    <s> %%% pöördusid taas minekule . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Neljas osa Talu </title>
+  </info>
+  <info id="11050">
+    <s> %%% otsisid nähtavasti torni . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="11092">
+    <s> %%% astusid ühekaupa koridori . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="11110">
+    <s> %%% maksavad ju raha . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Maa ja armastus 1 </title>
+  </info>
+  <info id="11122">
+    <s> %%% olid ka tulijad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>samasugune</n>
+    <word>Samasugused</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="11124">
+    <s> Samasugused olid ka %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tulija</n>
+    <word>tulijad</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="11149">
+    <s> %%% joome alati teed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Päästke mind , palun , jumala eest , päästke </title>
+  </info>
+  <info id="11158">
+    <s> %%% oleme ju sugulased ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="11160">
+    <s> Me oleme ju %%% ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sugulane</n>
+    <word>sugulased</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="11179">
+    <s> %%% olid lihtsalt sõnad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="11181">
+    <s> Need olid lihtsalt %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõna</n>
+    <word>sõnad</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="11230">
+    <s> %%% olimegi juba mures . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> TÄISKUU JA TÄNAVALATERN </title>
+  </info>
+  <info id="11233">
+    <s> %%% söövad ka mulda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>Mõned</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="11296">
+    <s> %%% läksid jälle majja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="11314">
+    <s> %%% olid ilmselt saatusekaaslased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="11316">
+    <s> Nad olid ilmselt %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>saatusekaaslane</n>
+    <word>saatusekaaslased</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="11377">
+    <s> %%% olid parasjagu veidrikud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>Mõlemad</word>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="11379">
+    <s> Mõlemad olid parasjagu %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>veidrik</n>
+    <word>veidrikud</word>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="11389">
+    <s> %%% olid alles õied . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="11391">
+    <s> Need olid alles %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>õis</n>
+    <word>õied</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="11419">
+    <s> %%% saime väga lähedasteks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vabastamine </title>
+  </info>
+  <info id="11428">
+    <s> %%% olime sinna teel . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="11437">
+    <s> %%% löövad kolmekesi käed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> VIIS MINUTIT PÄRAST VIHMA </title>
+  </info>
+  <info id="11439">
+    <s> Nad löövad kolmekesi %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>käsi</n>
+    <word>käed</word>
+    <title> VIIS MINUTIT PÄRAST VIHMA </title>
+  </info>
+  <info id="11449">
+    <s> %%% lähete siit põhja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>te</answer>
+    <word>Teie</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="11458">
+    <s> Ja %%% räägite mingist sissetulekust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="11466">
+    <s> Aga %%% saame sellest jagu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="11504">
+    <s> Ja seda ütlete %%% , munk ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> Õnnekosk </title>
+  </info>
+  <info id="11566">
+    <s> Aga %%% kirjutage sellest romaan . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="11596">
+    <s> Aga tal olid %%% motiivid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>oma</n>
+    <word>omad</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="11597">
+    <s> Aga tal olid omad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>motiiv</n>
+    <word>motiivid</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="11612">
+    <s> Ja seda tingisid %%% tõigad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mitu</n>
+    <word>mitmed</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="11613">
+    <s> Ja seda tingisid mitmed %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tõik</n>
+    <word>tõigad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="11640">
+    <s> Ja mul olid %%% meeles . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="11710">
+    <s> Nii võiksid %%% edasi rännata . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="11776">
+    <s> Ehk valmistuvad %%% ümber asuma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="11779">
+    <s> Arvatavasti jäid %%% kuhugi varitsema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Doonorelundid </title>
+  </info>
+  <info id="11841">
+    <s> %%% ei tohi enam venitada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="11869">
+    <s> %%% ei mäleta , kuhu tulla . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Existerion </title>
+  </info>
+  <info id="11877">
+    <s> %%% ei taha kunagi jagada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="11885">
+    <s> %%% ei lähe praegu ujuma . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="11997">
+    <s> %%% ei oska ju rääkida . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Raadio </title>
+  </info>
+  <info id="12001">
+    <s> %%% ei mõista kuhugi minna . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="12009">
+    <s> %%% ei kannata peale vaadatagi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="12029">
+    <s> %%% ei suuda ka õppida ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vabastamine </title>
+  </info>
+  <info id="12082">
+    <s> Kas %%% siis väsivad arvestamast ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Lend </title>
+  </info>
+  <info id="12088">
+    <s> Kas %%% siis ei mõista ? ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="12121">
+    <s> Ega %%% enam ei tule . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="12193">
+    <s> Miks %%% ära ei lähe ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Kohtumine </title>
+  </info>
+  <info id="12213">
+    <s> Tal olid seljataga %%% ajad . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>murelik</n>
+    <word>murelikud</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="12214">
+    <s> Tal olid seljataga murelikud %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aeg</n>
+    <word>ajad</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="12226">
+    <s> %%% olid päris arglikud musid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="12228">
+    <s> Need olid päris %%% musid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>arglik</n>
+    <word>arglikud</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="12229">
+    <s> Need olid päris arglikud %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>musi</n>
+    <word>musid</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="12234">
+    <s> %%% teenisid päris sooja aplausi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="12260">
+    <s> Tal olid hästi %%% huuled . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kitsas</n>
+    <word>kitsad</word>
+    <title> Hüvitis </title>
+  </info>
+  <info id="12261">
+    <s> Tal olid hästi kitsad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>huul</n>
+    <word>huuled</word>
+    <title> Hüvitis </title>
+  </info>
+  <info id="12270">
+    <s> %%% jätame maha hädapärase garnisoni . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="12310">
+    <s> %%% tõmbasid alati selge piiri . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="12318">
+    <s> %%% läksime tagasi lõputu aja . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="12359">
+    <s> Mul olid täitsa %%% riided . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>korralik</n>
+    <word>korralikud</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="12360">
+    <s> Mul olid täitsa korralikud %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>riie</n>
+    <word>riided</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="12388">
+    <s> %%% olid väga lihtsad inimesed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="12390">
+    <s> Need olid väga %%% inimesed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>lihtne</n>
+    <word>lihtsad</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="12391">
+    <s> Need olid väga lihtsad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>inimene</n>
+    <word>inimesed</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="12448">
+    <s> %%% elavad väga ranges korras . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="12515">
+    <s> %%% ootasime vist terve minut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="12519">
+    <s> %%% ärataksid vaid lõputut nostalgiat . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="12527">
+    <s> %%% olid nüüd ametlik paar . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SUL ON TEINE </title>
+  </info>
+  <info id="12541">
+    <s> See kustutab ka %%% jäljed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>viimane</n>
+    <word>viimased</word>
+    <title> Raadio </title>
+  </info>
+  <info id="12542">
+    <s> See kustutab ka viimased %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>jälg</n>
+    <word>jäljed</word>
+    <title> Raadio </title>
+  </info>
+  <info id="12916">
+    <s> %%% ei saa seda teada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="12931">
+    <s> %%% ei kavatse temasse armuda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Lihtne lugu lendavate taldrikutega </title>
+  </info>
+  <info id="12936">
+    <s> %%% ei jää seda juhtima . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="12980">
+    <s> Sellepärast %%% meid ära viivadki ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="12983">
+    <s> Miks %%% seda õieti tegid ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="13014">
+    <s> Kuhu ma %%% tavaliselt panen ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="13037">
+    <s> Kust %%% selle küll võtsid ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="13046">
+    <s> Mismoodi %%% seda siis teevad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="13049">
+    <s> Kuidas %%% need ära tunnete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="13050">
+    <s> Kuidas te %%% ära tunnete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="13070">
+    <s> Kuidas %%% ta niikaugele lasite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Chadis </title>
+  </info>
+  <info id="13073">
+    <s> Kuidas %%% mind siis jälgite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Chadis </title>
+  </info>
+  <info id="13079">
+    <s> Miks %%% su kaasa võtsime ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Lihtne lugu lendavate taldrikutega </title>
+  </info>
+  <info id="13082">
+    <s> Küll %%% midagi välja mõtleme ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Lõhe müüris </title>
+  </info>
+  <info id="13087">
+    <s> Ma elasin %%% pommitamised üle ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Jutud </title>
+  </info>
+  <info id="13088">
+    <s> Ma elasin need %%% üle ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>pommitamine</n>
+    <word>pommitamised</word>
+    <title> Jutud </title>
+  </info>
+  <info id="13095">
+    <s> Ta küsis %%% kaustikud kaasa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>mõned</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="13096">
+    <s> Ta küsis mõned %%% kaasa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kaustik</n>
+    <word>kaustikud</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="13113">
+    <s> %%% pole minu vaenlased mitte . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="13116">
+    <s> Nemad pole minu %%% mitte . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vaenlane</n>
+    <word>vaenlased</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="13117">
+    <s> %%% kõnelesid mõnda aega omavahel . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13147">
+    <s> Sellest said %%% hoogu juurde . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="13149">
+    <s> %%% rääkisime oma mõtetes edasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Lend </title>
+  </info>
+  <info id="13153">
+    <s> %%% ajate mulle hirmu peale . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="13164">
+    <s> Ma võtan oma %%% tagasi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sõna</n>
+    <word>sõnad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="13177">
+    <s> %%% andsid selle võimaluse siiski . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="13187">
+    <s> Ma hoidsin %%% kirjad alles . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="13188">
+    <s> Ma hoidsin need %%% alles . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>kiri</n>
+    <word>kirjad</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="13191">
+    <s> Ta kirjutab %%% märkmikku üles . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="13201">
+    <s> %%% teate seda tunnet ju . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="13229">
+    <s> %%% seletasime talle asja ära . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="13244">
+    <s> Ma kirjutan nende %%% üles . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>nimi</n>
+    <word>nimed</word>
+    <title> KAHEKÕNED KOHVIKUTES </title>
+  </info>
+  <info id="13297">
+    <s> %%% ripuvad tal aina kaelas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="13313">
+    <s> %%% võtame teiega kindlasti ühendust . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> FÖÖNIKS </title>
+  </info>
+  <info id="13317">
+    <s> " %%% , " laiutas ta elavalt käsi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>igasugune</n>
+    <word>Igasugused</word>
+    <title> Hüvitis </title>
+  </info>
+  <info id="13336">
+    <s> Temaga õiendan ma samuti %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>arve</n>
+    <word>arved</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13337">
+    <s> %%% sättisid end parasjagu teele . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13353">
+    <s> %%% valisid sinu , mitte mina . . . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> HILISKEVAD </title>
+  </info>
+  <info id="13371">
+    <s> Ma tõstan %%% ainult vagunisse ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="13429">
+    <s> %%% ootame sind jälle külla . . . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="13451">
+    <s> See olete %%% seal pildil ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>te</answer>
+    <word>teie</word>
+    <title> Varblane </title>
+  </info>
+  <info id="13457">
+    <s> %%% said mu jälle kätte ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Chadis </title>
+  </info>
+  <info id="13509">
+    <s> %%% peavad kusagil siin olema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13566">
+    <s> %%% olid juba välja minemas . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="13575">
+    <s> %%% pidime koos välja minema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Saaga </title>
+  </info>
+  <info id="13578">
+    <s> %%% hakkasid seal kohe sosistama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="13614">
+    <s> %%% tahtsime jala edasi minna . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="13617">
+    <s> Miks %%% siin ikkagi oleme ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="13637">
+    <s> Miks %%% siin üldse olid ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Tagasi tulevikku IV </title>
+  </info>
+  <info id="13639">
+    <s> Kuhu %%% siis täna läheme ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> ILMUTUS MERIKARBIST </title>
+  </info>
+  <info id="13657">
+    <s> Miks %%% üldse laiali läksite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="13661">
+    <s> Kust %%% nii täpselt teavad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="13669">
+    <s> Kuidas %%% siis ära saame . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="13675">
+    <s> Nii %%% seal siis hüüdsid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Jutud </title>
+  </info>
+  <info id="13677">
+    <s> Miks %%% siis lahku lähete ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="13693">
+    <s> Kuidas %%% nii täpselt mäletavad ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Raadio </title>
+  </info>
+  <info id="13709">
+    <s> Nõnda %%% seal siis toimetasid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="13713">
+    <s> Miks %%% siis eile tulistasid ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Kõiksuse hääl </title>
+  </info>
+  <info id="13721">
+    <s> %%% vaadake vaid neid värve ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Ilus õhtu , härra Dannfuss ... </title>
+  </info>
+  <info id="13757">
+    <s> %%% ootavad vaid minu käsku . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Maris stella </title>
+  </info>
+  <info id="13765">
+    <s> %%% oleme siin mõlemad võõramaalased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13767">
+    <s> Me oleme siin %%% võõramaalased . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>mõlemad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13768">
+    <s> Me oleme siin mõlemad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>võõramaalane</n>
+    <word>võõramaalased</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13777">
+    <s> %%% oleme ainult enda poolel . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="13781">
+    <s> %%% pärinesid kahtlemata mu peast . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> HILISKEVAD </title>
+  </info>
+  <info id="13797">
+    <s> %%% räägite muudkui oma naisest . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> GRATIS </title>
+  </info>
+  <info id="13816">
+    <s> Ta teeb ise oma %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>valik</n>
+    <word>valikud</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="13959">
+    <s> %%% seisid teineteisele kahtlaselt lähedal . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="13992">
+    <s> %%% tegite selle juba lahti – ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="14004">
+    <s> %%% oleme temaga väga rahul . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="14016">
+    <s> %%% nimetavad seda pisut teisiti . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="14034">
+    <s> %%% võtavad sind alati tõsiselt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="14082">
+    <s> %%% armastavad meid ju niikuinii . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Raadio </title>
+  </info>
+  <info id="14137">
+    <s> Siis kaotasid %%% teineteise silmist . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="14173">
+    <s> Igatahes kolisid %%% meie lauda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="14209">
+    <s> Mõnikord kestsid %%% mitu kuud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> Surematus </title>
+  </info>
+  <info id="14237">
+    <s> Pealegi muudavad %%% oma väljanägemist . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="14257">
+    <s> Nüüd puudutasid %%% mu põlvi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>need</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="14293">
+    <s> %%% ei kuula mind lõpuni . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>te</answer>
+    <word>Teie</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="14368">
+    <s> %%% laseme minna teie kaptenil . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Sindbadi kaheksas reis </title>
+  </info>
+  <info id="14388">
+    <s> %%% tulid röövima meie kulda ! </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="14403">
+    <s> %%% ei ulata nende aukudeni . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="14437">
+    <s> Sulle ei meeldi sinu %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõte</n>
+    <word>mõtted</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="14463">
+    <s> %%% ei pööra mulle tähelepanu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="14533">
+    <s> %%% ei saa sellest aru . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Nips </title>
+  </info>
+  <info id="14538">
+    <s> %%% ei tee seda igakord . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Nips </title>
+  </info>
+  <info id="14567">
+    <s> Mulle ei meeldi su %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>vanem</n>
+    <word>vanemad</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="14653">
+    <s> Kas %%% siis tõesti ei tunne ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="14656">
+    <s> Kuhu %%% siis nüüd minemas olite ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="14668">
+    <s> Siis %%% täna kohale ei jõua . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="14683">
+    <s> Kuhu %%% siis õige minema hakkate ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="14689">
+    <s> Kas %%% siis juba ei lõpeta ? </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>teie</answer>
+    <word>te</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="14695">
+    <s> Küll %%% veel kõigest rääkida jõuame . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="14698">
+    <s> Niisama %%% seal juba ei oleks . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="14771">
+    <s> %%% olid siis alles väikesed lapsed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Raadio </title>
+  </info>
+  <info id="14773">
+    <s> Nad olid siis alles %%% lapsed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>väike</n>
+    <answer>väiksed</answer>
+    <word>väikesed</word>
+    <title> Raadio </title>
+  </info>
+  <info id="14774">
+    <s> Nad olid siis alles väikesed %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>laps</n>
+    <word>lapsed</word>
+    <title> Raadio </title>
+  </info>
+  <info id="14789">
+    <s> See pani %%% naised tõsiselt muretsema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõlema</n>
+    <word>mõlemad</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="14790">
+    <s> See pani mõlemad %%% tõsiselt muretsema . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>naine</n>
+    <word>naised</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="14857">
+    <s> %%% tahavad mind koolist välja süüa . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Eliitneiud </title>
+  </info>
+  <info id="14912">
+    <s> %%% õpime trikke ja anname etendusi . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="14954">
+    <s> Ta sulges %%% ja alustas tantsu . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>silm</n>
+    <answer>silmud</answer>
+    <word>silmad</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="14972">
+    <s> %%% istusid salongis ja jõid õlut . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tahiti ja Tonga </title>
+  </info>
+  <info id="14987">
+    <s> %%% istume lauas ja joome teed . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Unenägude jumal </title>
+  </info>
+  <info id="15012">
+    <s> %%% ei saa enam midagi teha . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Uskmatuse hind </title>
+  </info>
+  <info id="15017">
+    <s> %%% ei mäleta , kust nad tulid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="15020">
+    <s> Nad ei mäleta , kust %%% tulid . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="15107">
+    <s> %%% ei saa sellest kunagi teada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="15120">
+    <s> Kõike ei saa %%% kunagi teada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> Jutud </title>
+  </info>
+  <info id="15140">
+    <s> Toda ei saa %%% kunagi teada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <word>me</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="15217">
+    <s> %%% ei kavatsegi meist maha jääda . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>Nad</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="15242">
+    <s> %%% ei tohi teda jälle kaotada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>me</answer>
+    <answer>minad</answer>
+    <word>Meie</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="15267">
+    <s> %%% ei saa seda siin parandada . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mina</n>
+    <answer>meie</answer>
+    <answer>minad</answer>
+    <word>Me</word>
+    <title> Chadis </title>
+  </info>
+  <info id="15306">
+    <s> %%% ei pea mulle midagi kinnitama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="15378">
+    <s> %%% ei tohi teda minult võtta . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>sina</n>
+    <answer>sinad</answer>
+    <answer>teie</answer>
+    <word>Te</word>
+    <title> Chadis </title>
+  </info>
+</content>

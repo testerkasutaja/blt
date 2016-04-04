@@ -1,0 +1,6 @@
+ID,KÄÄNE,ÕIGE/VALE,AINSUS/MITMUS,ÕIGE/VALE
+11,osastav,true,ainsus,true
+9,alaltütlev,true,ainsus,true
+109,alaleütlev,false,mitmus,false
+127,seestütlev,false,mitmus,false
+225,saav,false,mitmus,false
