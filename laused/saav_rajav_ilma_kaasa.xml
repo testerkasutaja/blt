@@ -1,14 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="19">
-    <s> Tema oli täiesti %%% . </s>
-    <nr>ainsus</nr>
-    <case>ilmaütlev</case>
-    <n>teadvus</n>
-    <word>teadvuseta</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="23">
+  <info id="68">
     <s> Määris haige nägu %%% . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -18,7 +10,15 @@
     <word>soolaga</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="58">
+  <info id="127">
+    <s> Tema oli täiesti %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>teadvus</n>
+    <word>teadvuseta</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="278">
     <s> Sealt leidis ta karbi kolme %%% . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -26,29 +26,13 @@
     <word>sõlmega</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="59">
+  <info id="359">
     <s> Ajalehte ta ju selle %%% ei lähe . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>jutt</n>
     <answer>jutiga</answer>
     <word>jutuga</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="59">
-    <s> Ajalehte ta ju selle jutuga %%% lähe . </s>
-    <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>ei</n>
-    <word>ei</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="59">
-    <s> Ajalehte ta ju selle jutuga ei %%% . </s>
-    <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>minema</n>
-    <word>lähe</word>
     <title> Kevade tulek </title>
   </info>
 </content>

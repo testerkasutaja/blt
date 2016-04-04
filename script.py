@@ -213,6 +213,9 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
               casename = case_info[1]                         # kääne
               go = True
             if go == True:
+              print(word)
+              print(form)
+              print(casename)
               sen_x = re.sub(' ' + word + ' ',' %%% ',sentence)
               if casename != "n" or casename =="n" and sg_pl == "pl":
                 content_all = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl,title,clitic)
@@ -226,8 +229,8 @@ def runCaseAnalys(case_dict, list_of_sentences,inappropriateWords):
                 content_ill = addToContent(word, content_ill, casename, id, nominative, sen_x,sg_pl,title,clitic)      
               if casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
                 content_tr_ter_ab_kom = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl,title,clitic)
-      id = id + 1
-      go = False
+          id = id + 1
+          go = False
 
     formatXMLFile(content_g_es)
     formatXMLFile(content_p)

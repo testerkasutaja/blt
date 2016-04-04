@@ -1,6 +1,30 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
-  <info id="16">
+  <info id="95">
+    <s> %%% olid tugevad puud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>see</n>
+    <word>Need</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="97">
+    <s> Need olid %%% puud . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tugev</n>
+    <word>tugevad</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="98">
+    <s> Need olid tugevad %%% . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>puu</n>
+    <word>puud</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="130">
     <s> Rohkem %%% ei rääkinudki . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -9,138 +33,7 @@
     <word>nad</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="16">
-    <s> Rohkem nad %%% rääkinudki . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>ei</n>
-    <word>ei</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="16">
-    <s> Rohkem nad ei %%% . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>rääkima</n>
-    <word>rääkinudki</word>
-    <clitic>ki</clitic>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="26">
-    <s> %%% olid tugevad puud . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>see</n>
-    <word>Need</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="26">
-    <s> Need %%% tugevad puud . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>olema</n>
-    <word>olid</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="26">
-    <s> Need olid %%% puud . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>tugev</n>
-    <word>tugevad</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="26">
-    <s> Need olid tugevad %%% . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>puu</n>
-    <word>puud</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="29">
-    <s> %%% pole minu vaenlased mitte . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>tema</n>
-    <answer>nad</answer>
-    <word>Nemad</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="29">
-    <s> Nemad %%% minu vaenlased mitte . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>olema</n>
-    <word>pole</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="29">
-    <s> Nemad pole minu %%% mitte . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>vaenlane</n>
-    <word>vaenlased</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="30">
-    <s> Ja %%% peavad kokku saama . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>tema</n>
-    <answer>nemad</answer>
-    <word>nad</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="30">
-    <s> Ja nad %%% kokku saama . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>pidama</n>
-    <word>peavad</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="30">
-    <s> Ja nad peavad kokku %%% . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>saama</n>
-    <word>saama</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="32">
-    <s> %%% nutsid , mehed vandusid vaikselt . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>naine</n>
-    <word>Naised</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="32">
-    <s> Naised %%% , mehed vandusid vaikselt . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>nutma</n>
-    <word>nutsid</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="32">
-    <s> Naised nutsid , %%% vandusid vaikselt . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>mees</n>
-    <word>mehed</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="32">
-    <s> Naised nutsid , mehed %%% vaikselt . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>vanduma</n>
-    <word>vandusid</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="33">
+  <info id="141">
     <s> Ja kunagi %%% polnud õiged ! </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -149,15 +42,7 @@
     <word>nad</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="33">
-    <s> Ja kunagi nad %%% õiged ! </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>olema</n>
-    <word>polnud</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="33">
+  <info id="143">
     <s> Ja kunagi nad polnud %%% ! </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -165,7 +50,32 @@
     <word>õiged</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="34">
+  <info id="145">
+    <s> %%% nutsid , mehed vandusid vaikselt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>naine</n>
+    <word>Naised</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="148">
+    <s> Naised nutsid , %%% vandusid vaikselt . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mees</n>
+    <word>mehed</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="153">
+    <s> Ja %%% peavad kokku saama . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>tema</n>
+    <answer>nemad</answer>
+    <word>nad</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="183">
     <s> Kas %%% veel mind mäletate ? </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -174,23 +84,24 @@
     <word>teie</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="40">
-    <s> %%% aastad veel , siis ta hääbub . </s>
+  <info id="197">
+    <s> %%% pole minu vaenlased mitte . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
-    <n>mõni</n>
-    <word>Mõned</word>
+    <n>tema</n>
+    <answer>nad</answer>
+    <word>Nemad</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="40">
-    <s> Mõned %%% veel , siis ta hääbub . </s>
+  <info id="200">
+    <s> Nemad pole minu %%% mitte . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
-    <n>aasta</n>
-    <word>aastad</word>
+    <n>vaenlane</n>
+    <word>vaenlased</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="42">
+  <info id="212">
     <s> Aeg-ajalt kiikasid sisse %%% ja sulased . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -198,7 +109,7 @@
     <word>teenijad</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="42">
+  <info id="214">
     <s> Aeg-ajalt kiikasid sisse teenijad ja %%% . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -206,7 +117,23 @@
     <word>sulased</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="49">
+  <info id="223">
+    <s> %%% aastad veel , siis ta hääbub . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>mõni</n>
+    <word>Mõned</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="224">
+    <s> Mõned %%% veel , siis ta hääbub . </s>
+    <nr>mitmus</nr>
+    <case>nimetav</case>
+    <n>aasta</n>
+    <word>aastad</word>
+    <title> Kevade tulek </title>
+  </info>
+  <info id="306">
     <s> Meestel olid kõigil seljas %%% mantlid . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -214,7 +141,7 @@
     <word>pikad</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="49">
+  <info id="307">
     <s> Meestel olid kõigil seljas pikad %%% . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
@@ -222,37 +149,12 @@
     <word>mantlid</word>
     <title> Kevade tulek </title>
   </info>
-  <info id="66">
+  <info id="373">
     <s> " Tohtrite %%% siin ei aitagi , " hüüatas naine . </s>
     <nr>mitmus</nr>
     <case>nimetav</case>
     <n>õpetus</n>
     <word>õpetused</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="66">
-    <s> " Tohtrite õpetused siin %%% aitagi , " hüüatas naine . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>ei</n>
-    <word>ei</word>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="66">
-    <s> " Tohtrite õpetused siin ei %%% , " hüüatas naine . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>aitama</n>
-    <word>aitagi</word>
-    <clitic>gi</clitic>
-    <title> Kevade tulek </title>
-  </info>
-  <info id="66">
-    <s> " Tohtrite õpetused siin ei aitagi , " %%% naine . </s>
-    <nr>mitmus</nr>
-    <case>nimetav</case>
-    <n>hüüatama</n>
-    <word>hüüatas</word>
     <title> Kevade tulek </title>
   </info>
 </content>
