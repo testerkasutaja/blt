@@ -195,6 +195,7 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
     }
 	
 	sentenceId = xmlDoc.getElementsByTagName("info")[randomNr].getAttribute('id');
+	
 	console.log('ID '+ sentenceId);
 	answersStr = sentenceId + ',';
 	var nr = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("nr")[0].childNodes[0].nodeValue;
@@ -208,6 +209,7 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 	var word = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("word")[0].childNodes[0].nodeValue;
 	var nrCaseName = "<b>"+ nr + "e " + caseName+ "</b>";
 	var cliticCount = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("clitic").length;
+	var badSentenceStr = sentenceId + ', '+ sentence +', '+ word +', '+ nominative + ', ' + caseName + ', '+ nr;
 	if (gameType ==="findWord"){
 		word = word.toLowerCase();
 		answers.push(word);
@@ -221,8 +223,9 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 			var clitic = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("clitic")[0].childNodes[0].nodeValue;
 			nrCaseName = "<b>" + nrCaseName + "</b><br> Rõhuliide: " +"<b>-" + clitic +"</b>" ;
 		}
-		addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right, sentencesAmount,title);
-	}else{	addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title);
+		addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right, sentencesAmount,title, badSentenceStr);
+	}else{
+	 addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title, badSentenceStr);
 	}	
 }
 
@@ -234,7 +237,7 @@ function modifySentence(sentence){
 	return sentence;
 }
 
-function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right, sentencesAmount,title){
+function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right, sentencesAmount,title, badSentenceStr){
     //$("#container").append('<div id ="title" class = "title"></div>');
     document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
     $(".title").css("color", "rgb(30, 108, 132)");
@@ -252,12 +255,12 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
     
     $("#next").click(function(){
 		
-		controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmount);
+		controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmount, badSentenceStr);
 		document.getElementById("inputAnswer").blur();
 	});
 }
 
-function addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title){
+function addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title, badSentenceStr){
     //$("#container").append('<div id ="title" class = "title"></div>');
 	document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
     $(".title").css("color", "rgb(30, 108, 132)");
@@ -288,12 +291,12 @@ function addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,c
 	$("#radioButtonFormNr").append('<div class="radio-inline" id = "radioButtonNr"><label><input type="radio" id = "radioButtonSg" name="nrRadio" class="radioButtonNr" value = "ainsus">Ainsus</label></div><div class="radio-inline"><label><input type="radio" id = "radioButtonPl" name="nrRadio" class="radioButtonNr" value = "mitmus">Mitmus</label></div>');
 	
     $("#next").click(function(){
-		controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount)
+		controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount, badSentenceStr)
 	});
 
 }
 
-function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmount) {
+function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmount, badSentenceStr) {
     
     $("#answerModal").modal({backdrop: "static"});
     var inputText = document.getElementById("inputAnswer").value.toLowerCase();
@@ -304,7 +307,7 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
     //console.log(sum);
     if (inputText === ""){
 		//$("#nextButton").empty();
-        tryagainButton(gameType);
+        tryagainButton(gameType,badSentenceStr);
     }else{
 		$("#nextButton").empty();
         $("#badSentence").empty();
@@ -327,13 +330,13 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
             document.getElementById("rightOrWrong").innerHTML = text;
         }
 		
-        createNextButtonModal(caseType,gameType,sum,right, sentencesAmount);
+        createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
     }
 	answersStr = answersStr + isAnswer;
     
 	
 }
-function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount){
+function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount, badSentenceStr){
 	$("#answerModal").modal({backdrop: "static"});
 	var nrAnswer = $('input[name=nrRadio]:checked', '#radioButtonFormNr').val(); 
 	var caseAnswer = $('input[name=caseRadio]:checked', '#radioButtonFormCase').val();
@@ -344,7 +347,7 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 	
 	if (typeof caseAnswer === "undefined" || typeof nrAnswer ==="undefined"){
 		//$("#nextButton").empty();
-		tryagainButton(gameType);
+		tryagainButton(gameType,badSentenceStr);
 	}else {
 		$("#nextButton").empty();
         $("#badSentence").empty();
@@ -380,7 +383,7 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 			var text = "Mõlemad vastused on kahjuks valed.<br>" + "Õige vastus on " + nr + "e " + caseName + ".";
 			document.getElementById("rightOrWrong").innerHTML = text;
 		}
-		createNextButtonModal(caseType,gameType,sum,right, sentencesAmount);
+		createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
 		
 	}
 //	score = calculateScore(sum,right);
@@ -391,7 +394,7 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
     //} 
 }
 
-function createBadSentenceButton(){
+function createBadSentenceButton(badSentenceStr){
 	$("#modalButton").append('<button id="inappropriateSentence" type="button" class="btn btn-warning btn-md inappropriateSentence" >Teata ebasobivast lausest</button>');
 	$("#inappropriateSentence").click(function(){
 		 $(this).prop('disabled', true);
@@ -399,7 +402,7 @@ function createBadSentenceButton(){
 		
 		 $.post( 
                   "savedata.php",
-             	  { sentenceId: sentenceId },
+             	  { sentence: badSentenceStr },
 			      function(data) {
 					  $('#stage').html(data);
 				  }
@@ -407,8 +410,8 @@ function createBadSentenceButton(){
 	  });
 }
 
-function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount){
-	createBadSentenceButton();
+function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr){
+	createBadSentenceButton(badSentenceStr);
 	$("#modalButton").append('<button type="button" id ="nextButtonModal" class="btn btn-success nextModalButton">Edasi</button>')
     $('#nextButtonModal').click(function(){
 		$("#answerModal").modal("hide");
@@ -444,11 +447,11 @@ function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount){
 	
     
 }	
-function tryagainButton(gameType){
+function tryagainButton(gameType,badSentenceStr){
     var text = "Palun sisesta vastus.";
     document.getElementById("rightOrWrong").innerHTML = text;
 	$("#modalButton").empty();
-	createBadSentenceButton();
+	createBadSentenceButton(badSentenceStr);
 	$("#modalButton").append('<button type="button" id="tryAgainButtonModal" class="btn btn-success tryAgainButton">Proovi uuesti</button>');
 	$("#tryAgainButtonModal").click(function(){
 		if (gameType === "findWord"){

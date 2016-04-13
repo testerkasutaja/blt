@@ -1,38 +1,139 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
+  <info id="0">
+    <s> Kodu teeb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahulik</n>
+    <word>rahulikuks</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="3">
+    <s> Tuba jääb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vaikne</n>
+    <word>vaikseks</word>
+    <title> AJALOO ILU </title>
+  </info>
+  <info id="5">
+    <s> Mehed muutusid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pahur</n>
+    <word>pahuraks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="7">
+    <s> Ametiasutused muutusid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valvas</n>
+    <word>valvsaks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="8">
+    <s> Põgenemine osutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>võimatu</n>
+    <word>võimatuks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="9">
+    <s> Asi läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tasuline</n>
+    <word>tasuliseks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="24">
+    <s> Viimse %%% käin . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>hingetõmme</n>
+    <word>hingetõmbeni</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="47">
+    <s> Pimedus vaikis %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastus</n>
+    <word>vastuseks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="62">
+    <s> Ülestunnistus , ülestunnistus , kordasin %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastus</n>
+    <word>vastuseks</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="65">
+    <s> Ema süda muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahutu</n>
+    <word>rahutuks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
   <info id="68">
-    <s> Määris haige nägu %%% . </s>
+    <s> Tüdruku silmad läksid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>suur</n>
+    <word>suureks</word>
+    <title> Pika tee algus </title>
+  </info>
+  <info id="73">
+    <s> Asi oli muutumas %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rutiin</n>
+    <word>rutiiniks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="78">
+    <s> Kodus kippub %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>palav</n>
+    <word>palavaks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="92">
+    <s> Tuli möllas kohutava %%% . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>sool</n>
-    <answer>soolega</answer>
-    <answer>sooliga</answer>
-    <word>soolaga</word>
-    <title> Kevade tulek </title>
+    <n>ragin</n>
+    <word>raginaga</word>
+    <title> Metsad kõnelevad </title>
   </info>
-  <info id="127">
-    <s> Tema oli täiesti %%% . </s>
+  <info id="118">
+    <s> Tänapäeval suurendatakse pisikegi nägu %%% . </s>
     <nr>ainsus</nr>
-    <case>ilmaütlev</case>
-    <n>teadvus</n>
-    <word>teadvuseta</word>
-    <title> Kevade tulek </title>
+    <case>saav</case>
+    <n>portree</n>
+    <word>portreeks</word>
+    <title> AHASVEERUSE UNI </title>
   </info>
-  <info id="278">
-    <s> Sealt leidis ta karbi kolme %%% . </s>
+  <info id="145">
+    <s> Naise põhjalikud seletused teevad grupi %%% . </s>
     <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>sõlm</n>
-    <word>sõlmega</word>
-    <title> Kevade tulek </title>
+    <case>saav</case>
+    <n>kärsitu</n>
+    <word>kärsituks</word>
+    <title> AJALOO ILU </title>
   </info>
-  <info id="359">
-    <s> Ajalehte ta ju selle %%% ei lähe . </s>
+  <info id="185">
+    <s> Pingi küljes tolkneb paberileht %%% " värske värv " . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>jutt</n>
-    <answer>jutiga</answer>
-    <word>jutuga</word>
-    <title> Kevade tulek </title>
+    <n>hoiatus</n>
+    <word>hoiatusega</word>
+    <title> AJALOO ILU </title>
   </info>
 </content>

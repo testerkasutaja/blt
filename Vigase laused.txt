@@ -8,3 +8,12 @@
     <word>Minu</word>
     <title> AHASVEERUSE UNI </title>
   </info>
+
+<info id="197">
+    <s> Ruumis lainetas elekter , %%% , sõja hümn , sõber . </s>
+    <nr>ainsus</nr>
+    <case>omastav</case>
+    <n>poliitika</n>
+    <word>poliitika</word>
+    <title> Jutud </title>
+  </info>
