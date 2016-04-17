@@ -11,7 +11,13 @@ from estnltk import synthesize
 from estnltk import Text
 from numpy import loadtxt
 
-corpus = [" Ta kaotas tasakaalu raudteejaamadelgi .¤%&"]
-synt = synthesize('juht', form = 'sg tr ', hint = 'juhuks')
-print(synt)
-  
+
+
+
+from estnltk import Disambiguator
+
+sentence = ' (Tere ;/'
+sentence = re.sub('([<|\]\[>/\\^:;()-])', '¤%&', sentence)
+if "¤%&" in sentence:
+    print("paha")
+print (sentence)

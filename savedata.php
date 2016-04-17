@@ -6,7 +6,7 @@ if( $_REQUEST["sentence"] ) {
     
    $fileName = "data/". "unsuitableSentences" . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"ID,Lause,Õige Vastus,Algvorm,Kääne,Number");
+        array_push($list,"id,lause,õige vastus,algvorm,kääne,number");
     }
 	$sentence = $_REQUEST['sentence'];
 	echo sentence;  
@@ -26,7 +26,7 @@ if( $_REQUEST["answerData1"] ) {
     
     $fileName = "data/" . "answersG1_" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"ID,VASTUS,ÕIGE/VALE");
+        array_push($list,"id,vastus,õige/vale");
     }
 	$answerData = $_REQUEST['answerData1'];
 	echo $answerData;
@@ -48,7 +48,7 @@ if( $_REQUEST["answerData2"] ) {
     
     $fileName = "data/" . "aanswersG2_" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"ID,KÄÄNE,ÕIGE/VALE,AINSUS/MITMUS,ÕIGE/VALE");
+        array_push($list,"id,kääne,õige/vale,ainsus/mitmus,õige/vale");
     }
 	$answerData = $_REQUEST['answerData2'];
 	echo $answerData;

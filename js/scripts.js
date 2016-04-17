@@ -162,12 +162,11 @@ function addGeneralGameContent(){
 function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 
     addGeneralGameContent(); 
-    score = calculateScore(sum,right);
- score = calculateScore(sum,right);
+ 	score = calculateScore(sum,right);
     if (isNaN(score)){
-        document.getElementById("counter").innerHTML = "Skoor: " + "0"+"%"+ "<br>"+(sum+1)+". lause";
+        document.getElementById("counter").innerHTML = "Skoor: " + "0"+"%"+ "<br> Laused: "+(sum+1) + " / "+sentencesAmount ;
     }else{
-        document.getElementById("counter").innerHTML = "Skoor: " + score+"%"+ "<br>"+(sum+1)+". lause";
+        document.getElementById("counter").innerHTML = "Skoor: " + score+"%"+  "<br> Laused: "+(sum+1) + " / "+ sentencesAmount  ;
     } 
     
 	var xmlDoc = xml.responseXML;
@@ -239,8 +238,11 @@ function modifySentence(sentence){
 
 function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceBack,answers,caseType,gameType,sum,right, sentencesAmount,title, badSentenceStr){
     //$("#container").append('<div id ="title" class = "title"></div>');
-    document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
-    $(".title").css("color", "rgb(30, 108, 132)");
+	
+	$("#head").append('<div id ="gameName" class = "head1"></div>');
+	$("#head").append('<div id ="gameCase" class = "head2"></div>');
+   // document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
+   // $(".title").css("color", "rgb(30, 108, 132)");
 	$("#sentenceContent").append('<div id="word" class= "wordInNominative"></div>');
 	$("#sentenceContent").append('<div class= "case" id="case"></div>');
 	$("#sentenceContent").append('<div id="sentenceDiv" class="sentence row"></div>');
@@ -248,11 +250,23 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
 	$("#sentenceDiv").append('<input id="inputAnswer" class = "inputAnswer"type="text">');
 	document.getElementById("inputAnswer").focus();
 	$("#sentenceDiv").append('<p id="sentenceBack" class="sentenceBack"></p>');
+	document.getElementById("gameName").innerHTML ="Pane sõna õigesse käändesse";
     document.getElementById("case").innerHTML = "Kääne: "+nrCaseName;
 	document.getElementById("word").innerHTML = "Sõna: <b>" + nominative+"</b>";
 	document.getElementById("sentenceFront").innerHTML = sentenceFront;
     document.getElementById("sentenceBack").innerHTML = sentenceBack;
-    
+    if (caseType ==='p'){
+		c = 'Osastav kääne'
+	}else if(caseType==='all'){
+		c = 'Kõik käänded'
+	}else if (caseType ==='ges'){
+		c = 'Omastav ja olev kääne'
+	}else if (caseType ==="other"){
+		c = 'Saav, rajav, ilmaütlev ja kaasaütlev kääne'
+	}else{
+		c = 'Kohakäänded'
+	}
+	document.getElementById("gameCase").innerHTML = c;
     $("#next").click(function(){
 		
 		controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmount, badSentenceStr);
@@ -261,9 +275,10 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
 }
 
 function addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,caseType,gameType,sum,right, sentencesAmount,title, badSentenceStr){
-    //$("#container").append('<div id ="title" class = "title"></div>');
-	document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
-    $(".title").css("color", "rgb(30, 108, 132)");
+    $("#head").append('<div id ="gameName" class = "head1"></div>');
+	$("#head").append('<div id ="gameCase" class = "head2"></div>');
+	//document.getElementById("title").innerHTML = 'Raamatu pealkiri: "' + title + '"' ;
+   // $(".title").css("color", "rgb(30, 108, 132)");
 	var sentence = sentenceFront + " <b>" + word + " </b>" + sentenceBack ;
 	$("#sentenceContent").append('<p id = "fullSentence" class = "fullSentence"></p>');
 	$("#fullSentence").html(sentence);
@@ -289,7 +304,8 @@ function addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,c
 	$("#textForNr").html("Kas sõna <b>" + word + "</b> on ainsuses või mitmuses?");
 	$("#sentenceContent").append('<form id="radioButtonFormNr" ></form>');
 	$("#radioButtonFormNr").append('<div class="radio-inline" id = "radioButtonNr"><label><input type="radio" id = "radioButtonSg" name="nrRadio" class="radioButtonNr" value = "ainsus">Ainsus</label></div><div class="radio-inline"><label><input type="radio" id = "radioButtonPl" name="nrRadio" class="radioButtonNr" value = "mitmus">Mitmus</label></div>');
-	
+	document.getElementById("gameName").innerHTML ="Leia õige kääne";
+	document.getElementById("gameCase").innerHTML = "Kõik käänded";
     $("#next").click(function(){
 		controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount, badSentenceStr)
 	});
@@ -469,12 +485,19 @@ function calculateScore(sum,right){
     return score;
 }
 function gameOver(sum,right,gameType){
+	score = calculateScore(sum,right);
+    if (isNaN(score)){
+        document.getElementById("counter").innerHTML = "Skoor: " + "0"+"%";
+    }else{
+        document.getElementById("counter").innerHTML = "Skoor: " + score+"%";
+    } 
     $("#gameOverModal").modal({backdrop: "static"});
 	if (gameType=="findCase"){
 		sum = sum*2;
 		right = right*2;
 	}
 	wrong = sum - right;
+	score = calculateScore(sum,right)
     var text = "Mäng läbi! <br> Õigeid vastuseid oli " + right + "<br> Valesid vastuseid oli "+ wrong+ "<br> Skoor on " + score + "%";
     document.getElementById("gameOverText").innerHTML = text;
     

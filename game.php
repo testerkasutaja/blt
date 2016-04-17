@@ -19,14 +19,14 @@
 
 <body>
 	<div class="container">
-        
+        <div id= head>
 		<div class="question">
             <button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
             <p id="questiontext" class="questiontext pull-right"></p>   
 		</div>
 		<div id="counterDiv">
 		</div>
-        
+        </div>
         <div id="content" class="well task">
             <div id ="title" class = "title"></div>
 			<div id="buttonContent"></div>
