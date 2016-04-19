@@ -268,7 +268,6 @@ function addGameContentForFindWord(nrCaseName,nominative,sentenceFront,sentenceB
 	}
 	document.getElementById("gameCase").innerHTML = c;
     $("#next").click(function(){
-		
 		controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmount, badSentenceStr);
 		document.getElementById("inputAnswer").blur();
 	});
@@ -349,7 +348,13 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
         createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
     }
 	answersStr = answersStr + isAnswer;
-    
+	$.post( 
+		"savedata.php",
+        { answerData1: answersStr },
+        function(data) {
+			$('#stage').html(data);
+		});
+
 	
 }
 function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount, badSentenceStr){
@@ -402,12 +407,12 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 		createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
 		
 	}
-//	score = calculateScore(sum,right);
- //   if (isNaN(score)){
-   //     document.getElementById("counter").innerHTML = "Skoor: " + "0"+"%"+ "<br>"+sum+" lause";
-    //}else{
-      //  document.getElementById("counter").innerHTML = "Skoor: " + score+"%"+ "<br>"+sum+" lause";
-    //} 
+	$.post(
+		"savedata.php",
+		{ answerData2: answersStr },
+		function(data) {
+			$('#stage').html(data);
+		});
 }
 
 function createBadSentenceButton(badSentenceStr){
@@ -433,24 +438,7 @@ function createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badS
 		$("#answerModal").modal("hide");
 		$("#modalButton").empty();
 		$("#sentenceContent").empty();
-		if(gameType == "findWord"){
-            $.post( 
-                    "savedata.php",
-                    { answerData1: answersStr },
-                    function(data) {
-                        $('#stage').html(data);
-                    }
-                  );
-        }else{
-            $.post( 
-                    "savedata.php",
-                    { answerData2: answersStr },
-                    function(data) {
-                        $('#stage').html(data);
-                    }
-                  );
-            
-        }
+
 		
 		if (sum >= sentencesAmount){
             gameOver(sum,right,gameType);

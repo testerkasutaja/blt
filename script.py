@@ -45,7 +45,7 @@ def sentencePunctuation(sentence):                             #kui lause on " l
     print(sentence)
   if sentence.count('"')== 2 and sentence.endswith('"') and sentence.startswith('"'):
     sentence = re.sub('^"|"$', '', sentence)
-  sentence = re.sub('^\s|\s$', '', sentence)
+    sentence = re.sub('^\s|\s$', '', sentence)
   return sentence
 
 def listtostring(list):
@@ -97,6 +97,8 @@ def sentenceSuitability(text,freqWordList):
                 if valid == True:
                   clitic = a[CLITIC]
                   clitics.append(clitic)
+      if sentenceLen > 2 and sentenceLen < 8 and 'V' not in posList:
+        print(text)
       else:
         valid = False
       return (valid,clitics,sentenceLen,pos_str)
@@ -203,8 +205,8 @@ def runCaseAnalys(case_dict, list_of_sentences):
   tree_all = ElementTree(content_all)
   
   if len(list_of_sentences)>0:
-    for sentence_info in list_of_sentences:
-      forms = sentence_info.get('forms')          #lause andmed
+    for sentence_info in list_of_sentences:       #lause andmed
+      forms = sentence_info.get('forms')        
       lemmas = sentence_info.get('lemmas')
       sentence_as_list = sentence_info.get('word_texts')
       title = sentence_info.get('title')
@@ -215,9 +217,6 @@ def runCaseAnalys(case_dict, list_of_sentences):
       for index in range(len(forms)):         #lause käiakse läbi
           form = forms[index]
           if form != '':                      #kui sõnal on sõnavorm ehk sõna pole kirjavahemärk
-            nominative = lemmas[index]
-            word = sentence_as_list[index]
-            clitic = clitics[index]
             case_info = form.split(' ')
             if case_info[0]=='adt':                           # kui sõna on lühikesisseütlev on erandjuht
               casename = case_info[0]
@@ -227,6 +226,9 @@ def runCaseAnalys(case_dict, list_of_sentences):
               sg_pl = case_info[0]                            # ainus v mitmus   
               casename = case_info[1]                         # kääne
               go = True
+            nominative = lemmas[index]
+            word = sentence_as_list[index]
+            clitic = clitics[index]
             if go == True:
              # print(word)
              # print(form)

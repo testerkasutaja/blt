@@ -46,7 +46,7 @@ if( $_REQUEST["answerData2"] ) {
 	$list = array
 	();
     
-    $fileName = "data/" . "aanswersG2_" . $date . ".csv";
+    $fileName = "data/" . "answersG2_" . $date . ".csv";
     if (file_exists($fileName) == false){
         array_push($list,"id,kääne,õige/vale,ainsus/mitmus,õige/vale");
     }
