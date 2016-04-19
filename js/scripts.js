@@ -163,7 +163,7 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
     addGeneralGameContent(); 
  	score = calculateScore(sum,right);
     if (isNaN(score)){
-        document.getElementById("counter").innerHTML = "Skoor: " + "0"+"%"+ "<br> Laused: "+(sum+1) + " / "+sentencesAmount ;
+        document.getElementById("counter").innerHTML = "Skoor: " + "0"+"%"+ "<br> Laused: "+(sum+1) + " / " + sentencesAmount ;
     }else{
         document.getElementById("counter").innerHTML = "Skoor: " + score+"%"+  "<br> Laused: "+(sum+1) + " / "+ sentencesAmount  ;
     } 
@@ -195,7 +195,7 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 	sentenceId = xmlDoc.getElementsByTagName("info")[randomNr].getAttribute('id');
 	
 	console.log('ID '+ sentenceId);
-	answersStr = sentenceId + ',';
+	answersStr = sentenceId + ',' + sentence + ',';
 	var nr = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("nr")[0].childNodes[0].nodeValue;
     var title = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("title")[0].childNodes[0].nodeValue;
     console.log('title' + title);

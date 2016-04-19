@@ -26,7 +26,7 @@ if( $_REQUEST["answerData1"] ) {
     
     $fileName = "data/" . "answersG1_" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"id,vastus,õige/vale");
+        array_push($list,"id,lause,vastus,õige/vale");
     }
 	$answerData = $_REQUEST['answerData1'];
 	echo $answerData;
@@ -48,7 +48,7 @@ if( $_REQUEST["answerData2"] ) {
     
     $fileName = "data/" . "answersG2_" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"id,kääne,õige/vale,ainsus/mitmus,õige/vale");
+        array_push($list,"id,lause,kääne,õige/vale,ainsus/mitmus,õige/vale");
     }
 	$answerData = $_REQUEST['answerData2'];
 	echo $answerData;

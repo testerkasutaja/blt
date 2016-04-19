@@ -38,7 +38,7 @@ def sentencePunctuation(sentence):                             #kui lause on " l
   sentence = re.sub('”', '"', sentence)
   sentence = re.sub('“', '"', sentence)
   sentence = re.sub('([<|\]\[>/\\^:;()-])', '¤%&', sentence)      # ebasobiv märk asendatakse "¤%&" 
-  if sentence.count('"')== 1 or sentence.count('"')== 3 or sentence.count('"') > 4 or "¤%&" in sentence:
+  if sentence.count('"')== 1 or sentence.count('"')== 3 or sentence.count('"') > 4 or "¤%&" in sentence or sentence.count(',') >1 or "..." in sentence:
     sentence = ""
     return sentence
   if sentence.count('%%%')== 1:
