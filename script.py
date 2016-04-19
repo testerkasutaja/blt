@@ -97,8 +97,6 @@ def sentenceSuitability(text,freqWordList):
                 if valid == True:
                   clitic = a[CLITIC]
                   clitics.append(clitic)
-      if sentenceLen > 2 and sentenceLen < 8 and 'V' not in posList:
-        print(text)
       else:
         valid = False
       return (valid,clitics,sentenceLen,pos_str)
@@ -234,9 +232,9 @@ def runCaseAnalys(case_dict, list_of_sentences):
              # print(form)
              # print(casename)
               sen_x = re.sub(' ' + word + ' ',' %%% ',sentence)
-              if casename == "n" and sg_pl == "pl":
-                content_n = addToContent(word, content_n, casename, id, nominative, sen_x, sg_pl,title,clitic)    
-              if casename == "g" or casename=="es":
+             # if casename == "n" and sg_pl == "pl":
+             #   content_n = addToContent(word, content_n, casename, id, nominative, sen_x, sg_pl,title,clitic)    
+              if casename == "g" or casename=="es" or (casename == "n" and sg_pl == "pl"):
                  content_g_es = addToContent(word, content_g_es, casename, id, nominative, sen_x,sg_pl,title,clitic)
               if casename == "p":
                 content_p= addToContent(word, content_p, casename, id, nominative, sen_x,sg_pl,title,clitic)     
@@ -254,10 +252,10 @@ def runCaseAnalys(case_dict, list_of_sentences):
     formatXMLFile(content_ill)
     formatXMLFile(content_tr_ter_ab_kom)
     formatXMLFile(content_all)
-    formatXMLFile(content_n)
+   # formatXMLFile(content_n)
 
-    tree_n.write("laused/nimetav.xml",'utf8')
-    tree_g_es.write("laused/omastav_olev.xml",'utf8')
+ #   tree_n.write("laused/nimetav.xml",'utf8')
+    tree_g_es.write("laused/nimetav_omastav_olev.xml",'utf8')
     tree_p.write("laused/osastav.xml","utf8")
     tree_ill.write("laused/kohakäänded.xml","utf8")
     tree_tr_ter_ab_kom.write("laused/saav_rajav_ilma_kaasa.xml","utf8")

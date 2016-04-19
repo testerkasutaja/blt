@@ -86,7 +86,9 @@ min-width: 700px;
 
 .questiontext{
 	display: none;
-
+    position: absolute;
+    top: 100px;
+    left: 200px;
 }
 
 .startbtn{

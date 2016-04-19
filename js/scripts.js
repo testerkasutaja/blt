@@ -82,6 +82,12 @@ function caseTypeSelection(gameType, sentencesAmount){
     var right = 0;
 	if (gameType === "findWord"){
         document.getElementById("questiontext").innerHTML = "Vali, milliseid käändeid soovid harjutada."
+        $("#buttonContent").append('<button id = "gesCase" class="btn btn-primary chooseCaseButton">Nimeta, omastav ja olev kääne</button>');
+		$("#gesCase").click(function(){
+            document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
+			$("#buttonContent").empty();
+			loadDoc("ges",gameType,sum,right, sentencesAmount);
+		});
 		$("#buttonContent").append('<button id = "placeCase" class="btn btn-primary chooseCaseButton">Kohakäänded</button>');
 		$("#placeCase").click(function(){
             document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
@@ -94,13 +100,6 @@ function caseTypeSelection(gameType, sentencesAmount){
             document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
 			$("#buttonContent").empty();
 			loadDoc("p",gameType,sum,right, sentencesAmount);
-		});
-
-		$("#buttonContent").append('<button id = "gesCase" class="btn btn-primary chooseCaseButton">Omastav ja olev kääne</button>');
-		$("#gesCase").click(function(){
-            document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
-			$("#buttonContent").empty();
-			loadDoc("ges",gameType,sum,right, sentencesAmount);
 		});
 
 		$("#buttonContent").append('<button id = "otherCase" class="btn btn-primary chooseCaseButton">Saav, rajav, ilmaütlev ja kaasaütlev kääne</button>');
@@ -140,7 +139,7 @@ function loadDoc(caseType, gameType,sum,right, sentencesAmount) {
         xhttp.open("GET", "./laused/osastav.xml", true);
   } 
 	if(caseType == "ges"){
-        xhttp.open("GET", "./laused/omastav_olev.xml", true);
+        xhttp.open("GET", "./laused/nimetav_omastav_olev.xml", true);
   }
 	if(caseType == "other"){
         xhttp.open("GET", "./laused/saav_rajav_ilma_kaasa.xml", true);
