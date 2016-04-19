@@ -17,7 +17,7 @@ case_dict = {'n':'nimetav','sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
 inappropriateWords = ['loll', ',jama', 'kurat', 'kapo', 'kanep', 'tegelt', 'sitt', 'pätt', 'in', 'mats', 'homo', 'pagan', 'joodik', 'idioot', 'nats', 'point', 'kesik', 'aa', 'neeger', 'veits', 'jurama', 'narkomaan', 'jobu', 'siuke', 'õps', 'perse', 'tibi', 'riist', 'aint', 'tiss', 'pask', 'raisk', 'värdjas', 'prostituut', 'pedofiil', 'mupo', 'gei', 'suli', 'porno', 'kaabakas', 'pepupeldik', 'kaka', 'piss', 'tibla', 'möla', 'lollakas', 'luuser', 'lits', 'tatt', 'pissima', 'vets', 'lesbi', 'ment', 'pede', 'inf', 'eepervert', 'narkar', 'okse', 'bemm', 'penskar', 'kusema', 'kakama', 'rullnokk', 'tola', 'rulima', 'junn', 'tglt', 'ubekas', 'peer', 'out', 'pedofiilia', 'muti', 'tõbras', 'sittuma', 'kaak', 'totakas', 'pee', 'kuramus', 'debiilik', 'tutt', 'diiler', 'ila', 'kommar', 'pilu', 'raibe', 'kusifašist', 'paganama', 'keppima', 'tra', 'moll', 'tips', 'kuradima', 'pohhui', 'pederast', 'pandav', 'kommu', 'jõmm', 'vänt', 'beib', 'friik', 'nolk', 'tegelinski', 'totu', 'möga', 'oss', 'mölakas', 'lurjus', 'mõrd', 'fašistlik', 'kaif', 'noku', 'argpüks', 'tatikas', 'mate', 'ajukääbik', 'liputamavibraator', 'lollpea', 'sitane', 'memmekas', 'lõust', 'somm', 'idikas', 'bordell', 'kärvama', 'kärakas', 'kemps', 'hoor', 'iiling', 'pederastia', 'narkots', 'vant', 'hui', 'hui', 'venku', 'sitasti', 'nodi', 'soperdis', 'tõusik', 'puuks', 'äbarik', 'vitt', 'libu', 'hulkur', 'enivei', 'looderpeeretama', 'peda', 'tolgus', 'lontrus', 'pohh', 'hängima', 'sunnik', 'jätis', 'türa', 'jura', 'laiskvorst', 'drive-in', 'kiim', 'matslik', 'sittama', 'debiil', 'rops', 'mimm', 'kurivaim', 'sitapea', 'jota', 'nahhui', 'tšikk', 'veitsa', 'bitch', 'dire', 'linnavurle', 'russ', 'prost', 'empstumba', 'burks', 'shoppama', 'pabul', 'keska', 'tohman', 'peldik', 'bemar', 'kretiin', 'liputaja', 'tainapea', 'varganägu', 'litakas', 'värdjalik', 'haip', 'litsakas', 'molu', 'kaltsakas', 'vanka', 'lojus', 'kähkukas', 'sovett', 'närakas', 'töllmokk', 'prükkar', 'häbe', 'hooramakagebiit', 'tipsi', 'kantpea', 'skinhead', 'hullar', 'keelekas', 'lasteporno', 'ruts', 'nikkuma', 'chillima', 'šoppama', 'komnoor', 'lausloll', 'logard', 'tuhvlialune', 'piff', 'mata', 'matslus', 'lipakas', 'pasandama', 'ropsima', 'memmepoeg', 'tattnina', 'puuksutama', 'skisonatsistlik', 'molkus', 'pohui', 'tillu', 'pissipott', 'kusik', 'jobukakk', 'niuke', 'litsimaja', 'närukael', 'pohuism', 'haipima', 'pilusilm', 'juhmakas', 'puts', 'julk', 'vurle', 'pursui', 'blatnoi', 'komu', 'kuram', 'tuss', 'baaba', 'näss', 'hoorus', 'kakane', 'sitakott', 'lita', 'sopakaspohhuist', 'grupiseks', 'nuss', 'ponks', 'joomar', 'skinn', 'samakas', 'trulla', 'frits', 'eniveis', 'sitahunnik', 'kurask', 'jokkis', 'huinjaa', 'sitahais', 'sakuska', 'tots', 'amf', 'morda', 'nussima', 'sakumm', 'pissitama', 'sitavares', 'sitaratas', 'kili', 'jeestlane', 'gümna', 'platnoigigolo', 'mamps', 'sekspomm', 'kürb', 'tšillima', 'kaki', 'pilukas', 'ladna', 'duubeldama', 'jobukari', 'tšau', 'krõhva', 'haisukott', 'perseli', 'kehka', 'klassijuss', 'pohhuistlik', 'kabistama', 'plää', 'linnusitt', 'nahui', 'sitajunn', 'toksikomaan', 'pordumaja', 'labrakasnarkomuul', 'joobar', 'masuurikas', 'nässakas', 'kräu', 'ciao', 'lirva', 'persevest', 'koinima', 'sitaauk', 'tsillima', 'samagonntöpa', 'sopajoodik', 'tšuhnaa', 'larhv', 'ajukääbus', 'kiimlema', 'jobi', 'porduelu', 'sitahäda', 'tõprakari', 'kirvenägu', 'odratolgus', 'kakimakiimakott', 'kräkk', 'saksmann', 'bomž', 'kusev', 'plebei', 'pasahunnik', 'sakusment', 'pasakott', 'kabajantsik', 'kiimalus', 'milf', 'pano', 'litapoeg', 'jobutamapohhuilt', 'grupiks', 'topakas', 'hooramaja', 'türapea', 'küberseks', 'pepuvahe', 'kusene', 'kusija', 'hoorapoeg', 'pizdets', 'hohollpasanteeria', 'bitš', 'kekats', 'kakanoku', 'panomees', 'nadikael', 'pärakas', 'tolbajoob', 'kusetama', 'bljät', 'bizdets', 'pleiboi', 'pasahais', 'kagebist', 'praagamagu', 'bljat', 'kiimlus', 'pedetsema', 'nihhuijaa', 'nehhui', 'häbedus', 'häbemepilu', 'jobama', 'kuselema', 'kagebeelanemunapiiks', 'oolrait', 'beibe', 'jobutus', 'sigarijunn', 'sitavedaja', 'dolbajoob', 'jobisema', 'pipravitt', 'türahiinlane', 'perseklile', 'tindinikkuja']
 unsuitable_POS = ['Y','H','P','I'] #lauses ei ole pärisnimesid, asesõnu, lühendeid, hüüdsõnu;
-bad_adverbs = ['siin', 'siia','siit','seal' ,'sinna', 'siis']
+bad_adverbs = ['siin','seal' ,'mina','sina','tema','see','too']
 print(len(inappropriateWords))
 
 def makeFreqDictToList(inappropriateWords):  # Sagedussõnastiku järjendina ilma halbade sõnadeta
@@ -130,8 +130,8 @@ def chooseSentencesFromCorpus(files,freqWordList,inappropriateWords,unsuitable_P
     for text in texts:
       (valid,clitics,sentenceLen,pos_str) = sentenceSuitability(text,freqWordList)
       if valid == True:             #Lauses pole sõna millel on rohkem kui üks analüüs ning pole sõna mille liitsõna või sõna kuulub ebasobivate lausete hulka
-          sentence_analysis = text.get.word_texts.lemmas.forms.as_dict
-          root_tokens =text.get.root_tokens.as_dict
+          sentence_analysis = text.get.word_texts.lemmas.postags.forms.as_dict
+         # root_tokens =text.get.root_tokens.as_dict
           sentence_analysis['clitics'] = clitics
           sentence_analysis['title'] = title
           if sentenceLen == 3:
@@ -212,6 +212,7 @@ def runCaseAnalys(case_dict, list_of_sentences):
       named_entities = sentence_info.get('named_entities')
       clitics = sentence_info.get('clitics')
       roots = sentence_info.get('root_tokens')
+      postags = sentence_info.get('postags')
       for index in range(len(forms)):         #lause käiakse läbi
           form = forms[index]
           if form != '':                      #kui sõnal on sõnavorm ehk sõna pole kirjavahemärk
@@ -227,6 +228,7 @@ def runCaseAnalys(case_dict, list_of_sentences):
             nominative = lemmas[index]
             word = sentence_as_list[index]
             clitic = clitics[index]
+            pos = postags[index]
             if go == True:
              # print(word)
              # print(form)
@@ -235,15 +237,15 @@ def runCaseAnalys(case_dict, list_of_sentences):
              # if casename == "n" and sg_pl == "pl":
              #   content_n = addToContent(word, content_n, casename, id, nominative, sen_x, sg_pl,title,clitic)    
               if casename == "g" or casename=="es" or (casename == "n" and sg_pl == "pl"):
-                 content_g_es = addToContent(word, content_g_es, casename, id, nominative, sen_x,sg_pl,title,clitic)
+                 content_g_es = addToContent(word, content_g_es, casename, id, nominative, sen_x,sg_pl,title,clitic,pos)
               if casename == "p":
-                content_p= addToContent(word, content_p, casename, id, nominative, sen_x,sg_pl,title,clitic)     
+                content_p= addToContent(word, content_p, casename, id, nominative, sen_x,sg_pl,title,clitic,pos)     
               if casename == "ill" or casename == "in" or casename == "el" or casename == "adt" or casename == "all" or casename == "ad" or casename == "abl":
-                content_ill = addToContent(word, content_ill, casename, id, nominative, sen_x,sg_pl,title,clitic)      
+                content_ill = addToContent(word, content_ill, casename, id, nominative, sen_x,sg_pl,title,clitic,pos)      
               if casename == "tr" or casename=="ter" or casename=="ab" or casename=="kom":
-                content_tr_ter_ab_kom = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl,title,clitic)
+                content_tr_ter_ab_kom = addToContent(word, content_tr_ter_ab_kom, casename, id, nominative, sen_x,sg_pl,title,clitic,pos)
               if casename != "n" or casename =="n" and sg_pl == "pl":
-                content_all = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl,title,clitic)
+                content_all = addToContent(word, content_all, casename, id, nominative, sen_x,sg_pl,title,clitic,pos)
                 id = id + 1
             go = False
 
@@ -263,14 +265,14 @@ def runCaseAnalys(case_dict, list_of_sentences):
   else:
     print('Laused analüüsimiseks puuduvad.')
 
-def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl,title,clitic):
+def addToContent(word, content, casename, countid, nominative, sen_x,sg_pl,title,clitic,pos):
               info = SubElement(content,'info')             #XML loomine
               info.set('id', str(countid))
               s = SubElement(info,'s')
               nr = SubElement(info,'nr')
               case = SubElement(info,'case')
               n = SubElement(info,'n')
-              synt = synthesize(nominative, form = sg_pl+' '+casename, hint = word)      #kontorll kas leidub rohkem kui üks vastus
+              synt = synthesize(nominative, sg_pl+' '+casename, pos)      #kontorll kas leidub rohkem kui üks vastus
               if len(synt)>1:
                 wordLower = word.lower()
                 if wordLower in synt:  

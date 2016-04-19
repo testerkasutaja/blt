@@ -16,8 +16,6 @@ from numpy import loadtxt
 
 from estnltk import Disambiguator
 
-sentence = ' (Tere ;/'
-sentence = re.sub('([<|\]\[>/\\^:;()-])', '¤%&', sentence)
-if "¤%&" in sentence:
-    print("paha")
-print (sentence)
+pprint(Text('mina').analysis)
+pso = 'P'
+print(synthesize('mina', 'sg p', 'S'))
