@@ -4,26 +4,25 @@
 	<meta charset="utf-8">
 	<title>Käänded</title>
 	<meta name="description" content=" kaanded">
-  <meta name="author" content="Anneliis Halling">
+  	<meta name="author" content="Anneliis Halling">
 	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/custom.css">
+  	<link rel="stylesheet" href="css/custom.css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-	
 	<script src="js/jquery-2.1.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  	<script src="js/bootstrap.min.js"></script>
 	<script src="js/scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
+	<script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/themes/tooltipster-light.css" />
 	
 </head>
 
 <body>
 	<div class="container">
-        <div id= head>
-		<div class="question">
-            <button id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></button>
-            <p id="questiontext" class="questiontext pull-right"></p>   
-		</div>
+        <div id= head>	
+        <div id="question" type="button" class="btn btn-info btn-circle btn-xl pull-right"><span class="glyphicon glyphicon-question-sign"></span></div>
 		<div id="counterDiv">
 		</div>
         </div>

@@ -1,9 +1,8 @@
 $(function(){
+	
 	answersStr = "";
 	idList = [];
-    $("#question").click(function(){
-        $("#questiontext").toggle(800);
-    });
+
 	gameTypeSelection();
 	$(document).keypress(function(e) {
     if(e.which == 13) {
@@ -26,7 +25,14 @@ $(function(){
 });
 
 function gameTypeSelection(){
-    document.getElementById("questiontext").innerHTML = 'Esimesena on soovitatav mängida mängu "Pane sõna õigesse käändesse" <br>ning seejärel oma teadmisi kontrollida mänguga "Leia õige kääne".'
+   
+	
+
+	$('#question').tooltipster({
+            content: $('<span>Esimesena on soovitatav mängida mängu "Pane sõna õigesse käändesse" <br> ning seejärel oma teadmisi kontrollida mänguga "Leia õige kääne".</span>'),
+			theme: 'tooltipster-light'
+        });
+	
 	
 	
 	chooseSentencesAmountRadiobuttons();
@@ -81,42 +87,44 @@ function caseTypeSelection(gameType, sentencesAmount){
 	var sum = 0;
     var right = 0;
 	if (gameType === "findWord"){
-        document.getElementById("questiontext").innerHTML = "Vali, milliseid käändeid soovid harjutada."
+		$('#question').tooltipster('content', 'Vali, milliseid käändeid soovid harjutada.');
         $("#buttonContent").append('<button id = "gesCase" class="btn btn-primary chooseCaseButton">Nimeta, omastav ja olev kääne</button>');
 		$("#gesCase").click(function(){
-            document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
+			$('#question').tooltipster('content', 'Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule.')
 			$("#buttonContent").empty();
 			loadDoc("ges",gameType,sum,right, sentencesAmount);
 		});
 		$("#buttonContent").append('<button id = "placeCase" class="btn btn-primary chooseCaseButton">Kohakäänded</button>');
 		$("#placeCase").click(function(){
-            document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
+			$('#question').tooltipster('content', 'Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule.');
+
 			$("#buttonContent").empty();
 			loadDoc("place",gameType,sum,right, sentencesAmount);
 		});
 
 		$("#buttonContent").append('<button id = "pCase" class="btn btn-primary chooseCaseButton">Osastav kääne</button>');
 		$("#pCase").click(function(){
-            document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
+			$('#question').tooltipster('content', 'Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule.');
 			$("#buttonContent").empty();
 			loadDoc("p",gameType,sum,right, sentencesAmount);
 		});
 
 		$("#buttonContent").append('<button id = "otherCase" class="btn btn-primary chooseCaseButton">Saav, rajav, ilmaütlev ja kaasaütlev kääne</button>');
 		$("#otherCase").click(function(){
-            document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
+			$('#question').tooltipster('content', 'Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule.');
 			$("#buttonContent").empty();
 			loadDoc("other",gameType,sum,right, sentencesAmount);
 		});
 	
 		$("#buttonContent").append('<button id = "allCase" class="btn btn-primary chooseCaseButton">Kõik käänded</button>');
 		$("#allCase").click(function(){
-            document.getElementById("questiontext").innerHTML = "Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule."
+			$('#question').tooltipster('content', 'Sisesta sõna etteantud käändes ning vajuta noolega rohelisele nupule.');
+           
 			$("#buttonContent").empty();
 			loadDoc("all",gameType,sum,right, sentencesAmount);
 		});
 	}else{
-        document.getElementById("questiontext").innerHTML = "Vasta küsimustele ning vajuta rohelist noolega nuppu."
+		$('#question').tooltipster('content', 'Vasta küsimustele ning vajuta rohelist noolega nuppu.');
 		loadDoc("all",gameType,sum,right, sentencesAmount);
 	}
 }
