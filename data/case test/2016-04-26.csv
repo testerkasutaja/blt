@@ -1,0 +1,3 @@
+id,lause,"küsitav sõna","õige kääne"," õige ainsus/mitmus","vastatud kääne",õige/vale,"vastatud number",õige/vale
+6605," Ta saigi rohkem %%% pühenduda. ",teadusele,alaleütlev,ainsus,alalütlev,false,ainsus,true
+10708," Sellise %%% oli ka isa päri. ",oletusega,kaasaütlev,ainsus,kaasaütlev,true,ainsus,true
