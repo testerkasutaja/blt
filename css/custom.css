@@ -83,7 +83,11 @@ font-family: sans-serif;
 min-width: 700px;
 
 }
-
+.copyroght{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 4%;
+}
 .questiontext{
 	display: none;
     position: absolute;
@@ -279,4 +283,13 @@ input[type=text] {
 }
 .head2{
 	text-align: center;
+}
+.sButton{
+	margin:0px;
+}
+.dataTable{
+	margin: 10px;
+}
+.h2{
+	margin: 2%;
 }

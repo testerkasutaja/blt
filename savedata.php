@@ -4,9 +4,9 @@ if( $_REQUEST["sentence"] ) {
   	$list = array
 	();
     
-   $fileName = "data/". "unsuitableSentences" . ".csv";
+   $fileName = "data/unsuitableSentences/". "unsuitableSentences" . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"id,lause,õige vastus,algvorm,kääne,number");
+        array_push($list,"id;lause;õige vastus;algvorm;kääne;number");
     }
 	$sentence = $_REQUEST['sentence'];
 	echo sentence;  
@@ -15,7 +15,7 @@ if( $_REQUEST["sentence"] ) {
     $file = fopen($fileName,"a");
     chmod($file,0777);
     foreach ($list as $line){
-        fputcsv($file,explode(',',$line));
+        fputcsv($file,explode(';',$line));
 }
 }
 	
@@ -24,9 +24,9 @@ if( $_REQUEST["answerData1"] ) {
 	$list = array
 	();
     
-    $fileName = "data/" . "answersG1_" . $date . ".csv";
+    $fileName = "data/word test/" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"id,lause,vastus,õige/vale");
+        array_push($list,"id;lause;õige sõna;kääne;vastus;õige/vale");
     }
 	$answerData = $_REQUEST['answerData1'];
 	echo $answerData;
@@ -36,7 +36,7 @@ if( $_REQUEST["answerData1"] ) {
     $file = fopen($fileName,"a");
     chmod($file,0777);
     foreach ($list as $line){
-        fputcsv($file,explode(',',$line));
+        fputcsv($file,explode(';',$line));
     }
 	
 
@@ -46,9 +46,9 @@ if( $_REQUEST["answerData2"] ) {
 	$list = array
 	();
     
-    $fileName = "data/" . "answersG2_" . $date . ".csv";
+    $fileName = "data/case test/" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"id,lause,kääne,õige/vale,ainsus/mitmus,õige/vale");
+        array_push($list,"id;lause;õige sõna;kääne;õige/vale;ainsus/mitmus;õige/vale");
     }
 	$answerData = $_REQUEST['answerData2'];
 	echo $answerData;
@@ -58,7 +58,7 @@ if( $_REQUEST["answerData2"] ) {
     $file = fopen($fileName,"a");
     chmod($file,0777);
     foreach ($list as $line){
-        fputcsv($file,explode(',',$line));
+        fputcsv($file,explode(';',$line));
     }
 	
 

@@ -59,6 +59,7 @@
                 </div>
             </div>
     </div>
+	<p class = 'copyroght'>&copy; 2016 Anneliis Halling<p>
 </body>
 
 </html>

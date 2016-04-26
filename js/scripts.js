@@ -4,23 +4,25 @@ $(function(){
 	idList = [];
 
 	gameTypeSelection();
+	
 	$(document).keypress(function(e) {
-    if(e.which == 13) {
-		var nextExists = document.getElementById("next");
-		
-		var tryagainExists  = document.getElementById('tryAgainButtonModal');
-		
-		var nextModalExists = document.getElementById("nextButtonModal");
-		if (tryagainExists !== null && nextExists !== null){
-			$('#tryAgainButtonModal').trigger('click');
+		if(e.which == 13) {
+			var nextExists = document.getElementById("next");
+
+			var tryagainExists  = document.getElementById('tryAgainButtonModal');
+
+			var nextModalExists = document.getElementById("nextButtonModal");
+			if (tryagainExists !== null && nextExists !== null){
+				$('#tryAgainButtonModal').trigger('click');
+			}
+			if (tryagainExists == null && nextExists !== null ){
+				
+				$('#next').trigger('click');
+			}
+			if (nextModalExists !== null){
+				$('#nextButtonModal').trigger('click');
+			}
 		}
-		if (tryagainExists == null && nextExists !== null){
-			$('#next').trigger('click');
-		}
-		if (nextModalExists !== null){
-			$('#nextButtonModal').trigger('click');
-		}
-    }
 });
 });
 
@@ -201,21 +203,21 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
     }
 	
 	sentenceId = xmlDoc.getElementsByTagName("info")[randomNr].getAttribute('id');
+
 	
-	console.log('ID '+ sentenceId);
-	answersStr = sentenceId + ',' + sentence + ',';
 	var nr = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("nr")[0].childNodes[0].nodeValue;
     var title = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("title")[0].childNodes[0].nodeValue;
-    console.log('title' + title);
 	var caseName = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("case")[0].childNodes[0].nodeValue;
 	var nominative = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("n")[0].childNodes[0].nodeValue;
 	//kontroll kas on mitu vastust
 	var countAnswers = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("answer").length;
 	var answers = [];
 	var word = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("word")[0].childNodes[0].nodeValue;
+	console.log(sentenceId)
+	answersStr = sentenceId + ';' + sentence + ';' + word + ';'+ caseName+';';
 	var nrCaseName = "<b>"+ nr + "e " + caseName+ "</b>";
 	var cliticCount = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("clitic").length;
-	var badSentenceStr = sentenceId + ', '+ sentence +', '+ word +', '+ nominative + ', ' + caseName + ', '+ nr;
+	var badSentenceStr = sentenceId + '; '+ sentence +'; '+ word +'; '+ nominative + '; ' + caseName + '; '+ nr;
 	if (gameType ==="findWord"){
 		word = word.toLowerCase();
 		answers.push(word);
@@ -312,7 +314,9 @@ function addGameContentForFindCase(sentenceFront,sentenceBack,nr,caseName,word,c
 	$("#radioButtonFormNr").append('<div class="radio-inline" id = "radioButtonNr"><label><input type="radio" id = "radioButtonSg" name="nrRadio" class="radioButtonNr" value = "ainsus">Ainsus</label></div><div class="radio-inline"><label><input type="radio" id = "radioButtonPl" name="nrRadio" class="radioButtonNr" value = "mitmus">Mitmus</label></div>');
 	document.getElementById("gameName").innerHTML ="Leia õige kääne";
 	document.getElementById("gameCase").innerHTML = "Kõik käänded";
+
     $("#next").click(function(){
+		
 		controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentencesAmount, badSentenceStr)
 	});
 
@@ -322,7 +326,7 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
     
     $("#answerModal").modal({backdrop: "static"});
     var inputText = document.getElementById("inputAnswer").value.toLowerCase();
-	answersStr = answersStr + inputText + ", ";
+	
 	
 	var isAnswer = false;
 	//console.log(answers);
@@ -331,6 +335,7 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
 		//$("#nextButton").empty();
         tryagainButton(gameType,badSentenceStr);
     }else{
+		answersStr = answersStr + inputText + "; ";
 		$("#nextButton").empty();
         $("#badSentence").empty();
         
@@ -353,14 +358,15 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
         }
 		
         createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
-    }
-	answersStr = answersStr + isAnswer;
-	$.post( 
-		"savedata.php",
-        { answerData1: answersStr },
-        function(data) {
-			$('#stage').html(data);
-		});
+    	answersStr = answersStr + isAnswer;
+		$.post( 
+			"savedata.php",
+        	{ answerData1: answersStr },
+        	function(data) {
+				$('#stage').html(data);
+			});
+	}
+
 
 	
 }
@@ -380,14 +386,14 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 		$("#nextButton").empty();
         $("#badSentence").empty();
 		if (caseAnswer === caseName && nrAnswer === nr ){
-            answersStr = answersStr + caseName + ',' + true + ',' + nrAnswer + ',' + true ; 
+            answersStr = answersStr +  true + ';' + nrAnswer + ';' + true ; 
 			sum=sum+1;
 			right = right +1;
 			var text = "Õige vastus!";
             document.getElementById("rightOrWrong").innerHTML = text;		
 		}
 		if (!(caseAnswer === caseName) && nrAnswer === nr){
-            answersStr = answersStr + caseName + ',' + false + ',' + nrAnswer + ',' + true ; 
+            answersStr = answersStr +  false + ';' + nrAnswer + ';' + true ; 
 			sum=sum+1;
 			right = right +0.5;
 			if(nr ==="mitmus"){
@@ -399,27 +405,27 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
             document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		if (caseAnswer === caseName && !(nrAnswer === nr)){
-            answersStr = answersStr + caseName + ',' + true + ',' + nrAnswer + ',' + false ; 
+            answersStr = answersStr + true + ';' + nrAnswer + ';' + false ; 
 			sum=sum+1;
 			right = right +0.5;
 			var text =  "Kääne on õige, kuid sõna on " + nr + "es" + ".";
             document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		if(!(caseAnswer === caseName) && !(nrAnswer === nr)){
-            answersStr = answersStr + caseName + ',' + false + ',' + nrAnswer + ',' + false ; 
+            answersStr = answersStr + false + ';' + nrAnswer + ';' + false ; 
 			sum = sum +1 ;
 			var text = "Mõlemad vastused on kahjuks valed.<br>" + "Õige vastus on " + nr + "e " + caseName + ".";
 			document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
-		
+		$.post(
+			"savedata.php",
+			{ answerData2: answersStr },
+			function(data) {
+				$('#stage').html(data);
+			});
 	}
-	$.post(
-		"savedata.php",
-		{ answerData2: answersStr },
-		function(data) {
-			$('#stage').html(data);
-		});
+	
 }
 
 function createBadSentenceButton(badSentenceStr){
@@ -496,7 +502,7 @@ function gameOver(sum,right,gameType){
     var text = "Mäng läbi! <br> Õigeid vastuseid oli " + right + "<br> Valesid vastuseid oli "+ wrong+ "<br> Skoor on " + score + "%";
     document.getElementById("gameOverText").innerHTML = text;
     
-	$("#modalButtonOver").append('<button id = "overButton" class="btn btn-success">Alusta mängu uuesti</button>');
+	$("#modalButtonOver").append('<button id = "overButton" class="btn btn-success">Vali uus test</button>');
 	$('#overButton').click(function(){
 		//$.get("savedata.php");
 		location.reload();

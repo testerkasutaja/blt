@@ -1,70 +1,102 @@
 <?xml version='1.0' encoding='utf8'?>
 <content>
   <info id="0">
-    <s> Kodu teeb %%% . </s>
+    <s> Jutt kippus %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>rahulik</n>
-    <word>rahulikuks</word>
-    <title> AHASVEERUSE UNI </title>
+    <n>valjem</n>
+    <word>valjemaks</word>
+    <title> Kõik , mida pole </title>
   </info>
-  <info id="3">
-    <s> Tuba jääb %%% . </s>
+  <info id="1">
+    <s> Taevas tõmbus %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>vaikne</n>
-    <word>vaikseks</word>
-    <title> AJALOO ILU </title>
+    <n>heledam</n>
+    <word>heledamaks</word>
+    <title> Voorus ja patt </title>
   </info>
-  <info id="5">
-    <s> Mehed muutusid %%% . </s>
+  <info id="2">
+    <s> Enesetunnegi läks %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>pahur</n>
-    <word>pahuraks</word>
-    <title> Metsad kõnelevad </title>
+    <n>parem</n>
+    <word>paremaks</word>
+    <title> Hüvitis </title>
   </info>
-  <info id="7">
-    <s> Ametiasutused muutusid %%% . </s>
+  <info id="4">
+    <s> Ruum muutus %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>valvas</n>
-    <word>valvsaks</word>
-    <title> Metsad kõnelevad </title>
+    <n>sõbralikum</n>
+    <word>sõbralikumaks</word>
+    <title> VIIS MINUTIT ENNE VIHMA </title>
+  </info>
+  <info id="6">
+    <s> Hääled muutusid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vaiksem</n>
+    <word>vaiksemaks</word>
+    <title> Maailm , mis on hea </title>
   </info>
   <info id="8">
-    <s> Põgenemine osutus %%% . </s>
+    <s> Arstid muutuvad %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>võimatu</n>
-    <word>võimatuks</word>
-    <title> Metsad kõnelevad </title>
+    <n>rahulikum</n>
+    <word>rahulikumaks</word>
+    <title> NEITSIST SÜNDINUD </title>
   </info>
   <info id="9">
-    <s> Asi läks %%% . </s>
+    <s> Ilm minevat %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>tasuline</n>
-    <word>tasuliseks</word>
-    <title> Jutud </title>
+    <n>külmem</n>
+    <word>külmemaks</word>
+    <title> HARJUTUSED </title>
   </info>
-  <info id="18">
-    <s> %%% poldud rahul . </s>
+  <info id="10">
+    <s> Hingaminegi muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kergem</n>
+    <word>kergemaks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="11">
+    <s> Õhtu muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>külmem</n>
+    <word>külmemaks</word>
+    <title> Sõud </title>
+  </info>
+  <info id="13">
+    <s> Juttu jätkub %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kauem</n>
+    <word>kauemaks</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="15">
+    <s> %%% võtma või ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>naine</n>
+    <word>Naiseks</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="17">
+    <s> Vähesed pääsesid %%% . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>elu</n>
-    <word>Eluga</word>
-    <title> Jutud </title>
+    <word>eluga</word>
+    <title> Sierra Titauna nekropol </title>
   </info>
-  <info id="36">
-    <s> Pimedus vaikis %%% . </s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>vastus</n>
-    <word>vastuseks</word>
-    <title> Jutud </title>
-  </info>
-  <info id="45">
+  <info id="27">
     <s> Kuidas saada %%% ? </s>
     <nr>ainsus</nr>
     <case>saav</case>
@@ -72,7 +104,826 @@
     <word>inimeseks</word>
     <title> AHASVEERUSE UNI </title>
   </info>
-  <info id="62">
+  <info id="37">
+    <s> Ilmselt kutsuti %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>abikaasa</n>
+    <word>abikaasadega</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="78">
+    <s> Siis läheb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sõda</n>
+    <word>sõjaks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="86">
+    <s> Vägisi teeb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>varas</n>
+    <word>vargaks</word>
+    <title> Maa ja armastus 2 </title>
+  </info>
+  <info id="98">
+    <s> Võibolla eksis %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>number</n>
+    <word>numbriga</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="102">
+    <s> Seekord läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>õnneks</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="109">
+    <s> Lõpuks lõi %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>käsi</n>
+    <word>käega</word>
+    <title> TÄISKUU JA TÄNAVALATERN </title>
+  </info>
+  <info id="137">
+    <s> Esialgu katsetasin %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>loodus</n>
+    <word>loodusega</word>
+    <title> Raadio </title>
+  </info>
+  <info id="156">
+    <s> %%% ei saada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>targem</n>
+    <word>Targemaks</word>
+    <title> Raadio </title>
+  </info>
+  <info id="163">
+    <s> Edasi läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>huvitavam</n>
+    <word>huvitavamaks</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="164">
+    <s> Pärast läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>targem</n>
+    <word>targemaks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="173">
+    <s> %%% poldud rahul . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>elu</n>
+    <word>Eluga</word>
+    <title> Jutud </title>
+  </info>
+  <info id="174">
+    <s> %%% oli vastupidi . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kirjandus</n>
+    <word>Kirjandusega</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="189">
+    <s> %%% tegingi nii . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>rõõm</n>
+    <word>Rõõmuga</word>
+    <title> Enesemääramisõigus </title>
+  </info>
+  <info id="242">
+    <s> %%% suundud sinna . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>hirm</n>
+    <word>Hirmuga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="254">
+    <s> Natuke %%% teeks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>aurav</n>
+    <word>auravaks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="289">
+    <s> Turul %%% jätkub ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>käimine</n>
+    <word>käimiseks</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="301">
+    <s> %%% mees suri . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>mesi</n>
+    <word>Meeta</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="323">
+    <s> %%% asusin kuulama . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lõbu</n>
+    <word>Lõbuga</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="376">
+    <s> %%% mitte sõdida . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>prantslane</n>
+    <word>Prantslastega</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="393">
+    <s> %%% vist ei . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="411">
+    <s> Isegi %%% vedas . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>praad</n>
+    <word>praega</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="422">
+    <s> Palju %%% läheks ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>takso</n>
+    <word>taksoga</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="429">
+    <s> Kohe %%% võtad . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>himu</n>
+    <word>himuga</word>
+    <title> Jutud </title>
+  </info>
+  <info id="440">
+    <s> Sees tõmbus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>külm</n>
+    <word>külmaks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="442">
+    <s> Seepärast jäingi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>haige</n>
+    <word>haigeks</word>
+    <title> Maa ja armastus 1 </title>
+  </info>
+  <info id="444">
+    <s> Äkki panid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>paha</n>
+    <word>pahaks</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="447">
+    <s> Vähehaaval saan %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vana</n>
+    <word>vanaks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="448">
+    <s> Muidu jäävad %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vesine</n>
+    <word>vesiseks</word>
+    <title> PÖÖNINGUJUTUD </title>
+  </info>
+  <info id="449">
+    <s> Äkki muutus %%% ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kade</n>
+    <word>kadedaks</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="450">
+    <s> Kas võttis %%% ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tumm</n>
+    <word>tummaks</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="451">
+    <s> Kodu teeb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahulik</n>
+    <word>rahulikuks</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="454">
+    <s> Tuba jääb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vaikne</n>
+    <word>vaikseks</word>
+    <title> AJALOO ILU </title>
+  </info>
+  <info id="456">
+    <s> Mehed muutusid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pahur</n>
+    <word>pahuraks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="458">
+    <s> Ametiasutused muutusid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valvas</n>
+    <word>valvsaks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="459">
+    <s> Põgenemine osutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>võimatu</n>
+    <word>võimatuks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="460">
+    <s> Asi läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tasuline</n>
+    <word>tasuliseks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="464">
+    <s> %%% kippus kiireks . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>saun</n>
+    <word>Saunaga</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="465">
+    <s> Saunaga kippus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kiire</n>
+    <word>kiireks</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="469">
+    <s> Leitnant muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tähelepanelik</n>
+    <word>tähelepanelikuks</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="473">
+    <s> Pea läks %%% ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>soe</n>
+    <word>soojaks</word>
+    <title> Rabaröövel </title>
+  </info>
+  <info id="476">
+    <s> Kosmos jäi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tumm</n>
+    <word>tummaks</word>
+    <title> Gondvana lapsed </title>
+  </info>
+  <info id="478">
+    <s> %%% piisab vähesest . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>analüüs</n>
+    <word>Analüüsiks</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="480">
+    <s> Mure osutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>asjatu</n>
+    <word>asjatuks</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="482">
+    <s> Silmad võttis %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kirju</n>
+    <word>kirjuks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="488">
+    <s> Kõhus võtab %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õõnes</n>
+    <word>õõnsaks</word>
+    <title> Lend </title>
+  </info>
+  <info id="489">
+    <s> Sõber jäi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>nukker</n>
+    <word>nukraks</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="490">
+    <s> Rind sai %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rõõmus</n>
+    <word>rõõmsaks</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="493">
+    <s> Asi kiskus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kriitiline</n>
+    <word>kriitiliseks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="496">
+    <s> Ilm kiskus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pime</n>
+    <word>pimedaks</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="498">
+    <s> Jalad said %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>märg</n>
+    <word>märjaks</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="499">
+    <s> Asi läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>põnev</n>
+    <word>põnevaks</word>
+    <title> Maa ja armastus 6 </title>
+  </info>
+  <info id="500">
+    <s> Mees muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kiivas</n>
+    <word>kiivaks</word>
+    <title> Maa ja armastus 8 </title>
+  </info>
+  <info id="501">
+    <s> Vanaeit muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahutu</n>
+    <word>rahutuks</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="502">
+    <s> Juubel kujunes %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>üksluine</n>
+    <word>üksluiseks</word>
+    <title> TIIBADE KASVAMISE AASTAD </title>
+  </info>
+  <info id="504">
+    <s> Kõhus läheb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>külm</n>
+    <word>külmaks</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="505">
+    <s> Koorem saab %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tühi</n>
+    <word>tühjaks</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="506">
+    <s> Peegel läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>udune</n>
+    <word>uduseks</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="508">
+    <s> Käed pesen %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>puhas</n>
+    <word>puhtaks</word>
+    <title> Nips </title>
+  </info>
+  <info id="515">
+    <s> Viinapudel jääb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>viimane</n>
+    <word>viimaseks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="516">
+    <s> Uks saab %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>puhas</n>
+    <word>puhtaks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="517">
+    <s> Asi muutuks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>põnev</n>
+    <word>põnevaks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="521">
+    <s> Päike tegi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>laisk</n>
+    <word>laisaks</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="522">
+    <s> Elu muutub %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kerge</n>
+    <word>kergeks</word>
+    <title> Raadio </title>
+  </info>
+  <info id="526">
+    <s> Tuju läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sant</n>
+    <word>sandiks</word>
+    <title> Varblane </title>
+  </info>
+  <info id="527">
+    <s> Elu läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kuum</n>
+    <word>kuumaks</word>
+    <title> Kuu Ordu </title>
+  </info>
+  <info id="549">
+    <s> Pimedus vaikis %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastus</n>
+    <word>vastuseks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="575">
+    <s> Naine tapeti %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mõõk</n>
+    <word>mõõgaga</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="592">
+    <s> Majad muutuvad %%% . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>maja</n>
+    <word>majadeks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="594">
+    <s> Suu täitus %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>veri</n>
+    <word>verega</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="600">
+    <s> Turvamees viibutas %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>näpp</n>
+    <answer>näpiga</answer>
+    <word>näpuga</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="635">
+    <s> Surnut veeti %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>vanker</n>
+    <word>vankriga</word>
+    <title> Uskmatuse hind </title>
+  </info>
+  <info id="663">
+    <s> Pidu kestis %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>varahommik</n>
+    <word>varahommikuni</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="665">
+    <s> Kindral noogutas %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastus</n>
+    <word>vastuseks</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="666">
+    <s> Kindral rehmas %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>käsi</n>
+    <word>käega</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="671">
+    <s> Perekond tasub %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>süda</n>
+    <word>südamega</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="689">
+    <s> Teel peatun %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>hetkeks</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="690">
+    <s> %%% pole elu . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>valgus</n>
+    <word>Valguseta</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="706">
+    <s> Tuba täitus %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>hääl</n>
+    <word>häältega</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="728">
+    <s> %%% tuleb takso . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="735">
+    <s> Tuba täitus %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>suits</n>
+    <word>suitsuga</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="741">
+    <s> Külas valmistuti %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pidu</n>
+    <answer>piduks</answer>
+    <word>peoks</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="743">
+    <s> Autojuht väljus %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tuul</n>
+    <word>tuulega</word>
+    <title> KENTAURISÖÖST </title>
+  </info>
+  <info id="762">
+    <s> Küsimus jäigi %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>vastus</n>
+    <word>vastuseta</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="793">
+    <s> Aknad olid %%% . </s>
+    <nr>mitmus</nr>
+    <case>ilmaütlev</case>
+    <n>kardin</n>
+    <word>kardinateta</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="797">
+    <s> Neiu viivitas %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>vastus</n>
+    <word>vastusega</word>
+    <title> Maa ja armastus 10 </title>
+  </info>
+  <info id="804">
+    <s> %%% saabusid abilised . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hommik</n>
+    <word>Hommikuks</word>
+    <title> Maa ja armastus 8 </title>
+  </info>
+  <info id="810">
+    <s> Vargus jäi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vargus</n>
+    <word>varguseks</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="815">
+    <s> Ahastus kisendas %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>taevas</n>
+    <word>taevani</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="828">
+    <s> Varas jääbki %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>varas</n>
+    <word>vargaks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="881">
+    <s> Sugulased jäävad %%% . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>sugulane</n>
+    <answer>sugulasiks</answer>
+    <word>sugulasteks</word>
+    <title> TÄISKUU JA TÄNAVALATERN </title>
+  </info>
+  <info id="884">
+    <s> Olukord läks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sant</n>
+    <word>sandiks</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
+  </info>
+  <info id="894">
+    <s> Doktor rääkis %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>valitu</n>
+    <word>valitutega</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="899">
+    <s> Suvi algab %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>jaanipäev</n>
+    <word>jaanipäevaga</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="911">
+    <s> Kliendid jälgisid %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>huvi</n>
+    <word>huviga</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="913">
+    <s> Nägemine taastus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>hetkeks</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="920">
+    <s> %%% oli raha . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>Hetkeks</word>
+    <title> Saaga </title>
+  </info>
+  <info id="932">
+    <s> Mees vaikis %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>hetkeks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="958">
+    <s> Maa kattub %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lumi</n>
+    <word>lumega</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="986">
+    <s> %%% sõitsime bussijaama . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>takso</n>
+    <word>Taksoga</word>
+    <title> Sõud </title>
+  </info>
+  <info id="1000">
+    <s> %%% pole põhjust . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>muretsemine</n>
+    <word>Muretsemiseks</word>
+    <title> Raadio </title>
+  </info>
+  <info id="1018">
+    <s> Garderoob lõpeb %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>teater</n>
+    <word>teatriga</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="1039">
+    <s> Turule sõitsin %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tramm</n>
+    <word>trammiga</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="1073">
     <s> Viimse %%% käin . </s>
     <nr>ainsus</nr>
     <case>rajav</case>
@@ -80,55 +931,113 @@
     <word>hingetõmbeni</word>
     <title> AHASVEERUSE UNI </title>
   </info>
-  <info id="71">
-    <s> Kodus kippub %%% minema . </s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>palav</n>
-    <word>palavaks</word>
-    <title> Metsad kõnelevad </title>
-  </info>
-  <info id="77">
-    <s> Ema süda muutus %%% . </s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>rahutu</n>
-    <word>rahutuks</word>
-    <title> Metsad kõnelevad </title>
-  </info>
-  <info id="80">
-    <s> Tüdruku silmad läksid %%% . </s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>suur</n>
-    <word>suureks</word>
-    <title> Pika tee algus </title>
-  </info>
-  <info id="92">
-    <s> Tuli möllas kohutava %%% . </s>
+  <info id="1087">
+    <s> Imeliku %%% vaatab . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>ragin</n>
-    <word>raginaga</word>
-    <title> Metsad kõnelevad </title>
+    <n>pilk</n>
+    <answer>pilgaga</answer>
+    <word>pilguga</word>
+    <title> NEITSIST SÜNDINUD </title>
   </info>
-  <info id="113">
-    <s> %%% lükkasime sodi välja . </s>
-    <nr>ainsus</nr>
-    <case>kaasaütlev</case>
-    <n>labidas</n>
-    <word>Labidaga</word>
-    <title> AHASVEERUSE UNI </title>
-  </info>
-  <info id="116">
-    <s> %%% paiskus maailm segi . </s>
+  <info id="1093">
+    <s> Meele %%% tegi . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>hetk</n>
-    <word>Hetkeks</word>
-    <title> Pika tee algus </title>
+    <n>hell</n>
+    <word>hellaks</word>
+    <title> Duubel kaks </title>
   </info>
-  <info id="121">
+  <info id="1098">
+    <s> Tee hargnes %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kaks</n>
+    <word>kaheks</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="1108">
+    <s> Alati saab %%% minna . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hullem</n>
+    <word>hullemaks</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="1109">
+    <s> Juba hakkabki %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>soojem</n>
+    <word>soojemaks</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="1111">
+    <s> %%% kippus kitsas olema . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>raha</n>
+    <word>Rahaga</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="1114">
+    <s> Päeva võis %%% liigitada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>edukas</n>
+    <word>edukaks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="1116">
+    <s> Aega kipub %%% jääma . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>napp</n>
+    <word>napiks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="1117">
+    <s> Päev kippus %%% jääma . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lühike</n>
+    <word>lühikeseks</word>
+    <title> FÖÖNIKS </title>
+  </info>
+  <info id="1118">
+    <s> Süda pidi %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>paha</n>
+    <word>pahaks</word>
+    <title> Tormine rand , Püha graal , Ivan Orava mälestused , Kotkas </title>
+  </info>
+  <info id="1119">
+    <s> Informatsioon võib %%% saada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kasulik</n>
+    <word>kasulikuks</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="1121">
+    <s> %%% pole tark vaielda . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ema</n>
+    <word>Emaga</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="1138">
+    <s> Koos %%% tuli udu . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>päike</n>
+    <answer>päiksega</answer>
+    <word>päikesega</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="1151">
     <s> %%% niimoodi ümber käia ! </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -136,39 +1045,135 @@
     <word>Surnukehaga</word>
     <title> Metsad kõnelevad </title>
   </info>
-  <info id="122">
-    <s> %%% välja , muudkui leiutame . </s>
+  <info id="1157">
+    <s> %%% oli lugu tõsisem . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>raud</n>
+    <word>Rauaga</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="1161">
+    <s> Teadmatus muutis vastase %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ohtlikum</n>
+    <word>ohtlikumaks</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="1164">
+    <s> Silme eest läheb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>must</n>
+    <word>mustaks</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="1168">
+    <s> Silme ees lähebki %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ähmane</n>
+    <word>ähmaseks</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="1177">
+    <s> %%% lükkasime sodi välja . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>labidas</n>
+    <word>Labidaga</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="1180">
+    <s> %%% paiskus maailm segi . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>Hetkeks</word>
+    <title> Pika tee algus </title>
+  </info>
+  <info id="1217">
+    <s> %%% tuli rong kohe . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="1220">
+    <s> Küla põletati %%% maha . </s>
     <nr>ainsus</nr>
     <case>rajav</case>
-    <n>pime</n>
-    <word>Pimedani</word>
+    <n>maa</n>
+    <word>maani</word>
+    <title> Erak ja nõid </title>
+  </info>
+  <info id="1221">
+    <s> %%% oli tünn valmis . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>südaöö</n>
+    <word>Südaööks</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="1226">
+    <s> Vend tuli %%% kaasa . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mäng</n>
+    <word>mänguga</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="1228">
+    <s> Isa mängib %%% kokku . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>meri</n>
+    <word>merega</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="1230">
+    <s> %%% olid asjad teistmoodi . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>lind</n>
+    <word>Lindudega</word>
+    <title> Nips </title>
+  </info>
+  <info id="1237">
+    <s> Välisuks lendas %%% kinni . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pauk</n>
+    <word>pauguga</word>
     <title> Jutud </title>
   </info>
-  <info id="126">
-    <s> Ülestunnistus , ülestunnistus , kordasin %%% . </s>
+  <info id="1255">
+    <s> Uks lendas %%% kinni . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mürts</n>
+    <word>mürtsuga</word>
+    <title> Unenägude jumal </title>
+  </info>
+  <info id="1282">
+    <s> Ka %%% polnud kergem . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>suusk</n>
+    <word>suuskadega</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1284">
+    <s> Kehv elu teeb %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>vastus</n>
-    <word>vastuseks</word>
-    <title> AHASVEERUSE UNI </title>
+    <n>kuri</n>
+    <word>kurjaks</word>
+    <title> NEITSIST SÜNDINUD </title>
   </info>
-  <info id="128">
-    <s> Tasapisi hakkas %%% minema . </s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>valge</n>
-    <word>valgeks</word>
-    <title> Jutud </title>
-  </info>
-  <info id="131">
-    <s> Piir tehakse võimalikult %%% . </s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>kaunis</n>
-    <word>kauniks</word>
-    <title> AHASVEERUSE UNI </title>
-  </info>
-  <info id="138">
+  <info id="1330">
     <s> Asi oli muutumas %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
@@ -176,7 +1181,750 @@
     <word>rutiiniks</word>
     <title> Jutud </title>
   </info>
-  <info id="142">
+  <info id="1331">
+    <s> Kvantiteet tuleb asendada %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kvaliteet</n>
+    <word>kvaliteediga</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="1338">
+    <s> Kotid tuli saata %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>teenija</n>
+    <word>teenijaga</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="1339">
+    <s> Vürst ei muutu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>putukas</n>
+    <word>putukaks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="1393">
+    <s> Siis seisis silmitsi %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>väravavaht</n>
+    <word>väravavahiga</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="1404">
+    <s> %%% jäi veel aega . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>hein</n>
+    <word>Heinani</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="1413">
+    <s> %%% oli veel aega . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>istung</n>
+    <word>Istungini</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="1431">
+    <s> Rada viis tõepoolest %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>järv</n>
+    <word>järveni</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="1443">
+    <s> Keskkoolis jõin peamiselt %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>klassivend</n>
+    <word>klassivendadega</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="1488">
+    <s> Mees sõitis rohkem %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mootorratas</n>
+    <word>mootorrattaga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1500">
+    <s> %%% oli vähe aega . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="1514">
+    <s> Mõttetust mõtestatakse enamasti %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mõttetus</n>
+    <word>mõttetusega</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="1523">
+    <s> %%% oli veel aega . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>etendus</n>
+    <word>Etenduseni</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="1525">
+    <s> %%% läks natuke aega . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>kook</n>
+    <answer>kookudega</answer>
+    <word>Kookidega</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="1535">
+    <s> Põhjus oli %%% näha . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>silm</n>
+    <answer>silmuga</answer>
+    <word>silmaga</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="1541">
+    <s> Mõtet tuleb %%% juhtida . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tahtejõud</n>
+    <word>tahtejõuga</word>
+    <title> EGO </title>
+  </info>
+  <info id="1557">
+    <s> %%% tuleb koostööd teha . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>võim</n>
+    <word>Võimudega</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="1564">
+    <s> %%% tuleb maailm peatada . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>uuring</n>
+    <answer>uuringuiks</answer>
+    <word>Uuringuteks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="1566">
+    <s> %%% tuli vaeva näha . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>puhastamine</n>
+    <word>Puhastamisega</word>
+    <title> Chadis </title>
+  </info>
+  <info id="1572">
+    <s> Ehk pidas enamat %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>loomulik</n>
+    <word>loomulikuks</word>
+    <title> Kõik , mis loeb </title>
+  </info>
+  <info id="1573">
+    <s> Rabelemine hakkas %%% jääma . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>nõrgem</n>
+    <word>nõrgemaks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="1574">
+    <s> Taevas oli %%% tõmbumas . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>heledam</n>
+    <word>heledamaks</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="1575">
+    <s> Ilma %%% pole ilma . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>sõber</n>
+    <word>sõbrata</word>
+    <title> Nips </title>
+  </info>
+  <info id="1590">
+    <s> Üldiselt olen %%% ettevaatlik . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>karjatus</n>
+    <word>karjatustega</word>
+    <title> Habemeajaja </title>
+  </info>
+  <info id="1591">
+    <s> Siis muutubki elu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>mõttetu</n>
+    <word>mõttetuks</word>
+    <title> Neljas osa Talu </title>
+  </info>
+  <info id="1593">
+    <s> Kahjuks kasvavad lapsed %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>suur</n>
+    <word>suureks</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="1594">
+    <s> Ka läks kõht %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tühi</n>
+    <word>tühjaks</word>
+    <title> Continental </title>
+  </info>
+  <info id="1596">
+    <s> Lõpuks saavad silmad %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>puhas</n>
+    <word>puhtaks</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="1598">
+    <s> Nüüd läheb asi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>karm</n>
+    <word>karmiks</word>
+    <title> Eliitneiud </title>
+  </info>
+  <info id="1599">
+    <s> Nüüd saab kurk %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>terve</n>
+    <word>terveks</word>
+    <title> Saaga </title>
+  </info>
+  <info id="1601">
+    <s> Nüüd läks asi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>imelik</n>
+    <word>imelikuks</word>
+    <title> Varblane </title>
+  </info>
+  <info id="1609">
+    <s> Tasapisi silmad harjusid %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pimedus</n>
+    <word>pimedusega</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="1628">
+    <s> Las eeter suhtleb %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>eeter</n>
+    <word>eetriga</word>
+    <title> Sõud </title>
+  </info>
+  <info id="1632">
+    <s> Elu peab muutuma %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>parem</n>
+    <word>paremaks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1633">
+    <s> Samas tegi ka %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tige</n>
+    <word>tigedaks</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="1634">
+    <s> Järsku lõi ümberringi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valge</n>
+    <word>valgeks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1639">
+    <s> %%% kutsutu naeratas kergelt . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>noormees</n>
+    <word>Noormeheks</word>
+    <title> Pan Grpowski jõulud </title>
+  </info>
+  <info id="1643">
+    <s> Heade %%% harjub ruttu . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>asi</n>
+    <word>asjadega</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="1673">
+    <s> Tasapisi hakkas %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valge</n>
+    <word>valgeks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="1675">
+    <s> Väljas hakkas %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valge</n>
+    <word>valgeks</word>
+    <title> Kevadöö unenägu </title>
+  </info>
+  <info id="1693">
+    <s> %%% pole seljal silmi . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="1701">
+    <s> Ema rääkis magamistoas %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>telefon</n>
+    <word>telefoniga</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="1710">
+    <s> %%% valitses saalis vaikus . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>viiv</n>
+    <word>Viivuks</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="1717">
+    <s> Kaupmees haaras %%% peast . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>käsi</n>
+    <word>kätega</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="1720">
+    <s> Laual oli vaas %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>aster</n>
+    <word>astritega</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="1742">
+    <s> Nädalavahetusel võtsin %%% viina . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>sõbratar</n>
+    <word>sõbratariga</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="1766">
+    <s> %%% peatub mõte poliitikutel . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>Hetkeks</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="1775">
+    <s> Mees viiakse %%% kurssi . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>plaan</n>
+    <word>plaaniga</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="1779">
+    <s> %%% annab liha jõudu . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lisa</n>
+    <word>Lisaks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="1783">
+    <s> Suvitaja lõi lammast %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>jalg</n>
+    <word>jalaga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1790">
+    <s> Jalgrattur haaras %%% peast . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>käsi</n>
+    <word>kätega</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1794">
+    <s> Isa tuli %%% koju . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>püha</n>
+    <word>pühadeks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="1806">
+    <s> Ruumis tekkis %%% vaikus . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>hetkeks</word>
+    <title> Inglid ja kangelased </title>
+  </info>
+  <info id="1812">
+    <s> Huvi pakkusid vestlused %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tüdruk</n>
+    <word>tüdrukuga</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="1838">
+    <s> Peegel kukub põrandale %%% . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>kild</n>
+    <answer>kildadeks</answer>
+    <word>kildudeks</word>
+    <title> Ülekuulaja </title>
+  </info>
+  <info id="1840">
+    <s> Ema süda muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahutu</n>
+    <word>rahutuks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="1843">
+    <s> Tüdruku silmad läksid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>suur</n>
+    <word>suureks</word>
+    <title> Pika tee algus </title>
+  </info>
+  <info id="1856">
+    <s> Elu õukonnas teeb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valvas</n>
+    <word>valvsaks</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="1862">
+    <s> Mehe nägu tõmbus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>roheline</n>
+    <word>roheliseks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="1864">
+    <s> Katuse äär jäi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tühi</n>
+    <word>tühjaks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="1920">
+    <s> Siis tuleb alustada %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kapitaalremont</n>
+    <word>kapitaalremondiga</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="1931">
+    <s> Tuli möllas kohutava %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ragin</n>
+    <word>raginaga</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="1960">
+    <s> Sekretär segas järjekordse %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>telefonikõne</n>
+    <word>telefonikõnega</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="1965">
+    <s> Pinge jõuab viimase %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>piir</n>
+    <word>piirini</word>
+    <title> Existerion </title>
+  </info>
+  <info id="1967">
+    <s> Planeet läheneb kohutava %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kiirus</n>
+    <word>kiirusega</word>
+    <title> Existerion </title>
+  </info>
+  <info id="1969">
+    <s> Päev algas pika %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>jalutuskäik</n>
+    <word>jalutuskäiguga</word>
+    <title> FELIX HORNI TÄHETUND </title>
+  </info>
+  <info id="1984">
+    <s> Kõhklus asendus kavala %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>läige</n>
+    <word>läikega</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="1994">
+    <s> Valgus kadus hämmastava %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kiirus</n>
+    <word>kiirusega</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="1997">
+    <s> Tegemist oli erootilise %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>romaan</n>
+    <word>romaaniga</word>
+    <title> Arkaadi A </title>
+  </info>
+  <info id="2051">
+    <s> Ema sõi hea %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>isu</n>
+    <word>isuga</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2063">
+    <s> Meest peeti %%% nõiaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vägev</n>
+    <word>vägevaks</word>
+    <title> Erak ja nõid </title>
+  </info>
+  <info id="2064">
+    <s> Meest peeti vägevaks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>nõid</n>
+    <word>nõiaks</word>
+    <title> Erak ja nõid </title>
+  </info>
+  <info id="2072">
+    <s> Administraator tegeles asjalike %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>inimene</n>
+    <word>inimestega</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="2087">
+    <s> Tegemist oli roosade %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>etendus</n>
+    <word>etendusega</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="2112">
+    <s> Õhtu tuleb määrava %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tähtsus</n>
+    <word>tähtsusega</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="2114">
+    <s> Pinge jõudis viimase %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>piir</n>
+    <word>piirini</word>
+    <title> Jutud </title>
+  </info>
+  <info id="2138">
+    <s> Peagi oli %%% kirjandus . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>jutt</n>
+    <answer>jutiks</answer>
+    <word>jutuks</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="2157">
+    <s> Seejärel tulid mehed %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>hang</n>
+    <answer>hangedega</answer>
+    <word>hangudega</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="2188">
+    <s> Samas ootas hobune %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>vanker</n>
+    <word>vankriga</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="2191">
+    <s> Järelikult olid %%% hiinlased . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>müüja</n>
+    <answer>müüjaiks</answer>
+    <word>müüjateks</word>
+    <title> Kevad Hiinas </title>
+  </info>
+  <info id="2195">
+    <s> Niisiis läheb talu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>müük</n>
+    <word>müügiks</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="2202">
+    <s> Ometi saab vise %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>märguanne</n>
+    <word>märguandeks</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="2218">
+    <s> Siis osutas %%% magajale . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>käsi</n>
+    <word>käega</word>
+    <title> Kõiksuse hääl </title>
+  </info>
+  <info id="2226">
+    <s> Piir tehakse võimalikult %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kaunis</n>
+    <word>kauniks</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="2227">
+    <s> Teekond osutus üllatavalt %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lühike</n>
+    <word>lühikeseks</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="2228">
+    <s> Arst muutus silmanähtavalt %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tõre</n>
+    <word>tõredaks</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="2237">
+    <s> Ilmad läksid erakordselt %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>soe</n>
+    <word>soojaks</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2238">
+    <s> Jalg saab niigi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>terve</n>
+    <word>terveks</word>
+    <title> Maa ja armastus 6 </title>
+  </info>
+  <info id="2239">
+    <s> Kuu muutus veidi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>punakas</n>
+    <word>punakaks</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="2240">
+    <s> Vikat läks ruttu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>nüri</n>
+    <word>nüriks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="2244">
+    <s> Kurgu võtab lausa %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kibe</n>
+    <word>kibedaks</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="2247">
+    <s> Asi läks väga %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>terav</n>
+    <word>teravaks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="2253">
+    <s> Kära paisus siiski %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>suur</n>
+    <word>suureks</word>
+    <title> Inglid ja kangelased </title>
+  </info>
+  <info id="2262">
     <s> %%% sai pihta või ? </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -184,7 +1932,255 @@
     <word>Raketiga</word>
     <title> Jutud </title>
   </info>
-  <info id="146">
+  <info id="2295">
+    <s> %%% saime hästi läbi . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vaheldus</n>
+    <word>Vahelduseks</word>
+    <title> Saaga </title>
+  </info>
+  <info id="2311">
+    <s> Tänav jaguneb %%% haruks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kaks</n>
+    <word>kaheks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2312">
+    <s> Tänav jaguneb kaheks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>haru</n>
+    <word>haruks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2342">
+    <s> Aken jäi ilma %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>valve</n>
+    <word>valveta</word>
+    <title> Maa ja armastus 7 </title>
+  </info>
+  <info id="2353">
+    <s> Seetõttu peatusin vähimagi %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>hirm</n>
+    <word>hirmuta</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="2356">
+    <s> Rahutus möödus poole %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>viis</n>
+    <word>viieks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="2382">
+    <s> Ennelõunal jäi orus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vaikne</n>
+    <word>vaikseks</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="2388">
+    <s> Isal läksid kõrvad %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>punane</n>
+    <word>punaseks</word>
+    <title> Continental </title>
+  </info>
+  <info id="2390">
+    <s> Rebane läks näost %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valge</n>
+    <word>valgeks</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2392">
+    <s> Koergi teeb fakti %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kindel</n>
+    <word>kindlaks</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="2394">
+    <s> Emane meelitab isaseid %%% ! </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>sinine</n>
+    <word>sinisega</word>
+    <title> Päästke mind , palun , jumala eest , päästke </title>
+  </info>
+  <info id="2396">
+    <s> Lause teeb ema %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rõõmus</n>
+    <word>rõõmsaks</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="2398">
+    <s> Valu teeb inimesed %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ilus</n>
+    <word>ilusaks</word>
+    <title> Nips </title>
+  </info>
+  <info id="2400">
+    <s> Haigus tegi ema %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kuri</n>
+    <word>kurjaks</word>
+    <title> Surematus </title>
+  </info>
+  <info id="2401">
+    <s> %%% oli restoran vaikne . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>Hetkeks</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="2404">
+    <s> Korsten oli %%% terve . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>õnneks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="2406">
+    <s> Prillid jäid %%% terveks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>õnneks</word>
+    <title> Raadio </title>
+  </info>
+  <info id="2407">
+    <s> Prillid jäid õnneks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>terve</n>
+    <word>terveks</word>
+    <title> Raadio </title>
+  </info>
+  <info id="2418">
+    <s> %%% pole vaja abielluda ! </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>isa</n>
+    <word>Isadega</word>
+    <title> TÄISKUU JA TÄNAVALATERN </title>
+  </info>
+  <info id="2421">
+    <s> %%% võib veel pääseda . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>valetamine</n>
+    <word>Valetamisega</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="2425">
+    <s> %%% pole vaja kiirustada . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>asi</n>
+    <word>Asjaga</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="2432">
+    <s> %%% alistuda ja alluda . </s>
+    <nr>mitmus</nr>
+    <case>ilmaütlev</case>
+    <n>tingimus</n>
+    <word>Tingimusteta</word>
+    <title> Jutud </title>
+  </info>
+  <info id="2454">
+    <s> %%% said ka püksid . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>märg</n>
+    <word>Märjaks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="2459">
+    <s> Seekord mängime %%% välja . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>pime</n>
+    <word>pimedani</word>
+    <title> EGO </title>
+  </info>
+  <info id="2488">
+    <s> Kontoris olen kella %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>seitse</n>
+    <word>seitsmeks</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="2519">
+    <s> Tühi tugitool jäi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>selts</n>
+    <word>seltsiks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="2528">
+    <s> Head tuju jätkub %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>õhtu</n>
+    <word>õhtuni</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="2533">
+    <s> Järgmine kord kohtusime %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hommikusöök</n>
+    <word>hommikusöögiks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="2536">
+    <s> Kohev lumi kerkis %%% . </s>
+    <nr>mitmus</nr>
+    <case>rajav</case>
+    <n>puus</n>
+    <word>puusadeni</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="2559">
+    <s> Soe koht võrreldes %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>rinne</n>
+    <word>rindega</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="2574">
+    <s> Õiglane oli %%% ruumis . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>hetk</n>
+    <word>hetkega</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="2630">
     <s> Ainult nägu läheb %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
@@ -192,63 +2188,432 @@
     <word>tühjaks</word>
     <title> AJALOO ILU </title>
   </info>
-  <info id="173">
-    <s> Suurte %%% tuldi rajoonist tagasi . </s>
-    <nr>mitmus</nr>
+  <info id="2636">
+    <s> Edasi läks juba %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lõbusam</n>
+    <word>lõbusamaks</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="2639">
+    <s> Milleks asjatult %%% mängida ? </s>
+    <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>lootus</n>
-    <word>lootustega</word>
-    <title> Metsad kõnelevad </title>
+    <n>õnn</n>
+    <word>õnnega</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
   </info>
-  <info id="199">
-    <s> Lõppude %%% jõutakse ka ahjudeni . </s>
+  <info id="2643">
+    <s> Võibolla isegi %%% saada . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>lõpp</n>
-    <word>lõpuks</word>
-    <title> AJALOO ILU </title>
-  </info>
-  <info id="200">
-    <s> Lõppude lõpuks jõutakse ka %%% . </s>
-    <nr>mitmus</nr>
-    <case>rajav</case>
-    <n>ahi</n>
-    <word>ahjudeni</word>
-    <title> AJALOO ILU </title>
-  </info>
-  <info id="212">
-    <s> Esialgu jääb loom ainult %%% . </s>
-    <nr>ainsus</nr>
-    <case>saav</case>
-    <n>uimane</n>
-    <word>uimaseks</word>
-    <title> AHASVEERUSE UNI </title>
-  </info>
-  <info id="229">
-    <s> Edasi laiendasime klubi viiekümne %%% . </s>
-    <nr>ainsus</nr>
-    <case>rajav</case>
-    <n>liige</n>
-    <word>liikmeni</word>
+    <n>jumal</n>
+    <word>jumalaks</word>
     <title> Jutud </title>
   </info>
-  <info id="242">
-    <s> Tänapäeval suurendatakse pisikegi nägu %%% . </s>
+  <info id="2663">
+    <s> %%% lõunaid pole olemas . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>tasu</n>
+    <word>Tasuta</word>
+    <title> TÄISKUU JA TÄNAVALATERN </title>
+  </info>
+  <info id="2678">
+    <s> Poisi silmad paisuvad %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>portree</n>
-    <word>portreeks</word>
-    <title> AHASVEERUSE UNI </title>
+    <n>suurem</n>
+    <word>suuremaks</word>
+    <title> NEITSIST SÜNDINUD </title>
   </info>
-  <info id="244">
-    <s> Mets jäi aga endiselt %%% . </s>
+  <info id="2706">
+    <s> Rohkem %%% ei meenunudki . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>hetk</n>
+    <word>hetkega</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="2711">
+    <s> %%% oli palju raskem . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>neljas</n>
+    <word>Neljandaga</word>
+    <title> Unenägude jumal </title>
+  </info>
+  <info id="2736">
+    <s> Lahti läks %%% kihutamiseks . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>vaikne</n>
-    <word>vaikseks</word>
-    <title> Metsad kõnelevad </title>
+    <n>tõeline</n>
+    <word>tõeliseks</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
   </info>
-  <info id="247">
+  <info id="2737">
+    <s> Lahti läks tõeliseks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kihutamine</n>
+    <word>kihutamiseks</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
+  </info>
+  <info id="2751">
+    <s> Kas minna õige %%% ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lift</n>
+    <word>liftiga</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="2791">
+    <s> Pühapäeva %%% jõudsin haiglasse . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lõuna</n>
+    <word>lõunaks</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2840">
+    <s> Muusika aga osutuski %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>igav</n>
+    <word>igavaks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="2842">
+    <s> Ootamatult jagunes tee %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kaks</n>
+    <word>kaheks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="2845">
+    <s> Võite ka %%% kirjutada . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>viga</n>
+    <word>vigadega</word>
+    <title> MART JA TOIVO </title>
+  </info>
+  <info id="2846">
+    <s> %%% võis rahul olla . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kollane</n>
+    <word>Kollasega</word>
+    <title> Seitsmes rahukevad </title>
+  </info>
+  <info id="2953">
+    <s> Prillid muide jäid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>terve</n>
+    <word>terveks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="2955">
+    <s> Vihm jäi hooti %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>nõrgem</n>
+    <word>nõrgemaks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="2956">
+    <s> Ilm läks jälle %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ilusam</n>
+    <word>ilusamaks</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="2957">
+    <s> Tuba läks korraga %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>külmem</n>
+    <word>külmemaks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="2959">
+    <s> Tuju läks alati %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>parem</n>
+    <word>paremaks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="2960">
+    <s> Vaikus venis aina %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pikem</n>
+    <word>pikemaks</word>
+    <title> Oraakli surm Arvustused </title>
+  </info>
+  <info id="2961">
+    <s> Päev läheb millegipärast %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>heledam</n>
+    <word>heledamaks</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="2965">
+    <s> Toas läks ikka %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pimedam</n>
+    <word>pimedamaks</word>
+    <title> Seitsmes rahukevad </title>
+  </info>
+  <info id="2997">
+    <s> Tüdruk tundus veidi tuttava %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>nägu</n>
+    <word>näoga</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="3003">
+    <s> Tegemist oli tõesti piduliku %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>õhtusöök</n>
+    <word>õhtusöögiga</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="3006">
+    <s> Loigud võtsid %%% kooriku peale . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õhtu</n>
+    <word>õhtuks</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="3026">
+    <s> Rohkem %%% vaja ei ole . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>elu</n>
+    <word>eluks</word>
+    <title> Nips </title>
+  </info>
+  <info id="3039">
+    <s> Ka ettekandja oli tuttava %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>nägu</n>
+    <word>näoga</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3042">
+    <s> Ka laevad olid sarnase %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kuju</n>
+    <word>kujuga</word>
+    <title> Sindbadi üheksas reis </title>
+  </info>
+  <info id="3062">
+    <s> Loomulikult ajab loogika naised %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õel</n>
+    <word>õelaks</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="3070">
+    <s> Küllap jääb %%% ajaks valusaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tükk</n>
+    <word>tükiks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3071">
+    <s> Küllap jääb tükiks %%% valusaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>aeg</n>
+    <word>ajaks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3072">
+    <s> Küllap jääb tükiks ajaks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valus</n>
+    <word>valusaks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3074">
+    <s> Siis jõi klaasi %%% tühjaks . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mõnu</n>
+    <word>mõnuga</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="3075">
+    <s> Siis jõi klaasi mõnuga %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tühi</n>
+    <word>tühjaks</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="3082">
+    <s> Kingitused kulusid küll %%% ära . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>mari</n>
+    <answer>mariks</answer>
+    <word>marjaks</word>
+    <title> Surematus </title>
+  </info>
+  <info id="3129">
+    <s> Teinekord käisime %%% koos turul . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kaasa</n>
+    <word>kaasaga</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="3135">
+    <s> Vanadki olid %%% läbi valutamata . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>lõpp</n>
+    <word>lõpuni</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="3139">
+    <s> Rahagi hakati %%% ümber arvestama . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õlu</n>
+    <word>õlleks</word>
+    <title> ARTUR MAGNUSSONI SUUR SÕJASUVI </title>
+  </info>
+  <info id="3145">
+    <s> Isa käis koos %%% rõdul . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ema</n>
+    <word>emaga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3156">
+    <s> Palju parem oli olla %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>selg</n>
+    <word>seljaga</word>
+    <title> Sõud </title>
+  </info>
+  <info id="3167">
+    <s> Siis sööd ja muutud %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>selgem</n>
+    <word>selgemaks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3170">
+    <s> Ehk läheb %%% korraks üle ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>järgmine</n>
+    <word>järgmiseks</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="3182">
+    <s> Teadlaste %%% leiab ettekäände alati . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vahetamine</n>
+    <word>vahetamiseks</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="3203">
+    <s> %%% sõita nüüd ei saanudki . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mootorratas</n>
+    <word>Mootorrattaga</word>
+    <title> Seitsmes rahukevad </title>
+  </info>
+  <info id="3214">
+    <s> Nimede %%% taheti muuta aega . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>muutmine</n>
+    <word>muutmisega</word>
+    <title> Nips </title>
+  </info>
+  <info id="3235">
+    <s> Naine taganes %%% ja kummardas . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>uks</n>
+    <word>ukseni</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="3244">
+    <s> Poiss tegi %%% ebamäärase liigutuse . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pea</n>
+    <word>peaga</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="3250">
+    <s> %%% tekkis ruumi pingeline vaikus . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>Hetkeks</word>
+    <title> Teine osa Leinajad </title>
+  </info>
+  <info id="3265">
+    <s> %%% mindi hotelli viimasele korrusele . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lift</n>
+    <word>Liftiga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3274">
+    <s> %%% leidis asi kiire lahenduse . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="3279">
+    <s> Hirm harjutab mõtet toimuva %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>paratamatus</n>
+    <word>paratamatusega</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="3287">
+    <s> Juba gümnaasiumis töötasin poole %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>koht</n>
+    <word>kohaga</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3297">
     <s> Kõige hullem lugu oli %%% . </s>
     <nr>mitmus</nr>
     <case>kaasaütlev</case>
@@ -257,7 +2622,941 @@
     <word>loomadega</word>
     <title> Metsad kõnelevad </title>
   </info>
-  <info id="250">
+  <info id="3303">
+    <s> Ilma %%% lugu pole lugu . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>lõpp</n>
+    <word>lõputa</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="3311">
+    <s> Lageda %%% nii ei saa . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>päike</n>
+    <answer>päiksega</answer>
+    <word>päikesega</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="3328">
+    <s> Hiljem aga harjusid %%% ära . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>külm</n>
+    <word>külmaga</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="3333">
+    <s> Tagasi tuli voor suure %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>kell</n>
+    <word>kellata</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="3398">
+    <s> Kokku oli siis tegemist %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>kolmik</n>
+    <word>kolmikutega</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="3401">
+    <s> Ilmselt langesin jälle reklaami %%% ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ohver</n>
+    <word>ohvriks</word>
+    <title> Arkaadi A </title>
+  </info>
+  <info id="3416">
+    <s> %%% lossi juurde ei pääse . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>auto</n>
+    <word>Autoga</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="3421">
+    <s> Lõppude %%% jõutakse ka ahjudeni . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lõpp</n>
+    <word>lõpuks</word>
+    <title> AJALOO ILU </title>
+  </info>
+  <info id="3422">
+    <s> Lõppude lõpuks jõutakse ka %%% . </s>
+    <nr>mitmus</nr>
+    <case>rajav</case>
+    <n>ahi</n>
+    <word>ahjudeni</word>
+    <title> AJALOO ILU </title>
+  </info>
+  <info id="3427">
+    <s> Pidu palees jätkus veel %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>hommik</n>
+    <word>hommikuni</word>
+    <title> Sierra Titauna nekropol </title>
+  </info>
+  <info id="3435">
+    <s> Homme %%% peavad jäljed kaduma . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õhtu</n>
+    <word>õhtuks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3469">
+    <s> Kõvera %%% mees oli vanapoiss . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kael</n>
+    <word>kaelaga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3480">
+    <s> Niisiis pidasin %%% maha vaadata . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>parem</n>
+    <word>paremaks</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="3482">
+    <s> Mees ootas ja muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahutu</n>
+    <word>rahutuks</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="3507">
+    <s> Hädavajalikke asju peabki %%% saama . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>häda</n>
+    <word>hädaga</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="3509">
+    <s> Palavik tõusis ööseks kolmekümne %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>üheksa</n>
+    <word>üheksani</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="3515">
+    <s> Ka seljakott tuleks %%% rookida . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tühi</n>
+    <word>tühjaks</word>
+    <title> Rabaröövel </title>
+  </info>
+  <info id="3530">
+    <s> Ka raamat tuli %%% kaasa . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tüdruk</n>
+    <word>tüdrukuga</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="3532">
+    <s> Ka prillid kuluvad %%% ära . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>mari</n>
+    <answer>mariks</answer>
+    <word>marjaks</word>
+    <title> Varblane </title>
+  </info>
+  <info id="3533">
+    <s> %%% ei saa tõesti kohustada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>võimatu</n>
+    <word>Võimatuks</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="3549">
+    <s> Rääkija heidab äkki trotslikult %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pea</n>
+    <word>peaga</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="3554">
+    <s> Õnnest saab lahti ainult %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>õnnetus</n>
+    <word>õnnetusega</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="3557">
+    <s> %%% polnudki enam palju maad . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>kallas</n>
+    <word>Kaldani</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3564">
+    <s> Esialgu võiks %%% edasi jääda . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>müüja</n>
+    <word>müüjaks</word>
+    <title> FÖÖNIKS </title>
+  </info>
+  <info id="3565">
+    <s> Kas läksite %%% tülli või ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>naine</n>
+    <word>naisega</word>
+    <title> HILISKEVAD </title>
+  </info>
+  <info id="3576">
+    <s> Naine ei saa olla %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>eesmärk</n>
+    <word>eesmärgiks</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="3583">
+    <s> Niimoodi küll %%% ei saa . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>terve</n>
+    <word>terveks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3595">
+    <s> Ukse kõrval istus %%% naine . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>kark</n>
+    <word>karkudega</word>
+    <title> Surematus </title>
+  </info>
+  <info id="3602">
+    <s> Küla keskel oli %%% suvila . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>telefon</n>
+    <word>telefoniga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3605">
+    <s> Siis jääb inimesi natuke %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vähem</n>
+    <word>vähemaks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="3606">
+    <s> Nüüd muutus olukord pisut %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kergem</n>
+    <word>kergemaks</word>
+    <title> Maa ja armastus 10 </title>
+  </info>
+  <info id="3607">
+    <s> Edaspidi läks lugu veel %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>imelikum</n>
+    <word>imelikumaks</word>
+    <title> Õnn kestab igaviku ... </title>
+  </info>
+  <info id="3629">
+    <s> Sula polnud veel %%% märgatav . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>silm</n>
+    <answer>silmuga</answer>
+    <word>silmaga</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="3633">
+    <s> Aeg lükkab hiljem jäljed %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sile</n>
+    <word>siledaks</word>
+    <title> Lend </title>
+  </info>
+  <info id="3645">
+    <s> Salk lahkus vaikselt ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>kära</n>
+    <word>kärata</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="3657">
+    <s> %%% jäi veel neli aastat . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>pension</n>
+    <word>Pensionini</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3659">
+    <s> %%% oli siit kolm kilomeetrit . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>koolimaja</n>
+    <word>Koolimajani</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3662">
+    <s> Samm lähemale ja teen %%% ! </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vagane</n>
+    <word>vagaseks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3669">
+    <s> Järgmisel päeval tuli arst %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>paber</n>
+    <word>paberitega</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="3671">
+    <s> Järgmine kord tuli punapea %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>elukaaslane</n>
+    <word>elukaaslasega</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3680">
+    <s> Tühi pakk lendas %%% prügikasti . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kaar</n>
+    <word>kaarega</word>
+    <title> Glorie igavene kohalolek </title>
+  </info>
+  <info id="3688">
+    <s> Vanaisal tuli alustada hoonete %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ehitamine</n>
+    <word>ehitamisega</word>
+    <title> TIIBADE KASVAMISE AASTAD </title>
+  </info>
+  <info id="3705">
+    <s> Pikapeale läksid ka kollid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>soojem</n>
+    <word>soojemaks</word>
+    <title> Varblane </title>
+  </info>
+  <info id="3708">
+    <s> Kas %%% pisut segada ka ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lusikas</n>
+    <word>lusikaga</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="3751">
+    <s> Neljanda %%% võis rahule jääda . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kord</n>
+    <word>korraga</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="3767">
+    <s> Tunni %%% olime praktiliselt valmis . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>aeg</n>
+    <word>ajaga</word>
+    <title> Väljakaevamised </title>
+  </info>
+  <info id="3770">
+    <s> Energia %%% lõppes juba ammu . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastuhakk</n>
+    <word>vastuhakuks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3795">
+    <s> Kuidas üldse inimene %%% läheb ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hull</n>
+    <word>hulluks</word>
+    <title> EGO </title>
+  </info>
+  <info id="3802">
+    <s> Nüüd siis seisti silmitsi %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tõsi</n>
+    <word>tõega</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="3803">
+    <s> %%% oli aega neli tundi . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>buss</n>
+    <word>Bussini</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="3822">
+    <s> %%% oli pereisa suu laius . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>mõõt</n>
+    <word>Mõõduks</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="3839">
+    <s> Edasi laiendasime klubi viiekümne %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>liige</n>
+    <word>liikmeni</word>
+    <title> Jutud </title>
+  </info>
+  <info id="3845">
+    <s> Baari %%% oli pool tundi . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>sulgemine</n>
+    <word>sulgemiseni</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="3849">
+    <s> Metsa vari ulatus poole %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>põld</n>
+    <word>põlluni</word>
+    <title> Seitsmes rahukevad </title>
+  </info>
+  <info id="3856">
+    <s> Seejärel kisun %%% filtri ära . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>hammas</n>
+    <word>hammastega</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="3866">
+    <s> Nüüd kulus istekoht %%% ära . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>mari</n>
+    <answer>mariks</answer>
+    <word>marjaks</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="3872">
+    <s> %%% võtta polnud enam mõtet . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sügavam</n>
+    <word>Sügavamaks</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="3895">
+    <s> Õhtuti kiirustasin vähemagi %%% koju . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>süümepiin</n>
+    <word>süümepiinata</word>
+    <title> Continental </title>
+  </info>
+  <info id="3950">
+    <s> Esialgu jääb loom ainult %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>uimane</n>
+    <word>uimaseks</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="3953">
+    <s> Mistõttu osutub vaikus tõepoolest %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kuldne</n>
+    <word>kuldseks</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="3957">
+    <s> Muidu läheks peapööritus üpris %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hull</n>
+    <word>hulluks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="3961">
+    <s> Külm tuul puhub jää %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sile</n>
+    <word>siledaks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="3963">
+    <s> Öine vihm tegi õhu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>värske</n>
+    <word>värskeks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="3973">
+    <s> Õhk muutus %%% ja niiskeks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hämar</n>
+    <word>hämaraks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="3974">
+    <s> Õhk muutus hämaraks ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>niiske</n>
+    <word>niiskeks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="3975">
+    <s> Kõnelus kujunes %%% ja pahaendeliseks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vali</n>
+    <word>valjuks</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="3976">
+    <s> Kõnelus kujunes valjuks ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pahaendeline</n>
+    <word>pahaendeliseks</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="3988">
+    <s> Naine pöördus %%% vastu tuult . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>rind</n>
+    <word>rinnaga</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="4030">
+    <s> Väikesed nüansid võivad %%% saada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>saatuslik</n>
+    <word>saatuslikuks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="4034">
+    <s> Ega vaadata poole %%% telekat . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>lõuna</n>
+    <word>lõunani</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="4040">
+    <s> Esimesel hetkel võttis muidugi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tumm</n>
+    <word>tummaks</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="4058">
+    <s> Suurte %%% tuldi rajoonist tagasi . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>lootus</n>
+    <word>lootustega</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="4072">
+    <s> Uhke %%% läksin trepist üles . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>nägu</n>
+    <word>näoga</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="4077">
+    <s> %%% päevaks olnudki munder valmis . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>järgmine</n>
+    <word>Järgmiseks</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="4078">
+    <s> Järgmiseks %%% olnudki munder valmis . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>päev</n>
+    <word>päevaks</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="4091">
+    <s> Talumehed kutsusid lohet küll %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>krokodill</n>
+    <word>krokodilliks</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="4092">
+    <s> %%% kadus mees seejärel kabinetti . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="4099">
+    <s> Lapsed vajavad %%% ju päikest . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kasvamine</n>
+    <word>kasvamiseks</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="4108">
+    <s> Vanamees jäi %%% ka eraelus . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sõdur</n>
+    <word>sõduriks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="4110">
+    <s> %%% olid mehed jälle jalul . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lõuna</n>
+    <word>Lõunaks</word>
+    <title> PÖÖNINGUJUTUD </title>
+  </info>
+  <info id="4137">
+    <s> Ainult jalad muutuvad lõpuks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>raske</n>
+    <word>raskeks</word>
+    <title> Raadio </title>
+  </info>
+  <info id="4185">
+    <s> %%% lävida oli iseenesest tore . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>inimene</n>
+    <word>Inimestega</word>
+    <title> FÖÖNIKS </title>
+  </info>
+  <info id="4196">
+    <s> Tänase %%% võib rahule jääda . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>päev</n>
+    <word>päevaga</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="4220">
+    <s> Küllap õpin suvel %%% sõitma . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>auto</n>
+    <word>autoga</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="4229">
+    <s> Sellepärast peab raha %%% olema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>varu</n>
+    <word>varuks</word>
+    <title> Nips </title>
+  </info>
+  <info id="4231">
+    <s> Siis sõitsid autod %%% minema . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>inimene</n>
+    <word>inimestega</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="4239">
+    <s> Sõjajärgseil aastail sirguti kiiresti %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>täiskasvanud</n>
+    <word>täiskasvanuks</word>
+    <title> Pan Grpowski jõulud </title>
+  </info>
+  <info id="4242">
+    <s> Isegi %%% anda ei tohi . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>tasu</n>
+    <word>tasuta</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="4262">
+    <s> Ka õde ootas %%% diagnoosi . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>põnevus</n>
+    <word>põnevusega</word>
+    <title> Habemeajaja </title>
+  </info>
+  <info id="4266">
+    <s> Sinna korterisse jäin ülikooli %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>lõpp</n>
+    <word>lõpuni</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="4269">
+    <s> Kas kodus loobitakse lapsi %%% ? </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>kivi</n>
+    <word>kividega</word>
+    <title> Tänulikud surnud </title>
+  </info>
+  <info id="4279">
+    <s> %%% tuleb tasuda reetmise eest . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>veri</n>
+    <word>Verega</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="4288">
+    <s> Kamp noori läks %%% sõitma . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>auto</n>
+    <word>autoga</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="4294">
+    <s> Kolm töömeest täitsid kraavi %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kruus</n>
+    <answer>kruusiga</answer>
+    <word>kruusaga</word>
+    <title> AVALDAMATA LÜHILUGUSID </title>
+  </info>
+  <info id="4298">
+    <s> Ajapikku hakkasid radiaatorid %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>soe</n>
+    <word>soojaks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="4300">
+    <s> Varsti hakkasidki kalad %%% saama . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>küps</n>
+    <word>küpseks</word>
+    <title> PÖÖNINGUJUTUD </title>
+  </info>
+  <info id="4319">
+    <s> Vend käis imeliku %%% ringi . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>nägu</n>
+    <word>näoga</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="4326">
+    <s> Aknad jäidki kogu %%% lahti . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>öö</n>
+    <word>ööks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="4330">
+    <s> Mets jäi aga endiselt %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vaikne</n>
+    <word>vaikseks</word>
+    <title> Metsad kõnelevad </title>
+  </info>
+  <info id="4350">
+    <s> Kahe %%% vehkides hüppasin teele . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>käsi</n>
+    <word>käega</word>
+    <title> JOONIK KIVI </title>
+  </info>
+  <info id="4355">
+    <s> Kahjuks jääb silla nimi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>saladus</n>
+    <word>saladuseks</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="4362">
+    <s> Kust võtta poisi %%% raha ! </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>koolitamine</n>
+    <word>koolitamiseks</word>
+    <title> Maa ja armastus 1 </title>
+  </info>
+  <info id="4370">
+    <s> Nüüd oli kord küsimuste %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>esitamine</n>
+    <word>esitamiseks</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="4372">
+    <s> Ehk jääb elu %%% invaliidiks ? </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>lõpp</n>
+    <word>lõpuni</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="4373">
+    <s> Ehk jääb elu lõpuni %%% ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>invaliid</n>
+    <word>invaliidiks</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="4404">
+    <s> Õuduse %%% keha tõmbles veidi . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>suurendamine</n>
+    <word>suurendamiseks</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="4416">
+    <s> Asi tuleb enne %%% teha . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>selge</n>
+    <word>selgeks</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="4418">
+    <s> Mõtted kippusid vägisi %%% muutuma . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>sünge</n>
+    <answer>süngeiks</answer>
+    <word>süngeteks</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="4426">
+    <s> Tänapäeval suurendatakse pisikegi nägu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>portree</n>
+    <word>portreeks</word>
+    <title> AHASVEERUSE UNI </title>
+  </info>
+  <info id="4434">
+    <s> Õpetaja loeb monotoonse %%% värsse . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>hääl</n>
+    <word>häälega</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="4438">
+    <s> %%% oli noore tütarlapse surm . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tagajärg</n>
+    <word>Tagajärjeks</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="4470">
+    <s> Küsimus langeb kokku joone %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lõpp</n>
+    <word>lõpuga</word>
+    <title> Nips </title>
+  </info>
+  <info id="4473">
+    <s> Naine kaotas vist %%% teadvusegi . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>hetkeks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="4506">
+    <s> Tillukeste naiste eelis %%% võrreldes . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>pikk</n>
+    <word>pikkadega</word>
+    <title> Neljas osa Talu </title>
+  </info>
+  <info id="4511">
+    <s> %%% mehi ei jäeta maha . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>positsioon</n>
+    <word>Positsiooniga</word>
+    <title> GRATIS </title>
+  </info>
+  <info id="4513">
+    <s> %%% jäämist ei jätku kauaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>võõras</n>
+    <word>Võõraks</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="4547">
     <s> Novembris läheb ju varakult %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
@@ -265,23 +3564,494 @@
     <word>pimedaks</word>
     <title> AHASVEERUSE UNI </title>
   </info>
-  <info id="253">
-    <s> Ühesõnaga – talu tehti varandusest %%% . </s>
+  <info id="4552">
+    <s> Vaikus venis juba liiga %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pikk</n>
+    <word>pikaks</word>
+    <title> Eeben </title>
+  </info>
+  <info id="4560">
+    <s> Lõpp läheb ikka väga %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lääge</n>
+    <word>läägeks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="4580">
+    <s> Kirju kirjutasin %%% ja masinaga . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>käsi</n>
+    <word>käega</word>
+    <title> Nips </title>
+  </info>
+  <info id="4581">
+    <s> Kirju kirjutasin käega ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>masin</n>
+    <word>masinaga</word>
+    <title> Nips </title>
+  </info>
+  <info id="4602">
+    <s> Hambapasta tuub hakkab %%% saama . </s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>tühi</n>
     <word>tühjaks</word>
-    <title> Metsad kõnelevad </title>
+    <title> HARJUTUSED </title>
   </info>
-  <info id="294">
-    <s> Naise põhjalikud seletused teevad grupi %%% . </s>
+  <info id="4604">
+    <s> %%% prooviti kasutada punast tinti . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>värvimine</n>
+    <word>Värvimiseks</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="4608">
+    <s> Võõras jälgis toimuvat sügava %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mure</n>
+    <word>murega</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="4636">
+    <s> Öised härrad muutusid natuke %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
     <n>kärsitu</n>
     <word>kärsituks</word>
-    <title> AJALOO ILU </title>
+    <title> Kõik , mida pole </title>
   </info>
-  <info id="306">
+  <info id="4655">
+    <s> %%% ei saa suhteid katkestada . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>koer</n>
+    <word>Koeraga</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="4669">
+    <s> Erinevate %%% juhtub erinevaid asju . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>inimene</n>
+    <word>inimestega</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="4748">
+    <s> Poolel teel kohtus salk %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>põgenik</n>
+    <answer>põgenikkudega</answer>
+    <word>põgenikega</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="4795">
+    <s> %%% oli poolteist tundi aega . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>rong</n>
+    <word>Rongini</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="4798">
+    <s> Klassijuhataja läks %%% kuuks vangi . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kuus</n>
+    <word>kuueks</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="4799">
+    <s> Klassijuhataja läks kuueks %%% vangi . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kuu</n>
+    <word>kuuks</word>
+    <title> ELU ALGAB TÄNA </title>
+  </info>
+  <info id="4811">
+    <s> Niisiis tekkisid religioonid koos %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>inimene</n>
+    <word>inimestega</word>
+    <title> Õnnekosk </title>
+  </info>
+  <info id="4831">
+    <s> Kuidagi ei taha %%% minna . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valge</n>
+    <word>valgeks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="4846">
+    <s> Situatsioon kippus %%% kätte minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>piinlik</n>
+    <word>piinlikuks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="4857">
+    <s> Hall elu võtab pea %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hall</n>
+    <word>halliks</word>
+    <title> AVALDAMATA LÜHILUGUSID </title>
+  </info>
+  <info id="4862">
+    <s> Ilma %%% surra ei saa . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>paber</n>
+    <word>paberita</word>
+    <title> Varblane </title>
+  </info>
+  <info id="4915">
+    <s> Täpselt nii oli ka kunagi %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>inimene</n>
+    <word>inimesega</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="4937">
+    <s> Nüüd hakkas tasapisi asi %%% saama . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>selge</n>
+    <word>selgeks</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="4944">
+    <s> Väsimuse vastu tuleb võidelda väsimuse %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>vahend</n>
+    <word>vahenditega</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="4951">
+    <s> Alles suve %%% pööras taas soojaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lõpp</n>
+    <word>lõpuks</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="4952">
+    <s> Alles suve lõpuks pööras taas %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>soe</n>
+    <word>soojaks</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="4954">
+    <s> Üha kasvava %%% jõuda sinna elusana . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lootus</n>
+    <word>lootusega</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="4960">
+    <s> Veidi aja pärast jäin ometi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahutu</n>
+    <word>rahutuks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="4962">
+    <s> Üldiselt jagunevad naised %%% ja brünettideks . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>blondiin</n>
+    <answer>blondiineks</answer>
+    <word>blondiinideks</word>
+    <title> Arkaadi A </title>
+  </info>
+  <info id="4963">
+    <s> Üldiselt jagunevad naised blondiinideks ja %%% . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>brünett</n>
+    <answer>brüneteks</answer>
+    <word>brünettideks</word>
+    <title> Arkaadi A </title>
+  </info>
+  <info id="4990">
+    <s> Kokk tõstis %%% pöidla ja noogutas . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vastus</n>
+    <word>vastuseks</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="5007">
+    <s> Lillepott aga osutus siiski %%% takistuseks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ületamatu</n>
+    <word>ületamatuks</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="5008">
+    <s> Lillepott aga osutus siiski ületamatuks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>takistus</n>
+    <word>takistuseks</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="5016">
+    <s> Pakane majas võrdus %%% direktori hinges . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pakane</n>
+    <word>pakasega</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="5020">
+    <s> Seinast %%% kattis põrandat laagri vara . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>sein</n>
+    <word>seinani</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="5036">
+    <s> Kust tuli aga rikkus kirikute %%% ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ehitamine</n>
+    <word>ehitamiseks</word>
+    <title> Kevad Hiinas </title>
+  </info>
+  <info id="5042">
+    <s> Ainult tamm veel sarnanes kodumaa %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>tamm</n>
+    <answer>tammiga</answer>
+    <word>tammega</word>
+    <title> VÄLGUST TABATUD </title>
+  </info>
+  <info id="5063">
+    <s> Õnn oli asendumas masenduse ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>süütunne</n>
+    <word>süütundega</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="5149">
+    <s> %%% võivad jalad olla valust tuimad . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õhtu</n>
+    <word>Õhtuks</word>
+    <title> Sõud </title>
+  </info>
+  <info id="5156">
+    <s> Kohtumised ja lahkumised teevad kohad %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>uus</n>
+    <word>uueks</word>
+    <title> Nips </title>
+  </info>
+  <info id="5159">
+    <s> Sõda ja surmad teevad poisid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tark</n>
+    <word>targaks</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="5170">
+    <s> Tegelikult oli tops vaid illusiooni %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>loomine</n>
+    <word>loomiseks</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="5181">
+    <s> %%% ei osata teha sädelevaid hambaid . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> Lend </title>
+  </info>
+  <info id="5207">
+    <s> Teema oli liiga valus %%% jutuks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>aus</n>
+    <word>ausaks</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="5208">
+    <s> Teema oli liiga valus ausaks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>jutt</n>
+    <answer>jutiks</answer>
+    <word>jutuks</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="5233">
+    <s> Samm läks üha %%% ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kiirem</n>
+    <word>kiiremaks</word>
+    <title> Saaga </title>
+  </info>
+  <info id="5234">
+    <s> Samm läks üha %%% ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kiirem</n>
+    <word>kiiremaks</word>
+    <title> Saaga </title>
+  </info>
+  <info id="5273">
+    <s> Ega naine seepärast pea %%% saama . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>naer</n>
+    <word>naeruks</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="5284">
+    <s> Nahk jalalabalt tuli koos %%% maha . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>sokk</n>
+    <answer>sokuga</answer>
+    <word>sokiga</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="5294">
+    <s> Nii võib kogemata veel %%% saada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kaine</n>
+    <word>kainekski</word>
+    <clitic>ki</clitic>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="5305">
+    <s> Teadmine lõpust teeb %%% luua lõputut . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>võimatu</n>
+    <word>võimatuks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="5318">
+    <s> Tee kesklinnast daami %%% kadus märkamatult . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>kodu</n>
+    <word>koduni</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="5338">
+    <s> Muidu muutuks vana abielupaari elu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>igav</n>
+    <word>igavaks</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="5339">
+    <s> %%% tekkis sisemusse viinast terav valu . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hetk</n>
+    <word>Hetkeks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="5343">
+    <s> Pimedusest kasvas %%% mantlit kandev mees . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>maa</n>
+    <word>maani</word>
+    <title> Kliendi soov </title>
+  </info>
+  <info id="5357">
+    <s> Pimeduse %%% peab olema pisutki valgust . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>nägemine</n>
+    <word>nägemiseks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="5376">
+    <s> Head algused jäävad ilma suure %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>järg</n>
+    <word>järjeta</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="5392">
+    <s> Kiidusõnad ja laul kõlasid külas %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>hommik</n>
+    <word>hommikuni</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="5426">
+    <s> Sisse sadas muuseumi direktor koos %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>miilits</n>
+    <word>miilitsaga</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="5436">
+    <s> Keset teed tippu lõpetas järsku %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>enesetapp</n>
+    <word>enesetapuga</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="5449">
+    <s> Kuuse rasked oksad kaardusid peaaegu %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>maa</n>
+    <word>maani</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="5456">
+    <s> Araablane langetab pea ning jääb %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tumm</n>
+    <word>tummaks</word>
+    <title> NÕIUTUD KAMEE </title>
+  </info>
+  <info id="5501">
     <s> Sellepärast tuleb käsikirjade kadumist %%% arvata . </s>
     <nr>ainsus</nr>
     <case>saav</case>
@@ -289,15 +4059,71 @@
     <word>õnnetuseks</word>
     <title> AHASVEERUSE UNI </title>
   </info>
-  <info id="330">
-    <s> Nüüd olime jälle %%% , seekord lõplikult . </s>
+  <info id="5503">
+    <s> Mõnikord võib haigus inimesele %%% olla ! </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnnistus</n>
+    <word>õnnistuseks</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="5507">
+    <s> %%% prantsuse kirjandust ja peaks kitse . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tõlk</n>
+    <word>Tõlgiks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="5518">
+    <s> Isand tahtis %%% eesti keelt harjutada . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>armuke</n>
+    <word>armukesega</word>
+    <title> PÖÖNINGUJUTUD </title>
+  </info>
+  <info id="5525">
+    <s> Uksele tulid pikkade %%% suured silmad . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>jalg</n>
+    <word>jalgadega</word>
+    <title> Varblane </title>
+  </info>
+  <info id="5546">
+    <s> Tegemist oli küll väga ürgse %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>hõim</n>
+    <word>hõimuga</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="5555">
+    <s> %%% naine ei ole vaba naine . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>laps</n>
+    <word>Lapsega</word>
+    <title> NEITSIST SÜNDINUD </title>
+  </info>
+  <info id="5559">
+    <s> Kodumaa õhku tuli hingata täie %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>rind</n>
+    <word>rinnaga</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="5571">
+    <s> Ega ilma %%% kusagil läbi saa . </s>
     <nr>ainsus</nr>
     <case>ilmaütlev</case>
-    <n>toit</n>
-    <word>toiduta</word>
-    <title> Jutud </title>
+    <n>töö</n>
+    <word>tööta</word>
+    <title> Maa ja armastus 5 </title>
   </info>
-  <info id="343">
+  <info id="5573">
     <s> Tänav oli kah %%% peaaegu inimtühi . </s>
     <nr>ainsus</nr>
     <case>saav</case>
@@ -305,7 +4131,112 @@
     <word>õnneks</word>
     <title> Jutud </title>
   </info>
-  <info id="352">
+  <info id="5591">
+    <s> Tegevuse mõtte puudumist saab korvata %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>aktiivsus</n>
+    <word>aktiivsusega</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="5595">
+    <s> Palja %%% kaua väljas ei ole . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pea</n>
+    <word>peaga</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="5598">
+    <s> Nii et tegemist oli universaalse %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>nähtus</n>
+    <word>nähtusega</word>
+    <title> Raadio </title>
+  </info>
+  <info id="5604">
+    <s> Majad tänavate ääres muutusid järjest %%% . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>uhkem</n>
+    <answer>uhkemaiks</answer>
+    <word>uhkemateks</word>
+    <title> Inglid ja kangelased </title>
+  </info>
+  <info id="5605">
+    <s> %%% olid lillede õied parajasti kinni . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="5631">
+    <s> Kojameeste kindral valiti ametisse kogu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>elu</n>
+    <word>eluks</word>
+    <title> Varblane </title>
+  </info>
+  <info id="5642">
+    <s> Kuidas saada mustale %%% valget täppi ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>punane</n>
+    <word>punasega</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="5666">
+    <s> Aia peal vahtis kollase %%% koer . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pea</n>
+    <word>peaga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="5668">
+    <s> Suur vanaaegse %%% pilt oli küll . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>raam</n>
+    <word>raamiga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="5682">
+    <s> Kolhoosist tuleku %%% peeti vägev pidu . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>au</n>
+    <word>auks</word>
+    <title> Sõud </title>
+  </info>
+  <info id="5698">
+    <s> Maapind hakkas tõusma ja muutus %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tugevam</n>
+    <word>tugevamaks</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="5711">
+    <s> Aeg tüdruku ilu ei %%% tee . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kadunu</n>
+    <word>kadunuks</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="5740">
+    <s> Alles suure %%% suutis meelde tuletada . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>vaev</n>
+    <word>vaevaga</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="5745">
     <s> Tööpäeva %%% oli veel paar tundi . </s>
     <nr>ainsus</nr>
     <case>rajav</case>
@@ -313,7 +4244,31 @@
     <word>lõpuni</word>
     <title> Jutud </title>
   </info>
-  <info id="358">
+  <info id="5753">
+    <s> Aasta %%% oli veel kolmveerand tundi . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>lõpp</n>
+    <word>lõpuni</word>
+    <title> Viljaküla Brita pajatused </title>
+  </info>
+  <info id="5763">
+    <s> Siis oli viimane aeg %%% tegelda . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>laps</n>
+    <word>lapsega</word>
+    <title> Continental </title>
+  </info>
+  <info id="5811">
+    <s> Ükskord elasin kaks kuud ilma %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>raha</n>
+    <word>rahata</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="5816">
     <s> %%% oli veel kolm tundi aega . </s>
     <nr>ainsus</nr>
     <case>rajav</case>
@@ -321,15 +4276,530 @@
     <word>Rünnakuni</word>
     <title> Jutud </title>
   </info>
-  <info id="364">
-    <s> Rõhk jäätub kindlasti , keha muutub %%% . </s>
+  <info id="5828">
+    <s> Nii et parem räägime asjad %%% . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>kivi</n>
-    <word>kiviks</word>
+    <n>selge</n>
+    <word>selgeks</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="5832">
+    <s> Vaatamata üldisele kaosele jäid loomad %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>rahulik</n>
+    <word>rahulikuks</word>
+    <title> Jutud </title>
+  </info>
+  <info id="5833">
+    <s> Sealt pole palju %%% siia sõita . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>nädalavahetus</n>
+    <answer>nädalavahetusiks</answer>
+    <word>nädalavahetusteks</word>
+    <title> " Kuningas Christeri mõõk " ja Ingrid Arvustused </title>
+  </info>
+  <info id="5840">
+    <s> Siis jõudsin %%% muuseumi uuemasse ossa . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ring</n>
+    <word>ringiga</word>
+    <title> TEADMATUS </title>
+  </info>
+  <info id="5847">
+    <s> Päevad muutusid %%% ja ööd pikemaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lühem</n>
+    <word>lühemaks</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="5849">
+    <s> Päevad muutusid lühemaks ja ööd %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pikem</n>
+    <word>pikemaks</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="5851">
+    <s> Terad muutusid %%% ja asjad väiksemaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>suurem</n>
+    <word>suuremaks</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="5853">
+    <s> Terad muutusid suuremaks ja asjad %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>väiksem</n>
+    <word>väiksemaks</word>
+    <title> KANAROMAAN </title>
+  </info>
+  <info id="5854">
+    <s> Teisal pidas koos %%% libahundile jahti . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>talupoeg</n>
+    <word>talupoegadega</word>
+    <title> Tont taevaväraval </title>
+  </info>
+  <info id="5861">
+    <s> Naise põhjalikud seletused teevad grupi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kärsitu</n>
+    <word>kärsituks</word>
+    <title> AJALOO ILU </title>
+  </info>
+  <info id="5864">
+    <s> Hirmust ümmarguste %%% jälgis tüdruk teed . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>silm</n>
+    <answer>silmudega</answer>
+    <word>silmadega</word>
+    <title> Vend Juudas </title>
+  </info>
+  <info id="5882">
+    <s> Karvad ulatusid %%% ja ilmselt kaugemalegi . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>naba</n>
+    <word>nabani</word>
+    <title> Sõud </title>
+  </info>
+  <info id="5887">
+    <s> Nii et parem piirduda isiklike %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>kõrv</n>
+    <word>kõrvadega</word>
+    <title> KANEPI KIRIK </title>
+  </info>
+  <info id="5894">
+    <s> Hirmu vastu sai kõige paremini %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>hirm</n>
+    <word>hirmuga</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="5897">
+    <s> Unes olen suur tugevate %%% lind . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>tiib</n>
+    <word>tiibadega</word>
     <title> AHASVEERUSE UNI </title>
   </info>
-  <info id="382">
+  <info id="5901">
+    <s> Kohad laua ümber jagunesid näilise %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>juhuslikkus</n>
+    <word>juhuslikkusega</word>
+    <title> Maailm , mis on hea </title>
+  </info>
+  <info id="5940">
+    <s> Palju rahvast sõidab busside ja %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>veoauto</n>
+    <word>veoautodega</word>
+    <title> Tahiti ja Tonga </title>
+  </info>
+  <info id="5952">
+    <s> Juuksur soovitas juukseid natuke %%% toonitada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>heledam</n>
+    <word>heledamaks</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="5959">
+    <s> Kohalike %%% puututi kokku kahel korral . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>elanik</n>
+    <answer>elanikkudega</answer>
+    <word>elanikega</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="6004">
+    <s> Raev ja häbi korraga tegid %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>jõuetu</n>
+    <word>jõuetuks</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="6005">
+    <s> Järgmine arve tuleb alles %%% kuupäevaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kümnes</n>
+    <word>kümnendaks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="6006">
+    <s> Järgmine arve tuleb alles kümnendaks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kuupäev</n>
+    <word>kuupäevaks</word>
+    <title> Ebanormaalne </title>
+  </info>
+  <info id="6019">
+    <s> Nädalavahetusel otsustasin %%% koju sööma minna . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vaheldus</n>
+    <word>vahelduseks</word>
+    <title> Arkaadi A </title>
+  </info>
+  <info id="6024">
+    <s> Hakkajal mehel kosmoses %%% ei lähe . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>igav</n>
+    <word>igavaks</word>
+    <title> Morituri te salutant </title>
+  </info>
+  <info id="6031">
+    <s> Tüdruk puudutas ainult kergelt %%% veini . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>huul</n>
+    <word>huultega</word>
+    <title> PALVERÄND UUDE MAAILMA </title>
+  </info>
+  <info id="6042">
+    <s> Mets ei tapa kunagi inimest %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>üksindus</n>
+    <word>üksindusega</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="6077">
+    <s> Kust tullakse siis niimoodi laia %%% ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>joon</n>
+    <word>joonega</word>
+    <title> Randevuude rajad on rammetult rohtunud </title>
+  </info>
+  <info id="6103">
+    <s> %%% oli noormees ka andekas kunstnik . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lisa</n>
+    <word>Lisaks</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="6121">
+    <s> Kas oli tegu järjekordse dokumentide %%% ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kontroll</n>
+    <word>kontrolliga</word>
+    <title> Peegelleitnandid </title>
+  </info>
+  <info id="6128">
+    <s> Tahte %%% paat tormas vastu karidele . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>tüür</n>
+    <word>tüürita</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="6131">
+    <s> Tee bussipeatusest %%% oli vaevalt kilomeeter . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>maja</n>
+    <word>majani</word>
+    <title> Iluasi </title>
+  </info>
+  <info id="6143">
+    <s> %%% varjasid küll põõsad põgenikku esialgu . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="6166">
+    <s> Kas inimene siis %%% ei saagi ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>puhas</n>
+    <word>puhtaks</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="6217">
+    <s> Valet saab parandada vaid %%% valeks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>parem</n>
+    <word>paremaks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6218">
+    <s> Valet saab parandada vaid paremaks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vale</n>
+    <word>valeks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6224">
+    <s> %%% olin siis juba veidi vanem . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> Rannahiidsed </title>
+  </info>
+  <info id="6253">
+    <s> Kirjutamine muutub kergesti tühjade sõnade %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kirjutamine</n>
+    <word>kirjutamiseks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="6270">
+    <s> Tavaliselt piirdus õpilaste arv umbes %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>viiskümmend</n>
+    <word>viiekümnega</word>
+    <title> RIIKLIK ÕPPEASUTUS INGLISE KOLLEDŽ </title>
+  </info>
+  <info id="6297">
+    <s> Preester jäi imelikult %%% ja uimaseks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>loid</n>
+    <word>loiuks</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="6298">
+    <s> Preester jäi imelikult loiuks ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>uimane</n>
+    <word>uimaseks</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="6329">
+    <s> Siis ei jää aega väljapääsu %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>otsimine</n>
+    <word>otsimiseks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6339">
+    <s> Kindla %%% ametivõimudele mitte pihku puutuda . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kava</n>
+    <word>kavaga</word>
+    <title> MUST KOER </title>
+  </info>
+  <info id="6353">
+    <s> Inimene pidi ka kosmoses %%% jääma . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>inimene</n>
+    <word>inimeseks</word>
+    <title> Gondvana lapsed </title>
+  </info>
+  <info id="6391">
+    <s> Naine vaatas ja viipas kergelt %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>sõrm</n>
+    <word>sõrmedega</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="6392">
+    <s> Ettekandja tormas %%% põrandalt verd pühkima . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lapp</n>
+    <word>lapiga</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="6401">
+    <s> %%% osutub vaid neiu surma fakt . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>oluline</n>
+    <word>Oluliseks</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="6407">
+    <s> Mees ärkas keset südaööd ebamäärase %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>süütunne</n>
+    <word>süütundega</word>
+    <title> Voorus ja patt </title>
+  </info>
+  <info id="6409">
+    <s> Kogemata asjal võib olla %%% põhjus . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>meel</n>
+    <word>meelega</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6411">
+    <s> Korralikult riides käia ja %%% rääkida . </s>
+    <nr>mitmus</nr>
+    <case>ilmaütlev</case>
+    <n>viga</n>
+    <word>vigadeta</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="6436">
+    <s> Mehe hääl muutus %%% ja pidulikuks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>sünge</n>
+    <word>süngeks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="6437">
+    <s> Mehe hääl muutus süngeks ja %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pidulik</n>
+    <word>pidulikuks</word>
+    <title> KELLAHELIN </title>
+  </info>
+  <info id="6461">
+    <s> Edasi läks asi aga hoopis %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>hull</n>
+    <word>hulluks</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="6466">
+    <s> Väga sügavale ja haua ajate %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tasane</n>
+    <word>tasaseks</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="6478">
+    <s> %%% jäi veel kolm ja pool kilomeetrit . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>surnuaed</n>
+    <word>Surnuaiani</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="6481">
+    <s> Jook oli kange ja erakordselt puhta %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>maitse</n>
+    <word>maitsega</word>
+    <title> EESTI GOOTIKA </title>
+  </info>
+  <info id="6487">
+    <s> Nii et pääsesime kuiva %%% kõvale maale . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>jalg</n>
+    <word>jalaga</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="6504">
+    <s> Siis jäi %%% ja väljus esimesena toast . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ükskõikne</n>
+    <word>ükskõikseks</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="6517">
+    <s> Rektor mainiski juba üliõpilaste kadumist vestluses %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>president</n>
+    <word>presidendiga</word>
+    <title> Chadis </title>
+  </info>
+  <info id="6542">
+    <s> Ainult suurema %%% saab muret minema peletada . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>mure</n>
+    <word>murega</word>
+    <title> Varblane </title>
+  </info>
+  <info id="6553">
+    <s> Leili tundus %%% tõepoolest liiga palju olevat . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>alustamine</n>
+    <word>alustamiseks</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="6555">
+    <s> Võitlus kurjuse vastu muutub lõpuks ikka %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kurjus</n>
+    <word>kurjuseks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6575">
+    <s> Kabinetti sisenedes suutsin %%% üllatust maha suruda . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>vaev</n>
+    <word>vaevaga</word>
+    <title> Habemeajaja </title>
+  </info>
+  <info id="6583">
+    <s> %%% taskus taheti kirjandust ja kunsti teha . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>revolver</n>
+    <word>Revolvriga</word>
+    <title> " Volta " annab kaeblikku vilet </title>
+  </info>
+  <info id="6589">
+    <s> %%% saavutasin hämmastava vilumuse ja uskumatu kiiruse . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>aasta</n>
+    <word>Aastatega</word>
+    <title> SUSANNA JA MINA </title>
+  </info>
+  <info id="6599">
+    <s> Suhteliselt võttes juhtub %%% kõige rohkem õnnetusi . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>punapea</n>
+    <word>punapeadega</word>
+    <title> daydream nation </title>
+  </info>
+  <info id="6609">
     <s> Nüüd laseb valge %%% mees käärid käiku . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -337,23 +4807,143 @@
     <word>särgiga</word>
     <title> AJALOO ILU </title>
   </info>
-  <info id="392">
-    <s> Purjus vanamees võib hullemagi %%% maha saada . </s>
+  <info id="6629">
+    <s> Kalli kella ja %%% käidi muljet avaldamas . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>loba</n>
-    <word>lobaga</word>
-    <title> Jutud </title>
+    <n>ülikond</n>
+    <word>ülikonnaga</word>
+    <title> UNIKIRI </title>
   </info>
-  <info id="398">
-    <s> Siis ehk teevad kogu eesti rahva %%% . </s>
+  <info id="6655">
+    <s> Nüüd vaatas aknast välja pruuni %%% siga . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>palitu</n>
+    <word>palituga</word>
+    <title> Seitsmes rahukevad </title>
+  </info>
+  <info id="6661">
+    <s> Hommik toob kaasa selge puhta %%% päikesepaiste . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>õhk</n>
+    <word>õhuga</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="6677">
+    <s> Enamus olid pealegi %%% ja läksid kõrvalt . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>kutse</n>
+    <word>kutsetega</word>
+    <title> Raadio </title>
+  </info>
+  <info id="6678">
+    <s> %%% oli vene relvade jaoks tuhandeid padruneid . </s>
     <nr>ainsus</nr>
     <case>saav</case>
-    <n>vagane</n>
-    <word>vagaseks</word>
-    <title> Metsad kõnelevad </title>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
   </info>
-  <info id="410">
+  <info id="6691">
+    <s> Seekordse pettumuse %%% põhjuseks oli uus osakonnajuhataja . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>ainus</n>
+    <word>ainsaks</word>
+    <title> Hunt , madu ja põrgu perenaine </title>
+  </info>
+  <info id="6692">
+    <s> Seekordse pettumuse ainsaks %%% oli uus osakonnajuhataja . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>põhjus</n>
+    <word>põhjuseks</word>
+    <title> Hunt , madu ja põrgu perenaine </title>
+  </info>
+  <info id="6701">
+    <s> Ilma %%% ei pakuks aga asi pinget . </s>
+    <nr>mitmus</nr>
+    <case>ilmaütlev</case>
+    <n>pisar</n>
+    <word>pisarateta</word>
+    <title> JOONIK KIVI </title>
+  </info>
+  <info id="6755">
+    <s> Sea %%% tegin akna ette triibulise kardina . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>varjamine</n>
+    <word>varjamiseks</word>
+    <title> Seitsmes rahukevad </title>
+  </info>
+  <info id="6761">
+    <s> Ema seisis %%% isa poole ja ootas . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>selg</n>
+    <word>seljaga</word>
+    <title> FELIX HORNI TÄHETUND </title>
+  </info>
+  <info id="6790">
+    <s> Rohkem lugedes saab asi küll pikkamööda %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>selgem</n>
+    <word>selgemaks</word>
+    <title> MINU MINA </title>
+  </info>
+  <info id="6799">
+    <s> Maal pole mõtet ilma %%% läbi ajada . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>lehm</n>
+    <word>lehmata</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="6806">
+    <s> Mees oli kimbatuses ja võttis hetke %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>mõtlemine</n>
+    <word>mõtlemiseks</word>
+    <title> UNIKIRI </title>
+  </info>
+  <info id="6814">
+    <s> Kapten läheb ka alati koos %%% põhja ! </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>laev</n>
+    <word>laevaga</word>
+    <title> Glorie igavene kohalolek </title>
+  </info>
+  <info id="6869">
+    <s> Kuni kahekümne %%% inimesed löövad veel tantsugi . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>hammas</n>
+    <word>hambata</word>
+    <title> Habemeajaja </title>
+  </info>
+  <info id="6885">
+    <s> Kevade ja sügise hakul jäi koguni %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>haige</n>
+    <word>haigeks</word>
+    <title> Vanapagana teine tosin </title>
+  </info>
+  <info id="6894">
+    <s> Õhku sai läbi laes paikneva %%% resti . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>auk</n>
+    <word>aukudega</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="6903">
     <s> Esimese sammuna otsustasin ette võtta tutvumise %%% . </s>
     <nr>mitmus</nr>
     <case>kaasaütlev</case>
@@ -361,7 +4951,56 @@
     <word>valijatega</word>
     <title> Jutud </title>
   </info>
-  <info id="411">
+  <info id="6907">
+    <s> Luba lastekodu %%% saadi pärast aastast kirjavahetust . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>avamine</n>
+    <word>avamiseks</word>
+    <title> Lastekodu </title>
+  </info>
+  <info id="6919">
+    <s> Valgeid laike maakeral tuleb hoida %%% päevaks . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>must</n>
+    <word>mustaks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6920">
+    <s> Valgeid laike maakeral tuleb hoida mustaks %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>päev</n>
+    <word>päevaks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="6936">
+    <s> Ometi jõuavad jalad vaid trepi esimese %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>aste</n>
+    <answer>asteni</answer>
+    <word>astmeni</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="6948">
+    <s> Kõige kiiremini saadi hakkama viiekümne viie %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>minut</n>
+    <word>minutiga</word>
+    <title> KUNINGVESI </title>
+  </info>
+  <info id="6951">
+    <s> Kurja kausi ootamine väsitas ja tegi %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>närvilisem</n>
+    <word>närvilisemaks</word>
+    <title> Saaga </title>
+  </info>
+  <info id="6964">
     <s> Lõpp oli nii või teisiti %%% katsuda . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
@@ -369,28 +5008,390 @@
     <word>käega</word>
     <title> Jutud </title>
   </info>
-  <info id="423">
-    <s> Miks siis loomad ilma %%% vastu võeti ? </s>
-    <nr>ainsus</nr>
-    <case>ilmaütlev</case>
-    <n>toit</n>
-    <word>toiduta</word>
-    <title> Metsad kõnelevad </title>
-  </info>
-  <info id="431">
-    <s> Pingi küljes tolkneb paberileht %%% " värske värv " . </s>
+  <info id="7023">
+    <s> Esialgu oli sanatoorium võimeline alustama neljakümne %%% . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
-    <n>hoiatus</n>
-    <word>hoiatusega</word>
-    <title> AJALOO ILU </title>
+    <n>patsient</n>
+    <word>patsiendiga</word>
+    <title> Tahtamaa </title>
   </info>
-  <info id="434">
+  <info id="7024">
+    <s> Järgmine kord ei pruugi enam %%% minna . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>õnneks</word>
+    <title> Uskmatuse hind </title>
+  </info>
+  <info id="7027">
+    <s> Kere läbimõõt ulatub keskelt umbes pooleteise %%% . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>meeter</n>
+    <word>meetrini</word>
+    <title> Excelsuse konkistadoorid </title>
+  </info>
+  <info id="7061">
+    <s> Ilusa %%% mees näitas sõrmega taeva poole . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kaabu</n>
+    <word>kaabuga</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="7062">
+    <s> Ilusa kaabuga mees näitas %%% taeva poole . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>sõrm</n>
+    <word>sõrmega</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="7075">
+    <s> Poole %%% kuuldut räägi täie suuga edasi . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>kõrv</n>
+    <word>kõrvaga</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="7078">
+    <s> Poole kõrvaga kuuldut räägi täie %%% edasi . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>suu</n>
+    <word>suuga</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="7088">
+    <s> Tulija jõudis %%% ja tegi värava lahti . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>aed</n>
+    <word>aiani</word>
+    <title> Jaan Anvelt ja Jaan Santa </title>
+  </info>
+  <info id="7103">
+    <s> Võõra hääl hakkas %%% ja valjuks minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kile</n>
+    <word>kiledaks</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="7104">
+    <s> Võõra hääl hakkas kiledaks ja %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>vali</n>
+    <word>valjuks</word>
+    <title> Kõik , mida pole </title>
+  </info>
+  <info id="7126">
+    <s> Pisarad tilkusid lauale ja tardusid %%% kuhjadeks . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>valge</n>
+    <answer>valgeiks</answer>
+    <word>valgeteks</word>
+    <title> Hobused </title>
+  </info>
+  <info id="7127">
+    <s> Pisarad tilkusid lauale ja tardusid valgeteks %%% . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>kuhi</n>
+    <word>kuhjadeks</word>
+    <title> Hobused </title>
+  </info>
+  <info id="7157">
+    <s> Kus võib tänapäeval läbi saada ilma %%% ? </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>auto</n>
+    <word>autota</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="7168">
+    <s> Uuesti tuleb vist musta %%% rääkima hakata . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>valge</n>
+    <word>valgeks</word>
+    <title> Mitu juttu </title>
+  </info>
+  <info id="7173">
+    <s> Suure %%% sain hobusel otsa ümber pöörata . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>vaev</n>
+    <word>vaevaga</word>
+    <title> Maa ja armastus 7 </title>
+  </info>
+  <info id="7175">
+    <s> %%% lagunedes vajus poole peaga keha põrandale . </s>
+    <nr>mitmus</nr>
+    <case>saav</case>
+    <n>tükk</n>
+    <word>Tükkideks</word>
+    <title> Doonorelundid </title>
+  </info>
+  <info id="7177">
+    <s> Tükkideks lagunedes vajus poole %%% keha põrandale . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>pea</n>
+    <word>peaga</word>
+    <title> Doonorelundid </title>
+  </info>
+  <info id="7182">
+    <s> Impeeriumi aga võiksime kümne %%% minema pühkida . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>minut</n>
+    <word>minutiga</word>
+    <title> Pühapaikade pime lend </title>
+  </info>
+  <info id="7198">
+    <s> Purjus vanamees võib hullemagi %%% maha saada . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>loba</n>
+    <word>lobaga</word>
+    <title> Jutud </title>
+  </info>
+  <info id="7211">
+    <s> Autost %%% välja hüppama ja põgeneda püüdma ? </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>laps</n>
+    <word>lapsega</word>
+    <title> Ukuaru </title>
+  </info>
+  <info id="7221">
+    <s> Vaid piisavalt kaugel olles võid saada %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>lähedane</n>
+    <word>lähedaseks</word>
+    <title> MÕTTETERAD </title>
+  </info>
+  <info id="7230">
+    <s> %%% kindlaks kaks kuhja ja tulla tulema . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>määr</n>
+    <word>Määrata</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="7231">
+    <s> Määrata %%% kaks kuhja ja tulla tulema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kindel</n>
+    <word>kindlaks</word>
+    <title> VANA AABRAMI MÜSTEERIUM </title>
+  </info>
+  <info id="7252">
     <s> Valge %%% mees teeb et minema saab . </s>
     <nr>ainsus</nr>
     <case>kaasaütlev</case>
     <n>särk</n>
     <word>särgiga</word>
     <title> AJALOO ILU </title>
+  </info>
+  <info id="7259">
+    <s> %%% oli alati igavest pahandust ja ütlemist . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>talumees</n>
+    <word>Talumeestega</word>
+    <title> Elajas trepi eelastmel </title>
+  </info>
+  <info id="7265">
+    <s> Kas olen suuteline %%% võtma võõrast last ? </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>oma</n>
+    <word>omaks</word>
+    <title> Sajandilõpu suvi </title>
+  </info>
+  <info id="7269">
+    <s> Traktor niitis %%% suurema osa heinast maha . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>õnneks</word>
+    <title> HARJUTUSED </title>
+  </info>
+  <info id="7276">
+    <s> Ega ikka %%% suve uuesti ei võta ! </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>lumi</n>
+    <word>lumega</word>
+    <title> Duubel kaks </title>
+  </info>
+  <info id="7287">
+    <s> Ainsa %%% saabus kindel ja lõplik mõistmine . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>hetk</n>
+    <word>hetkega</word>
+    <title> Existerion </title>
+  </info>
+  <info id="7290">
+    <s> Kuningas sulges %%% silmad ja ohkas raskelt . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>viiv</n>
+    <word>viivuks</word>
+    <title> Vabaduse kõrgeim määr </title>
+  </info>
+  <info id="7300">
+    <s> Vägagi meeldivalt soe ja järjest %%% läheb . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>soojem</n>
+    <word>soojemaks</word>
+    <title> Valguse vari </title>
+  </info>
+  <info id="7304">
+    <s> Rongi %%% oli üle kolme tunni aega . </s>
+    <nr>ainsus</nr>
+    <case>rajav</case>
+    <n>väljumine</n>
+    <word>väljumiseni</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="7336">
+    <s> Nii et läksin ülehomme %%% ajaks minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>nädal</n>
+    <word>nädalaks</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="7337">
+    <s> Nii et läksin ülehomme nädalaks %%% minema . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>aeg</n>
+    <word>ajaks</word>
+    <title> Tahtamaa </title>
+  </info>
+  <info id="7343">
+    <s> Ehk ei maksa %%% nii kõvasti vehkida . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>haamer</n>
+    <word>haamriga</word>
+    <title> Lend </title>
+  </info>
+  <info id="7344">
+    <s> Noorem poeg sõitis siiski ükskord %%% kohale . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>auto</n>
+    <word>autoga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="7349">
+    <s> Üleüldse tuleb nalja %%% õige moment tabada ! </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>tegemine</n>
+    <word>tegemiseks</word>
+    <title> Arkaadi A </title>
+  </info>
+  <info id="7371">
+    <s> Vastu õhtut tuleb mees lagedale ootamatu %%% . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ettepanek</n>
+    <word>ettepanekuga</word>
+    <title> JÄRSAK </title>
+  </info>
+  <info id="7400">
+    <s> %%% purunes mehe sõiduk auto rataste all . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ragin</n>
+    <word>Raginaga</word>
+    <title> SINETAVAD KAUGUSED </title>
+  </info>
+  <info id="7423">
+    <s> %%% oli veel vaba ruumi hoogu koguda . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>õnn</n>
+    <word>Õnneks</word>
+    <title> Lend </title>
+  </info>
+  <info id="7438">
+    <s> Nii raske oli linnust jälle %%% saada . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>inimene</n>
+    <word>inimeseks</word>
+    <title> KELLAKUULJAD </title>
+  </info>
+  <info id="7447">
+    <s> Kõige paremini pääses edasi tühjade kinniste %%% . </s>
+    <nr>mitmus</nr>
+    <case>kaasaütlev</case>
+    <n>vagun</n>
+    <word>vagunitega</word>
+    <title> KUSTUMATU VALGUSE MAAILM </title>
+  </info>
+  <info id="7472">
+    <s> Nõnda et sain piitsa täitsa ilma %%% . </s>
+    <nr>ainsus</nr>
+    <case>ilmaütlev</case>
+    <n>põhjus</n>
+    <word>põhjuseta</word>
+    <title> MARGIT PUUSAAG JA TEMA MEHED </title>
+  </info>
+  <info id="7477">
+    <s> Rada aina tõuseb ning muutub üha %%% . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>raskem</n>
+    <word>raskemaks</word>
+    <title> Kentaur I </title>
+  </info>
+  <info id="7496">
+    <s> Isegi pudel kuiva veini oli %%% küllalt . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>pidu</n>
+    <answer>piduks</answer>
+    <word>peoks</word>
+    <title> Sarmikas mõtleja : kaks romaani ühest mehest </title>
+  </info>
+  <info id="7532">
+    <s> Üksi võib meel siiski kergesti %%% minna . </s>
+    <nr>ainsus</nr>
+    <case>saav</case>
+    <n>kurb</n>
+    <word>kurvaks</word>
+    <title> Raadio </title>
+  </info>
+  <info id="7543">
+    <s> Munk oli %%% tagasi kolme minuti pärast . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>puur</n>
+    <word>puuriga</word>
+    <title> Kindel linn </title>
+  </info>
+  <info id="7555">
+    <s> Tuppa astus suurt kasvu tõsise %%% mees . </s>
+    <nr>ainsus</nr>
+    <case>kaasaütlev</case>
+    <n>ilme</n>
+    <word>ilmega</word>
+    <title> Varblane </title>
   </info>
 </content>

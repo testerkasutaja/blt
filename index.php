@@ -23,7 +23,7 @@
 			<div class="well guide">
 			<h2 class="text-divider"><span><b>Õpime käändeid</b></span></h2>
 				<p class="indexText">
-					Mängus on kaks mängutüüpi. <br> Esimesena on soovitatav mängida mängu <b>"Pane sõna õigesse käändesse"</b> ning seejärel oma teadmisi kontrollida mänguga <b>"Leia õige kääne"</b>. <br> Igas mängu etapis on võimalik saada juhiseid vajutades küsimärgiga nupule.
+					Õppeprogrammi laused on võetud ilukirjandusest.<br> Teste on kahte tüüpi. <br> Esimesena on soovitatav lahendada testi <b>"Pane sõna õigesse käändesse"</b> ning seejärel oma teadmisi kontrollida testiga <b>"Leia õige kääne"</b>. <br> Igas etapis on võimalik saada juhiseid hoides kursorit küsimärgiga nupu kohal.
 					<br>Kui leidub lauseid, mis ei ole sobilikud, vajutage nuppu "Teata ebasobivast lausest".
 				</p>
 			</div>
@@ -31,8 +31,7 @@
 		<div class="startdown">
 			<button onclick="location.href='game.php';" type="button" class="btn btn-primary ribbon startbtn buttonStart" action="/game.php">Alusta</button>
 		</div>
-	</div>
-	
-
+	</div>	
+<p class = 'copyroght'>&copy; 2016 Anneliis Halling<p>
 </body>
 </html>
