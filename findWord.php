@@ -29,7 +29,25 @@ $allFiles = scandir('data/word test',-1);
 $files = array_diff($allFiles, array('.', '..'));
 foreach($files as $file) {
 	echo("<br>");
-	print_r($file);
+	print_r($file . " ");
+    if(isset($_GET['link'])){
+        $var_1 = $_GET['link'];
+    if (file_exists($filepath))
+    {
+    header('Content-Description: File Transfer');
+    header('Content-Type: application/octet-stream');
+    header('Content-Disposition: attachment; filename='.basename($filepath));
+    header('Expires: 0');
+    header('Cache-Control: must-revalidate');
+    header('Pragma: public');
+    header('Content-Length: ' . filesize($filepath));
+    ob_clean();
+    flush();
+    readfile($filepath);
+    exit;
+    }
+}   
+    echo '<a href="findCase.php?link='.$file.'">Lae fail alla siit</a>';
 	displayData($file);
 }
 
