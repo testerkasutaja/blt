@@ -16,8 +16,7 @@ import time
 case_dict = {'n':'nimetav','sg':'ainsus','pl':'mitmus','ab':'ilmaütlev','abl':'alaltütlev','ad':'alalütlev','adt':'lühike sisseütlev','all':'alaleütlev','el':'seestütlev','es':'olev','g':'omastav','ill':'sisseütlev','in':'seesütlev','kom':'kaasaütlev','p':'osastav','ter':'rajav','tr':'saav'}
 files  = glob.glob("Eesti_ilukirjandus/ilukirjandus/Eesti_ilukirjandus_1990/*")
 inappropriateWords = ['loll', ',jama', 'kurat', 'kapo', 'kanep', 'tegelt', 'sitt', 'pätt', 'in', 'mats', 'homo', 'pagan', 'joodik', 'idioot', 'nats', 'point', 'kesik', 'aa', 'neeger', 'veits', 'jurama', 'narkomaan', 'jobu', 'siuke', 'õps', 'perse', 'tibi', 'riist', 'aint', 'tiss', 'pask', 'raisk', 'värdjas', 'prostituut', 'pedofiil', 'mupo', 'gei', 'suli', 'porno', 'kaabakas', 'pepupeldik', 'kaka', 'piss', 'tibla', 'möla', 'lollakas', 'luuser', 'lits', 'tatt', 'pissima', 'vets', 'lesbi', 'ment', 'pede', 'inf', 'eepervert', 'narkar', 'okse', 'bemm', 'penskar', 'kusema', 'kakama', 'rullnokk', 'tola', 'rulima', 'junn', 'tglt', 'ubekas', 'peer', 'out', 'pedofiilia', 'muti', 'tõbras', 'sittuma', 'kaak', 'totakas', 'pee', 'kuramus', 'debiilik', 'tutt', 'diiler', 'ila', 'kommar', 'pilu', 'raibe', 'kusifašist', 'paganama', 'keppima', 'tra', 'moll', 'tips', 'kuradima', 'pohhui', 'pederast', 'pandav', 'kommu', 'jõmm', 'vänt', 'beib', 'friik', 'nolk', 'tegelinski', 'totu', 'möga', 'oss', 'mölakas', 'lurjus', 'mõrd', 'fašistlik', 'kaif', 'noku', 'argpüks', 'tatikas', 'mate', 'ajukääbik', 'liputamavibraator', 'lollpea', 'sitane', 'memmekas', 'lõust', 'somm', 'idikas', 'bordell', 'kärvama', 'kärakas', 'kemps', 'hoor', 'iiling', 'pederastia', 'narkots', 'vant', 'hui', 'hui', 'venku', 'sitasti', 'nodi', 'soperdis', 'tõusik', 'puuks', 'äbarik', 'vitt', 'libu', 'hulkur', 'enivei', 'looderpeeretama', 'peda', 'tolgus', 'lontrus', 'pohh', 'hängima', 'sunnik', 'jätis', 'türa', 'jura', 'laiskvorst', 'drive-in', 'kiim', 'matslik', 'sittama', 'debiil', 'rops', 'mimm', 'kurivaim', 'sitapea', 'jota', 'nahhui', 'tšikk', 'veitsa', 'bitch', 'dire', 'linnavurle', 'russ', 'prost', 'empstumba', 'burks', 'shoppama', 'pabul', 'keska', 'tohman', 'peldik', 'bemar', 'kretiin', 'liputaja', 'tainapea', 'varganägu', 'litakas', 'värdjalik', 'haip', 'litsakas', 'molu', 'kaltsakas', 'vanka', 'lojus', 'kähkukas', 'sovett', 'närakas', 'töllmokk', 'prükkar', 'häbe', 'hooramakagebiit', 'tipsi', 'kantpea', 'skinhead', 'hullar', 'keelekas', 'lasteporno', 'ruts', 'nikkuma', 'chillima', 'šoppama', 'komnoor', 'lausloll', 'logard', 'tuhvlialune', 'piff', 'mata', 'matslus', 'lipakas', 'pasandama', 'ropsima', 'memmepoeg', 'tattnina', 'puuksutama', 'skisonatsistlik', 'molkus', 'pohui', 'tillu', 'pissipott', 'kusik', 'jobukakk', 'niuke', 'litsimaja', 'närukael', 'pohuism', 'haipima', 'pilusilm', 'juhmakas', 'puts', 'julk', 'vurle', 'pursui', 'blatnoi', 'komu', 'kuram', 'tuss', 'baaba', 'näss', 'hoorus', 'kakane', 'sitakott', 'lita', 'sopakaspohhuist', 'grupiseks', 'nuss', 'ponks', 'joomar', 'skinn', 'samakas', 'trulla', 'frits', 'eniveis', 'sitahunnik', 'kurask', 'jokkis', 'huinjaa', 'sitahais', 'sakuska', 'tots', 'amf', 'morda', 'nussima', 'sakumm', 'pissitama', 'sitavares', 'sitaratas', 'kili', 'jeestlane', 'gümna', 'platnoigigolo', 'mamps', 'sekspomm', 'kürb', 'tšillima', 'kaki', 'pilukas', 'ladna', 'duubeldama', 'jobukari', 'tšau', 'krõhva', 'haisukott', 'perseli', 'kehka', 'klassijuss', 'pohhuistlik', 'kabistama', 'plää', 'linnusitt', 'nahui', 'sitajunn', 'toksikomaan', 'pordumaja', 'labrakasnarkomuul', 'joobar', 'masuurikas', 'nässakas', 'kräu', 'ciao', 'lirva', 'persevest', 'koinima', 'sitaauk', 'tsillima', 'samagonntöpa', 'sopajoodik', 'tšuhnaa', 'larhv', 'ajukääbus', 'kiimlema', 'jobi', 'porduelu', 'sitahäda', 'tõprakari', 'kirvenägu', 'odratolgus', 'kakimakiimakott', 'kräkk', 'saksmann', 'bomž', 'kusev', 'plebei', 'pasahunnik', 'sakusment', 'pasakott', 'kabajantsik', 'kiimalus', 'milf', 'pano', 'litapoeg', 'jobutamapohhuilt', 'grupiks', 'topakas', 'hooramaja', 'türapea', 'küberseks', 'pepuvahe', 'kusene', 'kusija', 'hoorapoeg', 'pizdets', 'hohollpasanteeria', 'bitš', 'kekats', 'kakanoku', 'panomees', 'nadikael', 'pärakas', 'tolbajoob', 'kusetama', 'bljät', 'bizdets', 'pleiboi', 'pasahais', 'kagebist', 'praagamagu', 'bljat', 'kiimlus', 'pedetsema', 'nihhuijaa', 'nehhui', 'häbedus', 'häbemepilu', 'jobama', 'kuselema', 'kagebeelanemunapiiks', 'oolrait', 'beibe', 'jobutus', 'sigarijunn', 'sitavedaja', 'dolbajoob', 'jobisema', 'pipravitt', 'türahiinlane', 'perseklile', 'tindinikkuja']
-unsuitable_POS = ['Y','H','P','I'] #lauses ei ole pärisnimesid, asesõnu, lühendeid, hüüdsõnu;
-bad_adverbs = ['siin','seal' ,'mina','sina','tema','see','too']
+unsuitable_POS = ['Y','H','I'] #lauses ei ole pärisnimesid, asesõnu, lühendeid, hüüdsõnu;
 print(len(inappropriateWords))
 
 def makeFreqDictToList(inappropriateWords):  # Sagedussõnastiku järjendina ilma halbade sõnadeta
@@ -80,7 +79,7 @@ def sentenceSuitability(text,freqWordList):
       sentenceLen=len(posList)
       pos_str = listtostring(posList)
       if sentenceLen > 2 and sentenceLen < 8 and 'V' in posList :
-        if posList[0] == 'J' or posList[0]== 'V' or wordsList[0][0].isupper()==False: # Kui lause algab sidesõna või tegusnaga sisi eisobi ning kui lause ei alga suure tähega
+        if posList[0] == 'J' or posList[0] == 'V' or wordsList[0][0].isupper()==False: # Kui lause algab sidesõna või tegusõnaga siis ei sobi ning kui lause ei alga suure tähega
           valid=False
         else:
           for index in range(len(text.words)):       #Kui sõnal on rohkem kui 1 analüüs, siis lause ei sobi, sest lause pole üheselt määratud    
@@ -93,7 +92,7 @@ def sentenceSuitability(text,freqWordList):
                 if pos in unsuitable_POS:
                   valid = False
                 elif pos != 'Z':
-                  if lemma not in freqWordList or lemma in bad_adverbs:  #Kontroll kas sõna kuulub sagedussõnastikku ja kas sõna algvorm on halb määrsõna
+                  if lemma not in freqWordList:  #Kontroll kas sõna kuulub sagedussõnastikku ja kas sõna algvorm on halb määrsõna
                     valid = False
                 if valid == True:
                   clitic = a[CLITIC]
@@ -103,7 +102,7 @@ def sentenceSuitability(text,freqWordList):
       return (valid,clitics,sentenceLen,pos_str)
 
 
-def chooseSentencesFromCorpus(files,freqWordList,inappropriateWords,unsuitable_POS,bad_adverbs):
+def chooseSentencesFromCorpus(files,freqWordList,inappropriateWords,unsuitable_POS):
   combinations3words = {}
   combinations4words = {}
   combinations5words = {}
@@ -216,7 +215,8 @@ def runCaseAnalys(case_dict, list_of_sentences):
       postags = sentence_info.get('postags')
       for index in range(len(forms)):         #lause käiakse läbi
           form = forms[index]
-          if form != '':                      #kui sõnal on sõnavorm ehk sõna pole kirjavahemärk
+          pos = postags[index]
+          if form != '' and pos != 'P':                      #kui sõnal on sõnavorm ehk sõna pole kirjavahemärk
             case_info = form.split(' ')
             if case_info[0]=='adt':                           # kui sõna on lühikesisseütlev on erandjuht
               casename = case_info[0]
@@ -229,7 +229,6 @@ def runCaseAnalys(case_dict, list_of_sentences):
             nominative = lemmas[index]
             word = sentence_as_list[index]
             clitic = clitics[index]
-            pos = postags[index]
             if go == True:
              # print(word)
              # print(form)
@@ -298,7 +297,7 @@ def main():
   print (time.asctime( time.localtime(time.time()) ))
   freqWordList = makeFreqDictToList(inappropriateWords)
   print(len(freqWordList))
-  (combin3,combin4,combin5,combin6,combin7,sentences_with_structure_3, sentences_with_structure_4, sentences_with_structure_5, sentences_with_structure_6,sentences_with_structure_7) = chooseSentencesFromCorpus(files,freqWordList,inappropriateWords,unsuitable_POS,bad_adverbs)
+  (combin3,combin4,combin5,combin6,combin7,sentences_with_structure_3, sentences_with_structure_4, sentences_with_structure_5, sentences_with_structure_6,sentences_with_structure_7) = chooseSentencesFromCorpus(files,freqWordList,inappropriateWords,unsuitable_POS)
   three_word_sentences = getCommonSentences(combin3,sentences_with_structure_3)
   four_word_sentences = getCommonSentences(combin4,sentences_with_structure_4)
   five_word_sentences = getCommonSentences(combin5,sentences_with_structure_5)

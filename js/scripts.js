@@ -1,6 +1,6 @@
 $(function(){
 	
-	answersStr = "";
+	answerStr = "";
 	idList = [];
 
 	gameTypeSelection();
@@ -214,7 +214,7 @@ function getSentenceWithInfo(xml,caseType,gameType,sum,right, sentencesAmount) {
 	var answers = [];
 	var word = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("word")[0].childNodes[0].nodeValue;
 	console.log(sentenceId)
-	answersStr = sentenceId + ';' + sentence + ';' + word + ';'+ caseName+';';
+	answerStr = sentenceId + ';' + sentence + ';' + word + ';'+ caseName+';'+nr+';';
 	var nrCaseName = "<b>"+ nr + "e " + caseName+ "</b>";
 	var cliticCount = xmlDoc.getElementsByTagName("info")[randomNr].getElementsByTagName("clitic").length;
 	var badSentenceStr = sentenceId + '; '+ sentence +'; '+ word +'; '+ nominative + '; ' + caseName + '; '+ nr;
@@ -335,7 +335,7 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
 		//$("#nextButton").empty();
         tryagainButton(gameType,badSentenceStr);
     }else{
-		answersStr = answersStr + inputText + "; ";
+		answerStr = answerStr + inputText + "; ";
 		$("#nextButton").empty();
         $("#badSentence").empty();
         
@@ -358,10 +358,10 @@ function controlAnswerFindWord(answers,caseType,gameType,sum,right, sentencesAmo
         }
 		
         createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
-    	answersStr = answersStr + isAnswer;
+    	answerStr = answerStr + isAnswer;
 		$.post( 
 			"savedata.php",
-        	{ answerData1: answersStr },
+        	{ answerData1: answerStr },
         	function(data) {
 				$('#stage').html(data);
 			});
@@ -386,14 +386,14 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 		$("#nextButton").empty();
         $("#badSentence").empty();
 		if (caseAnswer === caseName && nrAnswer === nr ){
-            answersStr = answersStr +  true + ';' + nrAnswer + ';' + true ; 
+            answerStr = answerStr + caseAnswer +';'+true + ';' + nrAnswer + ';' + true ; 
 			sum=sum+1;
 			right = right +1;
 			var text = "Õige vastus!";
             document.getElementById("rightOrWrong").innerHTML = text;		
 		}
 		if (!(caseAnswer === caseName) && nrAnswer === nr){
-            answersStr = answersStr +  false + ';' + nrAnswer + ';' + true ; 
+            answerStr = answerStr + caseAnswer +';'+ false + ';' + nrAnswer + ';' + true ; 
 			sum=sum+1;
 			right = right +0.5;
 			if(nr ==="mitmus"){
@@ -405,14 +405,14 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
             document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		if (caseAnswer === caseName && !(nrAnswer === nr)){
-            answersStr = answersStr + true + ';' + nrAnswer + ';' + false ; 
+            answerStr = answerStr + caseAnswer +';'+true + ';' + nrAnswer + ';' + false ; 
 			sum=sum+1;
 			right = right +0.5;
 			var text =  "Kääne on õige, kuid sõna on " + nr + "es" + ".";
             document.getElementById("rightOrWrong").innerHTML = text;
 		}
 		if(!(caseAnswer === caseName) && !(nrAnswer === nr)){
-            answersStr = answersStr + false + ';' + nrAnswer + ';' + false ; 
+            answerStr = answerStr + caseAnswer +';'+false + ';' + nrAnswer + ';' + false ; 
 			sum = sum +1 ;
 			var text = "Mõlemad vastused on kahjuks valed.<br>" + "Õige vastus on " + nr + "e " + caseName + ".";
 			document.getElementById("rightOrWrong").innerHTML = text;
@@ -420,7 +420,7 @@ function controlAnswerFindCase(nr,caseName,caseType,gameType,sum,right, sentence
 		createNextButtonModal(caseType,gameType,sum,right, sentencesAmount,badSentenceStr);
 		$.post(
 			"savedata.php",
-			{ answerData2: answersStr },
+			{ answerData2: answerStr },
 			function(data) {
 				$('#stage').html(data);
 			});

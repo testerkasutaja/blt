@@ -26,7 +26,7 @@ if( $_REQUEST["answerData1"] ) {
     
     $fileName = "data/word test/" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"id;lause;õige sõna;kääne;vastus;õige/vale");
+        array_push($list,"id;lause;õige sõna;kääne;ainsus/mitmus;vastus;õige/vale");
     }
 	$answerData = $_REQUEST['answerData1'];
 	echo $answerData;
@@ -48,7 +48,7 @@ if( $_REQUEST["answerData2"] ) {
     
     $fileName = "data/case test/" . $date . ".csv";
     if (file_exists($fileName) == false){
-        array_push($list,"id;lause;õige sõna;kääne;õige/vale;ainsus/mitmus;õige/vale");
+        array_push($list,"id;lause;küsitav sõna;õige kääne; õige ainsus/mitmus;vastatud kääne;õige/vale;vastatud number;õige/vale");
     }
 	$answerData = $_REQUEST['answerData2'];
 	echo $answerData;

@@ -78,7 +78,7 @@ button.btn-primary:after {
 body{
 margin:40px;
 background-color: #A9E2F3;  
-font-size: 20px;
+font-size: 16px;
 font-family: sans-serif;
 min-width: 700px;
 
@@ -278,7 +278,7 @@ input[type=text] {
 }
 .head1{
 	text-align: center;
-	font-size: larger;
+	font-size: x-large;
 	font-stretch: extra-expanded;
 }
 .head2{
